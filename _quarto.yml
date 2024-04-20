@@ -4,6 +4,7 @@ project:
 
 website:
   title: "STA 113 2.0 Descriptive Statistics"
+  site-url: "https://thiyangt.github.io/descriptivestatisticsweb/"
   navbar:
     left:
       - href: index.qmd
