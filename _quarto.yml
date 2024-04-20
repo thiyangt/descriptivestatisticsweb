@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "STA 113 2.0 Descriptive Statistics"
@@ -8,12 +9,11 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - data.qmd
-      - references.qmd
+
 
 format:
   html:
-    theme: sandstone
+    theme: pulse
     css: styles.css
     toc: true
 
