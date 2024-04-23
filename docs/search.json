@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "week1/index.html#learning-objective",
+    "href": "week1/index.html#learning-objective",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Learning Objective:",
+    "text": "Learning Objective:\nBy the end of this lecture, students will be able to:\n\nDefine statistics and explain its fundamental concepts.\nIdentify the various fields and contexts where statistics is used.\nExplain the importance and significance of statistics in decision-making and problem-solving processes."
+  },
+  {
     "objectID": "index.html#email",
     "href": "index.html#email",
     "title": "STA 113 2.0 Descriptive Statistics",
@@ -11,7 +18,7 @@
     "href": "index.html#policies-and-regulations",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Policies and regulations",
-    "text": "Policies and regulations\nTo access important information regarding the unit STA 113 2.0 Descriptive Statistics, please go to the course Learning Management System (LMS) page. Click here to go directly to the LMS. You must carefully read the “course information” slide set for essential details. It is your responsibility to be aware of important details by thoroughly reviewing the “course information” slides."
+    "text": "Policies and regulations\nTo access important information regarding the unit STA 113 2.0 Descriptive Statistics, please go to the course Learning Management System (LMS) page. Click here to go directly to the LMS. You must carefully read the “Course Information and Logistic” slide set for essential details. It is your responsibility to be aware of important details by thoroughly reviewing the “Course Information and Logistic” slides."
   },
   {
     "objectID": "index.html#course-outline",
@@ -25,69 +32,83 @@
     "href": "index.html#weekly-schedule",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Weekly schedule",
-    "text": "Weekly schedule\nHere’s your roadmap for the semester!"
+    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2023\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics."
   },
   {
-    "objectID": "week1/index.html#code",
-    "href": "week1/index.html#code",
+    "objectID": "week0/index.html#how-to-calculate-gpa",
+    "href": "week0/index.html#how-to-calculate-gpa",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Code",
-    "text": "Code\n\n\n\n\nPoint 1\nPoint 2\nPoint 3"
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\n\n\n\n\nSTA 100 2.0\nA\n\n\nSTA 101 1.0\nB\n\n\nSTA 102 2.0\nA\n\n\nCSC 100 3.0\nA\n\n\nCSC 101 2.0\nB\n\n\nMAT 100 1.0\nB+\n\n\nMAT 101 2.0\nA+\n\n\nMAT 103 2.0\nA+"
   },
   {
-    "objectID": "week1/index.html#title",
-    "href": "week1/index.html#title",
+    "objectID": "week0/index.html#how-to-calculate-gpa-1",
+    "href": "week0/index.html#how-to-calculate-gpa-1",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Title",
-    "text": "Title"
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\n\n\n\n\nSTA 100 2.0\nA\n\n\nSTA 101 1.0\nB\n\n\nSTA 102 2.0\nA\n\n\nCSC 100 3.0\nA\n\n\nCSC 101 2.0\nB\n\n\nMAT 100 1.0\nB+\n\n\nMAT 101 2.0\nA+\n\n\nMAT 103 2.0\nA+\n\n\n\n\n\n\n\n\n\n\n\nLetter grade\ngpa\n\n\n\n\nA+\n4.0\n\n\nA\n4.0\n\n\nA-\n3.7\n\n\nB+\n3.3\n\n\nB\n3.0\n\n\nB-\n2.7\n\n\nC+\n2.3\n\n\nC\n2.0\n\n\nC-\n1.7\n\n\nD+\n1.3\n\n\nD\n1.0\n\n\nE\n0.0"
   },
   {
-    "objectID": "week1/index.html#naming-conventions-of-university-course-units-how-does-it-work",
-    "href": "week1/index.html#naming-conventions-of-university-course-units-how-does-it-work",
+    "objectID": "week0/index.html#section",
+    "href": "week0/index.html#section",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Naming Conventions of University Course Units: How does it work?",
-    "text": "Naming Conventions of University Course Units: How does it work?"
+    "section": "",
+    "text": "source: Degree Programmes and Examination Regulation Booklet 2019/2020"
   },
   {
-    "objectID": "week1/index.html#i-love-r.",
-    "href": "week1/index.html#i-love-r.",
+    "objectID": "week0/index.html#how-to-calculate-gpa-2",
+    "href": "week0/index.html#how-to-calculate-gpa-2",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "I love R.",
-    "text": "I love R."
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\n\n\n\n\nSTA 100 2.0\nA\n4.0\n\n\nSTA 101 1.0\nB\n3.0\n\n\nSTA 102 2.0\nA\n4.0\n\n\nCSC 100 3.0\nA\n4.0\n\n\nCSC 101 2.0\nB\n3.0\n\n\nMAT 100 1.0\nB+\n3.3\n\n\nMAT 101 2.0\nA+\n4.0\n\n\nMAT 103 2.0\nA+\n4.0\n\n\n\n\n\n\n\n\n\n\n\nLetter grade\ngpa\n\n\n\n\nA+\n4.0\n\n\nA\n4.0\n\n\nA-\n3.7\n\n\nB+\n3.3\n\n\nB\n3.0\n\n\nB-\n2.7\n\n\nC+\n2.3\n\n\nC\n2.0\n\n\nC-\n1.7\n\n\nD+\n1.3\n\n\nD\n1.0\n\n\nE\n0.0"
   },
   {
-    "objectID": "week1/index.html#sta-113-2.0-descriptive-statistics",
-    "href": "week1/index.html#sta-113-2.0-descriptive-statistics",
+    "objectID": "week0/index.html#how-to-calculate-gpa-3",
+    "href": "week0/index.html#how-to-calculate-gpa-3",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "STA 113 2.0 Descriptive Statistics",
-    "text": "STA 113 2.0 Descriptive Statistics"
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\n\n\n\n\nSTA 100 2.0\nA\n4.0\n\n\nSTA 101 1.0\nB\n3.0\n\n\nSTA 102 2.0\nA\n4.0\n\n\nCSC 100 3.0\nA\n4.0\n\n\nCSC 101 2.0\nB\n3.0\n\n\nMAT 100 1.0\nB+\n3.3\n\n\nMAT 101 2.0\nA+\n4.0\n\n\nMAT 103 2.0\nA+\n4.0"
   },
   {
-    "objectID": "week1/index.html#sta-113-2.0-descriptive-statistics-1",
-    "href": "week1/index.html#sta-113-2.0-descriptive-statistics-1",
+    "objectID": "week0/index.html#how-to-calculate-gpa-4",
+    "href": "week0/index.html#how-to-calculate-gpa-4",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "STA 113 2.0 Descriptive Statistics",
-    "text": "STA 113 2.0 Descriptive Statistics\n\nSubject"
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\nCredit value\n\n\n\n\nSTA 100 2.0\nA\n4.0\n2\n\n\nSTA 101 1.0\nB\n3.0\n1\n\n\nSTA 102 2.0\nA\n4.0\n2\n\n\nCSC 100 3.0\nA\n4.0\n3\n\n\nCSC 101 2.0\nB\n3.0\n2\n\n\nMAT 100 1.0\nB+\n3.3\n1\n\n\nMAT 101 2.0\nA+\n4.0\n2\n\n\nMAT 103 2.0\nA+\n4.0\n2"
   },
   {
-    "objectID": "week1/index.html#z-score-vs-gpa",
-    "href": "week1/index.html#z-score-vs-gpa",
+    "objectID": "week0/index.html#how-to-calculate-gpa-5",
+    "href": "week0/index.html#how-to-calculate-gpa-5",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Z-Score vs GPA",
-    "text": "Z-Score vs GPA\n\n\nZ-score\n\nGPA"
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\nCredit value\n\n\n\n\nSTA 100 2.0\nA\n4.0\n2\n\n\nSTA 101 1.0\nB\n3.0\n1\n\n\nSTA 102 2.0\nA\n4.0\n2\n\n\nCSC 100 3.0\nA\n4.0\n3\n\n\nCSC 101 2.0\nB\n3.0\n2\n\n\nMAT 100 1.0\nB+\n3.3\n1\n\n\nMAT 101 2.0\nA+\n4.0\n2\n\n\nMAT 103 2.0\nA+\n4.0\n2\n\n\n\n\n\n\\[\\text{overall GPA} = \\frac{(4 \\times 2) + (3 \\times 1)+(4 \\times 2)+(4 \\times 3)+(3 \\times 2)+(3.3 \\times 1) + (4 \\times 2) + (4 \\times 2)}{(2+1+2+3+2+1+2+2)} = 3.75\\]"
   },
   {
-    "objectID": "week1/index.html#z-score",
-    "href": "week1/index.html#z-score",
+    "objectID": "week0/index.html#your-turn",
+    "href": "week0/index.html#your-turn",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Z-Score",
-    "text": "Z-Score"
+    "section": "Your Turn",
+    "text": "Your Turn\n\nExample: Compute the GPAs for students 2, 3, and 4.\n\n\n\n\n\n\n\n\nCourse code\nStudent 1\nStudent 2\nStudent 3\nStudent 4\n\n\n\n\nSTA 100 2.0\nA\nA\nA\nA\n\n\nSTA 101 1.0\nB\nB\nB\nB\n\n\nSTA 102 2.0\nA\nA\nC+\nA\n\n\nCSC 100 3.0\nA\nC+\nA\nA\n\n\nCSC 101 2.0\nB\nB\nB\nB\n\n\nMAT 100 1.0\nB+\nB+\nB+\nB+\n\n\nMAT 101 2.0\nA+\nA+\nA+\nA\n\n\nMAT 103 2.0\nA+\nA+\nA+\nA\n\n\noverall GPA\n3.75"
   },
   {
-    "objectID": "week1/index.html#gpa",
-    "href": "week1/index.html#gpa",
+    "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-type-and-method-of-assessment",
+    "href": "week0/index.html#sta-113-2.0-descriptive-statistics-type-and-method-of-assessment",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "GPA",
-    "text": "GPA"
+    "section": "STA 113 2.0 Descriptive Statistics: Type and Method of Assessment",
+    "text": "STA 113 2.0 Descriptive Statistics: Type and Method of Assessment\nType:\nType: Core\nType:\nMethod of Assessment:\nType:\nFormative Assessment (FA):\nFA1: Individual assignment: 10% of the total marks\nFA2: Mid-semester examination: 20% of the total marks\nType:\nSummative Assessment (SA):\nSA1: End of Semester Examination: 70% of the total marks"
+  },
+  {
+    "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-logistics",
+    "href": "week0/index.html#sta-113-2.0-descriptive-statistics-logistics",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "STA 113 2.0 Descriptive Statistics: Logistics",
+    "text": "STA 113 2.0 Descriptive Statistics: Logistics\nType:\nCourse website: open-access\nhttps://thiyangt.github.io/descriptivestatisticsweb/\nType:\nCourse LMS page: closed access (open only to students enrolled in the unit STA 113 2.0 at FAS, USJ)\n\nCourse outline\nAnnouncements\nExercises\nWeekly schedule\n\n\n\n\nYou must enroll yourself in the LMS course unit page."
+  },
+  {
+    "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-workload",
+    "href": "week0/index.html#sta-113-2.0-descriptive-statistics-workload",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "STA 113 2.0 Descriptive Statistics: Workload",
+    "text": "STA 113 2.0 Descriptive Statistics: Workload\n\n\n\n\n\nType\nHours\n\n\n\n\nTotal\n100\n\n\nLectures and tutorials\n30\n\n\nIndependent learning\n70"
   }
 ]

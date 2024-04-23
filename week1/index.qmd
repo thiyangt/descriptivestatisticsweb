@@ -1,129 +1,55 @@
 ---
 title: "STA 113 2.0 Descriptive Statistics"
-subtitle: "Course Information and Logistics"
+subtitle: "Definition of Statistics and Role of Statistics"
 author: "Dr. Thiyanga S. Talagala <br/>  Department of Statistics, Faculty of Applied Sciences <br/> University of Sri Jayewardenepura, Sri Lanka"
 format:
   revealjs:
-    width: 2000
+    width: 1600
+    height: 900
     margin: 0.1
     theme: simple
     transition: slide
     background-transition: fade
+    slide-number: true
+    show-slide-number: all
     title-slide-attributes: 
       data-background-color: "#081d58"
       data-background-image: none
 ---
 
-# Welcome to Your First Lecture at the University!
+## Learning Objective:
+### By the end of this lecture, students will be able to:
 
-::: columns
-::: {.column width="90%"}
-::: {style="background-color: #FFFF00"}
-Today marks the beginning of your academic journey in higher education!
-:::
-:::
-
-::: {.column width="10%"}
-:::
-:::
-
-------------------------------------------------------------------------
-
-# Bridging the Gap: Transitioning from School to University
-
-::: columns
-::: {.column width="90%"}
-::: {style="background-color: #17A589 "}
-Understanding the differences between school and university is crucial.
-:::
-:::
-
-::: {.column width="10%"}
-:::
-:::
-
-------------------------------------------------------------------------
-
-# Naming Conventions of University Course Units: <span style="color:red;">How does it work?</span>
-
----
-
-# STA 113 2.0 Descriptive Statistics
-
----
-
-# STA 113 2.0  <span style="color:blue;">Descriptive Statistics</span>
+- Define statistics and explain its fundamental concepts.
+- Identify the various fields and contexts where statistics is used.
+- Explain the importance and significance of statistics in decision-making and problem-solving processes.
 
 
 
-> ## <span style="color:blue;">Course title</span>
-
----
-
-# <span style="color:purple;">STA 113 2.0</span>  Descriptive Statistics
+# Outline
 
 
 
-> ## <span style="color:purple;">Course code</span>
+::: {style="margin-top: 10px; font-size: 1.5em; "}
+  What is Statistics?
 
----
-
-# STA <span style="color:red;">113 2.0</span>  
-
-
-> ## <span style="color:purple;">Course code:</span> Subject
-
----
-
-# <span style="color:red;">STA</span>  1<span style="color:red;">13 2.0</span>  
-
-
-> ## <span style="color:purple;">Course code:</span> First Year Course Unit
-
----
-
-
-# <span style="color:red;">STA 113 </span>  2.0 
-
-
-> ## <span style="color:purple;">Course code:</span> Weight
-
-> ### This is important in calculating your Grade Point Average (GPA).
-
----
-
-::: columns
-::: {.column width="50%"}
-### <span style="color:blue;">Z-Score at GCE A/L</span> 
-
-- University selection from GCE A/L
-
+ Where do we use statistics?
+ 
+ Why statistics is used?
 
 :::
 
+# Outline
 
-::: {.column width="50%"}
-### <span style="color:red;">GPA at the University</span>
-- Honours degree selection
-- Award classes
-- Determine graduation eligibility
 
-:::
+
+::: {style="margin-top: 10px; font-size: 1.5em; color: red;"}
+ What is Statistics?
 :::
 
-::: columns
-::: {.column width="50%"}
+::: {style="margin-top: 10px; font-size: 1.5em;"}
+ Where do we use statistics?
 
--  Computed based only on GCE A/L examination results
+ Why statistics is used?
 
 :::
-
-
-::: {.column width="50%"}
-- The results of assignments, mid-semester examination, and end-semester examination are used to compute the final grade of the course unit, which in turn affects the final GPA.
-:::
-:::
-
-------------------------------------------------------------------------
-
-# How to calculate GPA?

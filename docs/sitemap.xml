@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://thiyangt.github.io/descriptivestatisticsweb/week1/index.html</loc>
+    <lastmod>2024-04-23T12:49:59.312Z</lastmod>
+  </url>
+  <url>
     <loc>https://thiyangt.github.io/descriptivestatisticsweb/References.html</loc>
-    <lastmod>2024-04-20T13:10:39.255Z</lastmod>
+    <lastmod>2024-04-23T12:49:27.367Z</lastmod>
   </url>
   <url>
     <loc>https://thiyangt.github.io/descriptivestatisticsweb/data.html</loc>
-    <lastmod>2024-04-20T13:10:38.702Z</lastmod>
+    <lastmod>2024-04-23T12:49:26.821Z</lastmod>
   </url>
   <url>
     <loc>https://thiyangt.github.io/descriptivestatisticsweb/about.html</loc>
-    <lastmod>2024-04-20T13:10:45.464Z</lastmod>
+    <lastmod>2024-04-23T12:49:26.548Z</lastmod>
   </url>
   <url>
     <loc>https://thiyangt.github.io/descriptivestatisticsweb/index.html</loc>
-    <lastmod>2024-04-20T13:10:38.987Z</lastmod>
+    <lastmod>2024-04-23T12:49:44.404Z</lastmod>
   </url>
   <url>
-    <loc>https://thiyangt.github.io/descriptivestatisticsweb/week1/index.html</loc>
-    <lastmod>2024-04-23T07:54:50.260Z</lastmod>
+    <loc>https://thiyangt.github.io/descriptivestatisticsweb/week0/index.html</loc>
+    <lastmod>2024-04-23T12:49:30.178Z</lastmod>
   </url>
 </urlset>
