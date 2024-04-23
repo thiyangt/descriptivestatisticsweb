@@ -126,4 +126,4 @@ Understanding the differences between school and university is crucial.
 
 ------------------------------------------------------------------------
 
-## Title
+# How to calculate GPA?
