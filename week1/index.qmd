@@ -1,0 +1,62 @@
+---
+title: "STA 113 2.0 Descriptive Statistics"
+subtitle: "Course Information and Logistics"
+author: "Dr. Thiyanga S. Talagala <br/>  Department of Statistics, Faculty of Applied Sciences <br/> University of Sri Jayewardenepura, Sri Lanka"
+format:
+  revealjs:
+    theme: simple
+    transition: slide
+    background-transition: fade
+    title-slide-attributes: 
+      data-background-color: "#081d58"
+      data-background-image: none
+---
+
+# Welcome to Your First Lecture at the University!
+
+::: columns
+::: {.column width="90%"}
+::: {style="background-color: #FFFF00"}
+Today marks the beginning of your academic journey in higher education!
+:::
+:::
+
+::: {.column width="10%"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+# Bridging the Gap: Transitioning from School to University
+
+::: columns
+::: {.column width="90%"}
+::: {style="background-color: #17A589 "}
+Understanding the differences between school and university is crucial.
+:::
+:::
+
+::: {.column width="10%"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Code
+
+::: columns
+::: {.column width="90%"}
+::: {style="background-color: #2780e3"}
+-   Point 1
+-   Point 2
+-   Point 3
+:::
+:::
+
+::: {.column width="10%"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Title
