@@ -296,7 +296,7 @@ knitr::kable(tt1)
 
 ### [Formative Assessment (FA):]{style="color:green;"}
 
-### FA1: Individual assignment: **10%** of the total marks
+### FA1: Group assignment: **10%** of the total marks
 
 ### FA2: Mid-semester examination: **20%** of the total marks
 
@@ -373,3 +373,21 @@ wl <- tibble(Type, Hours)
 knitr::kable(wl) |>
   kable_styling(font_size = 80)
 ```
+
+# Three Key Ingredients
+
+## Physical Space
+
+![](home.jpg)
+
+## Calendar Space
+
+![](calendar.jpeg)
+
+## Mental Space
+
+![](mental.png)
+
+##
+
+Image sources: https://pixabay.com/

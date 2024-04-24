@@ -18,7 +18,7 @@
     "href": "week1/index.html#summary-measures",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.800\nMin. :0.400\nMin. : 919\n\n\n\nMale :50\n1st Qu.: 99.28\n1st Qu.:2.700\n1st Qu.:2.800\n1st Qu.:3372\n\n\n\nNA\nMedian :100.10\nMedian :3.500\nMedian :3.550\nMedian :4148\n\n\n\nNA\nMean : 99.31\nMean :3.397\nMean :3.550\nMean :4331\n\n\n\nNA\n3rd Qu.:100.80\n3rd Qu.:4.125\n3rd Qu.:4.225\n3rd Qu.:5325\n\n\n\nNA\nMax. :110.00\nMax. :5.700\nMax. :6.300\nMax. :8592"
+    "text": "Summary measures\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.200\nMin. :1.500\nMin. : 413\n\n\n\nMale :50\n1st Qu.: 99.20\n1st Qu.:2.600\n1st Qu.:3.000\n1st Qu.:3121\n\n\n\nNA\nMedian : 99.90\nMedian :3.200\nMedian :3.500\nMedian :4004\n\n\n\nNA\nMean : 99.22\nMean :3.254\nMean :3.611\nMean :4112\n\n\n\nNA\n3rd Qu.:100.70\n3rd Qu.:4.000\n3rd Qu.:4.100\n3rd Qu.:5006\n\n\n\nNA\nMax. :110.00\nMax. :5.500\nMax. :6.300\nMax. :7997"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",
@@ -123,7 +123,7 @@
     "href": "week0/index.html#sta-113-2.0-descriptive-statistics-type-and-method-of-assessment",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "STA 113 2.0 Descriptive Statistics: Type and Method of Assessment",
-    "text": "STA 113 2.0 Descriptive Statistics: Type and Method of Assessment\nType:\nType: Core\nType:\nMethod of Assessment:\nType:\nFormative Assessment (FA):\nFA1: Individual assignment: 10% of the total marks\nFA2: Mid-semester examination: 20% of the total marks\nType:\nSummative Assessment (SA):\nSA1: End of Semester Examination: 70% of the total marks"
+    "text": "STA 113 2.0 Descriptive Statistics: Type and Method of Assessment\nType:\nType: Core\nType:\nMethod of Assessment:\nType:\nFormative Assessment (FA):\nFA1: Group assignment: 10% of the total marks\nFA2: Mid-semester examination: 20% of the total marks\nType:\nSummative Assessment (SA):\nSA1: End of Semester Examination: 70% of the total marks"
   },
   {
     "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-logistics",
@@ -138,5 +138,33 @@
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "STA 113 2.0 Descriptive Statistics: Workload",
     "text": "STA 113 2.0 Descriptive Statistics: Workload\n\n\n\n\n\nType\nHours\n\n\n\n\nTotal\n100\n\n\nLectures and tutorials\n30\n\n\nIndependent learning\n70"
+  },
+  {
+    "objectID": "week0/index.html#physical-space",
+    "href": "week0/index.html#physical-space",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Physical Space",
+    "text": "Physical Space"
+  },
+  {
+    "objectID": "week0/index.html#calendar-space",
+    "href": "week0/index.html#calendar-space",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Calendar Space",
+    "text": "Calendar Space"
+  },
+  {
+    "objectID": "week0/index.html#mental-space",
+    "href": "week0/index.html#mental-space",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Mental Space",
+    "text": "Mental Space"
+  },
+  {
+    "objectID": "week0/index.html#section-1",
+    "href": "week0/index.html#section-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "",
+    "text": "Image sources: https://pixabay.com/"
   }
 ]
