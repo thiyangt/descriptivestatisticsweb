@@ -37,7 +37,7 @@ Where do we use statistics?
 Why do we need statistics?
 :::
 
----
+------------------------------------------------------------------------
 
 # Outline
 
@@ -63,17 +63,13 @@ The science of collecting, analyzing, presenting, and interpreting data.
 
 # The science of collecting, analyzing, presenting, and interpreting [data]{style="color:red;"}.
 
+------------------------------------------------------------------------
 
----
-
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
-
 ```{r, echo=FALSE}
 knitr::include_graphics("i1.png")
 ```
-
 :::
 
 ::: {.column width="50%"}
@@ -83,47 +79,39 @@ knitr::include_graphics("i2.png")
 :::
 :::
 
----
+------------------------------------------------------------------------
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
-
 **Tabular data (Structured data)**
 
 ```{r, echo=FALSE}
 knitr::include_graphics("i1.png")
 ```
-
 :::
 
 ::: {.column width="50%"}
-
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ```{r, echo=FALSE, fig.cap="Source: Le Dinh, T., Lee, S. H., Kwon, S. G., & Kwon, K. R. (2022). COVID-19 Chest X-ray Classification and Severity Assessment Using Convolutional and Transformer Neural Networks. Applied Sciences, 12(10), 4861."}
 knitr::include_graphics("i4.png")
 ```
 
----
+------------------------------------------------------------------------
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
-
 **Tabular data (Structured data)**
 
 ```{r, echo=FALSE}
 knitr::include_graphics("i1.png")
 ```
-
 :::
 
 ::: {.column width="50%"}
-
 **Image data**
 
 ```{r, echo=FALSE, out.height="20%"}
@@ -132,14 +120,10 @@ knitr::include_graphics("i4.png")
 :::
 :::
 
+------------------------------------------------------------------------
 
----
-
-
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
-
 **Tabular data (Structured data)**
 
 ```{r, echo=FALSE}
@@ -149,11 +133,9 @@ knitr::include_graphics("i1.png")
 **Audio data**
 
 ![](i5.gif)
-
 :::
 
 ::: {.column width="50%"}
-
 **Image data**
 
 ```{r, echo=FALSE, out.height="20%"}
@@ -162,13 +144,10 @@ knitr::include_graphics("i4.png")
 :::
 :::
 
----
+------------------------------------------------------------------------
 
-
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
-
 **Tabular data (Structured data)**
 
 ```{r, echo=FALSE}
@@ -178,11 +157,9 @@ knitr::include_graphics("i1.png")
 **Audio data**
 
 ![](i5.gif)
-
 :::
 
 ::: {.column width="50%"}
-
 **Image data**
 
 ```{r, echo=FALSE}
@@ -191,17 +168,13 @@ knitr::include_graphics("i4.png")
 
 **Video data**
 
-
 [Link](https://youtu.be/398Zcag0Pw8?si=Uzi6-7AwxpVNSaTF)
-
 :::
 :::
-
 
 # The science of [collecting]{style="color:red;"}, analyzing, presenting, and interpreting [data]{style="color:blue;"}.
 
-
----
+------------------------------------------------------------------------
 
 ### How to choose a representative subset of the population?
 
@@ -209,13 +182,11 @@ knitr::include_graphics("i4.png")
 knitr::include_graphics("https://imgs.mongabay.com/wp-content/uploads/sites/20/2019/02/15071717/Screen-Shot-2019-02-15-at-5.46.08-PM-364x512.png")
 ```
 
----
-
+------------------------------------------------------------------------
 
 # The science of [collecting]{style="color:blue;"}, [analyzing]{style="color:red;"}, presenting, and interpreting [data]{style="color:blue;"}.
 
-
----
+------------------------------------------------------------------------
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 ID <- 1:100
@@ -239,17 +210,14 @@ df <- data.frame(ID, Gender, A, B, C, Weight)
 df
 ```
 
----
+------------------------------------------------------------------------
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="25%"}
-
 ```{r, echo=FALSE}
 library(kableExtra)
 head(df, 50) |> knitr::kable() |> kable_styling(font_size = 20)
 ```
-
 :::
 
 ::: {.column width="25%"}
@@ -274,17 +242,14 @@ df[84:100,] |> knitr::kable() |> kable_styling(font_size = 20)
 :::
 :::
 
----
+------------------------------------------------------------------------
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="25%"}
-
 ```{r, echo=FALSE}
 library(kableExtra)
 df[1:28, c(1, 2, 4, 6)] |> knitr::kable() |> kable_styling(font_size = 20)
 ```
-
 :::
 
 ::: {.column width="25%"}
@@ -308,35 +273,35 @@ df[84:100, c(1, 2, 4, 6)] |> knitr::kable() |> kable_styling(font_size = 20)
 ```
 :::
 :::
----
 
+------------------------------------------------------------------------
 
 ```{r, echo=FALSE, comment=NA, warning=FALSE, message=FALSE}
 
 library(ggplot2)
 ggplot(data=df, aes(x=B, y=Weight)) + 
-  geom_point() + ggtitle("Scatterplot of weight (kg) vs B (ft)") +
+  geom_point() + ggtitle("Scatterplot of weight(kg) vs B(ft)") +
   xlab("B (ft)") + ylab("Weight (kg)") + theme(plot.title = element_text(hjust = 0.5)) + theme(aspect.ratio=1) 
 ```
 
----
+------------------------------------------------------------------------
 
 ```{r, echo=FALSE, comment=NA, warning=FALSE, message=FALSE}
 
 p1 <- ggplot(data=df, aes(x=B, y=Weight,  col=Gender)) + 
-  geom_point() + ggtitle("Scatterplot of weight (kg) vs B (ft)") +
+  geom_point() + ggtitle("Scatterplot of weight(kg) vs B(ft)") +
   xlab("B (ft)") + ylab("Weight (kg)") + theme(plot.title = element_text(hjust = 0.5)) + scale_colour_manual(values = c("#e7298a","#1b9e77", "green")) + theme(aspect.ratio=1) 
 p1
 ```
 
----
+------------------------------------------------------------------------
 
-```{r, fig.height=10, fig.width=10}
+```{r, fig.height=8, fig.width=8}
 library(plotly)
 ggplotly(p1)
 ```
 
----
+------------------------------------------------------------------------
 
 ## Summary measures
 
@@ -345,39 +310,37 @@ df$Gender <- as.factor(df$Gender)
 summary(df[, -1]) |> knitr::kable() |> kable_styling(font_size = 40)
 ```
 
-
----
+------------------------------------------------------------------------
 
 ```{r, echo=FALSE}
 knitr::include_graphics("orange.jpeg")
 ```
 
----
+------------------------------------------------------------------------
 
 ```{r, echo=FALSE}
 knitr::include_graphics("i7.png")
 ```
 
----
-
+------------------------------------------------------------------------
 
 # The science of [collecting]{style="color:blue;"}, [analyzing]{style="color:blue;"}, [presenting, and interpreting]{style="color:red;"} [data]{style="color:blue;"}.
 
----
+------------------------------------------------------------------------
 
 ## Presenting Data: Example
 
-[https://thiyangt.github.io/dsjobtraker_dashboard_mc/#top-software-and-skills](https://thiyangt.github.io/dsjobtraker_dashboard_mc/#top-software-and-skills)
+<https://thiyangt.github.io/dsjobtraker_dashboard_mc/#top-software-and-skills>
 
 ```{r, echo=FALSE}
 knitr::include_graphics("dsjobtraker.png")
 ```
 
----
+------------------------------------------------------------------------
 
 # The [science]{style="color:red;"} of [collecting]{style="color:blue;"}, [analyzing]{style="color:blue;"}, [presenting, and interpreting]{style="color:blue;"} [data]{style="color:blue;"}.
 
----
+------------------------------------------------------------------------
 
 # Outline
 
@@ -391,7 +354,7 @@ Where do we use statistics?
 Why do we need statistics?
 :::
 
----
+------------------------------------------------------------------------
 
 # Outline
 
@@ -401,43 +364,38 @@ What is statistics?
 
 ::: {style="margin-top: 10px; font-size: 1.5em; color: red;"}
 Where do we use statistics?
-
 :::
 
 ::: {style="margin-top: 10px; font-size: 1.5em; "}
 Why do we need statistics?
 :::
 
---- 
+------------------------------------------------------------------------
 
 # Your turn
 
-- How often do you find yourself relying on statistics in your daily routines or decision-making processes? 
+-   How often do you find yourself relying on statistics in your daily routines or decision-making processes?
 
-- Could you provide a few examples of how you utilize statistical information?
-
-
+-   Could you provide a few examples of how you utilize statistical information?
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(countdown)
 countdown(minutes = 10, seconds = 00)
 ```
 
-
----
+------------------------------------------------------------------------
 
 ```{r, echo=FALSE}
 knitr::include_graphics("i8.png")
 ```
 
----
+------------------------------------------------------------------------
 
 ```{r, echo=FALSE}
 knitr::include_graphics("i9.jpeg")
 ```
 
-
----
+------------------------------------------------------------------------
 
 ## Applications of statistics in different fields
 
@@ -450,7 +408,7 @@ tf |> knitr::kable()
 
 ```
 
----
+------------------------------------------------------------------------
 
 ```{r, warning=FALSE, message=FALSE}
 library(tibble)
@@ -472,31 +430,27 @@ Where do we use statistics?
 :::
 
 ::: {style="margin-top: 10px; font-size: 1.5em; color: red;"}
-
 Why do we need statistics?
 :::
 
----
-
+------------------------------------------------------------------------
 
 ```{r, echo=FALSE}
 knitr::include_graphics("sydney2.png")
 ```
 
----
+------------------------------------------------------------------------
 
 ```{r, echo=FALSE}
 knitr::include_graphics("sy1.jpg")
 ```
 
-Captured by Dr Thiyanga S. Talagala 
+Captured by Dr Thiyanga S. Talagala
 
----
+------------------------------------------------------------------------
 
 ```{r, echo=FALSE}
 knitr::include_graphics("sy2.jpg")
 ```
 
-
-
->#Learn to Travel. Travel to Learn.
+> #Learn to Travel. Travel to Learn.
