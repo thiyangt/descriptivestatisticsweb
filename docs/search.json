@@ -11,14 +11,14 @@
     "href": "week1/index.html#what-is-statistics",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "What is Statistics?",
-    "text": "What is Statistics?\n\nThe science of collecting, analyzing, presenting, and interpreting data."
+    "text": "What is Statistics?\n\nThe science of collecting, organizing, analyzing, presenting, and interpreting data."
   },
   {
     "objectID": "week1/index.html#summary-measures",
     "href": "week1/index.html#summary-measures",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.000\nMin. :1.100\nMin. : 146\n\n\n\nMale :50\n1st Qu.: 99.47\n1st Qu.:2.775\n1st Qu.:3.000\n1st Qu.:3194\n\n\n\nNA\nMedian :100.15\nMedian :3.250\nMedian :3.550\nMedian :4152\n\n\n\nNA\nMean : 99.36\nMean :3.279\nMean :3.558\nMean :4164\n\n\n\nNA\n3rd Qu.:100.80\n3rd Qu.:4.125\n3rd Qu.:4.025\n3rd Qu.:5016\n\n\n\nNA\nMax. :110.00\nMax. :5.400\nMax. :6.300\nMax. :7550"
+    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.100\nMin. :0.900\nMin. :1672\n\n\n\nMale :50\n1st Qu.: 99.50\n1st Qu.:2.400\n1st Qu.:2.850\n1st Qu.:3300\n\n\n\nNA\nMedian :100.10\nMedian :3.300\nMedian :3.400\nMedian :4008\n\n\n\nNA\nMean : 99.41\nMean :3.312\nMean :3.513\nMean :4203\n\n\n\nNA\n3rd Qu.:100.83\n3rd Qu.:4.025\n3rd Qu.:4.225\n3rd Qu.:5174\n\n\n\nNA\nMax. :110.00\nMax. :6.400\nMax. :6.300\nMax. :7550"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",
@@ -166,5 +166,131 @@
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "",
     "text": "Image sources: https://pixabay.com/"
+  },
+  {
+    "objectID": "week2/index.html#population",
+    "href": "week2/index.html#population",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Population",
+    "text": "Population\nThe population is the complete collection of individuals or objects that are of interest."
+  },
+  {
+    "objectID": "week2/index.html#population-example",
+    "href": "week2/index.html#population-example",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Population: Example",
+    "text": "Population: Example\nwe’re interested in studying the average height of all adults in a country, the population would be all adult residents of that country."
+  },
+  {
+    "objectID": "week2/index.html#unit",
+    "href": "week2/index.html#unit",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Unit",
+    "text": "Unit\nA unit is a single member of the population. It could be an individual or an object."
+  },
+  {
+    "objectID": "week2/index.html#unit-1",
+    "href": "week2/index.html#unit-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Unit",
+    "text": "Unit\nA unit is a single member of the population. It could be an individual or an object."
+  },
+  {
+    "objectID": "week2/index.html#example",
+    "href": "week2/index.html#example",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Example",
+    "text": "Example\n\nPopulation\n\nwe’re interested in studying the average height of all adults in a country, the population would be all adult residents of that country."
+  },
+  {
+    "objectID": "week2/index.html#example-1",
+    "href": "week2/index.html#example-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Example",
+    "text": "Example\n\nPopulation\n\nwe’re interested in studying the average height of all adults in a country, the population would be all adult residents of that country.\n\nUnit\n\nIn our example of studying adult height, each adult residing in the country would be a unit."
+  },
+  {
+    "objectID": "week2/index.html#sample",
+    "href": "week2/index.html#sample",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Sample",
+    "text": "Sample\nA subset of units in a population"
+  },
+  {
+    "objectID": "week2/index.html#sample-1",
+    "href": "week2/index.html#sample-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Sample",
+    "text": "Sample\nA subset of units in a population"
+  },
+  {
+    "objectID": "week2/index.html#sampling",
+    "href": "week2/index.html#sampling",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Sampling",
+    "text": "Sampling\nSampling is the process of selecting a subset of individuals or items from a population"
+  },
+  {
+    "objectID": "week2/index.html#statistics",
+    "href": "week2/index.html#statistics",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Statistics",
+    "text": "Statistics\nA numerical summary of a sample."
+  },
+  {
+    "objectID": "week2/index.html#parameter",
+    "href": "week2/index.html#parameter",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Parameter",
+    "text": "Parameter\nA numerical summary of a population."
+  },
+  {
+    "objectID": "week2/index.html#inferential-statistics",
+    "href": "week2/index.html#inferential-statistics",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Inferential Statistics",
+    "text": "Inferential Statistics"
+  },
+  {
+    "objectID": "week2/index.html#inferential-statistics-1",
+    "href": "week2/index.html#inferential-statistics-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Inferential Statistics",
+    "text": "Inferential Statistics"
+  },
+  {
+    "objectID": "week2/index.html#branches-of-statistics",
+    "href": "week2/index.html#branches-of-statistics",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Branches of Statistics",
+    "text": "Branches of Statistics\n\n\nDescriptive Statistics\n\nInferential Statistics"
+  },
+  {
+    "objectID": "week2/index.html#two-branches-of-statistics",
+    "href": "week2/index.html#two-branches-of-statistics",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Two Branches of Statistics",
+    "text": "Two Branches of Statistics\n\n\n1. Descriptive Statistics\n\n2. Inferential Statistics"
+  },
+  {
+    "objectID": "week2/index.html#census-vs-sample-survey",
+    "href": "week2/index.html#census-vs-sample-survey",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Census vs Sample Survey",
+    "text": "Census vs Sample Survey"
+  },
+  {
+    "objectID": "week2/index.html#two-branches-of-statistics-1",
+    "href": "week2/index.html#two-branches-of-statistics-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Two Branches of Statistics",
+    "text": "Two Branches of Statistics\n\n\n1. Descriptive Statistics\n\n2. Inferential Statistics"
+  },
+  {
+    "objectID": "week2/index.html#two-branches-of-statistics-2",
+    "href": "week2/index.html#two-branches-of-statistics-2",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Two Branches of Statistics",
+    "text": "Two Branches of Statistics\n\n\n1. Descriptive Statistics\n\n2. Inferential Statistics"
   }
 ]

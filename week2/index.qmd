@@ -1,0 +1,159 @@
+---
+title: "STA 113 2.0 Descriptive Statistics"
+subtitle: "Basic Terminologies in Statistics"
+author: "Dr. Thiyanga S. Talagala <br/>  Department of Statistics, Faculty of Applied Sciences <br/> University of Sri Jayewardenepura, Sri Lanka"
+format:
+  revealjs:
+    width: 2000
+    height: 1000
+    margin: 0.1
+    theme: [simple, custom.scss]
+    transition: slide
+    background-transition: fade
+    slide-number: true
+    show-slide-number: all
+    title-slide-attributes: 
+      data-background-color: "#081d58"
+      data-background-image: none
+---
+### Population
+
+The population is the [complete collection]{style="color:red;"} of individuals or objects that are of interest.
+
+```{r, out.height="120%"}
+knitr::include_graphics("ip2.png")
+```
+
+## Example
+
+1. Population
+
+we're interested in studying the average height of [all adults in a country]{style="color:blue;"}, the population would be all adult residents of that country.
+
+## Unit
+
+A unit is a single member of the population. It could be an individual or an object.
+
+```{r, out.height="120%"}
+knitr::include_graphics("ip3.png")
+```
+
+## Unit
+
+A unit is a single member of the population. It could be an individual or an object.
+
+```{r, out.height="120%"}
+knitr::include_graphics("ip4.png")
+```
+
+## Example
+
+1. Population
+
+we're interested in studying the average height of [all adults in a country]{style="color:blue;"}, the population would be all adult residents of that country.
+
+2. Unit
+
+In our example of studying adult height, [each adult residing]{style="color:blue;"} in the country would be a unit.
+
+## Sample 
+
+A subset of units in a population
+
+```{r, out.height="120%"}
+knitr::include_graphics("ip5.png")
+```
+
+## Sample 
+
+A subset of units in a population
+
+```{r, out.height="120%"}
+knitr::include_graphics("ip6.png")
+```
+
+## Sampling
+
+Sampling is the [process]{style="color:red;"} of selecting a subset of individuals or items from a population
+
+```{r, out.height="120%"}
+knitr::include_graphics("ip7.png")
+```
+
+## Statistics
+
+A numerical summary of a sample.
+
+
+```{r, out.height="120%"}
+knitr::include_graphics("ip8.png")
+```
+
+## Parameter
+
+A numerical summary of a population.
+
+```{r, out.height="120%"}
+knitr::include_graphics("ip9.png")
+```
+
+## Inferential Statistics
+
+```{r, out.height="120%"}
+knitr::include_graphics("ip10.png")
+```
+
+## Inferential Statistics
+
+```{r, out.height="120%"}
+knitr::include_graphics("ip11.png")
+```
+
+## Two Branches of Statistics
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### 1. Descriptive Statistics
+:::
+
+
+
+::: {.column width="50%"}
+### 2. Inferential Statistics
+:::
+
+::::
+
+## Two Branches of Statistics
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### 1. Descriptive Statistics
+:::
+
+
+
+::: {.column width="50%"}
+### 2. Inferential Statistics
+:::
+
+::::
+
+## Two Branches of Statistics
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### 1. Descriptive Statistics
+:::
+
+
+
+::: {.column width="50%"}
+### 2. Inferential Statistics
+:::
+
+::::
+## Census vs Sample Survey

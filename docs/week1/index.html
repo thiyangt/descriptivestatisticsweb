@@ -8,7 +8,7 @@
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+  <meta name="generator" content="quarto-1.4.553">
 
   <meta name="author" content="Dr.&nbsp;Thiyanga S. Talagala   Department of Statistics, Faculty of Applied Sciences   University of Sri Jayewardenepura, Sri Lanka">
   <title>STA 113 2.0 Descriptive Statistics</title>
@@ -157,7 +157,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -320,19 +321,32 @@
       margin-right: 0; 
     }
   </style>
-  
   <script src="../site_libs/kePrint-0.0.1/kePrint.js"></script>
+
   <link href="../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
+  <link href="../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+
   <script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
   <script src="../site_libs/plotly-binding-4.10.4/plotly.js"></script>
+
   <script src="../site_libs/typedarray-0.1/typedarray.min.js"></script>
+
   <script src="../site_libs/jquery-3.5.1/jquery.min.js"></script>
+
   <link href="../site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+
   <script src="../site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+
   <link href="../site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+
   <script src="../site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+
   <link href="../site_libs/countdown-0.4.0/countdown.css" rel="stylesheet">
+
   <script src="../site_libs/countdown-0.4.0/countdown.js"></script>
+
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -386,7 +400,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <section id="what-is-statistics" class="slide level2 center middle">
 <h2>What is Statistics?</h2>
 <div style="margin-top: 10px; font-size: 1.5em; ">
-<p>The science of collecting, analyzing, presenting, and interpreting data.</p>
+<p>The science of collecting, organizing, analyzing, presenting, and interpreting data.</p>
 </div>
 </section></section>
 <section id="the-science-of-collecting-analyzing-presenting-and-interpreting-data." class="title-slide slide level1 center">
@@ -405,13 +419,21 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <div class="column" style="width:50%;">
 <div class="cell">
 <div class="cell-output-display">
+<div>
+<figure>
 <p><img data-src="i1.png"></p>
+</figure>
+</div>
 </div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell">
 <div class="cell-output-display">
+<div>
+<figure>
 <p><img data-src="i2.png"></p>
+</figure>
+</div>
 </div>
 </div>
 </div>
@@ -424,7 +446,11 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <p><strong>Tabular data (Structured data)</strong></p>
 <div class="cell">
 <div class="cell-output-display">
+<div>
+<figure>
 <p><img data-src="i1.png"></p>
+</figure>
+</div>
 </div>
 </div>
 </div><div class="column" style="width:50%;">
@@ -443,14 +469,22 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <p><strong>Tabular data (Structured data)</strong></p>
 <div class="cell">
 <div class="cell-output-display">
+<div>
+<figure>
 <p><img data-src="i1.png"></p>
+</figure>
+</div>
 </div>
 </div>
 </div><div class="column" style="width:50%;">
 <p><strong>Image data</strong></p>
 <div class="cell">
 <div class="cell-output-display">
+<div>
+<figure>
 <p><img data-src="i4.png" style="height:20.0%"></p>
+</figure>
+</div>
 </div>
 </div>
 </div>
@@ -463,7 +497,11 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <p><strong>Tabular data (Structured data)</strong></p>
 <div class="cell">
 <div class="cell-output-display">
+<div>
+<figure>
 <p><img data-src="i1.png"></p>
+</figure>
+</div>
 </div>
 </div>
 <p><strong>Audio data</strong></p>
@@ -472,7 +510,11 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <p><strong>Image data</strong></p>
 <div class="cell">
 <div class="cell-output-display">
+<div>
+<figure>
 <p><img data-src="i4.png" style="height:20.0%"></p>
+</figure>
+</div>
 </div>
 </div>
 </div>
@@ -485,7 +527,11 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <p><strong>Tabular data (Structured data)</strong></p>
 <div class="cell">
 <div class="cell-output-display">
+<div>
+<figure>
 <p><img data-src="i1.png"></p>
+</figure>
+</div>
 </div>
 </div>
 <p><strong>Audio data</strong></p>
@@ -494,7 +540,11 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <p><strong>Image data</strong></p>
 <div class="cell">
 <div class="cell-output-display">
+<div>
+<figure>
 <p><img data-src="i4.png"></p>
+</figure>
+</div>
 </div>
 </div>
 <p><strong>Video data</strong></p>
@@ -503,8 +553,8 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 </div>
 </section></section>
 <section>
-<section id="the-science-of-collecting-analyzing-presenting-and-interpreting-data.-2" class="title-slide slide level1 center">
-<h1>The science of <span style="color:red;">collecting</span>, analyzing, presenting, and interpreting <span style="color:blue;">data</span>.</h1>
+<section id="the-science-of-collecting-organizing-analyzing-presenting-and-interpreting-data." class="title-slide slide level1 center">
+<h1>The science of <span style="color:red;">collecting</span>, organizing, analyzing, presenting, and interpreting <span style="color:blue;">data</span>.</h1>
 
 </section>
 <section class="slide level2">
@@ -516,7 +566,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 
 </section></section>
 <section>
-<section id="the-science-of-collecting-analyzing-presenting-and-interpreting-data.-3" class="title-slide slide level1 center">
+<section id="the-science-of-collecting-analyzing-presenting-and-interpreting-data.-2" class="title-slide slide level1 center">
 <h1>The science of <span style="color:blue;">collecting</span>, <span style="color:red;">analyzing</span>, presenting, and interpreting <span style="color:blue;">data</span>.</h1>
 
 </section>
@@ -533,98 +583,98 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 6     6   Male  92.0 3.9 3.7   4500
 7     7   Male  88.0 4.2 3.8   3375
 8     8   Male  70.0 4.6 3.9   5500
-9     9 Female 101.2 3.6 3.6   3733
-10   10 Female 100.3 4.1 3.0   4239
-11   11 Female 100.4 3.2 2.9   3328
-12   12 Female 102.1 2.9 3.9   3042
-13   13 Female  98.8 1.6 3.5   1743
-14   14 Female 100.4 5.4 2.5   5487
-15   15 Female  99.0 3.1 5.2   3203
-16   16 Female 100.6 3.2 1.7   3332
-17   17 Female 100.8 2.0 3.3   2138
-18   18 Female  99.9 3.1 3.9   3183
-19   19 Female 100.0 3.5 4.5   3568
-20   20 Female  99.9 3.1 3.8   3243
-21   21 Female  99.8 5.2 3.0   5323
-22   22 Female 100.9 4.3 3.8   4375
-23   23 Female 100.1 3.6 3.7   3730
-24   24 Female  99.0 2.8 3.3   2923
-25   25 Female 100.4 4.2 4.5   4301
-26   26 Female  99.4 3.8 2.5   3945
-27   27 Female 101.4 4.8 3.6   4895
-28   28 Female  98.0 4.0 3.5   4139
-29   29 Female 100.3 1.6 2.1   1671
-30   30 Female 100.8 5.1 1.5   5151
-31   31 Female 101.3 4.9 1.1   4978
-32   32 Female 100.2 4.4 3.9   4518
-33   33 Female 100.2 3.2 3.3   3287
-34   34 Female 100.7 2.9 3.7   3014
-35   35 Female  99.8 3.0 3.7   3132
-36   36 Female  99.5 3.1 3.8   3152
-37   37 Female 100.4 3.1 3.4   3221
-38   38 Female 102.0 4.5 4.8   4563
-39   39 Female 101.7 4.8 3.2   4852
-40   40 Female 100.2 4.5 2.4   4635
-41   41 Female 100.3 3.5 4.0   3635
-42   42 Female 102.3 3.5 2.7   3554
-43   43 Female 100.9 3.1 3.7   3195
-44   44 Female 100.9 3.3 3.8   3360
-45   45 Female  99.6 4.2 5.0   4337
-46   46 Female  99.9 2.7 3.7   2795
-47   47 Female  99.3 4.2 2.1   4344
-48   48 Female 101.1 2.8 2.4   2931
-49   49 Female 100.9 4.1 4.3   4176
-50   50 Female 100.4 2.7 4.8   2788
-51   51 Female 101.3 4.0 4.0   4060
-52   52 Female  99.6 4.3 3.3   4393
-53   53 Female 101.2 3.1 2.1   3189
-54   54 Female  98.9 3.8 2.7   3893
-55   55   Male 101.4 2.7 5.3   4103
-56   56   Male  99.6 4.9 3.8   7498
-57   57   Male 100.7 4.7 2.5   7212
-58   58   Male 100.0 3.7 4.2   5719
-59   59   Male 100.1 2.6 5.2   4028
-60   60   Male  98.6 1.7 3.3   2726
-61   61   Male  98.3 4.6 2.8   7057
-62   62   Male 100.3 3.8 2.4   5821
-63   63   Male  99.3 1.4 3.0   2198
-64   64   Male  98.2 2.1 4.5   3229
-65   65   Male 101.0 2.8 4.1   4327
-66   66   Male  98.9 4.3 4.4   6531
-67   67   Male 100.7 4.4 3.4   6747
-68   68   Male 101.1 2.8 3.0   4300
-69   69   Male 101.4 1.3 2.1   2010
-70   70   Male  98.9 2.8 3.9   4341
-71   71   Male 101.1 1.5 1.8   2340
-72   72   Male 101.0 3.5 3.5   5362
-73   73   Male 100.1 0.0 3.4    146
-74   74   Male  99.7 2.8 3.0   4328
-75   75   Male 101.7 1.6 4.7   2539
-76   76   Male  99.1 1.2 3.1   1881
-77   77   Male  98.8 4.0 2.8   6149
-78   78   Male 100.0 4.5 5.1   6893
-79   79   Male  99.9 4.4 4.5   6746
-80   80   Male 100.4 2.8 3.5   4367
-81   81   Male  99.6 2.7 4.5   4165
-82   82   Male  99.8 4.0 4.5   6165
-83   83   Male 100.3 3.5 5.8   5408
-84   84   Male 100.5 2.6 3.1   3975
-85   85   Male  98.3 0.3 3.7    487
-86   86   Male 100.6 2.9 3.6   4394
-87   87   Male 100.4 2.9 2.2   4471
-88   88   Male 100.7 3.1 5.1   4693
-89   89   Male 101.0 3.3 4.0   5065
-90   90   Male  98.8 2.1 2.4   3208
-91   91   Male  99.5 4.1 2.7   6292
-92   92   Male 100.3 3.5 5.1   5360
-93   93   Male  99.1 1.0 3.5   1627
-94   94   Male  99.8 2.9 4.1   4395
-95   95   Male  99.7 4.1 3.0   6207
-96   96   Male  98.6 2.5 3.8   3846
-97   97   Male 100.0 4.4 3.2   6710
-98   98   Male 100.5 1.3 3.4   2017
-99   99   Male 101.2 1.8 3.5   2871
-100 100   Male  99.6 1.8 4.7   2820</code></pre>
+9     9 Female 100.7 3.8 3.7   3922
+10   10 Female  99.6 4.2 2.4   4265
+11   11 Female 100.5 4.0 3.5   4149
+12   12 Female 100.1 4.8 2.3   4946
+13   13 Female  99.6 5.1 1.9   5161
+14   14 Female  98.6 4.8 3.1   4951
+15   15 Female 100.8 2.1 3.3   2154
+16   16 Female 100.4 4.2 2.2   4341
+17   17 Female 100.8 1.7 3.0   1756
+18   18 Female 100.4 3.1 2.9   3246
+19   19 Female  98.9 4.1 3.3   4178
+20   20 Female 100.8 2.0 1.6   2100
+21   21 Female 101.0 3.3 4.8   3391
+22   22 Female 101.1 3.3 3.4   3366
+23   23 Female  99.5 2.0 2.7   2102
+24   24 Female  99.2 6.4 3.6   6531
+25   25 Female  99.3 2.7 2.7   2782
+26   26 Female  99.4 2.6 4.3   2658
+27   27 Female 100.4 2.4 1.5   2457
+28   28 Female  98.2 3.5 4.7   3617
+29   29 Female  98.9 4.4 2.2   4512
+30   30 Female 100.5 3.3 0.9   3402
+31   31 Female  99.6 4.5 3.0   4562
+32   32 Female  98.9 3.2 4.9   3296
+33   33 Female 100.6 5.2 2.4   5339
+34   34 Female  98.4 5.3 4.1   5365
+35   35 Female 101.9 3.7 5.2   3757
+36   36 Female 101.1 3.7 4.6   3774
+37   37 Female 101.4 2.5 5.2   2550
+38   38 Female 100.2 3.1 1.7   3168
+39   39 Female 101.7 3.3 4.9   3392
+40   40 Female  99.8 3.2 4.2   3316
+41   41 Female  99.9 2.2 5.4   2333
+42   42 Female 100.6 3.3 4.2   3410
+43   43 Female  99.5 5.6 1.8   5740
+44   44 Female 101.0 4.1 3.4   4165
+45   45 Female 100.2 5.2 2.6   5297
+46   46 Female 100.1 4.0 5.2   4093
+47   47 Female 100.2 2.4 2.9   2508
+48   48 Female 101.8 3.8 1.4   3914
+49   49 Female 101.2 4.3 2.5   4423
+50   50 Female 100.0 2.9 3.7   3028
+51   51 Female 101.3 3.3 3.4   3441
+52   52 Female  99.7 4.5 2.5   4552
+53   53 Female  99.5 3.5 3.4   3621
+54   54 Female 100.1 1.6 2.5   1672
+55   55   Male 101.7 3.1 6.1   4795
+56   56   Male 101.3 2.5 3.7   3775
+57   57   Male  99.9 2.0 2.5   3142
+58   58   Male  99.7 2.8 3.1   4338
+59   59   Male  99.8 4.9 3.2   7522
+60   60   Male 100.3 2.3 3.9   3544
+61   61   Male 100.4 2.1 3.5   3301
+62   62   Male  99.9 1.1 3.3   1677
+63   63   Male 100.1 3.4 2.6   5156
+64   64   Male 101.0 3.7 2.9   5600
+65   65   Male 100.9 2.4 4.4   3727
+66   66   Male 101.5 1.4 3.0   2169
+67   67   Male 100.4 1.4 5.0   2248
+68   68   Male  98.6 2.6 5.1   3960
+69   69   Male  99.7 4.8 4.1   7291
+70   70   Male 101.2 3.9 4.0   5909
+71   71   Male  99.0 2.4 5.0   3678
+72   72   Male 101.0 4.8 3.4   7342
+73   73   Male 100.7 1.4 3.4   2237
+74   74   Male  99.9 2.4 2.9   3686
+75   75   Male  99.6 1.8 4.2   2849
+76   76   Male 101.4 3.7 3.8   5664
+77   77   Male 100.1 2.4 2.4   3650
+78   78   Male  99.6 2.4 3.2   3728
+79   79   Male  99.7 1.4 5.7   2212
+80   80   Male 100.8 3.1 3.9   4746
+81   81   Male  98.4 3.8 4.6   5859
+82   82   Male  98.0 3.7 5.1   5651
+83   83   Male 100.9 3.4 2.9   5213
+84   84   Male 101.3 3.6 4.5   5524
+85   85   Male  99.4 3.8 1.6   5847
+86   86   Male  99.9 3.3 2.7   4991
+87   87   Male 101.6 2.6 3.2   4015
+88   88   Male  99.4 4.6 3.1   6972
+89   89   Male  99.7 4.5 3.6   6815
+90   90   Male 100.7 3.5 3.2   5275
+91   91   Male 100.7 3.8 3.8   5845
+92   92   Male  99.5 2.8 3.2   4334
+93   93   Male 101.0 3.3 2.6   5000
+94   94   Male  99.9 1.8 3.6   2855
+95   95   Male 100.6 4.7 4.9   7141
+96   96   Male 100.2 1.7 2.9   2642
+97   97   Male 101.7 2.2 4.9   3459
+98   98   Male  98.2 3.2 4.7   4929
+99   99   Male 102.2 1.2 3.0   1874
+100 100   Male 100.7 3.0 4.4   4533</code></pre>
 </div>
 </div>
 </section>
@@ -634,6 +684,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <div class="column" style="width:25%;">
 <div class="cell">
 <div class="cell-output-display">
+<div>
 <table class="table" data-quarto-postprocess="true" style="font-size: 20px; margin-left: auto; margin-right: auto;">
 <thead>
 <tr class="header">
@@ -713,338 +764,162 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <tr class="odd">
 <td style="text-align: right;">9</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">101.2</td>
-<td style="text-align: right;">3.6</td>
-<td style="text-align: right;">3.6</td>
-<td style="text-align: right;">3733</td>
+<td style="text-align: right;">100.7</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right;">3.7</td>
+<td style="text-align: right;">3922</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">10</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.3</td>
-<td style="text-align: right;">4.1</td>
-<td style="text-align: right;">3.0</td>
-<td style="text-align: right;">4239</td>
+<td style="text-align: right;">99.6</td>
+<td style="text-align: right;">4.2</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">4265</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">11</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.4</td>
-<td style="text-align: right;">3.2</td>
-<td style="text-align: right;">2.9</td>
-<td style="text-align: right;">3328</td>
+<td style="text-align: right;">100.5</td>
+<td style="text-align: right;">4.0</td>
+<td style="text-align: right;">3.5</td>
+<td style="text-align: right;">4149</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">12</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">102.1</td>
-<td style="text-align: right;">2.9</td>
-<td style="text-align: right;">3.9</td>
-<td style="text-align: right;">3042</td>
+<td style="text-align: right;">100.1</td>
+<td style="text-align: right;">4.8</td>
+<td style="text-align: right;">2.3</td>
+<td style="text-align: right;">4946</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">13</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">98.8</td>
-<td style="text-align: right;">1.6</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">1743</td>
+<td style="text-align: right;">99.6</td>
+<td style="text-align: right;">5.1</td>
+<td style="text-align: right;">1.9</td>
+<td style="text-align: right;">5161</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">14</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.4</td>
-<td style="text-align: right;">5.4</td>
-<td style="text-align: right;">2.5</td>
-<td style="text-align: right;">5487</td>
+<td style="text-align: right;">98.6</td>
+<td style="text-align: right;">4.8</td>
+<td style="text-align: right;">3.1</td>
+<td style="text-align: right;">4951</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">15</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.0</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">5.2</td>
-<td style="text-align: right;">3203</td>
+<td style="text-align: right;">100.8</td>
+<td style="text-align: right;">2.1</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">2154</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">16</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.6</td>
-<td style="text-align: right;">3.2</td>
-<td style="text-align: right;">1.7</td>
-<td style="text-align: right;">3332</td>
+<td style="text-align: right;">100.4</td>
+<td style="text-align: right;">4.2</td>
+<td style="text-align: right;">2.2</td>
+<td style="text-align: right;">4341</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">17</td>
 <td style="text-align: left;">Female</td>
 <td style="text-align: right;">100.8</td>
-<td style="text-align: right;">2.0</td>
-<td style="text-align: right;">3.3</td>
-<td style="text-align: right;">2138</td>
+<td style="text-align: right;">1.7</td>
+<td style="text-align: right;">3.0</td>
+<td style="text-align: right;">1756</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">18</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.9</td>
+<td style="text-align: right;">100.4</td>
 <td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3.9</td>
-<td style="text-align: right;">3183</td>
+<td style="text-align: right;">2.9</td>
+<td style="text-align: right;">3246</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">19</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.0</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">4.5</td>
-<td style="text-align: right;">3568</td>
+<td style="text-align: right;">98.9</td>
+<td style="text-align: right;">4.1</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">4178</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">20</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.9</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3.8</td>
-<td style="text-align: right;">3243</td>
+<td style="text-align: right;">100.8</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">1.6</td>
+<td style="text-align: right;">2100</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">21</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.8</td>
-<td style="text-align: right;">5.2</td>
-<td style="text-align: right;">3.0</td>
-<td style="text-align: right;">5323</td>
+<td style="text-align: right;">101.0</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">4.8</td>
+<td style="text-align: right;">3391</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">22</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.9</td>
-<td style="text-align: right;">4.3</td>
-<td style="text-align: right;">3.8</td>
-<td style="text-align: right;">4375</td>
+<td style="text-align: right;">101.1</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">3.4</td>
+<td style="text-align: right;">3366</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">23</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.1</td>
-<td style="text-align: right;">3.6</td>
-<td style="text-align: right;">3.7</td>
-<td style="text-align: right;">3730</td>
+<td style="text-align: right;">99.5</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">2.7</td>
+<td style="text-align: right;">2102</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">24</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.0</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">3.3</td>
-<td style="text-align: right;">2923</td>
+<td style="text-align: right;">99.2</td>
+<td style="text-align: right;">6.4</td>
+<td style="text-align: right;">3.6</td>
+<td style="text-align: right;">6531</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">25</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.4</td>
-<td style="text-align: right;">4.2</td>
-<td style="text-align: right;">4.5</td>
-<td style="text-align: right;">4301</td>
+<td style="text-align: right;">99.3</td>
+<td style="text-align: right;">2.7</td>
+<td style="text-align: right;">2.7</td>
+<td style="text-align: right;">2782</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">26</td>
 <td style="text-align: left;">Female</td>
 <td style="text-align: right;">99.4</td>
-<td style="text-align: right;">3.8</td>
-<td style="text-align: right;">2.5</td>
-<td style="text-align: right;">3945</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right;">4.3</td>
+<td style="text-align: right;">2658</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">27</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">101.4</td>
-<td style="text-align: right;">4.8</td>
-<td style="text-align: right;">3.6</td>
-<td style="text-align: right;">4895</td>
+<td style="text-align: right;">100.4</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">1.5</td>
+<td style="text-align: right;">2457</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">28</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">98.0</td>
-<td style="text-align: right;">4.0</td>
+<td style="text-align: right;">98.2</td>
 <td style="text-align: right;">3.5</td>
-<td style="text-align: right;">4139</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">29</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.3</td>
-<td style="text-align: right;">1.6</td>
-<td style="text-align: right;">2.1</td>
-<td style="text-align: right;">1671</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">30</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.8</td>
-<td style="text-align: right;">5.1</td>
-<td style="text-align: right;">1.5</td>
-<td style="text-align: right;">5151</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">31</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">101.3</td>
-<td style="text-align: right;">4.9</td>
-<td style="text-align: right;">1.1</td>
-<td style="text-align: right;">4978</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">32</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.2</td>
-<td style="text-align: right;">4.4</td>
-<td style="text-align: right;">3.9</td>
-<td style="text-align: right;">4518</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">33</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.2</td>
-<td style="text-align: right;">3.2</td>
-<td style="text-align: right;">3.3</td>
-<td style="text-align: right;">3287</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">34</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.7</td>
-<td style="text-align: right;">2.9</td>
-<td style="text-align: right;">3.7</td>
-<td style="text-align: right;">3014</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">35</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.8</td>
-<td style="text-align: right;">3.0</td>
-<td style="text-align: right;">3.7</td>
-<td style="text-align: right;">3132</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">36</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.5</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3.8</td>
-<td style="text-align: right;">3152</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">37</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.4</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3.4</td>
-<td style="text-align: right;">3221</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">38</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">102.0</td>
-<td style="text-align: right;">4.5</td>
-<td style="text-align: right;">4.8</td>
-<td style="text-align: right;">4563</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">39</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">101.7</td>
-<td style="text-align: right;">4.8</td>
-<td style="text-align: right;">3.2</td>
-<td style="text-align: right;">4852</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">40</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.2</td>
-<td style="text-align: right;">4.5</td>
-<td style="text-align: right;">2.4</td>
-<td style="text-align: right;">4635</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">41</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.3</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">4.0</td>
-<td style="text-align: right;">3635</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">42</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">102.3</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">2.7</td>
-<td style="text-align: right;">3554</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">43</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.9</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3.7</td>
-<td style="text-align: right;">3195</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">44</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.9</td>
-<td style="text-align: right;">3.3</td>
-<td style="text-align: right;">3.8</td>
-<td style="text-align: right;">3360</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">45</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.6</td>
-<td style="text-align: right;">4.2</td>
-<td style="text-align: right;">5.0</td>
-<td style="text-align: right;">4337</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">46</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.9</td>
-<td style="text-align: right;">2.7</td>
-<td style="text-align: right;">3.7</td>
-<td style="text-align: right;">2795</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">47</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.3</td>
-<td style="text-align: right;">4.2</td>
-<td style="text-align: right;">2.1</td>
-<td style="text-align: right;">4344</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">48</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">101.1</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">2.4</td>
-<td style="text-align: right;">2931</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">49</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.9</td>
-<td style="text-align: right;">4.1</td>
-<td style="text-align: right;">4.3</td>
-<td style="text-align: right;">4176</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">50</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.4</td>
-<td style="text-align: right;">2.7</td>
-<td style="text-align: right;">4.8</td>
-<td style="text-align: right;">2788</td>
+<td style="text-align: right;">4.7</td>
+<td style="text-align: right;">3617</td>
 </tr>
 </tbody>
 </table>
@@ -1052,9 +927,11 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 
 </div>
 </div>
+</div>
 </div><div class="column" style="width:25%;">
 <div class="cell">
 <div class="cell-output-display">
+<div>
 <table class="table" data-quarto-postprocess="true" style="font-size: 20px; margin-left: auto; margin-right: auto;">
 <thead>
 <tr class="header">
@@ -1072,253 +949,253 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <td style="text-align: left;">29</td>
 <td style="text-align: right;">29</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.3</td>
-<td style="text-align: right;">1.6</td>
-<td style="text-align: right;">2.1</td>
-<td style="text-align: right;">1671</td>
+<td style="text-align: right;">98.9</td>
+<td style="text-align: right;">4.4</td>
+<td style="text-align: right;">2.2</td>
+<td style="text-align: right;">4512</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">30</td>
 <td style="text-align: right;">30</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.8</td>
-<td style="text-align: right;">5.1</td>
-<td style="text-align: right;">1.5</td>
-<td style="text-align: right;">5151</td>
+<td style="text-align: right;">100.5</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">3402</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">31</td>
 <td style="text-align: right;">31</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">101.3</td>
-<td style="text-align: right;">4.9</td>
-<td style="text-align: right;">1.1</td>
-<td style="text-align: right;">4978</td>
+<td style="text-align: right;">99.6</td>
+<td style="text-align: right;">4.5</td>
+<td style="text-align: right;">3.0</td>
+<td style="text-align: right;">4562</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">32</td>
 <td style="text-align: right;">32</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.2</td>
-<td style="text-align: right;">4.4</td>
-<td style="text-align: right;">3.9</td>
-<td style="text-align: right;">4518</td>
+<td style="text-align: right;">98.9</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">4.9</td>
+<td style="text-align: right;">3296</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">33</td>
 <td style="text-align: right;">33</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.2</td>
-<td style="text-align: right;">3.2</td>
-<td style="text-align: right;">3.3</td>
-<td style="text-align: right;">3287</td>
+<td style="text-align: right;">100.6</td>
+<td style="text-align: right;">5.2</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">5339</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">34</td>
 <td style="text-align: right;">34</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.7</td>
-<td style="text-align: right;">2.9</td>
-<td style="text-align: right;">3.7</td>
-<td style="text-align: right;">3014</td>
+<td style="text-align: right;">98.4</td>
+<td style="text-align: right;">5.3</td>
+<td style="text-align: right;">4.1</td>
+<td style="text-align: right;">5365</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">35</td>
 <td style="text-align: right;">35</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.8</td>
-<td style="text-align: right;">3.0</td>
+<td style="text-align: right;">101.9</td>
 <td style="text-align: right;">3.7</td>
-<td style="text-align: right;">3132</td>
+<td style="text-align: right;">5.2</td>
+<td style="text-align: right;">3757</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">36</td>
 <td style="text-align: right;">36</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.5</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3.8</td>
-<td style="text-align: right;">3152</td>
+<td style="text-align: right;">101.1</td>
+<td style="text-align: right;">3.7</td>
+<td style="text-align: right;">4.6</td>
+<td style="text-align: right;">3774</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">37</td>
 <td style="text-align: right;">37</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.4</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3.4</td>
-<td style="text-align: right;">3221</td>
+<td style="text-align: right;">101.4</td>
+<td style="text-align: right;">2.5</td>
+<td style="text-align: right;">5.2</td>
+<td style="text-align: right;">2550</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">38</td>
 <td style="text-align: right;">38</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">102.0</td>
-<td style="text-align: right;">4.5</td>
-<td style="text-align: right;">4.8</td>
-<td style="text-align: right;">4563</td>
+<td style="text-align: right;">100.2</td>
+<td style="text-align: right;">3.1</td>
+<td style="text-align: right;">1.7</td>
+<td style="text-align: right;">3168</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">39</td>
 <td style="text-align: right;">39</td>
 <td style="text-align: left;">Female</td>
 <td style="text-align: right;">101.7</td>
-<td style="text-align: right;">4.8</td>
-<td style="text-align: right;">3.2</td>
-<td style="text-align: right;">4852</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">4.9</td>
+<td style="text-align: right;">3392</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">40</td>
 <td style="text-align: right;">40</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.2</td>
-<td style="text-align: right;">4.5</td>
-<td style="text-align: right;">2.4</td>
-<td style="text-align: right;">4635</td>
+<td style="text-align: right;">99.8</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">4.2</td>
+<td style="text-align: right;">3316</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">41</td>
 <td style="text-align: right;">41</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.3</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">4.0</td>
-<td style="text-align: right;">3635</td>
+<td style="text-align: right;">99.9</td>
+<td style="text-align: right;">2.2</td>
+<td style="text-align: right;">5.4</td>
+<td style="text-align: right;">2333</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">42</td>
 <td style="text-align: right;">42</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">102.3</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">2.7</td>
-<td style="text-align: right;">3554</td>
+<td style="text-align: right;">100.6</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">4.2</td>
+<td style="text-align: right;">3410</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">43</td>
 <td style="text-align: right;">43</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.9</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3.7</td>
-<td style="text-align: right;">3195</td>
+<td style="text-align: right;">99.5</td>
+<td style="text-align: right;">5.6</td>
+<td style="text-align: right;">1.8</td>
+<td style="text-align: right;">5740</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">44</td>
 <td style="text-align: right;">44</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.9</td>
-<td style="text-align: right;">3.3</td>
-<td style="text-align: right;">3.8</td>
-<td style="text-align: right;">3360</td>
+<td style="text-align: right;">101.0</td>
+<td style="text-align: right;">4.1</td>
+<td style="text-align: right;">3.4</td>
+<td style="text-align: right;">4165</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">45</td>
 <td style="text-align: right;">45</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.6</td>
-<td style="text-align: right;">4.2</td>
-<td style="text-align: right;">5.0</td>
-<td style="text-align: right;">4337</td>
+<td style="text-align: right;">100.2</td>
+<td style="text-align: right;">5.2</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right;">5297</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">46</td>
 <td style="text-align: right;">46</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.9</td>
-<td style="text-align: right;">2.7</td>
-<td style="text-align: right;">3.7</td>
-<td style="text-align: right;">2795</td>
+<td style="text-align: right;">100.1</td>
+<td style="text-align: right;">4.0</td>
+<td style="text-align: right;">5.2</td>
+<td style="text-align: right;">4093</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">47</td>
 <td style="text-align: right;">47</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.3</td>
-<td style="text-align: right;">4.2</td>
-<td style="text-align: right;">2.1</td>
-<td style="text-align: right;">4344</td>
+<td style="text-align: right;">100.2</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">2.9</td>
+<td style="text-align: right;">2508</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">48</td>
 <td style="text-align: right;">48</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">101.1</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">2.4</td>
-<td style="text-align: right;">2931</td>
+<td style="text-align: right;">101.8</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">3914</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">49</td>
 <td style="text-align: right;">49</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.9</td>
-<td style="text-align: right;">4.1</td>
+<td style="text-align: right;">101.2</td>
 <td style="text-align: right;">4.3</td>
-<td style="text-align: right;">4176</td>
+<td style="text-align: right;">2.5</td>
+<td style="text-align: right;">4423</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">50</td>
 <td style="text-align: right;">50</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">100.4</td>
-<td style="text-align: right;">2.7</td>
-<td style="text-align: right;">4.8</td>
-<td style="text-align: right;">2788</td>
+<td style="text-align: right;">100.0</td>
+<td style="text-align: right;">2.9</td>
+<td style="text-align: right;">3.7</td>
+<td style="text-align: right;">3028</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">51</td>
 <td style="text-align: right;">51</td>
 <td style="text-align: left;">Female</td>
 <td style="text-align: right;">101.3</td>
-<td style="text-align: right;">4.0</td>
-<td style="text-align: right;">4.0</td>
-<td style="text-align: right;">4060</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">3.4</td>
+<td style="text-align: right;">3441</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">52</td>
 <td style="text-align: right;">52</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">99.6</td>
-<td style="text-align: right;">4.3</td>
-<td style="text-align: right;">3.3</td>
-<td style="text-align: right;">4393</td>
+<td style="text-align: right;">99.7</td>
+<td style="text-align: right;">4.5</td>
+<td style="text-align: right;">2.5</td>
+<td style="text-align: right;">4552</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">53</td>
 <td style="text-align: right;">53</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">101.2</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">2.1</td>
-<td style="text-align: right;">3189</td>
+<td style="text-align: right;">99.5</td>
+<td style="text-align: right;">3.5</td>
+<td style="text-align: right;">3.4</td>
+<td style="text-align: right;">3621</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">54</td>
 <td style="text-align: right;">54</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">98.9</td>
-<td style="text-align: right;">3.8</td>
-<td style="text-align: right;">2.7</td>
-<td style="text-align: right;">3893</td>
+<td style="text-align: right;">100.1</td>
+<td style="text-align: right;">1.6</td>
+<td style="text-align: right;">2.5</td>
+<td style="text-align: right;">1672</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">55</td>
 <td style="text-align: right;">55</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">101.4</td>
-<td style="text-align: right;">2.7</td>
-<td style="text-align: right;">5.3</td>
-<td style="text-align: right;">4103</td>
+<td style="text-align: right;">101.7</td>
+<td style="text-align: right;">3.1</td>
+<td style="text-align: right;">6.1</td>
+<td style="text-align: right;">4795</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">56</td>
 <td style="text-align: right;">56</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">99.6</td>
-<td style="text-align: right;">4.9</td>
-<td style="text-align: right;">3.8</td>
-<td style="text-align: right;">7498</td>
+<td style="text-align: right;">101.3</td>
+<td style="text-align: right;">2.5</td>
+<td style="text-align: right;">3.7</td>
+<td style="text-align: right;">3775</td>
 </tr>
 </tbody>
 </table>
@@ -1326,9 +1203,11 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 
 </div>
 </div>
+</div>
 </div><div class="column" style="width:25%;">
 <div class="cell">
 <div class="cell-output-display">
+<div>
 <table class="table" data-quarto-postprocess="true" style="font-size: 20px; margin-left: auto; margin-right: auto;">
 <thead>
 <tr class="header">
@@ -1346,244 +1225,244 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <td style="text-align: left;">57</td>
 <td style="text-align: right;">57</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.7</td>
-<td style="text-align: right;">4.7</td>
+<td style="text-align: right;">99.9</td>
+<td style="text-align: right;">2.0</td>
 <td style="text-align: right;">2.5</td>
-<td style="text-align: right;">7212</td>
+<td style="text-align: right;">3142</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">58</td>
 <td style="text-align: right;">58</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.0</td>
-<td style="text-align: right;">3.7</td>
-<td style="text-align: right;">4.2</td>
-<td style="text-align: right;">5719</td>
+<td style="text-align: right;">99.7</td>
+<td style="text-align: right;">2.8</td>
+<td style="text-align: right;">3.1</td>
+<td style="text-align: right;">4338</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">59</td>
 <td style="text-align: right;">59</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.1</td>
-<td style="text-align: right;">2.6</td>
-<td style="text-align: right;">5.2</td>
-<td style="text-align: right;">4028</td>
+<td style="text-align: right;">99.8</td>
+<td style="text-align: right;">4.9</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">7522</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">60</td>
 <td style="text-align: right;">60</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">98.6</td>
-<td style="text-align: right;">1.7</td>
-<td style="text-align: right;">3.3</td>
-<td style="text-align: right;">2726</td>
+<td style="text-align: right;">100.3</td>
+<td style="text-align: right;">2.3</td>
+<td style="text-align: right;">3.9</td>
+<td style="text-align: right;">3544</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">61</td>
 <td style="text-align: right;">61</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">98.3</td>
-<td style="text-align: right;">4.6</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">7057</td>
+<td style="text-align: right;">100.4</td>
+<td style="text-align: right;">2.1</td>
+<td style="text-align: right;">3.5</td>
+<td style="text-align: right;">3301</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">62</td>
 <td style="text-align: right;">62</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.3</td>
-<td style="text-align: right;">3.8</td>
-<td style="text-align: right;">2.4</td>
-<td style="text-align: right;">5821</td>
+<td style="text-align: right;">99.9</td>
+<td style="text-align: right;">1.1</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">1677</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">63</td>
 <td style="text-align: right;">63</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">99.3</td>
-<td style="text-align: right;">1.4</td>
-<td style="text-align: right;">3.0</td>
-<td style="text-align: right;">2198</td>
+<td style="text-align: right;">100.1</td>
+<td style="text-align: right;">3.4</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right;">5156</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">64</td>
 <td style="text-align: right;">64</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">98.2</td>
-<td style="text-align: right;">2.1</td>
-<td style="text-align: right;">4.5</td>
-<td style="text-align: right;">3229</td>
+<td style="text-align: right;">101.0</td>
+<td style="text-align: right;">3.7</td>
+<td style="text-align: right;">2.9</td>
+<td style="text-align: right;">5600</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">65</td>
 <td style="text-align: right;">65</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">101.0</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">4.1</td>
-<td style="text-align: right;">4327</td>
+<td style="text-align: right;">100.9</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">4.4</td>
+<td style="text-align: right;">3727</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">66</td>
 <td style="text-align: right;">66</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">98.9</td>
-<td style="text-align: right;">4.3</td>
-<td style="text-align: right;">4.4</td>
-<td style="text-align: right;">6531</td>
+<td style="text-align: right;">101.5</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">3.0</td>
+<td style="text-align: right;">2169</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">67</td>
 <td style="text-align: right;">67</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.7</td>
-<td style="text-align: right;">4.4</td>
-<td style="text-align: right;">3.4</td>
-<td style="text-align: right;">6747</td>
+<td style="text-align: right;">100.4</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">5.0</td>
+<td style="text-align: right;">2248</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">68</td>
 <td style="text-align: right;">68</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">101.1</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">3.0</td>
-<td style="text-align: right;">4300</td>
+<td style="text-align: right;">98.6</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right;">5.1</td>
+<td style="text-align: right;">3960</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">69</td>
 <td style="text-align: right;">69</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">101.4</td>
-<td style="text-align: right;">1.3</td>
-<td style="text-align: right;">2.1</td>
-<td style="text-align: right;">2010</td>
+<td style="text-align: right;">99.7</td>
+<td style="text-align: right;">4.8</td>
+<td style="text-align: right;">4.1</td>
+<td style="text-align: right;">7291</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">70</td>
 <td style="text-align: right;">70</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">98.9</td>
-<td style="text-align: right;">2.8</td>
+<td style="text-align: right;">101.2</td>
 <td style="text-align: right;">3.9</td>
-<td style="text-align: right;">4341</td>
+<td style="text-align: right;">4.0</td>
+<td style="text-align: right;">5909</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">71</td>
 <td style="text-align: right;">71</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">101.1</td>
-<td style="text-align: right;">1.5</td>
-<td style="text-align: right;">1.8</td>
-<td style="text-align: right;">2340</td>
+<td style="text-align: right;">99.0</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">5.0</td>
+<td style="text-align: right;">3678</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">72</td>
 <td style="text-align: right;">72</td>
 <td style="text-align: left;">Male</td>
 <td style="text-align: right;">101.0</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">5362</td>
+<td style="text-align: right;">4.8</td>
+<td style="text-align: right;">3.4</td>
+<td style="text-align: right;">7342</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">73</td>
 <td style="text-align: right;">73</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.1</td>
-<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">100.7</td>
+<td style="text-align: right;">1.4</td>
 <td style="text-align: right;">3.4</td>
-<td style="text-align: right;">146</td>
+<td style="text-align: right;">2237</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">74</td>
 <td style="text-align: right;">74</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">99.7</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">3.0</td>
-<td style="text-align: right;">4328</td>
+<td style="text-align: right;">99.9</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">2.9</td>
+<td style="text-align: right;">3686</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">75</td>
 <td style="text-align: right;">75</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">101.7</td>
-<td style="text-align: right;">1.6</td>
-<td style="text-align: right;">4.7</td>
-<td style="text-align: right;">2539</td>
+<td style="text-align: right;">99.6</td>
+<td style="text-align: right;">1.8</td>
+<td style="text-align: right;">4.2</td>
+<td style="text-align: right;">2849</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">76</td>
 <td style="text-align: right;">76</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">99.1</td>
-<td style="text-align: right;">1.2</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">1881</td>
+<td style="text-align: right;">101.4</td>
+<td style="text-align: right;">3.7</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right;">5664</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">77</td>
 <td style="text-align: right;">77</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">98.8</td>
-<td style="text-align: right;">4.0</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">6149</td>
+<td style="text-align: right;">100.1</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">3650</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">78</td>
 <td style="text-align: right;">78</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.0</td>
-<td style="text-align: right;">4.5</td>
-<td style="text-align: right;">5.1</td>
-<td style="text-align: right;">6893</td>
+<td style="text-align: right;">99.6</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">3728</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">79</td>
 <td style="text-align: right;">79</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">99.9</td>
-<td style="text-align: right;">4.4</td>
-<td style="text-align: right;">4.5</td>
-<td style="text-align: right;">6746</td>
+<td style="text-align: right;">99.7</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">5.7</td>
+<td style="text-align: right;">2212</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">80</td>
 <td style="text-align: right;">80</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.4</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">4367</td>
+<td style="text-align: right;">100.8</td>
+<td style="text-align: right;">3.1</td>
+<td style="text-align: right;">3.9</td>
+<td style="text-align: right;">4746</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">81</td>
 <td style="text-align: right;">81</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">99.6</td>
-<td style="text-align: right;">2.7</td>
-<td style="text-align: right;">4.5</td>
-<td style="text-align: right;">4165</td>
+<td style="text-align: right;">98.4</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right;">4.6</td>
+<td style="text-align: right;">5859</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">82</td>
 <td style="text-align: right;">82</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">99.8</td>
-<td style="text-align: right;">4.0</td>
-<td style="text-align: right;">4.5</td>
-<td style="text-align: right;">6165</td>
+<td style="text-align: right;">98.0</td>
+<td style="text-align: right;">3.7</td>
+<td style="text-align: right;">5.1</td>
+<td style="text-align: right;">5651</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">83</td>
 <td style="text-align: right;">83</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.3</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">5.8</td>
-<td style="text-align: right;">5408</td>
+<td style="text-align: right;">100.9</td>
+<td style="text-align: right;">3.4</td>
+<td style="text-align: right;">2.9</td>
+<td style="text-align: right;">5213</td>
 </tr>
 </tbody>
 </table>
@@ -1591,9 +1470,11 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 
 </div>
 </div>
+</div>
 </div><div class="column" style="width:25%;">
 <div class="cell">
 <div class="cell-output-display">
+<div>
 <table class="table" data-quarto-postprocess="true" style="font-size: 20px; margin-left: auto; margin-right: auto;">
 <thead>
 <tr class="header">
@@ -1611,159 +1492,160 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <td style="text-align: left;">84</td>
 <td style="text-align: right;">84</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.5</td>
-<td style="text-align: right;">2.6</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3975</td>
+<td style="text-align: right;">101.3</td>
+<td style="text-align: right;">3.6</td>
+<td style="text-align: right;">4.5</td>
+<td style="text-align: right;">5524</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">85</td>
 <td style="text-align: right;">85</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">98.3</td>
-<td style="text-align: right;">0.3</td>
-<td style="text-align: right;">3.7</td>
-<td style="text-align: right;">487</td>
+<td style="text-align: right;">99.4</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right;">1.6</td>
+<td style="text-align: right;">5847</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">86</td>
 <td style="text-align: right;">86</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.6</td>
-<td style="text-align: right;">2.9</td>
-<td style="text-align: right;">3.6</td>
-<td style="text-align: right;">4394</td>
+<td style="text-align: right;">99.9</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">2.7</td>
+<td style="text-align: right;">4991</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">87</td>
 <td style="text-align: right;">87</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.4</td>
-<td style="text-align: right;">2.9</td>
-<td style="text-align: right;">2.2</td>
-<td style="text-align: right;">4471</td>
+<td style="text-align: right;">101.6</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">4015</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">88</td>
 <td style="text-align: right;">88</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.7</td>
+<td style="text-align: right;">99.4</td>
+<td style="text-align: right;">4.6</td>
 <td style="text-align: right;">3.1</td>
-<td style="text-align: right;">5.1</td>
-<td style="text-align: right;">4693</td>
+<td style="text-align: right;">6972</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">89</td>
 <td style="text-align: right;">89</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">101.0</td>
-<td style="text-align: right;">3.3</td>
-<td style="text-align: right;">4.0</td>
-<td style="text-align: right;">5065</td>
+<td style="text-align: right;">99.7</td>
+<td style="text-align: right;">4.5</td>
+<td style="text-align: right;">3.6</td>
+<td style="text-align: right;">6815</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">90</td>
 <td style="text-align: right;">90</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">98.8</td>
-<td style="text-align: right;">2.1</td>
-<td style="text-align: right;">2.4</td>
-<td style="text-align: right;">3208</td>
+<td style="text-align: right;">100.7</td>
+<td style="text-align: right;">3.5</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">5275</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">91</td>
 <td style="text-align: right;">91</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">99.5</td>
-<td style="text-align: right;">4.1</td>
-<td style="text-align: right;">2.7</td>
-<td style="text-align: right;">6292</td>
+<td style="text-align: right;">100.7</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right;">5845</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">92</td>
 <td style="text-align: right;">92</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.3</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">5.1</td>
-<td style="text-align: right;">5360</td>
+<td style="text-align: right;">99.5</td>
+<td style="text-align: right;">2.8</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">4334</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">93</td>
 <td style="text-align: right;">93</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">99.1</td>
-<td style="text-align: right;">1.0</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">1627</td>
+<td style="text-align: right;">101.0</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right;">5000</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">94</td>
 <td style="text-align: right;">94</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">99.8</td>
-<td style="text-align: right;">2.9</td>
-<td style="text-align: right;">4.1</td>
-<td style="text-align: right;">4395</td>
+<td style="text-align: right;">99.9</td>
+<td style="text-align: right;">1.8</td>
+<td style="text-align: right;">3.6</td>
+<td style="text-align: right;">2855</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">95</td>
 <td style="text-align: right;">95</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">99.7</td>
-<td style="text-align: right;">4.1</td>
-<td style="text-align: right;">3.0</td>
-<td style="text-align: right;">6207</td>
+<td style="text-align: right;">100.6</td>
+<td style="text-align: right;">4.7</td>
+<td style="text-align: right;">4.9</td>
+<td style="text-align: right;">7141</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">96</td>
 <td style="text-align: right;">96</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">98.6</td>
-<td style="text-align: right;">2.5</td>
-<td style="text-align: right;">3.8</td>
-<td style="text-align: right;">3846</td>
+<td style="text-align: right;">100.2</td>
+<td style="text-align: right;">1.7</td>
+<td style="text-align: right;">2.9</td>
+<td style="text-align: right;">2642</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">97</td>
 <td style="text-align: right;">97</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.0</td>
-<td style="text-align: right;">4.4</td>
-<td style="text-align: right;">3.2</td>
-<td style="text-align: right;">6710</td>
+<td style="text-align: right;">101.7</td>
+<td style="text-align: right;">2.2</td>
+<td style="text-align: right;">4.9</td>
+<td style="text-align: right;">3459</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">98</td>
 <td style="text-align: right;">98</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">100.5</td>
-<td style="text-align: right;">1.3</td>
-<td style="text-align: right;">3.4</td>
-<td style="text-align: right;">2017</td>
+<td style="text-align: right;">98.2</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">4.7</td>
+<td style="text-align: right;">4929</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">99</td>
 <td style="text-align: right;">99</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">101.2</td>
-<td style="text-align: right;">1.8</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">2871</td>
+<td style="text-align: right;">102.2</td>
+<td style="text-align: right;">1.2</td>
+<td style="text-align: right;">3.0</td>
+<td style="text-align: right;">1874</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">100</td>
 <td style="text-align: right;">100</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">99.6</td>
-<td style="text-align: right;">1.8</td>
-<td style="text-align: right;">4.7</td>
-<td style="text-align: right;">2820</td>
+<td style="text-align: right;">100.7</td>
+<td style="text-align: right;">3.0</td>
+<td style="text-align: right;">4.4</td>
+<td style="text-align: right;">4533</td>
 </tr>
 </tbody>
 </table>
 
 
+</div>
 </div>
 </div>
 </div>
@@ -1775,6 +1657,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <div class="column" style="width:25%;">
 <div class="cell">
 <div class="cell-output-display">
+<div>
 <table class="table" data-quarto-postprocess="true" style="font-size: 20px; margin-left: auto; margin-right: auto;">
 <thead>
 <tr class="header">
@@ -1836,122 +1719,122 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <tr class="odd">
 <td style="text-align: right;">9</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.6</td>
-<td style="text-align: right;">3733</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right;">3922</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">10</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">4.1</td>
-<td style="text-align: right;">4239</td>
+<td style="text-align: right;">4.2</td>
+<td style="text-align: right;">4265</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">11</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.2</td>
-<td style="text-align: right;">3328</td>
+<td style="text-align: right;">4.0</td>
+<td style="text-align: right;">4149</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">12</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">2.9</td>
-<td style="text-align: right;">3042</td>
+<td style="text-align: right;">4.8</td>
+<td style="text-align: right;">4946</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">13</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">1.6</td>
-<td style="text-align: right;">1743</td>
+<td style="text-align: right;">5.1</td>
+<td style="text-align: right;">5161</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">14</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">5.4</td>
-<td style="text-align: right;">5487</td>
+<td style="text-align: right;">4.8</td>
+<td style="text-align: right;">4951</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">15</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3203</td>
+<td style="text-align: right;">2.1</td>
+<td style="text-align: right;">2154</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">16</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.2</td>
-<td style="text-align: right;">3332</td>
+<td style="text-align: right;">4.2</td>
+<td style="text-align: right;">4341</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">17</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">2.0</td>
-<td style="text-align: right;">2138</td>
+<td style="text-align: right;">1.7</td>
+<td style="text-align: right;">1756</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">18</td>
 <td style="text-align: left;">Female</td>
 <td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3183</td>
+<td style="text-align: right;">3246</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">19</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">3568</td>
+<td style="text-align: right;">4.1</td>
+<td style="text-align: right;">4178</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">20</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3243</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">2100</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">21</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">5.2</td>
-<td style="text-align: right;">5323</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">3391</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">22</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">4.3</td>
-<td style="text-align: right;">4375</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">3366</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">23</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.6</td>
-<td style="text-align: right;">3730</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">2102</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">24</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">2923</td>
+<td style="text-align: right;">6.4</td>
+<td style="text-align: right;">6531</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">25</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">4.2</td>
-<td style="text-align: right;">4301</td>
+<td style="text-align: right;">2.7</td>
+<td style="text-align: right;">2782</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">26</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.8</td>
-<td style="text-align: right;">3945</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right;">2658</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">27</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">4.8</td>
-<td style="text-align: right;">4895</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">2457</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">28</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">4.0</td>
-<td style="text-align: right;">4139</td>
+<td style="text-align: right;">3.5</td>
+<td style="text-align: right;">3617</td>
 </tr>
 </tbody>
 </table>
@@ -1959,9 +1842,11 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 
 </div>
 </div>
+</div>
 </div><div class="column" style="width:25%;">
 <div class="cell">
 <div class="cell-output-display">
+<div>
 <table class="table" data-quarto-postprocess="true" style="font-size: 20px; margin-left: auto; margin-right: auto;">
 <thead>
 <tr class="header">
@@ -1977,197 +1862,197 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <td style="text-align: left;">29</td>
 <td style="text-align: right;">29</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">1.6</td>
-<td style="text-align: right;">1671</td>
+<td style="text-align: right;">4.4</td>
+<td style="text-align: right;">4512</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">30</td>
 <td style="text-align: right;">30</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">5.1</td>
-<td style="text-align: right;">5151</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">3402</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">31</td>
 <td style="text-align: right;">31</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">4.9</td>
-<td style="text-align: right;">4978</td>
+<td style="text-align: right;">4.5</td>
+<td style="text-align: right;">4562</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">32</td>
 <td style="text-align: right;">32</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">4.4</td>
-<td style="text-align: right;">4518</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">3296</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">33</td>
 <td style="text-align: right;">33</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.2</td>
-<td style="text-align: right;">3287</td>
+<td style="text-align: right;">5.2</td>
+<td style="text-align: right;">5339</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">34</td>
 <td style="text-align: right;">34</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">2.9</td>
-<td style="text-align: right;">3014</td>
+<td style="text-align: right;">5.3</td>
+<td style="text-align: right;">5365</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">35</td>
 <td style="text-align: right;">35</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.0</td>
-<td style="text-align: right;">3132</td>
+<td style="text-align: right;">3.7</td>
+<td style="text-align: right;">3757</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">36</td>
 <td style="text-align: right;">36</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3152</td>
+<td style="text-align: right;">3.7</td>
+<td style="text-align: right;">3774</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">37</td>
 <td style="text-align: right;">37</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3221</td>
+<td style="text-align: right;">2.5</td>
+<td style="text-align: right;">2550</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">38</td>
 <td style="text-align: right;">38</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">4.5</td>
-<td style="text-align: right;">4563</td>
+<td style="text-align: right;">3.1</td>
+<td style="text-align: right;">3168</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">39</td>
 <td style="text-align: right;">39</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">4.8</td>
-<td style="text-align: right;">4852</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">3392</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">40</td>
 <td style="text-align: right;">40</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">4.5</td>
-<td style="text-align: right;">4635</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">3316</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">41</td>
 <td style="text-align: right;">41</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">3635</td>
+<td style="text-align: right;">2.2</td>
+<td style="text-align: right;">2333</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">42</td>
 <td style="text-align: right;">42</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">3554</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">3410</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">43</td>
 <td style="text-align: right;">43</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3195</td>
+<td style="text-align: right;">5.6</td>
+<td style="text-align: right;">5740</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">44</td>
 <td style="text-align: right;">44</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.3</td>
-<td style="text-align: right;">3360</td>
+<td style="text-align: right;">4.1</td>
+<td style="text-align: right;">4165</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">45</td>
 <td style="text-align: right;">45</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">4.2</td>
-<td style="text-align: right;">4337</td>
+<td style="text-align: right;">5.2</td>
+<td style="text-align: right;">5297</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">46</td>
 <td style="text-align: right;">46</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">2.7</td>
-<td style="text-align: right;">2795</td>
+<td style="text-align: right;">4.0</td>
+<td style="text-align: right;">4093</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">47</td>
 <td style="text-align: right;">47</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">4.2</td>
-<td style="text-align: right;">4344</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">2508</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">48</td>
 <td style="text-align: right;">48</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">2931</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right;">3914</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">49</td>
 <td style="text-align: right;">49</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">4.1</td>
-<td style="text-align: right;">4176</td>
+<td style="text-align: right;">4.3</td>
+<td style="text-align: right;">4423</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">50</td>
 <td style="text-align: right;">50</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">2.7</td>
-<td style="text-align: right;">2788</td>
+<td style="text-align: right;">2.9</td>
+<td style="text-align: right;">3028</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">51</td>
 <td style="text-align: right;">51</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">4.0</td>
-<td style="text-align: right;">4060</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">3441</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">52</td>
 <td style="text-align: right;">52</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">4.3</td>
-<td style="text-align: right;">4393</td>
+<td style="text-align: right;">4.5</td>
+<td style="text-align: right;">4552</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">53</td>
 <td style="text-align: right;">53</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">3189</td>
+<td style="text-align: right;">3.5</td>
+<td style="text-align: right;">3621</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">54</td>
 <td style="text-align: right;">54</td>
 <td style="text-align: left;">Female</td>
-<td style="text-align: right;">3.8</td>
-<td style="text-align: right;">3893</td>
+<td style="text-align: right;">1.6</td>
+<td style="text-align: right;">1672</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">55</td>
 <td style="text-align: right;">55</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">2.7</td>
-<td style="text-align: right;">4103</td>
+<td style="text-align: right;">3.1</td>
+<td style="text-align: right;">4795</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">56</td>
 <td style="text-align: right;">56</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">4.9</td>
-<td style="text-align: right;">7498</td>
+<td style="text-align: right;">2.5</td>
+<td style="text-align: right;">3775</td>
 </tr>
 </tbody>
 </table>
@@ -2175,9 +2060,11 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 
 </div>
 </div>
+</div>
 </div><div class="column" style="width:25%;">
 <div class="cell">
 <div class="cell-output-display">
+<div>
 <table class="table" data-quarto-postprocess="true" style="font-size: 20px; margin-left: auto; margin-right: auto;">
 <thead>
 <tr class="header">
@@ -2193,190 +2080,190 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <td style="text-align: left;">57</td>
 <td style="text-align: right;">57</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">4.7</td>
-<td style="text-align: right;">7212</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">3142</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">58</td>
 <td style="text-align: right;">58</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">3.7</td>
-<td style="text-align: right;">5719</td>
+<td style="text-align: right;">2.8</td>
+<td style="text-align: right;">4338</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">59</td>
 <td style="text-align: right;">59</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">2.6</td>
-<td style="text-align: right;">4028</td>
+<td style="text-align: right;">4.9</td>
+<td style="text-align: right;">7522</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">60</td>
 <td style="text-align: right;">60</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">1.7</td>
-<td style="text-align: right;">2726</td>
+<td style="text-align: right;">2.3</td>
+<td style="text-align: right;">3544</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">61</td>
 <td style="text-align: right;">61</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">4.6</td>
-<td style="text-align: right;">7057</td>
+<td style="text-align: right;">2.1</td>
+<td style="text-align: right;">3301</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">62</td>
 <td style="text-align: right;">62</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">3.8</td>
-<td style="text-align: right;">5821</td>
+<td style="text-align: right;">1.1</td>
+<td style="text-align: right;">1677</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">63</td>
 <td style="text-align: right;">63</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">1.4</td>
-<td style="text-align: right;">2198</td>
+<td style="text-align: right;">3.4</td>
+<td style="text-align: right;">5156</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">64</td>
 <td style="text-align: right;">64</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">2.1</td>
-<td style="text-align: right;">3229</td>
+<td style="text-align: right;">3.7</td>
+<td style="text-align: right;">5600</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">65</td>
 <td style="text-align: right;">65</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">4327</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">3727</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">66</td>
 <td style="text-align: right;">66</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">4.3</td>
-<td style="text-align: right;">6531</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">2169</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">67</td>
 <td style="text-align: right;">67</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">4.4</td>
-<td style="text-align: right;">6747</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">2248</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">68</td>
 <td style="text-align: right;">68</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">4300</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right;">3960</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">69</td>
 <td style="text-align: right;">69</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">1.3</td>
-<td style="text-align: right;">2010</td>
+<td style="text-align: right;">4.8</td>
+<td style="text-align: right;">7291</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">70</td>
 <td style="text-align: right;">70</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">4341</td>
+<td style="text-align: right;">3.9</td>
+<td style="text-align: right;">5909</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">71</td>
 <td style="text-align: right;">71</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">1.5</td>
-<td style="text-align: right;">2340</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">3678</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">72</td>
 <td style="text-align: right;">72</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">5362</td>
+<td style="text-align: right;">4.8</td>
+<td style="text-align: right;">7342</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">73</td>
 <td style="text-align: right;">73</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">0.0</td>
-<td style="text-align: right;">146</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">2237</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">74</td>
 <td style="text-align: right;">74</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">4328</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">3686</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">75</td>
 <td style="text-align: right;">75</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">1.6</td>
-<td style="text-align: right;">2539</td>
+<td style="text-align: right;">1.8</td>
+<td style="text-align: right;">2849</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">76</td>
 <td style="text-align: right;">76</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">1.2</td>
-<td style="text-align: right;">1881</td>
+<td style="text-align: right;">3.7</td>
+<td style="text-align: right;">5664</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">77</td>
 <td style="text-align: right;">77</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">4.0</td>
-<td style="text-align: right;">6149</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">3650</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">78</td>
 <td style="text-align: right;">78</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">4.5</td>
-<td style="text-align: right;">6893</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">3728</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">79</td>
 <td style="text-align: right;">79</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">4.4</td>
-<td style="text-align: right;">6746</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">2212</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">80</td>
 <td style="text-align: right;">80</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">2.8</td>
-<td style="text-align: right;">4367</td>
+<td style="text-align: right;">3.1</td>
+<td style="text-align: right;">4746</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">81</td>
 <td style="text-align: right;">81</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">2.7</td>
-<td style="text-align: right;">4165</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right;">5859</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">82</td>
 <td style="text-align: right;">82</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">4.0</td>
-<td style="text-align: right;">6165</td>
+<td style="text-align: right;">3.7</td>
+<td style="text-align: right;">5651</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">83</td>
 <td style="text-align: right;">83</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">5408</td>
+<td style="text-align: right;">3.4</td>
+<td style="text-align: right;">5213</td>
 </tr>
 </tbody>
 </table>
@@ -2384,9 +2271,11 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 
 </div>
 </div>
+</div>
 </div><div class="column" style="width:25%;">
 <div class="cell">
 <div class="cell-output-display">
+<div>
 <table class="table" data-quarto-postprocess="true" style="font-size: 20px; margin-left: auto; margin-right: auto;">
 <thead>
 <tr class="header">
@@ -2402,125 +2291,126 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <td style="text-align: left;">84</td>
 <td style="text-align: right;">84</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">2.6</td>
-<td style="text-align: right;">3975</td>
+<td style="text-align: right;">3.6</td>
+<td style="text-align: right;">5524</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">85</td>
 <td style="text-align: right;">85</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">0.3</td>
-<td style="text-align: right;">487</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right;">5847</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">86</td>
 <td style="text-align: right;">86</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">2.9</td>
-<td style="text-align: right;">4394</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">4991</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">87</td>
 <td style="text-align: right;">87</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">2.9</td>
-<td style="text-align: right;">4471</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right;">4015</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">88</td>
 <td style="text-align: right;">88</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">3.1</td>
-<td style="text-align: right;">4693</td>
+<td style="text-align: right;">4.6</td>
+<td style="text-align: right;">6972</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">89</td>
 <td style="text-align: right;">89</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">3.3</td>
-<td style="text-align: right;">5065</td>
+<td style="text-align: right;">4.5</td>
+<td style="text-align: right;">6815</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">90</td>
 <td style="text-align: right;">90</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">2.1</td>
-<td style="text-align: right;">3208</td>
+<td style="text-align: right;">3.5</td>
+<td style="text-align: right;">5275</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">91</td>
 <td style="text-align: right;">91</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">4.1</td>
-<td style="text-align: right;">6292</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right;">5845</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">92</td>
 <td style="text-align: right;">92</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">3.5</td>
-<td style="text-align: right;">5360</td>
+<td style="text-align: right;">2.8</td>
+<td style="text-align: right;">4334</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">93</td>
 <td style="text-align: right;">93</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">1.0</td>
-<td style="text-align: right;">1627</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">5000</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">94</td>
 <td style="text-align: right;">94</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">2.9</td>
-<td style="text-align: right;">4395</td>
+<td style="text-align: right;">1.8</td>
+<td style="text-align: right;">2855</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">95</td>
 <td style="text-align: right;">95</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">4.1</td>
-<td style="text-align: right;">6207</td>
+<td style="text-align: right;">4.7</td>
+<td style="text-align: right;">7141</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">96</td>
 <td style="text-align: right;">96</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">2.5</td>
-<td style="text-align: right;">3846</td>
+<td style="text-align: right;">1.7</td>
+<td style="text-align: right;">2642</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">97</td>
 <td style="text-align: right;">97</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">4.4</td>
-<td style="text-align: right;">6710</td>
+<td style="text-align: right;">2.2</td>
+<td style="text-align: right;">3459</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">98</td>
 <td style="text-align: right;">98</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">1.3</td>
-<td style="text-align: right;">2017</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">4929</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">99</td>
 <td style="text-align: right;">99</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">1.8</td>
-<td style="text-align: right;">2871</td>
+<td style="text-align: right;">1.2</td>
+<td style="text-align: right;">1874</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">100</td>
 <td style="text-align: right;">100</td>
 <td style="text-align: left;">Male</td>
-<td style="text-align: right;">1.8</td>
-<td style="text-align: right;">2820</td>
+<td style="text-align: right;">3.0</td>
+<td style="text-align: right;">4533</td>
 </tr>
 </tbody>
 </table>
 
 
+</div>
 </div>
 </div>
 </div>
@@ -2538,8 +2428,8 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 
 <div class="cell">
 <div class="cell-output-display">
-<div class="plotly html-widget html-fill-item" id="htmlwidget-0f7c29a1b6b7b52447ea" style="width:768px;height:768px;"></div>
-<script type="application/json" data-for="htmlwidget-0f7c29a1b6b7b52447ea">{"x":{"data":[{"x":[2.5,4,4.5,3,3.6000000000000001,4.0999999999999996,3.2000000000000002,2.8999999999999999,1.6000000000000001,5.4000000000000004,3.1000000000000001,3.2000000000000002,2,3.1000000000000001,3.5,3.1000000000000001,5.2000000000000002,4.2999999999999998,3.6000000000000001,2.7999999999999998,4.2000000000000002,3.7999999999999998,4.7999999999999998,4,1.6000000000000001,5.0999999999999996,4.9000000000000004,4.4000000000000004,3.2000000000000002,2.8999999999999999,3,3.1000000000000001,3.1000000000000001,4.5,4.7999999999999998,4.5,3.5,3.5,3.1000000000000001,3.2999999999999998,4.2000000000000002,2.7000000000000002,4.2000000000000002,2.7999999999999998,4.0999999999999996,2.7000000000000002,4,4.2999999999999998,3.1000000000000001,3.7999999999999998],"y":[5000,6000,7000,7550,3733,4239,3328,3042,1743,5487,3203,3332,2138,3183,3568,3243,5323,4375,3730,2923,4301,3945,4895,4139,1671,5151,4978,4518,3287,3014,3132,3152,3221,4563,4852,4635,3635,3554,3195,3360,4337,2795,4344,2931,4176,2788,4060,4393,3189,3893],"text":["B: 2.5<br />Weight: 5000<br />Gender: Female","B: 4.0<br />Weight: 6000<br />Gender: Female","B: 4.5<br />Weight: 7000<br />Gender: Female","B: 3.0<br />Weight: 7550<br />Gender: Female","B: 3.6<br />Weight: 3733<br />Gender: Female","B: 4.1<br />Weight: 4239<br />Gender: Female","B: 3.2<br />Weight: 3328<br />Gender: Female","B: 2.9<br />Weight: 3042<br />Gender: Female","B: 1.6<br />Weight: 1743<br />Gender: Female","B: 5.4<br />Weight: 5487<br />Gender: Female","B: 3.1<br />Weight: 3203<br />Gender: Female","B: 3.2<br />Weight: 3332<br />Gender: Female","B: 2.0<br />Weight: 2138<br />Gender: Female","B: 3.1<br />Weight: 3183<br />Gender: Female","B: 3.5<br />Weight: 3568<br />Gender: Female","B: 3.1<br />Weight: 3243<br />Gender: Female","B: 5.2<br />Weight: 5323<br />Gender: Female","B: 4.3<br />Weight: 4375<br />Gender: Female","B: 3.6<br />Weight: 3730<br />Gender: Female","B: 2.8<br />Weight: 2923<br />Gender: Female","B: 4.2<br />Weight: 4301<br />Gender: Female","B: 3.8<br />Weight: 3945<br />Gender: Female","B: 4.8<br />Weight: 4895<br />Gender: Female","B: 4.0<br />Weight: 4139<br />Gender: Female","B: 1.6<br />Weight: 1671<br />Gender: Female","B: 5.1<br />Weight: 5151<br />Gender: Female","B: 4.9<br />Weight: 4978<br />Gender: Female","B: 4.4<br />Weight: 4518<br />Gender: Female","B: 3.2<br />Weight: 3287<br />Gender: Female","B: 2.9<br />Weight: 3014<br />Gender: Female","B: 3.0<br />Weight: 3132<br />Gender: Female","B: 3.1<br />Weight: 3152<br />Gender: Female","B: 3.1<br />Weight: 3221<br />Gender: Female","B: 4.5<br />Weight: 4563<br />Gender: Female","B: 4.8<br />Weight: 4852<br />Gender: Female","B: 4.5<br />Weight: 4635<br />Gender: Female","B: 3.5<br />Weight: 3635<br />Gender: Female","B: 3.5<br />Weight: 3554<br />Gender: Female","B: 3.1<br />Weight: 3195<br />Gender: Female","B: 3.3<br />Weight: 3360<br />Gender: Female","B: 4.2<br />Weight: 4337<br />Gender: Female","B: 2.7<br />Weight: 2795<br />Gender: Female","B: 4.2<br />Weight: 4344<br />Gender: Female","B: 2.8<br />Weight: 2931<br />Gender: Female","B: 4.1<br />Weight: 4176<br />Gender: Female","B: 2.7<br />Weight: 2788<br />Gender: Female","B: 4.0<br />Weight: 4060<br />Gender: Female","B: 4.3<br />Weight: 4393<br />Gender: Female","B: 3.1<br />Weight: 3189<br />Gender: Female","B: 3.8<br />Weight: 3893<br />Gender: Female"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(231,41,138,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(231,41,138,1)"}},"hoveron":"points","name":"Female","legendgroup":"Female","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[3.6000000000000001,3.8999999999999999,4.2000000000000002,4.5999999999999996,2.7000000000000002,4.9000000000000004,4.7000000000000002,3.7000000000000002,2.6000000000000001,1.7,4.5999999999999996,3.7999999999999998,1.3999999999999999,2.1000000000000001,2.7999999999999998,4.2999999999999998,4.4000000000000004,2.7999999999999998,1.3,2.7999999999999998,1.5,3.5,0,2.7999999999999998,1.6000000000000001,1.2,4,4.5,4.4000000000000004,2.7999999999999998,2.7000000000000002,4,3.5,2.6000000000000001,0.29999999999999999,2.8999999999999999,2.8999999999999999,3.1000000000000001,3.2999999999999998,2.1000000000000001,4.0999999999999996,3.5,1,2.8999999999999999,4.0999999999999996,2.5,4.4000000000000004,1.3,1.8,1.8],"y":[4000,4500,3375,5500,4103,7498,7212,5719,4028,2726,7057,5821,2198,3229,4327,6531,6747,4300,2010,4341,2340,5362,146,4328,2539,1881,6149,6893,6746,4367,4165,6165,5408,3975,487,4394,4471,4693,5065,3208,6292,5360,1627,4395,6207,3846,6710,2017,2871,2820],"text":["B: 3.6<br />Weight: 4000<br />Gender: Male","B: 3.9<br />Weight: 4500<br />Gender: Male","B: 4.2<br />Weight: 3375<br />Gender: Male","B: 4.6<br />Weight: 5500<br />Gender: Male","B: 2.7<br />Weight: 4103<br />Gender: Male","B: 4.9<br />Weight: 7498<br />Gender: Male","B: 4.7<br />Weight: 7212<br />Gender: Male","B: 3.7<br />Weight: 5719<br />Gender: Male","B: 2.6<br />Weight: 4028<br />Gender: Male","B: 1.7<br />Weight: 2726<br />Gender: Male","B: 4.6<br />Weight: 7057<br />Gender: Male","B: 3.8<br />Weight: 5821<br />Gender: Male","B: 1.4<br />Weight: 2198<br />Gender: Male","B: 2.1<br />Weight: 3229<br />Gender: Male","B: 2.8<br />Weight: 4327<br />Gender: Male","B: 4.3<br />Weight: 6531<br />Gender: Male","B: 4.4<br />Weight: 6747<br />Gender: Male","B: 2.8<br />Weight: 4300<br />Gender: Male","B: 1.3<br />Weight: 2010<br />Gender: Male","B: 2.8<br />Weight: 4341<br />Gender: Male","B: 1.5<br />Weight: 2340<br />Gender: Male","B: 3.5<br />Weight: 5362<br />Gender: Male","B: 0.0<br />Weight:  146<br />Gender: Male","B: 2.8<br />Weight: 4328<br />Gender: Male","B: 1.6<br />Weight: 2539<br />Gender: Male","B: 1.2<br />Weight: 1881<br />Gender: Male","B: 4.0<br />Weight: 6149<br />Gender: Male","B: 4.5<br />Weight: 6893<br />Gender: Male","B: 4.4<br />Weight: 6746<br />Gender: Male","B: 2.8<br />Weight: 4367<br />Gender: Male","B: 2.7<br />Weight: 4165<br />Gender: Male","B: 4.0<br />Weight: 6165<br />Gender: Male","B: 3.5<br />Weight: 5408<br />Gender: Male","B: 2.6<br />Weight: 3975<br />Gender: Male","B: 0.3<br />Weight:  487<br />Gender: Male","B: 2.9<br />Weight: 4394<br />Gender: Male","B: 2.9<br />Weight: 4471<br />Gender: Male","B: 3.1<br />Weight: 4693<br />Gender: Male","B: 3.3<br />Weight: 5065<br />Gender: Male","B: 2.1<br />Weight: 3208<br />Gender: Male","B: 4.1<br />Weight: 6292<br />Gender: Male","B: 3.5<br />Weight: 5360<br />Gender: Male","B: 1.0<br />Weight: 1627<br />Gender: Male","B: 2.9<br />Weight: 4395<br />Gender: Male","B: 4.1<br />Weight: 6207<br />Gender: Male","B: 2.5<br />Weight: 3846<br />Gender: Male","B: 4.4<br />Weight: 6710<br />Gender: Male","B: 1.3<br />Weight: 2017<br />Gender: Male","B: 1.8<br />Weight: 2871<br />Gender: Male","B: 1.8<br />Weight: 2820<br />Gender: Male"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(27,158,119,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(27,158,119,1)"}},"hoveron":"points","name":"Male","legendgroup":"Male","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":40.840182648401829,"r":7.3059360730593621,"b":37.260273972602747,"l":48.949771689497737},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"title":{"text":"Scatterplot of weight(kg) vs B(ft)","font":{"color":"rgba(0,0,0,1)","family":"","size":17.534246575342465},"x":0.5,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.27000000000000002,5.6699999999999999],"tickmode":"array","ticktext":["0","2","4"],"tickvals":[0,2,3.9999999999999996],"categoryorder":"array","categoryarray":["0","2","4"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.6529680365296811,"tickwidth":0.66417600664176002,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716894984},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"B (ft)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-224.20000000000005,7920.1999999999998],"tickmode":"array","ticktext":["0","2000","4000","6000"],"tickvals":[0,1999.9999999999998,4000,6000],"categoryorder":"array","categoryarray":["0","2000","4000","6000"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.6529680365296811,"tickwidth":0.66417600664176002,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716894984},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"Weight (kg)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.8897637795275593,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716894984},"title":{"text":"Gender","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"230c112bb27":{"x":{},"y":{},"colour":{},"type":"scatter"}},"cur_data":"230c112bb27","visdat":{"230c112bb27":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div class="plotly html-widget html-fill-item" id="htmlwidget-cc8efab5db8531d32375" style="width:768px;height:768px;"></div>
+<script type="application/json" data-for="htmlwidget-cc8efab5db8531d32375">{"x":{"data":[{"x":[2.5,4,4.5,3,3.7999999999999998,4.2000000000000002,4,4.7999999999999998,5.0999999999999996,4.7999999999999998,2.1000000000000001,4.2000000000000002,1.7,3.1000000000000001,4.0999999999999996,2,3.2999999999999998,3.2999999999999998,2,6.4000000000000004,2.7000000000000002,2.6000000000000001,2.3999999999999999,3.5,4.4000000000000004,3.2999999999999998,4.5,3.2000000000000002,5.2000000000000002,5.2999999999999998,3.7000000000000002,3.7000000000000002,2.5,3.1000000000000001,3.2999999999999998,3.2000000000000002,2.2000000000000002,3.2999999999999998,5.5999999999999996,4.0999999999999996,5.2000000000000002,4,2.3999999999999999,3.7999999999999998,4.2999999999999998,2.8999999999999999,3.2999999999999998,4.5,3.5,1.6000000000000001],"y":[5000,6000,7000,7550,3922,4265,4149,4946,5161,4951,2154,4341,1756,3246,4178,2100,3391,3366,2102,6531,2782,2658,2457,3617,4512,3402,4562,3296,5339,5365,3757,3774,2550,3168,3392,3316,2333,3410,5740,4165,5297,4093,2508,3914,4423,3028,3441,4552,3621,1672],"text":["B: 2.5<br />Weight: 5000<br />Gender: Female","B: 4.0<br />Weight: 6000<br />Gender: Female","B: 4.5<br />Weight: 7000<br />Gender: Female","B: 3.0<br />Weight: 7550<br />Gender: Female","B: 3.8<br />Weight: 3922<br />Gender: Female","B: 4.2<br />Weight: 4265<br />Gender: Female","B: 4.0<br />Weight: 4149<br />Gender: Female","B: 4.8<br />Weight: 4946<br />Gender: Female","B: 5.1<br />Weight: 5161<br />Gender: Female","B: 4.8<br />Weight: 4951<br />Gender: Female","B: 2.1<br />Weight: 2154<br />Gender: Female","B: 4.2<br />Weight: 4341<br />Gender: Female","B: 1.7<br />Weight: 1756<br />Gender: Female","B: 3.1<br />Weight: 3246<br />Gender: Female","B: 4.1<br />Weight: 4178<br />Gender: Female","B: 2.0<br />Weight: 2100<br />Gender: Female","B: 3.3<br />Weight: 3391<br />Gender: Female","B: 3.3<br />Weight: 3366<br />Gender: Female","B: 2.0<br />Weight: 2102<br />Gender: Female","B: 6.4<br />Weight: 6531<br />Gender: Female","B: 2.7<br />Weight: 2782<br />Gender: Female","B: 2.6<br />Weight: 2658<br />Gender: Female","B: 2.4<br />Weight: 2457<br />Gender: Female","B: 3.5<br />Weight: 3617<br />Gender: Female","B: 4.4<br />Weight: 4512<br />Gender: Female","B: 3.3<br />Weight: 3402<br />Gender: Female","B: 4.5<br />Weight: 4562<br />Gender: Female","B: 3.2<br />Weight: 3296<br />Gender: Female","B: 5.2<br />Weight: 5339<br />Gender: Female","B: 5.3<br />Weight: 5365<br />Gender: Female","B: 3.7<br />Weight: 3757<br />Gender: Female","B: 3.7<br />Weight: 3774<br />Gender: Female","B: 2.5<br />Weight: 2550<br />Gender: Female","B: 3.1<br />Weight: 3168<br />Gender: Female","B: 3.3<br />Weight: 3392<br />Gender: Female","B: 3.2<br />Weight: 3316<br />Gender: Female","B: 2.2<br />Weight: 2333<br />Gender: Female","B: 3.3<br />Weight: 3410<br />Gender: Female","B: 5.6<br />Weight: 5740<br />Gender: Female","B: 4.1<br />Weight: 4165<br />Gender: Female","B: 5.2<br />Weight: 5297<br />Gender: Female","B: 4.0<br />Weight: 4093<br />Gender: Female","B: 2.4<br />Weight: 2508<br />Gender: Female","B: 3.8<br />Weight: 3914<br />Gender: Female","B: 4.3<br />Weight: 4423<br />Gender: Female","B: 2.9<br />Weight: 3028<br />Gender: Female","B: 3.3<br />Weight: 3441<br />Gender: Female","B: 4.5<br />Weight: 4552<br />Gender: Female","B: 3.5<br />Weight: 3621<br />Gender: Female","B: 1.6<br />Weight: 1672<br />Gender: Female"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(231,41,138,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(231,41,138,1)"}},"hoveron":"points","name":"Female","legendgroup":"Female","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[3.6000000000000001,3.8999999999999999,4.2000000000000002,4.5999999999999996,3.1000000000000001,2.5,2,2.7999999999999998,4.9000000000000004,2.2999999999999998,2.1000000000000001,1.1000000000000001,3.3999999999999999,3.7000000000000002,2.3999999999999999,1.3999999999999999,1.3999999999999999,2.6000000000000001,4.7999999999999998,3.8999999999999999,2.3999999999999999,4.7999999999999998,1.3999999999999999,2.3999999999999999,1.8,3.7000000000000002,2.3999999999999999,2.3999999999999999,1.3999999999999999,3.1000000000000001,3.7999999999999998,3.7000000000000002,3.3999999999999999,3.6000000000000001,3.7999999999999998,3.2999999999999998,2.6000000000000001,4.5999999999999996,4.5,3.5,3.7999999999999998,2.7999999999999998,3.2999999999999998,1.8,4.7000000000000002,1.7,2.2000000000000002,3.2000000000000002,1.2,3],"y":[4000,4500,3375,5500,4795,3775,3142,4338,7522,3544,3301,1677,5156,5600,3727,2169,2248,3960,7291,5909,3678,7342,2237,3686,2849,5664,3650,3728,2212,4746,5859,5651,5213,5524,5847,4991,4015,6972,6815,5275,5845,4334,5000,2855,7141,2642,3459,4929,1874,4533],"text":["B: 3.6<br />Weight: 4000<br />Gender: Male","B: 3.9<br />Weight: 4500<br />Gender: Male","B: 4.2<br />Weight: 3375<br />Gender: Male","B: 4.6<br />Weight: 5500<br />Gender: Male","B: 3.1<br />Weight: 4795<br />Gender: Male","B: 2.5<br />Weight: 3775<br />Gender: Male","B: 2.0<br />Weight: 3142<br />Gender: Male","B: 2.8<br />Weight: 4338<br />Gender: Male","B: 4.9<br />Weight: 7522<br />Gender: Male","B: 2.3<br />Weight: 3544<br />Gender: Male","B: 2.1<br />Weight: 3301<br />Gender: Male","B: 1.1<br />Weight: 1677<br />Gender: Male","B: 3.4<br />Weight: 5156<br />Gender: Male","B: 3.7<br />Weight: 5600<br />Gender: Male","B: 2.4<br />Weight: 3727<br />Gender: Male","B: 1.4<br />Weight: 2169<br />Gender: Male","B: 1.4<br />Weight: 2248<br />Gender: Male","B: 2.6<br />Weight: 3960<br />Gender: Male","B: 4.8<br />Weight: 7291<br />Gender: Male","B: 3.9<br />Weight: 5909<br />Gender: Male","B: 2.4<br />Weight: 3678<br />Gender: Male","B: 4.8<br />Weight: 7342<br />Gender: Male","B: 1.4<br />Weight: 2237<br />Gender: Male","B: 2.4<br />Weight: 3686<br />Gender: Male","B: 1.8<br />Weight: 2849<br />Gender: Male","B: 3.7<br />Weight: 5664<br />Gender: Male","B: 2.4<br />Weight: 3650<br />Gender: Male","B: 2.4<br />Weight: 3728<br />Gender: Male","B: 1.4<br />Weight: 2212<br />Gender: Male","B: 3.1<br />Weight: 4746<br />Gender: Male","B: 3.8<br />Weight: 5859<br />Gender: Male","B: 3.7<br />Weight: 5651<br />Gender: Male","B: 3.4<br />Weight: 5213<br />Gender: Male","B: 3.6<br />Weight: 5524<br />Gender: Male","B: 3.8<br />Weight: 5847<br />Gender: Male","B: 3.3<br />Weight: 4991<br />Gender: Male","B: 2.6<br />Weight: 4015<br />Gender: Male","B: 4.6<br />Weight: 6972<br />Gender: Male","B: 4.5<br />Weight: 6815<br />Gender: Male","B: 3.5<br />Weight: 5275<br />Gender: Male","B: 3.8<br />Weight: 5845<br />Gender: Male","B: 2.8<br />Weight: 4334<br />Gender: Male","B: 3.3<br />Weight: 5000<br />Gender: Male","B: 1.8<br />Weight: 2855<br />Gender: Male","B: 4.7<br />Weight: 7141<br />Gender: Male","B: 1.7<br />Weight: 2642<br />Gender: Male","B: 2.2<br />Weight: 3459<br />Gender: Male","B: 3.2<br />Weight: 4929<br />Gender: Male","B: 1.2<br />Weight: 1874<br />Gender: Male","B: 3.0<br />Weight: 4533<br />Gender: Male"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(27,158,119,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(27,158,119,1)"}},"hoveron":"points","name":"Male","legendgroup":"Male","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":40.840182648401829,"r":7.3059360730593621,"b":37.260273972602747,"l":48.949771689497737},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"title":{"text":"Scatterplot of weight(kg) vs B(ft)","font":{"color":"rgba(0,0,0,1)","family":"","size":17.534246575342465},"x":0.5,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.83499999999999996,6.665],"tickmode":"array","ticktext":["2","4","6"],"tickvals":[2,4,6],"categoryorder":"array","categoryarray":["2","4","6"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.6529680365296811,"tickwidth":0.66417600664176002,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716894984},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"B (ft)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[1378.0999999999999,7843.8999999999996],"tickmode":"array","ticktext":["2000","4000","6000"],"tickvals":[2000,4000,6000],"categoryorder":"array","categoryarray":["2000","4000","6000"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.6529680365296811,"tickwidth":0.66417600664176002,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716894984},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"Weight (kg)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.8897637795275593,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716894984},"title":{"text":"Gender","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"46987efe2380":{"x":{},"y":{},"colour":{},"type":"scatter"}},"cur_data":"46987efe2380","visdat":{"46987efe2380":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -2547,6 +2437,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <h2>Summary measures</h2>
 <div class="cell">
 <div class="cell-output-display">
+<div>
 <table class="table" data-quarto-postprocess="true" style="font-size: 40px; margin-left: auto; margin-right: auto;">
 <thead>
 <tr class="header">
@@ -2563,47 +2454,47 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <td style="text-align: left;"></td>
 <td style="text-align: left;">Female:50</td>
 <td style="text-align: left;">Min. : 70.00</td>
-<td style="text-align: left;">Min. :0.000</td>
 <td style="text-align: left;">Min. :1.100</td>
-<td style="text-align: left;">Min. : 146</td>
+<td style="text-align: left;">Min. :0.900</td>
+<td style="text-align: left;">Min. :1672</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"></td>
 <td style="text-align: left;">Male :50</td>
-<td style="text-align: left;">1st Qu.: 99.47</td>
-<td style="text-align: left;">1st Qu.:2.775</td>
-<td style="text-align: left;">1st Qu.:3.000</td>
-<td style="text-align: left;">1st Qu.:3194</td>
+<td style="text-align: left;">1st Qu.: 99.50</td>
+<td style="text-align: left;">1st Qu.:2.400</td>
+<td style="text-align: left;">1st Qu.:2.850</td>
+<td style="text-align: left;">1st Qu.:3300</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"></td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: left;">Median :100.15</td>
-<td style="text-align: left;">Median :3.250</td>
-<td style="text-align: left;">Median :3.550</td>
-<td style="text-align: left;">Median :4152</td>
+<td style="text-align: left;">Median :100.10</td>
+<td style="text-align: left;">Median :3.300</td>
+<td style="text-align: left;">Median :3.400</td>
+<td style="text-align: left;">Median :4008</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"></td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: left;">Mean : 99.36</td>
-<td style="text-align: left;">Mean :3.279</td>
-<td style="text-align: left;">Mean :3.558</td>
-<td style="text-align: left;">Mean :4164</td>
+<td style="text-align: left;">Mean : 99.41</td>
+<td style="text-align: left;">Mean :3.312</td>
+<td style="text-align: left;">Mean :3.513</td>
+<td style="text-align: left;">Mean :4203</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"></td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: left;">3rd Qu.:100.80</td>
-<td style="text-align: left;">3rd Qu.:4.125</td>
+<td style="text-align: left;">3rd Qu.:100.83</td>
 <td style="text-align: left;">3rd Qu.:4.025</td>
-<td style="text-align: left;">3rd Qu.:5016</td>
+<td style="text-align: left;">3rd Qu.:4.225</td>
+<td style="text-align: left;">3rd Qu.:5174</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"></td>
 <td style="text-align: left;">NA</td>
 <td style="text-align: left;">Max. :110.00</td>
-<td style="text-align: left;">Max. :5.400</td>
+<td style="text-align: left;">Max. :6.400</td>
 <td style="text-align: left;">Max. :6.300</td>
 <td style="text-align: left;">Max. :7550</td>
 </tr>
@@ -2611,6 +2502,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 </table>
 
 
+</div>
 </div>
 </div>
 </section>
@@ -2626,8 +2518,8 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 
 </section></section>
 <section>
-<section id="the-science-of-collecting-analyzing-presenting-and-interpreting-data.-4" class="title-slide slide level1 center">
-<h1>The science of <span style="color:blue;">collecting</span>, <span style="color:blue;">analyzing</span>, <span style="color:red;">presenting, and interpreting</span> <span style="color:blue;">data</span>.</h1>
+<section id="the-science-of-collecting-analyzing-organizing-presenting-and-interpreting-data." class="title-slide slide level1 center">
+<h1>The science of <span style="color:blue;">collecting</span>, <span style="color:blue;">analyzing</span>, organizing, <span style="color:red;">presenting, and interpreting</span> <span style="color:blue;">data</span>.</h1>
 
 </section>
 <section id="presenting-data-example" class="slide level2">
@@ -2639,7 +2531,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 
 </section></section>
 <section>
-<section id="the-science-of-collecting-analyzing-presenting-and-interpreting-data.-5" class="title-slide slide level1 center">
+<section id="the-science-of-collecting-analyzing-presenting-and-interpreting-data.-3" class="title-slide slide level1 center">
 <h1>The <span style="color:red;">science</span> of <span style="color:blue;">collecting</span>, <span style="color:blue;">analyzing</span>, <span style="color:blue;">presenting, and interpreting</span> <span style="color:blue;">data</span>.</h1>
 
 </section>
@@ -2685,7 +2577,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_fc5054bd" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_fffe5ebd" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -2818,8 +2710,10 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <p>#Learn to Travel. Travel to Learn.</p>
 </blockquote>
 
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
 </div>
 </section></section>
     </div>
@@ -2848,7 +2742,6 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -3034,42 +2927,80 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
       });
     </script>
     
+
     <script>
+
       // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
       // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
       // slide changes (different for each slide format).
+
       (function () {
+
         // dispatch for htmlwidgets
+
         function fireSlideEnter() {
+
           const event = window.document.createEvent("Event");
+
           event.initEvent("slideenter", true, true);
+
           window.document.dispatchEvent(event);
+
         }
+
+    
 
         function fireSlideChanged(previousSlide, currentSlide) {
+
           fireSlideEnter();
 
+    
+
           // dispatch for shiny
+
           if (window.jQuery) {
+
             if (previousSlide) {
+
               window.jQuery(previousSlide).trigger("hidden");
+
             }
+
             if (currentSlide) {
+
               window.jQuery(currentSlide).trigger("shown");
+
             }
+
           }
+
         }
+
+    
 
         // hookup for slidy
+
         if (window.w3c_slidy) {
+
           window.w3c_slidy.add_observer(function (slide_num) {
+
             // slide_num starts at position 1
+
             fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
           });
+
         }
 
+    
+
       })();
+
     </script>
+
+    
 
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -3147,10 +3078,27 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp("https:\/\/thiyangt\.github\.io\/descriptivestatisticsweb\/");
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -3160,8 +3108,17 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -3175,7 +3132,11 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
