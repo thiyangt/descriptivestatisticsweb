@@ -84,6 +84,7 @@ knitr::include_graphics("ip7.png")
 
 A numerical summary of a sample.
 
+<!--A numerical value summarizing the sample data.-->
 
 ```{r, out.height="120%"}
 knitr::include_graphics("ip8.png")
@@ -157,3 +158,130 @@ knitr::include_graphics("ip11.png")
 
 ::::
 ## Census vs Sample Survey
+
+
+
+
+## Notations
+
+[Parameters]{style="color:red;"} are usually denoted by Greek letters
+
+Example:
+
+$\mu - \text{population mean}$
+
+$\sigma - \text{population variance}$
+
+[Statistics]{style="color:blue;"} are denoted by English letters (Capital or Simple? You will learn more of this in your "Statistical Inference" course)
+
+Eample:
+
+$\bar{X} - \text{sample mean}$
+
+$S^2 - \text{sample variance}$
+
+## Inclass demo
+
+- The value of the population parameter does not change.
+
+- Sample statistics vary from sample to sample. 
+
+---
+
+```{r, out.height="120%"}
+knitr::include_graphics("ip2.png")
+```
+
+---
+
+```{r, out.height="120%"}
+knitr::include_graphics("s1.png")
+```
+
+---
+
+```{r, out.height="120%"}
+knitr::include_graphics("s3.png")
+```
+
+---
+
+```{r, out.height="120%"}
+knitr::include_graphics("s2.png")
+```
+
+## Your turn: Question 1
+
+A researcher is studying the biodiversity of Beira Lake. To estimate the proportion of species counts, he took a bucket of water (1L) from the lake and counted how many species of bacteria, bugs, and other creepy crawlies he found in the bucket.
+
+Identify the following terms related to this study:
+
+i. Population
+
+ii. Sample
+
+iii. Parameter
+
+iv. Statistics
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(countdown)
+countdown(minutes = 6, seconds = 00)
+```
+
+## Your turn: Question 2
+
+A researcher wants to estimate the failure rate of hard disk drives (HDDs) produced by a computer manufacturing company. The researcher randomly selects 100 HDDs from a recent production batch and examines them for signs of malfunction or failure.
+
+Identify the following terms related to this study:
+
+i. Population
+
+ii. Sample
+
+iii. Parameter
+
+iv. Statistics
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(countdown)
+countdown(minutes = 5, seconds = 00)
+```
+
+## Your turn: Question 3
+
+The lecturer-in-charge is interested in estimating the proportion of students who actively listen to lectures during online Zoom sessions. She randomly selected 50 students and asked questions related to the content covered during the lecture.
+
+Identify the following terms related to this study:
+
+i. Population
+
+ii. Sample
+
+iii. Parameter
+
+iv. Statistics
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(countdown)
+countdown(minutes = 5, seconds = 00)
+```
+
+## Your turn: Question 4
+
+A researcher is interested in estimating the mean  monthly expenditure of government university students on educational expenses per semester. The researcher randomly selects 100 government university students and asks them to report their total expenditure for the last month and compute sample mean.
+
+Identify the following terms related to this study:
+
+i. Population
+
+ii. Sample
+
+iii. Parameter
+
+iv. Statistics
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(countdown)
+countdown(minutes = 5, seconds = 00)
+```
