@@ -39,3 +39,5 @@ Here’s your roadmap for the semester!
 ### Week 2: May 15, 2024
 
 **Slides 2:** [Basic Terminologies and Concepts in Statistics](./week2/index.html)
+
+**Task:** Fill out the survey questionnaire available on the LMS.

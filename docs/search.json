@@ -186,7 +186,7 @@
     "href": "week1/index.html#summary-measures",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.0\nMin. :1.000\nMin. :0.500\nMin. :1382\n\n\n\nMale :50\n1st Qu.: 99.3\n1st Qu.:2.600\n1st Qu.:3.200\n1st Qu.:3093\n\n\n\nNA\nMedian :100.0\nMedian :3.250\nMedian :3.650\nMedian :4042\n\n\n\nNA\nMean : 99.2\nMean :3.231\nMean :3.632\nMean :4115\n\n\n\nNA\n3rd Qu.:100.5\n3rd Qu.:3.900\n3rd Qu.:4.400\n3rd Qu.:4908\n\n\n\nNA\nMax. :110.0\nMax. :5.500\nMax. :6.300\nMax. :8137"
+    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.200\nMin. :1.200\nMin. :1900\n\n\n\nMale :50\n1st Qu.: 98.97\n1st Qu.:2.900\n1st Qu.:2.875\n1st Qu.:3578\n\n\n\nNA\nMedian :100.00\nMedian :3.400\nMedian :3.700\nMedian :4462\n\n\n\nNA\nMean : 99.26\nMean :3.499\nMean :3.656\nMean :4468\n\n\n\nNA\n3rd Qu.:100.70\n3rd Qu.:4.025\n3rd Qu.:4.425\n3rd Qu.:5176\n\n\n\nNA\nMax. :110.00\nMax. :5.700\nMax. :6.300\nMax. :7828"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",
@@ -235,7 +235,7 @@
     "href": "index.html#weekly-schedule",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Weekly schedule",
-    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics"
+    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics\nTask: Fill out the survey questionnaire available on the LMS."
   },
   {
     "objectID": "week0/index.html#how-to-calculate-gpa",
