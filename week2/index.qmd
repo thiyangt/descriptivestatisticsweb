@@ -250,7 +250,7 @@ countdown(minutes = 5, seconds = 00)
 
 ## Your turn: Question 3
 
-The lecturer-in-charge is interested in estimating the proportion of students who actively listen to lectures during online Zoom sessions. She randomly selected 50 students and asked questions related to the content covered during the lecture.
+The lecturer-in-charge is interested in estimating the proportion of students who actively listened to the lecture during today's online Zoom sessions. She randomly selected 50 students and asked questions related to the content covered during the lecture.
 
 Identify the following terms related to this study:
 
@@ -269,7 +269,7 @@ countdown(minutes = 5, seconds = 00)
 
 ## Your turn: Question 4
 
-A researcher is interested in estimating the mean  monthly expenditure of government university students on educational expenses per semester. The researcher randomly selects 100 government university students and asks them to report their total expenditure for the last month and compute sample mean.
+A researcher is interested in estimating the mean  monthly expenditure of government university students on educational expenses. The researcher randomly selects 100 government university students and asks them to report their total educational expenditure for the last month. Based on the observed values, the researcher computed the sample mean.
 
 Identify the following terms related to this study:
 
