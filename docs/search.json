@@ -186,7 +186,7 @@
     "href": "week1/index.html#summary-measures",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.300\nMin. :1.300\nMin. : 586\n\n\n\nMale :50\n1st Qu.: 99.10\n1st Qu.:2.500\n1st Qu.:2.775\n1st Qu.:3174\n\n\n\nNA\nMedian : 99.90\nMedian :3.200\nMedian :3.350\nMedian :3950\n\n\n\nNA\nMean : 99.21\nMean :3.208\nMean :3.446\nMean :4091\n\n\n\nNA\n3rd Qu.:100.70\n3rd Qu.:3.900\n3rd Qu.:4.200\n3rd Qu.:4984\n\n\n\nNA\nMax. :110.00\nMax. :5.300\nMax. :6.300\nMax. :7550"
+    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.200\nMin. :0.700\nMin. : 1837\n\n\n\nMale :50\n1st Qu.: 99.20\n1st Qu.:2.800\n1st Qu.:2.775\n1st Qu.: 3602\n\n\n\nNA\nMedian : 99.80\nMedian :3.450\nMedian :3.600\nMedian : 4320\n\n\n\nNA\nMean : 99.14\nMean :3.526\nMean :3.435\nMean : 4487\n\n\n\nNA\n3rd Qu.:100.42\n3rd Qu.:4.200\n3rd Qu.:4.000\n3rd Qu.: 5099\n\n\n\nNA\nMax. :110.00\nMax. :6.700\nMax. :6.400\nMax. :10113"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",
@@ -215,6 +215,13 @@
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Policies and regulations",
     "text": "Policies and regulations\nTo access important information regarding the unit STA 113 2.0 Descriptive Statistics, please go to the course Learning Management System (LMS) page. Click here to go directly to the LMS. You must carefully read the “Course Information and Logistic” slide set for essential details. It is your responsibility to be aware of important details by thoroughly reviewing the “Course Information and Logistic” slides."
+  },
+  {
+    "objectID": "index.html#google-classroom",
+    "href": "index.html#google-classroom",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Google Classroom",
+    "text": "Google Classroom\nI also opened a Google Classroom as a backup strategy in case the LMS failed. Kindly ensure that you join it. The password is available on LMS under announcements."
   },
   {
     "objectID": "index.html#course-outline",
