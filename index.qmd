@@ -22,7 +22,7 @@ Available on [**LMS**](https://lms.fas.sjp.ac.lk/enrol/index.php?id=3646)
 
 Here’s your roadmap for the semester!
 
-### Week 1: April 24, 2023
+### Week 1: April 24, 2024
 
 **Slides 1.1:** [Course Information and Logistics](./week0/index.html)
 
@@ -31,3 +31,7 @@ Here’s your roadmap for the semester!
 **Reading 1.1:** [American Statistical Association (ASA) Statement on The Role of Statistics in Data Science ...](https://www.amstat.org/docs/default-source/amstat-documents/the-role-of-statistics-in-data-science-and-artificial-intelligence.pdf)
 
 **Exercise:** Find history of statistics.
+
+### Week 2: May 15, 2024
+
+**Slides 2:** [Basic Terminologies and Concepts in Statistics](./week2/index.html)

@@ -200,35 +200,35 @@
     "href": "week2/index.html#example",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Example",
-    "text": "Example\n\nPopulation\n\nwe’re interested in studying the average height of all adults in a country, the population would be all adult residents of that country."
+    "text": "Example\n\nPopulation\n\nWe’re interested in studying the average height of all adults in a country, the population is all adult residents of that country."
   },
   {
     "objectID": "week2/index.html#example-1",
     "href": "week2/index.html#example-1",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Example",
-    "text": "Example\n\nPopulation\n\nwe’re interested in studying the average height of all adults in a country, the population would be all adult residents of that country.\n\nUnit\n\nIn our example of studying adult height, each adult residing in the country would be a unit."
+    "text": "Example\n\nPopulation\n\nWe’re interested in studying the average height of all adults in a country, the population is all adult residents of that country.\n\nUnit\n\nIn our example of studying adult height, each adult residing in the country would be a unit."
   },
   {
     "objectID": "week2/index.html#sample",
     "href": "week2/index.html#sample",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Sample",
-    "text": "Sample\nA subset of units in a population"
+    "text": "Sample\nA subset of units in a population."
   },
   {
     "objectID": "week2/index.html#sample-1",
     "href": "week2/index.html#sample-1",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Sample",
-    "text": "Sample\nA subset of units in a population"
+    "text": "Sample\nA subset of units in a population."
   },
   {
     "objectID": "week2/index.html#sampling",
     "href": "week2/index.html#sampling",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Sampling",
-    "text": "Sampling\nSampling is the process of selecting a subset of individuals or items from a population"
+    "text": "Sampling\nSampling is the process of selecting a subset of individuals or items from a population."
   },
   {
     "objectID": "week2/index.html#statistics",
@@ -277,21 +277,21 @@
     "href": "week2/index.html#census-vs-sample-survey",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Census vs Sample Survey",
-    "text": "Census vs Sample Survey"
+    "text": "Census vs Sample Survey\nA census involves collecting information from every individual or unit within the entire population of interest.\nA survey involves collecting information from a subset (sample) of the population to estimate characteristics of the entire population."
   },
   {
     "objectID": "week2/index.html#two-branches-of-statistics-1",
     "href": "week2/index.html#two-branches-of-statistics-1",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Two Branches of Statistics",
-    "text": "Two Branches of Statistics\n\n\n1. Descriptive Statistics\n\n2. Inferential Statistics"
+    "text": "Two Branches of Statistics\n\n\n1. Descriptive Statistics\nDescribe and summarize the collected data through numerical summaries, tables, and graphs.\n\n2. Inferential Statistics"
   },
   {
     "objectID": "week2/index.html#two-branches-of-statistics-2",
     "href": "week2/index.html#two-branches-of-statistics-2",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Two Branches of Statistics",
-    "text": "Two Branches of Statistics\n\n\n1. Descriptive Statistics\n\n2. Inferential Statistics"
+    "text": "Two Branches of Statistics\n\n\n1. Descriptive Statistics\nDescribe and summarize the collected data through numerical summaries, tables, and graphs.\n\n2. Inferential Statistics\nStatistical inference refers to the methods used to make estimations, decisions, or predictions about a population parameters based on the statistics computed from a sample that was selected from that population."
   },
   {
     "objectID": "week2/index.html#inclass-demo",
@@ -333,7 +333,7 @@
     "href": "week2/index.html#your-turn-question-3",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Your turn: Question 3",
-    "text": "Your turn: Question 3\nThe lecturer-in-charge is interested in estimating the proportion of students who actively listened to the lecture during today’s online Zoom sessions. She randomly selected 50 students and asked questions related to the content covered during the lecture.\nIdentify the following terms related to this study:\n\nPopulation\nSample\nParameter\nStatistics\n\n\n\n\n−+\n05:00"
+    "text": "Your turn: Question 3\nThe lecturer-in-charge is interested in estimating the proportion of students who actively listened to the lecture during today’s online Zoom sessions. She randomly selects 50 students and asks questions related to the content covered during the lecture.\nIdentify the following terms related to this study:\n\nPopulation\nSample\nParameter\nStatistics\n\n\n\n\n−+\n05:00"
   },
   {
     "objectID": "week2/index.html#your-turn-question-4",
@@ -341,5 +341,33 @@
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Your turn: Question 4",
     "text": "Your turn: Question 4\nA researcher is interested in estimating the mean monthly expenditure of government university students on educational expenses. The researcher randomly selects 100 government university students and asks them to report their total educational expenditure for the last month. Based on the observed values, the researcher computed the sample mean.\nIdentify the following terms related to this study:\n\nPopulation\nSample\nParameter\nStatistics\n\n\n\n\n−+\n05:00"
+  },
+  {
+    "objectID": "week2/index.html#your-turn-question-5",
+    "href": "week2/index.html#your-turn-question-5",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Your turn: Question 5",
+    "text": "Your turn: Question 5\nThe government wants to assess the willingness of all government officers earning a salary of Rs 100,000 to purchase electric vehicles. The government has posted a questionnaire to every government officers earning this salary. Identify whether this process is a census or a survey. Provide a justification for your answer.\n\n\n\n−+\n04:00"
+  },
+  {
+    "objectID": "week2/index.html#your-turn-question-6",
+    "href": "week2/index.html#your-turn-question-6",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Your turn: Question 6",
+    "text": "Your turn: Question 6\nThe government wants to assess the willingness of government officers earning a salary greater than Rs 100,000 to purchase electric vehicles. They have posted a questionnaire to a sample of government offices where officers earn salaries above this threshold. Identify whether this process is a census or a survey. Provide a justification for your answer.\n\n\n\n−+\n04:00"
+  },
+  {
+    "objectID": "week2/index.html#in-class-demo",
+    "href": "week2/index.html#in-class-demo",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "In-class demo",
+    "text": "In-class demo\nAbout the data\nData were collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network.\n\n\n# A tibble: 344 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750\n 2 Adelie  Torgersen           39.5          17.4               186        3800\n 3 Adelie  Torgersen           40.3          18                 195        3250\n 4 Adelie  Torgersen           NA            NA                  NA          NA\n 5 Adelie  Torgersen           36.7          19.3               193        3450\n 6 Adelie  Torgersen           39.3          20.6               190        3650\n 7 Adelie  Torgersen           38.9          17.8               181        3625\n 8 Adelie  Torgersen           39.2          19.6               195        4675\n 9 Adelie  Torgersen           34.1          18.1               193        3475\n10 Adelie  Torgersen           42            20.2               190        4250\n# ℹ 334 more rows\n# ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;"
+  },
+  {
+    "objectID": "week2/index.html#copyright",
+    "href": "week2/index.html#copyright",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Copyright",
+    "text": "Copyright\nUp until slide 13 and slides 23-26, every image has been authored by Dr Thiyanga S. Talagala. Hence, all images up to slide 14 and 23-26 are copyrighted by Thiyanga S. Talagala."
   }
 ]

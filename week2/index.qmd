@@ -1,6 +1,6 @@
 ---
 title: "STA 113 2.0 Descriptive Statistics"
-subtitle: "Basic Terminologies in Statistics"
+subtitle: "Basic Terminologies and Concepts in Statistics"
 author: "Dr. Thiyanga S. Talagala <br/>  Department of Statistics, Faculty of Applied Sciences <br/> University of Sri Jayewardenepura, Sri Lanka"
 format:
   revealjs:
@@ -16,9 +16,10 @@ format:
       data-background-color: "#081d58"
       data-background-image: none
 ---
+
 ### Population
 
-The population is the [complete collection]{style="color:red;"} of individuals or objects that are of interest.
+The [complete collection]{style="color:red;"} of individuals or objects that are of interest.
 
 ```{r, out.height="120%"}
 knitr::include_graphics("ip2.png")
@@ -26,9 +27,9 @@ knitr::include_graphics("ip2.png")
 
 ## Example
 
-1. Population
+1.  Population
 
-we're interested in studying the average height of [all adults in a country]{style="color:blue;"}, the population would be all adult residents of that country.
+We're interested in studying the average height of [all adults in a country]{style="color:blue;"}, the population is all adult residents of that country.
 
 ## Unit
 
@@ -48,25 +49,25 @@ knitr::include_graphics("ip4.png")
 
 ## Example
 
-1. Population
+1.  Population
 
-we're interested in studying the average height of [all adults in a country]{style="color:blue;"}, the population would be all adult residents of that country.
+We're interested in studying the average height of [all adults in a country]{style="color:blue;"}, the population is all adult residents of that country.
 
-2. Unit
+2.  Unit
 
 In our example of studying adult height, [each adult residing]{style="color:blue;"} in the country would be a unit.
 
-## Sample 
+## Sample
 
-A subset of units in a population
+A subset of units in a population.
 
 ```{r, out.height="120%"}
 knitr::include_graphics("ip5.png")
 ```
 
-## Sample 
+## Sample
 
-A subset of units in a population
+A subset of units in a population.
 
 ```{r, out.height="120%"}
 knitr::include_graphics("ip6.png")
@@ -74,7 +75,7 @@ knitr::include_graphics("ip6.png")
 
 ## Sampling
 
-Sampling is the [process]{style="color:red;"} of selecting a subset of individuals or items from a population
+Sampling is the [process]{style="color:red;"} of selecting a subset of individuals or items from a population.
 
 ```{r, out.height="120%"}
 knitr::include_graphics("ip7.png")
@@ -112,55 +113,88 @@ knitr::include_graphics("ip11.png")
 
 ## Two Branches of Statistics
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 ### 1. Descriptive Statistics
+
+
 :::
-
-
 
 ::: {.column width="50%"}
 ### 2. Inferential Statistics
-:::
 
-::::
+
+:::
+:::
 
 ## Two Branches of Statistics
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 ### 1. Descriptive Statistics
+
+Describe and summarize the collected data through
+numerical summaries, tables, and graphs.
 :::
-
-
 
 ::: {.column width="50%"}
 ### 2. Inferential Statistics
-:::
 
-::::
+
+
+
+
+:::
+:::
 
 ## Two Branches of Statistics
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 ### 1. Descriptive Statistics
+
+
+Describe and summarize the collected data through
+numerical summaries, tables, and graphs.
 :::
-
-
 
 ::: {.column width="50%"}
 ### 2. Inferential Statistics
+
+Statistical inference refers to the methods used to make estimations, decisions, or predictions about a population parameters based on the statistics computed from a sample that was selected from that population.
+:::
 :::
 
-::::
-## Census vs Sample Survey
+## In-class demo
+
+**About the data**
+
+Data were collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network.
+
+```{r}
+library(palmerpenguins)
+data(penguins)
+penguins
+```
+
+#
 
 
+```{r}
+knitr::include_graphics("culmen_depth.png")
+```
 
+Source: https://allisonhorst.github.io/palmerpenguins/
+
+#
+
+> ## Census 
+
+A [census]{style="color:red;"}  involves collecting information from every individual or unit within the entire population of interest.
+
+> ## Sample Survey
+
+A [survey]{style="color:red;"} involves collecting information from a subset (sample) of the population to estimate characteristics of the entire population.
 
 ## Notations
 
@@ -182,29 +216,29 @@ $S^2 - \text{sample variance}$
 
 ## Inclass demo
 
-- The value of the population parameter does not change.
+-   The value of the population parameter does not change.
 
-- Sample statistics vary from sample to sample. 
+-   Sample statistics vary from sample to sample.
 
----
+------------------------------------------------------------------------
 
 ```{r, out.height="120%"}
 knitr::include_graphics("ip2.png")
 ```
 
----
+------------------------------------------------------------------------
 
 ```{r, out.height="120%"}
 knitr::include_graphics("s1.png")
 ```
 
----
+------------------------------------------------------------------------
 
 ```{r, out.height="120%"}
 knitr::include_graphics("s3.png")
 ```
 
----
+------------------------------------------------------------------------
 
 ```{r, out.height="120%"}
 knitr::include_graphics("s2.png")
@@ -216,7 +250,7 @@ A researcher is studying the biodiversity of Beira Lake. To estimate the proport
 
 Identify the following terms related to this study:
 
-i. Population
+i.  Population
 
 ii. Sample
 
@@ -235,7 +269,7 @@ A researcher wants to estimate the failure rate of hard disk drives (HDDs) produ
 
 Identify the following terms related to this study:
 
-i. Population
+i.  Population
 
 ii. Sample
 
@@ -250,11 +284,11 @@ countdown(minutes = 5, seconds = 00)
 
 ## Your turn: Question 3
 
-The lecturer-in-charge is interested in estimating the proportion of students who actively listened to the lecture during today's online Zoom sessions. She randomly selected 50 students and asked questions related to the content covered during the lecture.
+The lecturer-in-charge is interested in estimating the proportion of students who actively listened to the lecture during today's online Zoom sessions. She randomly selects 50 students and asks questions related to the content covered during the lecture.
 
 Identify the following terms related to this study:
 
-i. Population
+i.  Population
 
 ii. Sample
 
@@ -269,11 +303,11 @@ countdown(minutes = 5, seconds = 00)
 
 ## Your turn: Question 4
 
-A researcher is interested in estimating the mean  monthly expenditure of government university students on educational expenses. The researcher randomly selects 100 government university students and asks them to report their total educational expenditure for the last month. Based on the observed values, the researcher computed the sample mean.
+A researcher is interested in estimating the mean monthly expenditure of government university students on educational expenses. The researcher randomly selects 100 government university students and asks them to report their total educational expenditure for the last month. Based on the observed values, the researcher computed the sample mean.
 
 Identify the following terms related to this study:
 
-i. Population
+i.  Population
 
 ii. Sample
 
@@ -285,3 +319,32 @@ iv. Statistics
 library(countdown)
 countdown(minutes = 5, seconds = 00)
 ```
+
+
+## Your turn: Question 5
+
+
+The government wants to assess the willingness of all government officers earning a salary of Rs 100,000 to purchase electric vehicles. The government has posted a questionnaire to every government officers earning this salary. Identify whether this process is a census or a survey. Provide a justification for your answer.
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(countdown)
+countdown(minutes = 4, seconds = 00)
+```
+
+## Your turn: Question 6
+
+The government wants to assess the willingness of government officers earning a salary greater than Rs 100,000 to purchase electric vehicles. They have posted a questionnaire to a sample of government offices where officers earn salaries above this threshold. Identify whether this process is a census or a survey. Provide a justification for your answer.
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(countdown)
+countdown(minutes = 4, seconds = 00)
+```
+
+## Copyright
+
+Up until slide 13 and slides 23-26, every image has been authored by Dr Thiyanga S. Talagala. Hence, all images up to slide 14 and 23-26 are copyrighted by Thiyanga S. Talagala.
+
+
+
+
+
