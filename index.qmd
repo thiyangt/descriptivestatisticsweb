@@ -44,4 +44,4 @@ Here’s your roadmap for the semester!
 
 ### Week 3: May 22, 2024
 
-**Slides 3:** [Data Collection]((./Week3/index.html))
+**Slides 3:** [Data Collection](./Week3/index.html)
