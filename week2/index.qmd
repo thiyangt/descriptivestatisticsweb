@@ -167,11 +167,28 @@ penguins
 
 # 
 
+:::: {.columns}
+
+::: {.column width="50%"}
+
 ```{r}
 knitr::include_graphics("culmen_depth.png")
 ```
 
 Source: https://allisonhorst.github.io/palmerpenguins/
+:::
+
+::: {.column width="50%"}
+
+```{r}
+knitr::include_graphics("gorman-penguins.jpg")
+```
+
+source: https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/
+:::
+::::
+
+
 
 # 
 
