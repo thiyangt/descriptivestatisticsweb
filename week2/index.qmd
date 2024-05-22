@@ -116,14 +116,10 @@ knitr::include_graphics("ip11.png")
 ::: columns
 ::: {.column width="50%"}
 ### 1. Descriptive Statistics
-
-
 :::
 
 ::: {.column width="50%"}
 ### 2. Inferential Statistics
-
-
 :::
 :::
 
@@ -133,17 +129,11 @@ knitr::include_graphics("ip11.png")
 ::: {.column width="50%"}
 ### 1. Descriptive Statistics
 
-Describe and summarize the collected data through
-numerical summaries, tables, and graphs.
+Describe and summarize the collected data through numerical summaries, tables, and graphs.
 :::
 
 ::: {.column width="50%"}
 ### 2. Inferential Statistics
-
-
-
-
-
 :::
 :::
 
@@ -153,9 +143,7 @@ numerical summaries, tables, and graphs.
 ::: {.column width="50%"}
 ### 1. Descriptive Statistics
 
-
-Describe and summarize the collected data through
-numerical summaries, tables, and graphs.
+Describe and summarize the collected data through numerical summaries, tables, and graphs.
 :::
 
 ::: {.column width="50%"}
@@ -177,8 +165,7 @@ data(penguins)
 penguins
 ```
 
-#
-
+# 
 
 ```{r}
 knitr::include_graphics("culmen_depth.png")
@@ -186,11 +173,11 @@ knitr::include_graphics("culmen_depth.png")
 
 Source: https://allisonhorst.github.io/palmerpenguins/
 
-#
+# 
 
-> ## Census 
+> ## Census
 
-A [census]{style="color:red;"}  involves collecting information from every individual or unit within the entire population of interest.
+A [census]{style="color:red;"} involves collecting information from every individual or unit within the entire population of interest.
 
 > ## Sample Survey
 
@@ -320,9 +307,7 @@ library(countdown)
 countdown(minutes = 5, seconds = 00)
 ```
 
-
 ## Your turn: Question 5
-
 
 The government wants to assess the willingness of all government officers earning a salary of Rs 100,000 to purchase electric vehicles. The government has posted a questionnaire to every government officers earning this salary. Identify whether this process is a census or a survey. Provide a justification for your answer.
 
@@ -343,8 +328,3 @@ countdown(minutes = 4, seconds = 00)
 ## Copyright
 
 Up until slide 13 and slides 23-26, every image has been authored by Dr Thiyanga S. Talagala. Hence, all images up to slide 14 and 23-26 are copyrighted by Thiyanga S. Talagala.
-
-
-
-
-

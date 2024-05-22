@@ -1,5 +1,327 @@
 [
   {
+    "objectID": "Week3/index.html#primary-data",
+    "href": "Week3/index.html#primary-data",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Primary Data",
+    "text": "Primary Data\n\nPrimary data refers to information collected directly by the researcher.\nThis data is gathered specifically to address the researcher’s current problem or objective, tailored to meet the specific requirements of a particular study."
+  },
+  {
+    "objectID": "Week3/index.html#secondary-data",
+    "href": "Week3/index.html#secondary-data",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Secondary Data",
+    "text": "Secondary Data\n\nSecondary data refers to information that has already been collected, compiled, and published by others for purposes different from the researcher’s current study."
+  },
+  {
+    "objectID": "Week3/index.html#methods-of-collecting-primary-data",
+    "href": "Week3/index.html#methods-of-collecting-primary-data",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Methods of collecting primary data",
+    "text": "Methods of collecting primary data\n\n\n\nsurveys\ninterviews\nobservational studies\nexperimental studies\ncase studies\ncontent analysis\nethnography\n\n\n\nsurveillance\nfocus groups\nanalyse social media content"
+  },
+  {
+    "objectID": "Week3/index.html#methods-of-collecting-secondary-data",
+    "href": "Week3/index.html#methods-of-collecting-secondary-data",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Methods of collecting secondary data",
+    "text": "Methods of collecting secondary data\n\nOnline databases: These databases can be categorized into two main types based on their accessibility: commercial and open-access.\n\n\nEx: Department of Census and Statistics website: http://www.statistics.gov.lk/#gsc.tab=0\n\n\nEx: Open-access: Dengue data hub: https://denguedatahub.netlify.app/\n\n\nGovernment and Institutional Reports\n\n\nEx: Annual Report, Central Bank of Sri Lanka"
+  },
+  {
+    "objectID": "Week3/index.html#methods-of-collecting-secondary-data-cont.",
+    "href": "Week3/index.html#methods-of-collecting-secondary-data-cont.",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Methods of collecting secondary data (cont.)",
+    "text": "Methods of collecting secondary data (cont.)\n\nCommercial Data: Purchasing or accessing data from commercial sources like market research firms, industry reports, and business analytics services\nCensus and Public Records: Using demographic data, economic statistics, and other information from national censuses and public records maintained by government agencies.\nMedia Archives: Reviewing newspapers, magazines, television broadcasts, and other media sources for relevant historical data and trends."
+  },
+  {
+    "objectID": "Week3/index.html#methods-of-collecting-secondary-data-cont.-1",
+    "href": "Week3/index.html#methods-of-collecting-secondary-data-cont.-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Methods of collecting secondary data (cont.)",
+    "text": "Methods of collecting secondary data (cont.)\n\nInternal Company Records: Examining an organization’s internal reports, financial statements, sales records, and other documents for business research purposes.\nLibraries and Archives: Visiting physical or digital libraries and archives to access a wide range of historical documents, manuscripts, and archival records.\nMeta-Analysis: Synthesizing data from multiple studies to draw broader conclusions, often used in scientific and medical research."
+  },
+  {
+    "objectID": "Week3/index.html#why-secondary-data",
+    "href": "Week3/index.html#why-secondary-data",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Why Secondary Data?",
+    "text": "Why Secondary Data?\n\nCost-Effective (not always)\nTime-Saving\nPreliminary Research: It serves as a valuable resource for preliminary research or background studies, helping to identify gaps in knowledge, formulate hypotheses, and refine research questions.\nHistorical Analysis: Enables researchers to conduct historical analyses and understand past trends, events, and behaviors, which can inform present and future research directions.\nValidation: Secondary data can be used to validate findings from primary data"
+  },
+  {
+    "objectID": "Week3/index.html#your-turn",
+    "href": "Week3/index.html#your-turn",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Your Turn",
+    "text": "Your Turn\nFind advatages and disadvatages of using primary and secondary data."
+  },
+  {
+    "objectID": "Week3/index.html#question-1",
+    "href": "Week3/index.html#question-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Question 1",
+    "text": "Question 1\nIn an observational study, researchers directly intervene and manipulate variables to observe their effects on the outcome.\n\n\n\n−+\n02:00"
+  },
+  {
+    "objectID": "Week3/index.html#question-2",
+    "href": "Week3/index.html#question-2",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Question 2",
+    "text": "Question 2\nThe sample in a study refers to the entire group of individuals or objects that researchers want to study.\n\n\n\n−+\n02:00"
+  },
+  {
+    "objectID": "Week3/index.html#question-3",
+    "href": "Week3/index.html#question-3",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Question 3",
+    "text": "Question 3\nDescriptive statistics are used to make inferences and predictions about a population based on sample data.\n\n\n\n−+\n02:00"
+  },
+  {
+    "objectID": "Week3/index.html#question-4",
+    "href": "Week3/index.html#question-4",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Question 4",
+    "text": "Question 4\nInferential statistics are used to summarize and describe the characteristics of a dataset.\n\n\n\n−+\n02:00"
+  },
+  {
+    "objectID": "Week3/index.html#question-5",
+    "href": "Week3/index.html#question-5",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Question 5",
+    "text": "Question 5\nThe sample in a study represents the entire group of individuals or objects that researchers want to study.\n\n\n\n−+\n02:00"
+  },
+  {
+    "objectID": "Week3/index.html#question-6",
+    "href": "Week3/index.html#question-6",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Question 6",
+    "text": "Question 6\nDescriptive statistics are used to make predictions about a population based on sample data.\n\n\n\n−+\n02:00"
+  },
+  {
+    "objectID": "Week3/index.html#question-7",
+    "href": "Week3/index.html#question-7",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Question 7",
+    "text": "Question 7\nIf there is no data, statistical analysis can still be performed based on theoretical assumptions.\n\n\n\n−+\n02:00"
+  },
+  {
+    "objectID": "Week3/index.html#question-8",
+    "href": "Week3/index.html#question-8",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Question 8",
+    "text": "Question 8\nPrimary data is collected through methods such as surveys, interviews, and experiments.\n\n\n\n−+\n02:00"
+  },
+  {
+    "objectID": "Week3/index.html#question-9",
+    "href": "Week3/index.html#question-9",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Question 9",
+    "text": "Question 9\nPrimary data collection allows researchers to have more control over the data quality and reliability.\n\n\n\n−+\n02:00"
+  },
+  {
+    "objectID": "Week3/index.html#question-10",
+    "href": "Week3/index.html#question-10",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Question 10",
+    "text": "Question 10\nSecondary data sources may include government databases, archival records, and proprietary datasets.\n\n\n\n−+\n02:00"
+  },
+  {
+    "objectID": "week2/answers.html",
+    "href": "week2/answers.html",
+    "title": "Question 1",
+    "section": "",
+    "text": "Population:\n\nThe population in this study refers to all the species of bacteria, bugs, and other organisms present in Beira Lake. This includes every living organism that inhabits the lake ecosystem.\n\nSample:\n\nThe sample in this study is the bucket of water (1L) that the researcher collected from Beira Lake and examined for species diversity. The sample represents a subset of the lake’s biodiversity.\n\nParameter:\n\nThe parameter in this context would be the proportion of different species counts within the entire population of species in Beira Lake. For example, the proportion of bacteria, bugs, and other organisms based on the sample collected from the lake.\n\nStatistics:\n\nThe statistics in this study would be the counts and characteristics of species observed in the collected sample (1L of water from the lake). This includes the number of different species of bacteria, bugs, and other organisms identified in the bucket of water. In summary:\nPopulation: All species of bacteria, bugs, and organisms in Beira Lake.\nSample: The bucket of water (1L) collected from Beira Lake. Parameter: Proportion of species counts (e.g., bacteria, bugs) in the entire lake ecosystem.\nStatistics: Counts and characteristics of species observed in the collected sample (1L) from Beira Lake.\nIn summary:\nPopulation: All species of bacteria, bugs, and organisms in Beira Lake.\nSample: The bucket of water (1L) collected from Beira Lake.\nParameter: Proportion of species counts (e.g., bacteria, bugs) in the entire lake ecosystem.\nStatistics: Counts and characteristics of species observed in the collected sample (1L) from Beira Lake.\n\n\n\nPopulation:\n\nThe population in this study is all the hard disk drives (HDDs) produced by the computer manufacturing company. This includes every HDD manufactured by the company within a certain timeframe.\n\nSample:\n\nThe sample in this study is the subset of 100 HDDs selected randomly from the recent production batch. The sample represents a smaller group of HDDs chosen for examination to estimate the failure rate.\n\nParameter:\n\nThe parameter in this context would be the failure rate of all HDDs produced by the company. It represents the proportion or percentage of HDDs that are expected to fail within a specified period based on the entire population of HDDs.\n\nStatistics:\n\nThe statistics in this study would include the observed failure rate among the selected sample of 100 HDDs. This involves counting the number of HDDs that have failed or exhibit signs of malfunction within the sample and calculating the proportion or percentage of failures.\nSummary:\nPopulation: All hard disk drives (HDDs) produced by the computer manufacturing company.\nSample: A random selection of 100 HDDs from a recent production batch.\nParameter: The failure rate of all HDDs produced by the company.\nStatistics: The observed failure rate among the selected sample of 100 HDDs.\n\n\n\nPopulation: All students attending online Zoom lecture today.\nSample: A random selection of 50 students\nParameter: The proportion of all university students who actively listen to lectures during online Zoom sessions.\nStatistics: The observed proportion of active listeners among the selected sample of 50 students."
+  },
+  {
+    "objectID": "week2/answers.html#question-2",
+    "href": "week2/answers.html#question-2",
+    "title": "Question 1",
+    "section": "",
+    "text": "Population:\n\nThe population in this study is all the hard disk drives (HDDs) produced by the computer manufacturing company. This includes every HDD manufactured by the company within a certain timeframe.\n\nSample:\n\nThe sample in this study is the subset of 100 HDDs selected randomly from the recent production batch. The sample represents a smaller group of HDDs chosen for examination to estimate the failure rate.\n\nParameter:\n\nThe parameter in this context would be the failure rate of all HDDs produced by the company. It represents the proportion or percentage of HDDs that are expected to fail within a specified period based on the entire population of HDDs.\n\nStatistics:\n\nThe statistics in this study would include the observed failure rate among the selected sample of 100 HDDs. This involves counting the number of HDDs that have failed or exhibit signs of malfunction within the sample and calculating the proportion or percentage of failures.\nSummary:\nPopulation: All hard disk drives (HDDs) produced by the computer manufacturing company.\nSample: A random selection of 100 HDDs from a recent production batch.\nParameter: The failure rate of all HDDs produced by the company.\nStatistics: The observed failure rate among the selected sample of 100 HDDs."
+  },
+  {
+    "objectID": "week2/answers.html#question-3",
+    "href": "week2/answers.html#question-3",
+    "title": "Question 1",
+    "section": "",
+    "text": "Population: All students attending online Zoom lecture today.\nSample: A random selection of 50 students\nParameter: The proportion of all university students who actively listen to lectures during online Zoom sessions.\nStatistics: The observed proportion of active listeners among the selected sample of 50 students."
+  },
+  {
+    "objectID": "week0/index.html#how-to-calculate-gpa",
+    "href": "week0/index.html#how-to-calculate-gpa",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\n\n\n\n\nSTA 100 2.0\nA\n\n\nSTA 101 1.0\nB\n\n\nSTA 102 2.0\nA\n\n\nCSC 100 3.0\nA\n\n\nCSC 101 2.0\nB\n\n\nMAT 100 1.0\nB+\n\n\nMAT 101 2.0\nA+\n\n\nMAT 103 2.0\nA+"
+  },
+  {
+    "objectID": "week0/index.html#how-to-calculate-gpa-1",
+    "href": "week0/index.html#how-to-calculate-gpa-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\n\n\n\n\nSTA 100 2.0\nA\n\n\nSTA 101 1.0\nB\n\n\nSTA 102 2.0\nA\n\n\nCSC 100 3.0\nA\n\n\nCSC 101 2.0\nB\n\n\nMAT 100 1.0\nB+\n\n\nMAT 101 2.0\nA+\n\n\nMAT 103 2.0\nA+\n\n\n\n\n\n\n\n\n\n\n\nLetter grade\ngpa\n\n\n\n\nA+\n4.0\n\n\nA\n4.0\n\n\nA-\n3.7\n\n\nB+\n3.3\n\n\nB\n3.0\n\n\nB-\n2.7\n\n\nC+\n2.3\n\n\nC\n2.0\n\n\nC-\n1.7\n\n\nD+\n1.3\n\n\nD\n1.0\n\n\nE\n0.0"
+  },
+  {
+    "objectID": "week0/index.html#section",
+    "href": "week0/index.html#section",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "",
+    "text": "source: Degree Programmes and Examination Regulation Booklet 2019/2020"
+  },
+  {
+    "objectID": "week0/index.html#how-to-calculate-gpa-2",
+    "href": "week0/index.html#how-to-calculate-gpa-2",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\n\n\n\n\nSTA 100 2.0\nA\n4.0\n\n\nSTA 101 1.0\nB\n3.0\n\n\nSTA 102 2.0\nA\n4.0\n\n\nCSC 100 3.0\nA\n4.0\n\n\nCSC 101 2.0\nB\n3.0\n\n\nMAT 100 1.0\nB+\n3.3\n\n\nMAT 101 2.0\nA+\n4.0\n\n\nMAT 103 2.0\nA+\n4.0\n\n\n\n\n\n\n\n\n\n\n\nLetter grade\ngpa\n\n\n\n\nA+\n4.0\n\n\nA\n4.0\n\n\nA-\n3.7\n\n\nB+\n3.3\n\n\nB\n3.0\n\n\nB-\n2.7\n\n\nC+\n2.3\n\n\nC\n2.0\n\n\nC-\n1.7\n\n\nD+\n1.3\n\n\nD\n1.0\n\n\nE\n0.0"
+  },
+  {
+    "objectID": "week0/index.html#how-to-calculate-gpa-3",
+    "href": "week0/index.html#how-to-calculate-gpa-3",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\n\n\n\n\nSTA 100 2.0\nA\n4.0\n\n\nSTA 101 1.0\nB\n3.0\n\n\nSTA 102 2.0\nA\n4.0\n\n\nCSC 100 3.0\nA\n4.0\n\n\nCSC 101 2.0\nB\n3.0\n\n\nMAT 100 1.0\nB+\n3.3\n\n\nMAT 101 2.0\nA+\n4.0\n\n\nMAT 103 2.0\nA+\n4.0"
+  },
+  {
+    "objectID": "week0/index.html#how-to-calculate-gpa-4",
+    "href": "week0/index.html#how-to-calculate-gpa-4",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\nCredit value\n\n\n\n\nSTA 100 2.0\nA\n4.0\n2\n\n\nSTA 101 1.0\nB\n3.0\n1\n\n\nSTA 102 2.0\nA\n4.0\n2\n\n\nCSC 100 3.0\nA\n4.0\n3\n\n\nCSC 101 2.0\nB\n3.0\n2\n\n\nMAT 100 1.0\nB+\n3.3\n1\n\n\nMAT 101 2.0\nA+\n4.0\n2\n\n\nMAT 103 2.0\nA+\n4.0\n2"
+  },
+  {
+    "objectID": "week0/index.html#how-to-calculate-gpa-5",
+    "href": "week0/index.html#how-to-calculate-gpa-5",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\nCredit value\n\n\n\n\nSTA 100 2.0\nA\n4.0\n2\n\n\nSTA 101 1.0\nB\n3.0\n1\n\n\nSTA 102 2.0\nA\n4.0\n2\n\n\nCSC 100 3.0\nA\n4.0\n3\n\n\nCSC 101 2.0\nB\n3.0\n2\n\n\nMAT 100 1.0\nB+\n3.3\n1\n\n\nMAT 101 2.0\nA+\n4.0\n2\n\n\nMAT 103 2.0\nA+\n4.0\n2\n\n\n\n\n\n\\[\\text{overall GPA} = \\frac{(4 \\times 2) + (3 \\times 1)+(4 \\times 2)+(4 \\times 3)+(3 \\times 2)+(3.3 \\times 1) + (4 \\times 2) + (4 \\times 2)}{(2+1+2+3+2+1+2+2)} = 3.75\\]"
+  },
+  {
+    "objectID": "week0/index.html#your-turn",
+    "href": "week0/index.html#your-turn",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Your Turn",
+    "text": "Your Turn\n\nExample: Compute the GPAs for students 2, 3, and 4.\n\n\n\n\n\n\n\n\nCourse code\nStudent 1\nStudent 2\nStudent 3\nStudent 4\n\n\n\n\nSTA 100 2.0\nA\nA\nA\nA\n\n\nSTA 101 1.0\nB\nB\nB\nB\n\n\nSTA 102 2.0\nA\nA\nC+\nA\n\n\nCSC 100 3.0\nA\nC+\nA\nA\n\n\nCSC 101 2.0\nB\nB\nB\nB\n\n\nMAT 100 1.0\nB+\nB+\nB+\nB+\n\n\nMAT 101 2.0\nA+\nA+\nA+\nA\n\n\nMAT 103 2.0\nA+\nA+\nA+\nA\n\n\noverall GPA\n3.75"
+  },
+  {
+    "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-type-and-method-of-assessment",
+    "href": "week0/index.html#sta-113-2.0-descriptive-statistics-type-and-method-of-assessment",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "STA 113 2.0 Descriptive Statistics: Type and Method of Assessment",
+    "text": "STA 113 2.0 Descriptive Statistics: Type and Method of Assessment\nType:\nType: Core\nType:\nMethod of Assessment:\nType:\nFormative Assessment (FA):\nFA1: Group assignment: 10% of the total marks\nFA2: Mid-semester examination: 20% of the total marks\nType:\nSummative Assessment (SA):\nSA1: End of Semester Examination: 70% of the total marks"
+  },
+  {
+    "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-logistics",
+    "href": "week0/index.html#sta-113-2.0-descriptive-statistics-logistics",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "STA 113 2.0 Descriptive Statistics: Logistics",
+    "text": "STA 113 2.0 Descriptive Statistics: Logistics\nType:\nCourse website: open-access\nhttps://thiyangt.github.io/descriptivestatisticsweb/\nType:\nCourse LMS page: closed access (open only to students enrolled in the unit STA 113 2.0 at FAS, USJ)\n\nCourse outline\nAnnouncements\nExercises\nWeekly schedule\n\n\n\n\nYou must enroll yourself in the LMS course unit page."
+  },
+  {
+    "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-workload",
+    "href": "week0/index.html#sta-113-2.0-descriptive-statistics-workload",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "STA 113 2.0 Descriptive Statistics: Workload",
+    "text": "STA 113 2.0 Descriptive Statistics: Workload\n\n\n\n\n\n\nType\nHours\n\n\n\n\nTotal\n100\n\n\nLectures and tutorials\n30\n\n\nIndependent learning\n70"
+  },
+  {
+    "objectID": "week0/index.html#physical-space",
+    "href": "week0/index.html#physical-space",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Physical Space",
+    "text": "Physical Space"
+  },
+  {
+    "objectID": "week0/index.html#calendar-space",
+    "href": "week0/index.html#calendar-space",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Calendar Space",
+    "text": "Calendar Space"
+  },
+  {
+    "objectID": "week0/index.html#mental-space",
+    "href": "week0/index.html#mental-space",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Mental Space",
+    "text": "Mental Space"
+  },
+  {
+    "objectID": "week0/index.html#section-1",
+    "href": "week0/index.html#section-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "",
+    "text": "Image sources: https://pixabay.com/"
+  },
+  {
+    "objectID": "index.html#email",
+    "href": "index.html#email",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Email",
+    "text": "Email\nttalagala@sjp.ac.lk"
+  },
+  {
+    "objectID": "index.html#policies-and-regulations",
+    "href": "index.html#policies-and-regulations",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Policies and regulations",
+    "text": "Policies and regulations\nTo access important information regarding the unit STA 113 2.0 Descriptive Statistics, please go to the course Learning Management System (LMS) page. Click here to go directly to the LMS. You must carefully read the “Course Information and Logistic” slide set for essential details. It is your responsibility to be aware of important details by thoroughly reviewing the “Course Information and Logistic” slides."
+  },
+  {
+    "objectID": "index.html#google-classroom",
+    "href": "index.html#google-classroom",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Google Classroom",
+    "text": "Google Classroom\nI also opened a Google Classroom as a backup strategy in case the LMS failed. Kindly ensure that you join it. The password is available on LMS under announcements."
+  },
+  {
+    "objectID": "index.html#course-outline",
+    "href": "index.html#course-outline",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Course outline",
+    "text": "Course outline\nAvailable on LMS"
+  },
+  {
+    "objectID": "index.html#weekly-schedule",
+    "href": "index.html#weekly-schedule",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Weekly schedule",
+    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics\nTask: Fill out the survey questionnaire available on the LMS.\n\n\nWeek 3: May 22, 2024\nSlides 3: Data Collection"
+  },
+  {
+    "objectID": "week1/index.html#learning-objective",
+    "href": "week1/index.html#learning-objective",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Learning Objective:",
+    "text": "Learning Objective:\nBy the end of this lecture, students will be able to:\n\nDefine statistics and explain its fundamental concepts.\nIdentify the various fields and contexts where statistics is used.\nExplain the importance and significance of statistics in decision-making and problem-solving processes."
+  },
+  {
+    "objectID": "week1/index.html#what-is-statistics",
+    "href": "week1/index.html#what-is-statistics",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "What is Statistics?",
+    "text": "What is Statistics?\n\nThe science of collecting, organizing, analyzing, presenting, and interpreting data."
+  },
+  {
+    "objectID": "week1/index.html#summary-measures",
+    "href": "week1/index.html#summary-measures",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Summary measures",
+    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.000\nMin. :0.800\nMin. : 107\n\n\n\nMale :50\n1st Qu.: 99.30\n1st Qu.:2.475\n1st Qu.:3.175\n1st Qu.:3060\n\n\n\nNA\nMedian :100.00\nMedian :3.300\nMedian :3.700\nMedian :3788\n\n\n\nNA\nMean : 99.33\nMean :3.174\nMean :3.722\nMean :4018\n\n\n\nNA\n3rd Qu.:100.72\n3rd Qu.:4.000\n3rd Qu.:4.225\n3rd Qu.:4718\n\n\n\nNA\nMax. :110.00\nMax. :5.500\nMax. :6.300\nMax. :8164"
+  },
+  {
+    "objectID": "week1/index.html#presenting-data-example",
+    "href": "week1/index.html#presenting-data-example",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Presenting Data: Example",
+    "text": "Presenting Data: Example\nhttps://thiyangt.github.io/dsjobtraker_dashboard_mc/#top-software-and-skills"
+  },
+  {
+    "objectID": "week1/index.html#applications-of-statistics-in-different-fields",
+    "href": "week1/index.html#applications-of-statistics-in-different-fields",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Applications of statistics in different fields",
+    "text": "Applications of statistics in different fields\n\n\n\n\n\n\n\n\n\nTerminology\nField\n\n\n\n\nEpidemiology\nThe study and analysis of the patterns, causes and effects of health and disease conditions\n\n\nAstrostatistics\nApplies statistical analysis to the understanding of astronomical data\n\n\nBiostatistics\nStudies biological phenomena\n\n\nDemography\nStatistical study of all populations\n\n\nSocial statistics\nStudy human behavior in a social environment\n\n\nChemometrics\nScience of extracting information from chemical systems by data-driven means"
+  },
+  {
     "objectID": "week2/index.html#example",
     "href": "week2/index.html#example",
     "title": "STA 113 2.0 Descriptive Statistics",
@@ -166,201 +488,5 @@
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Copyright",
     "text": "Copyright\nUp until slide 13 and slides 23-26, every image has been authored by Dr Thiyanga S. Talagala. Hence, all images up to slide 14 and 23-26 are copyrighted by Thiyanga S. Talagala."
-  },
-  {
-    "objectID": "week1/index.html#learning-objective",
-    "href": "week1/index.html#learning-objective",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Learning Objective:",
-    "text": "Learning Objective:\nBy the end of this lecture, students will be able to:\n\nDefine statistics and explain its fundamental concepts.\nIdentify the various fields and contexts where statistics is used.\nExplain the importance and significance of statistics in decision-making and problem-solving processes."
-  },
-  {
-    "objectID": "week1/index.html#what-is-statistics",
-    "href": "week1/index.html#what-is-statistics",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "What is Statistics?",
-    "text": "What is Statistics?\n\nThe science of collecting, organizing, analyzing, presenting, and interpreting data."
-  },
-  {
-    "objectID": "week1/index.html#summary-measures",
-    "href": "week1/index.html#summary-measures",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.200\nMin. :1.200\nMin. :1900\n\n\n\nMale :50\n1st Qu.: 98.97\n1st Qu.:2.900\n1st Qu.:2.875\n1st Qu.:3578\n\n\n\nNA\nMedian :100.00\nMedian :3.400\nMedian :3.700\nMedian :4462\n\n\n\nNA\nMean : 99.26\nMean :3.499\nMean :3.656\nMean :4468\n\n\n\nNA\n3rd Qu.:100.70\n3rd Qu.:4.025\n3rd Qu.:4.425\n3rd Qu.:5176\n\n\n\nNA\nMax. :110.00\nMax. :5.700\nMax. :6.300\nMax. :7828"
-  },
-  {
-    "objectID": "week1/index.html#presenting-data-example",
-    "href": "week1/index.html#presenting-data-example",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Presenting Data: Example",
-    "text": "Presenting Data: Example\nhttps://thiyangt.github.io/dsjobtraker_dashboard_mc/#top-software-and-skills"
-  },
-  {
-    "objectID": "week1/index.html#applications-of-statistics-in-different-fields",
-    "href": "week1/index.html#applications-of-statistics-in-different-fields",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Applications of statistics in different fields",
-    "text": "Applications of statistics in different fields\n\n\n\n\n\n\n\n\n\nTerminology\nField\n\n\n\n\nEpidemiology\nThe study and analysis of the patterns, causes and effects of health and disease conditions\n\n\nAstrostatistics\nApplies statistical analysis to the understanding of astronomical data\n\n\nBiostatistics\nStudies biological phenomena\n\n\nDemography\nStatistical study of all populations\n\n\nSocial statistics\nStudy human behavior in a social environment\n\n\nChemometrics\nScience of extracting information from chemical systems by data-driven means"
-  },
-  {
-    "objectID": "index.html#email",
-    "href": "index.html#email",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Email",
-    "text": "Email\nttalagala@sjp.ac.lk"
-  },
-  {
-    "objectID": "index.html#policies-and-regulations",
-    "href": "index.html#policies-and-regulations",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Policies and regulations",
-    "text": "Policies and regulations\nTo access important information regarding the unit STA 113 2.0 Descriptive Statistics, please go to the course Learning Management System (LMS) page. Click here to go directly to the LMS. You must carefully read the “Course Information and Logistic” slide set for essential details. It is your responsibility to be aware of important details by thoroughly reviewing the “Course Information and Logistic” slides."
-  },
-  {
-    "objectID": "index.html#google-classroom",
-    "href": "index.html#google-classroom",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Google Classroom",
-    "text": "Google Classroom\nI also opened a Google Classroom as a backup strategy in case the LMS failed. Kindly ensure that you join it. The password is available on LMS under announcements."
-  },
-  {
-    "objectID": "index.html#course-outline",
-    "href": "index.html#course-outline",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Course outline",
-    "text": "Course outline\nAvailable on LMS"
-  },
-  {
-    "objectID": "index.html#weekly-schedule",
-    "href": "index.html#weekly-schedule",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Weekly schedule",
-    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics\nTask: Fill out the survey questionnaire available on the LMS."
-  },
-  {
-    "objectID": "week0/index.html#how-to-calculate-gpa",
-    "href": "week0/index.html#how-to-calculate-gpa",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "How to calculate GPA?",
-    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\n\n\n\n\nSTA 100 2.0\nA\n\n\nSTA 101 1.0\nB\n\n\nSTA 102 2.0\nA\n\n\nCSC 100 3.0\nA\n\n\nCSC 101 2.0\nB\n\n\nMAT 100 1.0\nB+\n\n\nMAT 101 2.0\nA+\n\n\nMAT 103 2.0\nA+"
-  },
-  {
-    "objectID": "week0/index.html#how-to-calculate-gpa-1",
-    "href": "week0/index.html#how-to-calculate-gpa-1",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "How to calculate GPA?",
-    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\n\n\n\n\nSTA 100 2.0\nA\n\n\nSTA 101 1.0\nB\n\n\nSTA 102 2.0\nA\n\n\nCSC 100 3.0\nA\n\n\nCSC 101 2.0\nB\n\n\nMAT 100 1.0\nB+\n\n\nMAT 101 2.0\nA+\n\n\nMAT 103 2.0\nA+\n\n\n\n\n\n\n\n\n\n\n\nLetter grade\ngpa\n\n\n\n\nA+\n4.0\n\n\nA\n4.0\n\n\nA-\n3.7\n\n\nB+\n3.3\n\n\nB\n3.0\n\n\nB-\n2.7\n\n\nC+\n2.3\n\n\nC\n2.0\n\n\nC-\n1.7\n\n\nD+\n1.3\n\n\nD\n1.0\n\n\nE\n0.0"
-  },
-  {
-    "objectID": "week0/index.html#section",
-    "href": "week0/index.html#section",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "",
-    "text": "source: Degree Programmes and Examination Regulation Booklet 2019/2020"
-  },
-  {
-    "objectID": "week0/index.html#how-to-calculate-gpa-2",
-    "href": "week0/index.html#how-to-calculate-gpa-2",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "How to calculate GPA?",
-    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\n\n\n\n\nSTA 100 2.0\nA\n4.0\n\n\nSTA 101 1.0\nB\n3.0\n\n\nSTA 102 2.0\nA\n4.0\n\n\nCSC 100 3.0\nA\n4.0\n\n\nCSC 101 2.0\nB\n3.0\n\n\nMAT 100 1.0\nB+\n3.3\n\n\nMAT 101 2.0\nA+\n4.0\n\n\nMAT 103 2.0\nA+\n4.0\n\n\n\n\n\n\n\n\n\n\n\nLetter grade\ngpa\n\n\n\n\nA+\n4.0\n\n\nA\n4.0\n\n\nA-\n3.7\n\n\nB+\n3.3\n\n\nB\n3.0\n\n\nB-\n2.7\n\n\nC+\n2.3\n\n\nC\n2.0\n\n\nC-\n1.7\n\n\nD+\n1.3\n\n\nD\n1.0\n\n\nE\n0.0"
-  },
-  {
-    "objectID": "week0/index.html#how-to-calculate-gpa-3",
-    "href": "week0/index.html#how-to-calculate-gpa-3",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "How to calculate GPA?",
-    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\n\n\n\n\nSTA 100 2.0\nA\n4.0\n\n\nSTA 101 1.0\nB\n3.0\n\n\nSTA 102 2.0\nA\n4.0\n\n\nCSC 100 3.0\nA\n4.0\n\n\nCSC 101 2.0\nB\n3.0\n\n\nMAT 100 1.0\nB+\n3.3\n\n\nMAT 101 2.0\nA+\n4.0\n\n\nMAT 103 2.0\nA+\n4.0"
-  },
-  {
-    "objectID": "week0/index.html#how-to-calculate-gpa-4",
-    "href": "week0/index.html#how-to-calculate-gpa-4",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "How to calculate GPA?",
-    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\nCredit value\n\n\n\n\nSTA 100 2.0\nA\n4.0\n2\n\n\nSTA 101 1.0\nB\n3.0\n1\n\n\nSTA 102 2.0\nA\n4.0\n2\n\n\nCSC 100 3.0\nA\n4.0\n3\n\n\nCSC 101 2.0\nB\n3.0\n2\n\n\nMAT 100 1.0\nB+\n3.3\n1\n\n\nMAT 101 2.0\nA+\n4.0\n2\n\n\nMAT 103 2.0\nA+\n4.0\n2"
-  },
-  {
-    "objectID": "week0/index.html#how-to-calculate-gpa-5",
-    "href": "week0/index.html#how-to-calculate-gpa-5",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "How to calculate GPA?",
-    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\nCredit value\n\n\n\n\nSTA 100 2.0\nA\n4.0\n2\n\n\nSTA 101 1.0\nB\n3.0\n1\n\n\nSTA 102 2.0\nA\n4.0\n2\n\n\nCSC 100 3.0\nA\n4.0\n3\n\n\nCSC 101 2.0\nB\n3.0\n2\n\n\nMAT 100 1.0\nB+\n3.3\n1\n\n\nMAT 101 2.0\nA+\n4.0\n2\n\n\nMAT 103 2.0\nA+\n4.0\n2\n\n\n\n\n\n\\[\\text{overall GPA} = \\frac{(4 \\times 2) + (3 \\times 1)+(4 \\times 2)+(4 \\times 3)+(3 \\times 2)+(3.3 \\times 1) + (4 \\times 2) + (4 \\times 2)}{(2+1+2+3+2+1+2+2)} = 3.75\\]"
-  },
-  {
-    "objectID": "week0/index.html#your-turn",
-    "href": "week0/index.html#your-turn",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Your Turn",
-    "text": "Your Turn\n\nExample: Compute the GPAs for students 2, 3, and 4.\n\n\n\n\n\n\n\n\nCourse code\nStudent 1\nStudent 2\nStudent 3\nStudent 4\n\n\n\n\nSTA 100 2.0\nA\nA\nA\nA\n\n\nSTA 101 1.0\nB\nB\nB\nB\n\n\nSTA 102 2.0\nA\nA\nC+\nA\n\n\nCSC 100 3.0\nA\nC+\nA\nA\n\n\nCSC 101 2.0\nB\nB\nB\nB\n\n\nMAT 100 1.0\nB+\nB+\nB+\nB+\n\n\nMAT 101 2.0\nA+\nA+\nA+\nA\n\n\nMAT 103 2.0\nA+\nA+\nA+\nA\n\n\noverall GPA\n3.75"
-  },
-  {
-    "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-type-and-method-of-assessment",
-    "href": "week0/index.html#sta-113-2.0-descriptive-statistics-type-and-method-of-assessment",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "STA 113 2.0 Descriptive Statistics: Type and Method of Assessment",
-    "text": "STA 113 2.0 Descriptive Statistics: Type and Method of Assessment\nType:\nType: Core\nType:\nMethod of Assessment:\nType:\nFormative Assessment (FA):\nFA1: Group assignment: 10% of the total marks\nFA2: Mid-semester examination: 20% of the total marks\nType:\nSummative Assessment (SA):\nSA1: End of Semester Examination: 70% of the total marks"
-  },
-  {
-    "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-logistics",
-    "href": "week0/index.html#sta-113-2.0-descriptive-statistics-logistics",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "STA 113 2.0 Descriptive Statistics: Logistics",
-    "text": "STA 113 2.0 Descriptive Statistics: Logistics\nType:\nCourse website: open-access\nhttps://thiyangt.github.io/descriptivestatisticsweb/\nType:\nCourse LMS page: closed access (open only to students enrolled in the unit STA 113 2.0 at FAS, USJ)\n\nCourse outline\nAnnouncements\nExercises\nWeekly schedule\n\n\n\n\nYou must enroll yourself in the LMS course unit page."
-  },
-  {
-    "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-workload",
-    "href": "week0/index.html#sta-113-2.0-descriptive-statistics-workload",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "STA 113 2.0 Descriptive Statistics: Workload",
-    "text": "STA 113 2.0 Descriptive Statistics: Workload\n\n\n\n\n\n\nType\nHours\n\n\n\n\nTotal\n100\n\n\nLectures and tutorials\n30\n\n\nIndependent learning\n70"
-  },
-  {
-    "objectID": "week0/index.html#physical-space",
-    "href": "week0/index.html#physical-space",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Physical Space",
-    "text": "Physical Space"
-  },
-  {
-    "objectID": "week0/index.html#calendar-space",
-    "href": "week0/index.html#calendar-space",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Calendar Space",
-    "text": "Calendar Space"
-  },
-  {
-    "objectID": "week0/index.html#mental-space",
-    "href": "week0/index.html#mental-space",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Mental Space",
-    "text": "Mental Space"
-  },
-  {
-    "objectID": "week0/index.html#section-1",
-    "href": "week0/index.html#section-1",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "",
-    "text": "Image sources: https://pixabay.com/"
-  },
-  {
-    "objectID": "week2/answers.html",
-    "href": "week2/answers.html",
-    "title": "Question 1",
-    "section": "",
-    "text": "Population:\n\nThe population in this study refers to all the species of bacteria, bugs, and other organisms present in Beira Lake. This includes every living organism that inhabits the lake ecosystem.\n\nSample:\n\nThe sample in this study is the bucket of water (1L) that the researcher collected from Beira Lake and examined for species diversity. The sample represents a subset of the lake’s biodiversity.\n\nParameter:\n\nThe parameter in this context would be the proportion of different species counts within the entire population of species in Beira Lake. For example, the proportion of bacteria, bugs, and other organisms based on the sample collected from the lake.\n\nStatistics:\n\nThe statistics in this study would be the counts and characteristics of species observed in the collected sample (1L of water from the lake). This includes the number of different species of bacteria, bugs, and other organisms identified in the bucket of water. In summary:\nPopulation: All species of bacteria, bugs, and organisms in Beira Lake.\nSample: The bucket of water (1L) collected from Beira Lake. Parameter: Proportion of species counts (e.g., bacteria, bugs) in the entire lake ecosystem.\nStatistics: Counts and characteristics of species observed in the collected sample (1L) from Beira Lake.\nIn summary:\nPopulation: All species of bacteria, bugs, and organisms in Beira Lake.\nSample: The bucket of water (1L) collected from Beira Lake.\nParameter: Proportion of species counts (e.g., bacteria, bugs) in the entire lake ecosystem.\nStatistics: Counts and characteristics of species observed in the collected sample (1L) from Beira Lake.\n\n\n\nPopulation:\n\nThe population in this study is all the hard disk drives (HDDs) produced by the computer manufacturing company. This includes every HDD manufactured by the company within a certain timeframe.\n\nSample:\n\nThe sample in this study is the subset of 100 HDDs selected randomly from the recent production batch. The sample represents a smaller group of HDDs chosen for examination to estimate the failure rate.\n\nParameter:\n\nThe parameter in this context would be the failure rate of all HDDs produced by the company. It represents the proportion or percentage of HDDs that are expected to fail within a specified period based on the entire population of HDDs.\n\nStatistics:\n\nThe statistics in this study would include the observed failure rate among the selected sample of 100 HDDs. This involves counting the number of HDDs that have failed or exhibit signs of malfunction within the sample and calculating the proportion or percentage of failures.\nSummary:\nPopulation: All hard disk drives (HDDs) produced by the computer manufacturing company.\nSample: A random selection of 100 HDDs from a recent production batch.\nParameter: The failure rate of all HDDs produced by the company.\nStatistics: The observed failure rate among the selected sample of 100 HDDs.\n\n\n\nPopulation: All students attending online Zoom lecture today.\nSample: A random selection of 50 students\nParameter: The proportion of all university students who actively listen to lectures during online Zoom sessions.\nStatistics: The observed proportion of active listeners among the selected sample of 50 students."
-  },
-  {
-    "objectID": "week2/answers.html#question-2",
-    "href": "week2/answers.html#question-2",
-    "title": "Question 1",
-    "section": "",
-    "text": "Population:\n\nThe population in this study is all the hard disk drives (HDDs) produced by the computer manufacturing company. This includes every HDD manufactured by the company within a certain timeframe.\n\nSample:\n\nThe sample in this study is the subset of 100 HDDs selected randomly from the recent production batch. The sample represents a smaller group of HDDs chosen for examination to estimate the failure rate.\n\nParameter:\n\nThe parameter in this context would be the failure rate of all HDDs produced by the company. It represents the proportion or percentage of HDDs that are expected to fail within a specified period based on the entire population of HDDs.\n\nStatistics:\n\nThe statistics in this study would include the observed failure rate among the selected sample of 100 HDDs. This involves counting the number of HDDs that have failed or exhibit signs of malfunction within the sample and calculating the proportion or percentage of failures.\nSummary:\nPopulation: All hard disk drives (HDDs) produced by the computer manufacturing company.\nSample: A random selection of 100 HDDs from a recent production batch.\nParameter: The failure rate of all HDDs produced by the company.\nStatistics: The observed failure rate among the selected sample of 100 HDDs."
-  },
-  {
-    "objectID": "week2/answers.html#question-3",
-    "href": "week2/answers.html#question-3",
-    "title": "Question 1",
-    "section": "",
-    "text": "Population: All students attending online Zoom lecture today.\nSample: A random selection of 50 students\nParameter: The proportion of all university students who actively listen to lectures during online Zoom sessions.\nStatistics: The observed proportion of active listeners among the selected sample of 50 students."
   }
 ]

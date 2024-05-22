@@ -172,7 +172,7 @@ knitr::include_graphics("i4.png")
 :::
 :::
 
-# The science of [collecting]{style="color:red;"},  organizing, analyzing, presenting, and interpreting [data]{style="color:blue;"}.
+# The science of [collecting]{style="color:red;"}, organizing, analyzing, presenting, and interpreting [data]{style="color:blue;"}.
 
 ------------------------------------------------------------------------
 
@@ -184,8 +184,7 @@ knitr::include_graphics("https://imgs.mongabay.com/wp-content/uploads/sites/20/2
 
 ------------------------------------------------------------------------
 
-# The science of [collecting]{style="color:blue;"},  [organizing]{style="color:red;"}, analyzing, presenting, and interpreting [data]{style="color:blue;"}.
-
+# The science of [collecting]{style="color:blue;"}, [organizing]{style="color:red;"}, analyzing, presenting, and interpreting [data]{style="color:blue;"}.
 
 # The science of [collecting]{style="color:blue;"}, [organizing]{style="color:blue;"}, [analyzing]{style="color:red;"}, presenting, and interpreting [data]{style="color:blue;"}.
 
@@ -327,7 +326,7 @@ knitr::include_graphics("i7.png")
 
 ------------------------------------------------------------------------
 
-# The science of [collecting]{style="color:blue;"}, [organizing]{style="color:blue;"}, [analyzing]{style="color:blue;"},  [presenting, and interpreting]{style="color:red;"} [data]{style="color:blue;"}.
+# The science of [collecting]{style="color:blue;"}, [organizing]{style="color:blue;"}, [analyzing]{style="color:blue;"}, [presenting, and interpreting]{style="color:red;"} [data]{style="color:blue;"}.
 
 ------------------------------------------------------------------------
 
