@@ -291,7 +291,7 @@
     "href": "week1/index.html#summary-measures",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.400\nMin. :0.700\nMin. : 519\n\n\n\nMale :50\n1st Qu.: 99.28\n1st Qu.:2.575\n1st Qu.:2.600\n1st Qu.:3164\n\n\n\nNA\nMedian :100.00\nMedian :3.300\nMedian :3.350\nMedian :4184\n\n\n\nNA\nMean : 99.33\nMean :3.277\nMean :3.463\nMean :4235\n\n\n\nNA\n3rd Qu.:100.70\n3rd Qu.:4.000\n3rd Qu.:4.200\n3rd Qu.:5144\n\n\n\nNA\nMax. :110.00\nMax. :6.500\nMax. :6.300\nMax. :9831"
+    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.000\nMin. :1.600\nMin. :1585\n\n\n\nMale :50\n1st Qu.: 99.30\n1st Qu.:2.600\n1st Qu.:2.900\n1st Qu.:3364\n\n\n\nNA\nMedian : 99.95\nMedian :3.300\nMedian :3.500\nMedian :3990\n\n\n\nNA\nMean : 99.30\nMean :3.254\nMean :3.547\nMean :4138\n\n\n\nNA\n3rd Qu.:100.72\n3rd Qu.:3.900\n3rd Qu.:4.300\n3rd Qu.:4984\n\n\n\nNA\nMax. :110.00\nMax. :6.000\nMax. :6.300\nMax. :7550"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",
@@ -312,7 +312,7 @@
     "href": "ga.html",
     "title": "Group Assignment",
     "section": "",
-    "text": "Date released: May 29, 2024\nAs part of your coursework, you will be working on a group assignment. This assignment will contribute 10% towards your final grade. Below are the details:\n1. Group Formation:\n2. Assignment Task\n3. Submission Format:\nSubmit the completed report as a single document following the specified format guidelines.\n4. Submission deadline\nJune 19, 2024\nYou have been given a three-week timeframe to complete the assignment. Please begin work promptly to accommodate any unforeseen circumstances.\nThis assignment provides an opportunity to deepen your understanding of statistical concepts and their practical applications while fostering teamwork and collaboration.\nIf you have any questions or require further clarification, please feel free to reach out to me (email: ttalagala@sjp.ac.lk)."
+    "text": "Date released: May 29, 2024\nAs part of your coursework, you will be working on a group assignment. This assignment will contribute 10% towards your final grade. Below are the details:\n1. Group Formation:\n2. Assignment Task\n3. Submission Format:\nSubmit the completed report as a single document following the specified format guidelines.\n4. Submission deadline\nJune 19, 2024\nYou have been given a three-week timeframe to complete the assignment. Please begin work promptly to accommodate any unforeseen circumstances.\nThis assignment provides an opportunity to deepen your understanding of statistical concepts and their practical applications while fostering teamwork and collaboration.\nEvery member should be familiar with the entire content of the report to ensure a comprehensive understanding\nIf you have any questions or require further clarification, please feel free to reach out to me (email: ttalagala@sjp.ac.lk)."
   },
   {
     "objectID": "ga.html#help-desk",
@@ -501,7 +501,7 @@
     "href": "Week3/index.html#methods-of-collecting-primary-data",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Methods of collecting primary data",
-    "text": "Methods of collecting primary data\n\n\n\nsurveys\ninterviews\nobservational studies\nexperimental studies\ncase studies\ncontent analysis\nethnography\n\n\n\nsurveillance\nfocus groups\nanalyse social media content"
+    "text": "Methods of collecting primary data\n\n\n\nsurveys\ncensus\ninterviews\nobservational studies\nexperimental studies\ncase studies\ncontent analysis\nethnography\n\n\n\nsurveillance\nfocus groups\nanalyse social media content"
   },
   {
     "objectID": "Week3/index.html#methods-of-collecting-secondary-data",

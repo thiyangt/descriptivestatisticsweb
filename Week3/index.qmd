@@ -39,6 +39,8 @@ format:
 ::: {.column width="50%"}
 -   surveys
 
+- census
+
 -   interviews
 
 -   observational studies
