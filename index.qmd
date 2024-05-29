@@ -45,3 +45,12 @@ Here’s your roadmap for the semester!
 ### Week 3: May 22, 2024
 
 **Slides 3:** [Data Collection](./Week3/index.html)
+
+
+### Week 4: May 29, 2024
+
+**Slides 3:** [Types and scales of measurement](./week4/index.html)
+
+[Additional reading](https://www.statology.org/levels-of-measurement-nominal-ordinal-interval-and-ratio/)
+
+Group assignment: 10%

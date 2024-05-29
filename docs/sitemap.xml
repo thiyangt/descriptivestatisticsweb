@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://thiyangt.github.io/descriptivestatisticsweb/Week3/index.html</loc>
-    <lastmod>2024-05-22T04:07:26.575Z</lastmod>
+    <loc>https://thiyangt.github.io/descriptivestatisticsweb/week4/index.html</loc>
+    <lastmod>2024-05-29T02:55:25.632Z</lastmod>
   </url>
   <url>
-    <loc>https://thiyangt.github.io/descriptivestatisticsweb/week2/answers.html</loc>
-    <lastmod>2024-05-15T07:24:18.839Z</lastmod>
+    <loc>https://thiyangt.github.io/descriptivestatisticsweb/week2/index.html</loc>
+    <lastmod>2024-05-22T07:25:09.421Z</lastmod>
   </url>
   <url>
-    <loc>https://thiyangt.github.io/descriptivestatisticsweb/week0/index.html</loc>
-    <lastmod>2024-04-24T02:56:48.003Z</lastmod>
+    <loc>https://thiyangt.github.io/descriptivestatisticsweb/week1/index.html</loc>
+    <lastmod>2024-05-15T07:24:29.163Z</lastmod>
   </url>
   <url>
-    <loc>https://thiyangt.github.io/descriptivestatisticsweb/index.html</loc>
-    <lastmod>2024-05-22T05:56:14.344Z</lastmod>
+    <loc>https://thiyangt.github.io/descriptivestatisticsweb/References.html</loc>
+    <lastmod>2024-04-23T06:47:21.556Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thiyangt.github.io/descriptivestatisticsweb/ga.html</loc>
+    <lastmod>2024-05-29T03:08:53.543Z</lastmod>
   </url>
   <url>
     <loc>https://thiyangt.github.io/descriptivestatisticsweb/about.html</loc>
@@ -25,15 +29,19 @@
     <lastmod>2024-04-23T06:47:21.556Z</lastmod>
   </url>
   <url>
-    <loc>https://thiyangt.github.io/descriptivestatisticsweb/References.html</loc>
-    <lastmod>2024-04-23T06:47:21.556Z</lastmod>
+    <loc>https://thiyangt.github.io/descriptivestatisticsweb/index.html</loc>
+    <lastmod>2024-05-29T03:00:08.928Z</lastmod>
   </url>
   <url>
-    <loc>https://thiyangt.github.io/descriptivestatisticsweb/week1/index.html</loc>
-    <lastmod>2024-05-15T07:24:29.163Z</lastmod>
+    <loc>https://thiyangt.github.io/descriptivestatisticsweb/week0/index.html</loc>
+    <lastmod>2024-04-24T02:56:48.003Z</lastmod>
   </url>
   <url>
-    <loc>https://thiyangt.github.io/descriptivestatisticsweb/week2/index.html</loc>
-    <lastmod>2024-05-22T05:05:59.060Z</lastmod>
+    <loc>https://thiyangt.github.io/descriptivestatisticsweb/week2/answers.html</loc>
+    <lastmod>2024-05-15T07:24:18.839Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thiyangt.github.io/descriptivestatisticsweb/Week3/index.html</loc>
+    <lastmod>2024-05-29T00:31:01.521Z</lastmod>
   </url>
 </urlset>

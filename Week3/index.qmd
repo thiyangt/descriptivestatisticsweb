@@ -65,7 +65,7 @@ format:
 
 # Observational Studies vs Experimental Study: Examples
 
-Investigate the effect of fertilizer A and B on chili crop yield. 
+Investigate the effect of fertilizer A and B on chili crop yield.
 
 ------------------------------------------------------------------------
 
@@ -93,31 +93,27 @@ Group B: Farmers using fertilizer B.
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ::: columns
 ::: {.column width="50%"}
 ### Researcher 1
 
 In-class demo:
-
-
 :::
 
 ::: {.column width="50%"}
 ### Researcher 2
 
 In-class demo:
-
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ```{r, fig.cap="Source: https://www.greenproventures.com/guide-to-starting-greenhouse-farming-with-shade-nets/"}
 knitr::include_graphics("greenhouse.png")
 ```
-
 
 ## Methods of collecting secondary data
 
@@ -194,7 +190,6 @@ countdown(minutes = 2, seconds = 00)
 
 Inferential statistics are used to summarize and describe the characteristics of a dataset.
 
-
 ```{r}
 countdown(minutes = 2, seconds = 00)
 ```
@@ -202,7 +197,6 @@ countdown(minutes = 2, seconds = 00)
 ## Question 5
 
 The sample in a study represents the entire group of individuals or objects that researchers want to study.
-
 
 ```{r}
 countdown(minutes = 2, seconds = 00)
@@ -212,7 +206,6 @@ countdown(minutes = 2, seconds = 00)
 
 Descriptive statistics are used to make predictions about a population based on sample data.
 
-
 ```{r}
 countdown(minutes = 2, seconds = 00)
 ```
@@ -220,7 +213,6 @@ countdown(minutes = 2, seconds = 00)
 ## Question 7
 
 If there is no data, statistical analysis can still be performed based on theoretical assumptions.
-
 
 ```{r}
 countdown(minutes = 2, seconds = 00)
@@ -230,7 +222,6 @@ countdown(minutes = 2, seconds = 00)
 
 Primary data is collected through methods such as surveys, interviews, and experiments.
 
-
 ```{r}
 countdown(minutes = 2, seconds = 00)
 ```
@@ -239,15 +230,13 @@ countdown(minutes = 2, seconds = 00)
 
 Primary data collection allows researchers to have more control over the data quality and reliability.
 
-
 ```{r}
 countdown(minutes = 2, seconds = 00)
 ```
 
 ## Question 10
 
- Secondary data sources may include government databases, archival records, and proprietary datasets.
-
+Secondary data sources may include government databases, archival records, and proprietary datasets.
 
 ```{r, fig.height=4}
 countdown(minutes = 2, seconds = 00)
