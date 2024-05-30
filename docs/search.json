@@ -291,7 +291,7 @@
     "href": "week1/index.html#summary-measures",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.000\nMin. :1.600\nMin. :1585\n\n\n\nMale :50\n1st Qu.: 99.30\n1st Qu.:2.600\n1st Qu.:2.900\n1st Qu.:3364\n\n\n\nNA\nMedian : 99.95\nMedian :3.300\nMedian :3.500\nMedian :3990\n\n\n\nNA\nMean : 99.30\nMean :3.254\nMean :3.547\nMean :4138\n\n\n\nNA\n3rd Qu.:100.72\n3rd Qu.:3.900\n3rd Qu.:4.300\n3rd Qu.:4984\n\n\n\nNA\nMax. :110.00\nMax. :6.000\nMax. :6.300\nMax. :7550"
+    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.800\nMin. :1.100\nMin. :1245\n\n\n\nMale :50\n1st Qu.: 99.10\n1st Qu.:2.400\n1st Qu.:2.800\n1st Qu.:3125\n\n\n\nNA\nMedian : 99.90\nMedian :3.200\nMedian :3.450\nMedian :3972\n\n\n\nNA\nMean : 99.16\nMean :3.173\nMean :3.563\nMean :4060\n\n\n\nNA\n3rd Qu.:100.62\n3rd Qu.:3.900\n3rd Qu.:4.400\n3rd Qu.:5020\n\n\n\nNA\nMax. :110.00\nMax. :5.600\nMax. :6.300\nMax. :7839"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",
@@ -354,7 +354,7 @@
     "href": "index.html#weekly-schedule",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Weekly schedule",
-    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics\nTask: Fill out the survey questionnaire available on the LMS.\n\n\nWeek 3: May 22, 2024\nSlides 3: Data Collection\n\n\nWeek 4: May 29, 2024\nSlides 3: Types and scales of measurement\nAdditional reading\nGroup assignment: 10%"
+    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics\nTask: Fill out the survey questionnaire available on the LMS.\n\n\nWeek 3: May 22, 2024\nSlides 3: Data Collection\n\n\nWeek 4: May 29, 2024\nSlides 4: Types and scales of measurement\nAdditional reading\nGroup assignment: 10%"
   },
   {
     "objectID": "week0/index.html#how-to-calculate-gpa",

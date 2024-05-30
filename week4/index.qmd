@@ -27,11 +27,11 @@ as.data.frame(penguins)
 
 ## Components of a datset
 
-1. Each variable must have its own column.
+1.  Each variable must have its own column.
 
-2. Each observation must have its own row.
+2.  Each observation must have its own row.
 
-3. Each value must have its own cell.
+3.  Each value must have its own cell.
 
 ```{r, fig.cap="Image Source: https://r4ds.had.co.nz/tidy-data.html"}
 knitr::include_graphics("data.jpeg")
@@ -39,9 +39,9 @@ knitr::include_graphics("data.jpeg")
 
 ## penguins dataset
 
-1. How many variables and observations are there in the data set?
+1.  How many variables and observations are there in the data set?
 
-2. What are the variable names?
+2.  What are the variable names?
 
 ```{r}
 library(palmerpenguins)
@@ -65,7 +65,7 @@ colnames(df) <- c("Variable name", "Variable description")
 df |> knitr::kable()
 ```
 
-## Types of data 
+## Types of data
 
 ```{r, fig.height=10, out.width="200%"}
 knitr::include_graphics("datatypes.png")
@@ -73,78 +73,74 @@ knitr::include_graphics("datatypes.png")
 
 ## Qualitative/ Categorical Data
 
-- Describes categories or groups
+-   Describes categories or groups
 
-- Non-numeric (no numerical meaning)
+-   Non-numeric (no numerical meaning)
 
-- Examples: 
+-   Examples:
 
-    - colors: red, blue, green      
-    - gender: male, female
-    - types of animals: non-mammal mammal
-    
+    -   colors: red, blue, green\
+    -   gender: male, female
+    -   types of animals: non-mammal mammal
+
 Your turn: Identify qualitative variables in the penguins dataset.
-    
+
 ## Quantitative data/ Numerical Data
 
-- Represents measurable quantities
+-   Represents measurable quantities
 
-- Numeric 
+-   Numeric
 
-- Examples: 
+-   Examples:
 
-    - Height in cm
-    - Weight in kg
+    -   Height in cm
+    -   Weight in kg
 
 Your turn: Identify quantitative variables in the penguins dataset.
 
 # Discrete vs Continuous
 
----
+------------------------------------------------------------------------
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 ### Discrete
 
-- Represent countable quantities
+-   Represent countable quantities
 
-- Can take on only specific, distinct values (whole numbers)
+-   Can take on only specific, distinct values (whole numbers)
 
-- No intermediate values between consecutive values
+-   No intermediate values between consecutive values
 
-- Examples:
-    - Number of students in a classroom
-    - Number of cars in a parking lot
-    - Number of books on a shelf
+-   Examples:
 
+    -   Number of students in a classroom
+    -   Number of cars in a parking lot
+    -   Number of books on a shelf
 :::
 
 ::: {.column width="50%"}
-
 ### Continuous
 
-- Represent measurable quantities
+-   Represent measurable quantities
 
-- Can take on any value within a given range, including fractions and decimals.
+-   Can take on any value within a given range, including fractions and decimals.
 
-- Infinite number of possible values within a range.
+-   Infinite number of possible values within a range.
 
-- Examples:
-    - Height of individuals
-    - Temperature
-    - Time taken to complete a task
+-   Examples:
 
+    -   Height of individuals
+    -   Temperature
+    -   Time taken to complete a task
 :::
-
-::::
+:::
 
 ## Your turn: Identify discrete and continuous variables
 
 ```{r}
 df |> knitr::kable()
 ```
-
 
 ## Scales of measurement
 
@@ -154,66 +150,56 @@ knitr::include_graphics("scales.png")
 
 ## Nominal Scale
 
-
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 ### Properties
 
-- The simplest measurement scale
+-   The simplest measurement scale
 
-- Named variable levels
+-   Named variable levels
 
-- No numerical meaning
+-   No numerical meaning
 
-- They have no natural order.
+-   They have no natural order.
 
-- Categories are mutually exclusive.
+-   Categories are mutually exclusive.
 
-- The difference between values can’t be evaluated.
-
+-   The difference between values can’t be evaluated.
 :::
 
 ::: {.column width="50%"}
-
 ### Examples
 
 <!--https://www.statology.org/levels-of-measurement-nominal-ordinal-interval-and-ratio/-->
 
-- Blood type: O-, O+, A-, A+, B-, B+, AB-, AB+
+-   Blood type: O-, O+, A-, A+, B-, B+, AB-, AB+
 
-- Hair color: Blonde, black, brown, grey
+-   Hair color: Blonde, black, brown, grey
 
-- District you live
-
+-   District you live
 :::
-
-::::
+:::
 
 ## Ordinal Scale
 
-
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 ### Properties
 
-- The simplest measurement scale
+-   The simplest measurement scale
 
-- Named variable levels
+-   Named variable levels
 
-- No numerical meaning
+-   No numerical meaning
 
-- They have a natural order.
+-   They have a natural order.
 
-- Categories are mutually exclusive.
+-   Categories are mutually exclusive.
 
-- The difference between values can’t be evaluated.
-
+-   The difference between values can’t be evaluated.
 :::
 
 ::: {.column width="50%"}
-
 ### Examples
 
 Income: Low income, medium income, high income
@@ -221,76 +207,60 @@ Income: Low income, medium income, high income
 Customer Satisfaction: Very Dissatisfied, Dissatisfied, Neutral, Satisfied, Very Satisfied
 
 Grade: A+, A, A-, B+, B, B-
-
 :::
-
-::::
+:::
 
 ## Interval Scale
 
-
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 ### Properties
 
 These variables have
 
-- a natural order 
+-   a natural order
 
-- a numerical meaning
+-   a numerical meaning
 
-- a quantifiable difference between values
+-   a quantifiable difference between values
 
-- **no** true zero value
-
+-   **no** true zero value
 :::
 
 ::: {.column width="50%"}
-
 ### Examples
 
-- Temperature: Measured in Fahrenheit or Celsius
+-   Temperature: Measured in Fahrenheit or Celsius
 
-- Marks: Measured from 0 to 100
-
+-   Marks: Measured from 0 to 100
 :::
-
-::::
+:::
 
 ## Ratio Scale
 
-
-
-
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 ### Properties
 
 These variables have
 
-- a natural order 
+-   a natural order
 
-- a numerical meaning
+-   a numerical meaning
 
-- a quantifiable difference between values
+-   a quantifiable difference between values
 
-- a true zero value
-
+-   a true zero value
 :::
 
 ::: {.column width="50%"}
-
 ### Examples
 
-- Height: measured in centimeters.
+-   Height: measured in centimeters.
 
-- Weight: measured in kilograms.
-
+-   Weight: measured in kilograms.
 :::
-
-::::
+:::
 
 ## Summary: scales of measurements
 
@@ -298,9 +268,7 @@ These variables have
 knitr::include_graphics("summaryscales.png")
 ```
 
-
-
-## Your turn: 
+## Your turn:
 
 Identify scales of measurement for each variable.
 

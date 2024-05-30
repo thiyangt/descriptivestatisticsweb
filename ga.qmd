@@ -8,15 +8,15 @@ As part of your coursework, you will be working on a group assignment. This assi
 
 **1. Group Formation:**
 
--   You will be divided into groups of eight members each.
+-   You will be divided into groups of eight or nine members each. (For second-year students taking this unit this year, the group size will be fewer than eight.)
 
--   **Group Leader:** Select someone to lead our group and keep things organized.
+-   **Group Leader:** Select someone to lead your group and keep things organized.
 
 -   **Secretary:** Another member should be designated as the secretary, tasked with maintaining detailed meeting minutes to track our discussions and decisions.
 
 -   Further assign the following roles:
 
-    -   Deputy leader
+    -   Deputy leader (If the group size is less than 8, no need to have a deputy leader.)
 
     -   Assistant secretary
 
@@ -26,7 +26,7 @@ As part of your coursework, you will be working on a group assignment. This assi
 
     -   Research Coordinator (Field 4 and Field 5)
 
-    -   Research Coordinator (Field 6 and Field 7)
+    -   Research Coordinator (Field 6 and Field 7 and Field 8) - appoint 2 students to this position.
 
 **2. Assignment Task**
 
@@ -34,15 +34,18 @@ As part of your coursework, you will be working on a group assignment. This assi
 
 -   The remaining members will each choose one field of application from the provided list and research the use of statistics in that field. The fields to choose from are:
 
-    -   Health Sciences
-    -   Business and Economics
-    -   Environmental Sciences
-    -   Social Sciences
-    -   Engineering
-    -   Education
-    -   Government and Public Policy
+    -   Field 1: Health Sciences
+    -   Field 2: Business and Economics
+    -   Field 3: Environmental Sciences
+    -   Field 4: Social Sciences
+    -   Field 5: Engineering
+    -   Field 6: Education
+    -   Field 7: Government and Public Policy
+    -   Field 8: Information Technology
+    
+- If your group has 8 members, you will work on History and Fields 1-7. If your group has 9 members, you will work on History and Fields 1-8. If your group has 6 members, you will work on History and Fields 1-5, and so on.
 
--   For each section content should be limited to 2 A4 page only, with font size 12 and Times New Roman.
+-   For each section content should be limited to 2 A4 page (you can use both sides of the pages) only, with font size 12 and Times New Roman.
 
 **3. Submission Format:**
 
