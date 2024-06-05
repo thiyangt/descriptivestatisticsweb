@@ -45,7 +45,9 @@ as.data.frame(pf)
 ## Extract qualitative variables
 
 ```{r}
-pf2 <- pf |> select(species, island, gender, BMI_category) |> as.data.frame()
+pf2 <- pf |> select(species, island, gender, BMI_category)
+pf2  |> as.data.frame()
+
 ```
 
 ------------------------------------------------------------------------
@@ -395,6 +397,14 @@ knitr::kable(frequency_table2, format = "markdown", col.names = c("BMI Category"
 
 # Your turn: Take a suitable graphical representation.
 
+---
+
+```{r}
+pf2 |> ggplot(aes(x=BMI_category)) + geom_bar() + labs(x="BMI Category", title="Composition of the Sample by BMI Category")
+```
+
+**Question:** In this case, is it necessary to sort the bars in our data visualization for better clarity and interpretation?
+
 # Bi-variate Analysis
 
 # Two-way tables
@@ -419,4 +429,4 @@ two_way_table |> knitr::kable()
 
 # Next week
 
-- Bar charts to show two-way relationships
+-   Bar charts to show two-way relationships
