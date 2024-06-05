@@ -53,3 +53,9 @@ Here’s your roadmap for the semester!
 [Additional reading](https://www.statology.org/levels-of-measurement-nominal-ordinal-interval-and-ratio/)
 
 Group assignment: 10%
+
+### Week 5: June 5, 2024
+
+**Slides 5:** [Types and scales of measurement](./week5/index.html)
+
+Group assignment help desk: 3.15PM - 4.00PM

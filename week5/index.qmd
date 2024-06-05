@@ -40,7 +40,7 @@ pf <- penguins_complete |>
 as.data.frame(pf)
 ```
 
----
+------------------------------------------------------------------------
 
 ## Extract qualitative variables
 
@@ -48,13 +48,12 @@ as.data.frame(pf)
 pf2 <- pf |> select(species, island, gender, BMI_category) |> as.data.frame()
 ```
 
----
+------------------------------------------------------------------------
 
 # Univariate Analysis
 
 ---
 # Nominal Scale Data
-
 ---
 
 ## Frequency tables/ Contingency Tables
@@ -78,14 +77,14 @@ frequency_table |>
   knitr::kable(format = "markdown", col.names = c("Species", "Count", "Percentage (%)"))
 ```
 
----
+------------------------------------------------------------------------
 
 ## Bar Chart
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 ### Counts Bar Chart
+
 ```{r}
 library(scales) # For percentage formatting
 library(RColorBrewer) # For Dark2 color palette
@@ -98,12 +97,11 @@ scale_fill_brewer(palette = "Dark2")
 
 count_bar_chart
 ```
-
 :::
-
 
 ::: {.column width="50%"}
 ### Percentage Bar Chart
+
 ```{r}
 percentage_bar_chart <- ggplot(pf, aes(x = species,  fill = species,
 y=after_stat(count/sum(count)*100))) +
@@ -115,21 +113,17 @@ scale_fill_brewer(palette = "Dark2")
 
 percentage_bar_chart
 ```
-
-
+:::
 :::
 
-::::
-
----
-
+------------------------------------------------------------------------
 
 ## Bar Chart
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 ### Counts Bar Chart
+
 ```{r}
 library(scales) # For percentage formatting
 library(RColorBrewer) # For Dark2 color palette
@@ -142,12 +136,11 @@ scale_fill_brewer(palette = "Dark2") + coord_flip()
 
 count_bar_chart
 ```
-
 :::
-
 
 ::: {.column width="50%"}
 ### Percentage Bar Chart
+
 ```{r}
 percentage_bar_chart <- ggplot(pf, aes(x = species,  fill = species,
 y=after_stat(count/sum(count)*100))) +
@@ -159,21 +152,17 @@ scale_fill_brewer(palette = "Dark2") + coord_flip()
 
 percentage_bar_chart
 ```
-
-
+:::
 :::
 
-::::
-
----
-
+------------------------------------------------------------------------
 
 ## Bar Chart
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 ### Counts Bar Chart
+
 ```{r}
 library(scales) # For percentage formatting
 library(RColorBrewer) # For Dark2 color palette
@@ -186,12 +175,11 @@ scale_fill_brewer(palette = "Dark2") + coord_flip()
 
 count_bar_chart
 ```
-
 :::
-
 
 ::: {.column width="50%"}
 ### Percentage Bar Chart
+
 ```{r}
 percentage_bar_chart <- ggplot(pf, aes(x = species,  fill = species,
 y=after_stat(count/sum(count)*100))) +
@@ -203,23 +191,17 @@ scale_fill_brewer(palette = "Dark2") + coord_flip()
 
 percentage_bar_chart
 ```
-
-
+:::
 :::
 
-::::
-
----
+------------------------------------------------------------------------
 
 # Sort bars for easy comparison
 
----
+------------------------------------------------------------------------
 
-
-::::{.columns}
-
-:::{.column width="50%"}
-
+::: columns
+::: {.column width="50%"}
 ```{r}
 penguins_complete <- penguins %>%
   drop_na(species)
@@ -241,11 +223,9 @@ count_bar_chart <- ggplot(frequency_table, aes(x = reorder(species, n), y = n, f
   scale_fill_brewer(palette = "Dark2")
 count_bar_chart 
 ```
-
 :::
 
-:::{.column width="50%"}
-
+::: {.column width="50%"}
 ```{r}
 percentage_bar_chart <- ggplot(frequency_table, aes(x = reorder(species, n), y = percentage, fill = species)) +
   geom_bar(stat = "identity") +
@@ -257,17 +237,11 @@ percentage_bar_chart <- ggplot(frequency_table, aes(x = reorder(species, n), y =
   scale_fill_brewer(palette = "Dark2")
 percentage_bar_chart
 ```
-
+:::
 :::
 
-::::
-
-
-
-::::{.columns}
-
-:::{.column width="50%"}
-
+::: columns
+::: {.column width="50%"}
 ```{r}
 penguins_complete <- penguins %>%
   drop_na(species)
@@ -289,11 +263,9 @@ count_bar_chart <- ggplot(frequency_table, aes(x = reorder(species, n), y = n, f
   scale_fill_brewer(palette = "Dark2")
 count_bar_chart + coord_flip()
 ```
-
 :::
 
-:::{.column width="50%"}
-
+::: {.column width="50%"}
 ```{r}
 percentage_bar_chart <- ggplot(frequency_table, aes(x = reorder(species, n), y = percentage, fill = species)) +
   geom_bar(stat = "identity") +
@@ -305,12 +277,10 @@ percentage_bar_chart <- ggplot(frequency_table, aes(x = reorder(species, n), y =
   scale_fill_brewer(palette = "Dark2")
 percentage_bar_chart + coord_flip()
 ```
-
+:::
 :::
 
-::::
-
----
+------------------------------------------------------------------------
 
 ## Pie chart
 
@@ -335,11 +305,12 @@ scale_fill_brewer(palette = "Dark2") +
 pie_chart
 ```
 
----
+------------------------------------------------------------------------
+
 ## Which is the best?
 
-::::{.columns}
-:::{.column width="50%"}
+::: columns
+::: {.column width="50%"}
 ```{r}
 percentage_bar_chart <- ggplot(frequency_table, aes(x = reorder(species, n), y = percentage, fill = species)) +
   geom_bar(stat = "identity") +
@@ -353,8 +324,7 @@ percentage_bar_chart + coord_flip()
 ```
 :::
 
-
-:::{.column width="50%"}
+::: {.column width="50%"}
 ```{r}
 # Remove rows with missing species data
 pf <- penguins %>%
@@ -376,30 +346,27 @@ scale_fill_brewer(palette = "Dark2") +
 pie_chart
 ```
 :::
-::::
+:::
 
 # 
-::::{.columns}
 
-:::{.column width="50%"}
+::: columns
+::: {.column width="50%"}
 ### Pie Chart
 
-- Pie charts are easier to compare for relative proportions.
+-   Pie charts are easier to compare for relative proportions.
 
-- Pie charts are best for a small number of categories.
-
+-   Pie charts are best for a small number of categories.
 :::
 
-:::{.column width="50%"}
+::: {.column width="50%"}
 ### Bar Chart
 
-- Bar charts are better for comparing precise values.
+-   Bar charts are better for comparing precise values.
 
--  Bar charts can handle more categories without becoming cluttered.
-
+-   Bar charts can handle more categories without becoming cluttered.
 :::
-
-::::
+:::
 
 **Note:** Our visual system is typically better at comparing lengths or heights than angles. This inherent characteristic of human perception makes bar charts more effective than pie charts for comparing values or proportions.
 
@@ -408,7 +375,6 @@ pie_chart
 What other types of charts are suitable for visualizing nominal scale data?
 
 # Ordinal Scale Data
-
 
 ## Frequency table
 
@@ -433,12 +399,11 @@ knitr::kable(frequency_table2, format = "markdown", col.names = c("BMI Category"
 
 # Two-way tables
 
-
 # Let's compute
 
-- Row percentage:  percent that each cell represents of the row total
-- Column percentage:  percent that each cell represents of the column total
-- Overall percentage (toal percentage): percent that each cell represents of the grand total
+-   Row percentage: percent that each cell represents of the row total
+-   Column percentage: percent that each cell represents of the column total
+-   Overall percentage (toal percentage): percent that each cell represents of the grand total
 
 ```{r}
 library(janitor)
@@ -452,31 +417,6 @@ two_way_table <- pf2 |>
 two_way_table |> knitr::kable()
 ```
 
-## Grouped Bar Chart: Counts
+# Next week
 
-```{r}
-pf2$BMI_category <- factor(pf2$BMI_category, levels = c("Underweight", "Normal", "Overweight", "Obese"))
-
-# Create grouped bar chart
-grouped_bar_chart <- ggplot(pf2, aes(x = species, fill = BMI_category)) +
-  geom_bar(position = "dodge", stat = "count") +
-  labs(title = "Grouped Bar Chart of Species by BMI Category",
-       x = "Species",
-       y = "Count",
-       fill = "BMI Category") +
-  scale_fill_manual(values = c("#440154FF", "#414487FF", "#2A788EFF", "#7AD151FF"),
-                    na.value = "transparent") 
-grouped_bar_chart
-```
-
-
-```{r}
-grouped_bar_chart2 <- ggplot(pf2, aes(fill = species, x = BMI_category)) +
-  geom_bar(position = "dodge", stat = "count") +
-  labs(title = "Grouped Bar Chart of Species by BMI Category",
-       fill = "Species",
-       y = "Count",
-       x = "BMI Category") +
-scale_fill_brewer(palette = "Dark2")
-grouped_bar_chart2
-```
+- Bar charts to show two-way relationships
