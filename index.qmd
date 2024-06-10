@@ -56,6 +56,10 @@ Group assignment: 10%
 
 ### Week 5: June 5, 2024
 
-**Slides 5:** [Types and scales of measurement](./week5/index.html)
+**Slides 5:** [Analysing Categorical Data](./week5/index.html)
 
 Group assignment help desk: 3.15PM - 4.00PM
+
+### Week 6: June 10, 2024 
+
+**Slides 6:** 

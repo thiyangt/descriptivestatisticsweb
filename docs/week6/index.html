@@ -320,10 +320,6 @@
       margin-right: 0; 
     }
   </style>
-  <link href="../site_libs/countdown-0.4.0/countdown.css" rel="stylesheet">
-
-  <script src="../site_libs/countdown-0.4.0/countdown.js"></script>
-
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -331,7 +327,7 @@
 
 <section id="title-slide" data-background-color="#081d58" data-background-image="none" class="quarto-title-block center">
   <h1 class="title">STA 113 2.0 Descriptive Statistics</h1>
-  <p class="subtitle">Basic Terminologies and Concepts in Statistics</p>
+  <p class="subtitle">Bar Charts for Two Categorical Variables</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -342,421 +338,83 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 </div>
 
 </section>
-<section class="slide level2">
-
-<h3 id="population">Population</h3>
-<p>The <span style="color:red;">complete collection</span> of individuals or objects that are of interest.</p>
+<section id="data-set" class="slide level2">
+<h2>Data Set</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="ip2.png" style="height:120.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="example" class="slide level2">
-<h2>Example</h2>
-<ol type="1">
-<li>Population</li>
-</ol>
-<p>We’re interested in studying the average height of <span style="color:blue;">all adults in a country</span>, the population is all adult residents of that country.</p>
-</section>
-<section id="unit" class="slide level2">
-<h2>Unit</h2>
-<p>A unit is a single member of the population. It could be an individual or an object.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="ip3.png" style="height:120.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="unit-1" class="slide level2">
-<h2>Unit</h2>
-<p>A unit is a single member of the population. It could be an individual or an object.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="ip4.png" style="height:120.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="example-1" class="slide level2">
-<h2>Example</h2>
-<ol type="1">
-<li>Population</li>
-</ol>
-<p>We’re interested in studying the average height of <span style="color:blue;">all adults in a country</span>, the population is all adult residents of that country.</p>
-<ol start="2" type="1">
-<li>Unit</li>
-</ol>
-<p>In our example of studying adult height, <span style="color:blue;">each adult residing</span> in the country would be a unit.</p>
-</section>
-<section id="sample" class="slide level2">
-<h2>Sample</h2>
-<p>A subset of units in a population.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="ip5.png" style="height:120.0%"></p>
-</figure>
-</div>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">species</th>
+<th style="text-align: right;">Underweight</th>
+<th style="text-align: right;">Normal</th>
+<th style="text-align: right;">Overweight</th>
+<th style="text-align: right;">Obese</th>
+<th style="text-align: right;">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Adelie</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">146</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Chinstrap</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">68</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Gentoo</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">119</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Total</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">134</td>
+<td style="text-align: right;">94</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">333</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </section>
-<section id="sample-1" class="slide level2">
-<h2>Sample</h2>
-<p>A subset of units in a population.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="ip6.png" style="height:120.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="sampling" class="slide level2">
-<h2>Sampling</h2>
-<p>Sampling is the <span style="color:red;">process</span> of selecting a subset of individuals or items from a population.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="ip7.png" style="height:120.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="statistics" class="slide level2">
-<h2>Statistics</h2>
-<p>A numerical summary of a sample.</p>
-<!--A numerical value summarizing the sample data.-->
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="ip8.png" style="height:120.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="parameter" class="slide level2">
-<h2>Parameter</h2>
-<p>A numerical summary of a population.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="ip9.png" style="height:120.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="inferential-statistics" class="slide level2">
-<h2>Inferential Statistics</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="ip10.png" style="height:120.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="inferential-statistics-1" class="slide level2">
-<h2>Inferential Statistics</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="ip11.png" style="height:120.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="two-branches-of-statistics" class="slide level2">
-<h2>Two Branches of Statistics</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="descriptive-statistics">1. Descriptive Statistics</h3>
-</div><div class="column" style="width:50%;">
-<h3 id="inferential-statistics-2">2. Inferential Statistics</h3>
-</div>
-</div>
-</section>
-<section id="two-branches-of-statistics-1" class="slide level2">
-<h2>Two Branches of Statistics</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="descriptive-statistics-1">1. Descriptive Statistics</h3>
-<p>Describe and summarize the collected data through numerical summaries, tables, and graphs.</p>
-</div><div class="column" style="width:50%;">
-<h3 id="inferential-statistics-3">2. Inferential Statistics</h3>
-</div>
-</div>
-</section>
-<section id="two-branches-of-statistics-2" class="slide level2">
-<h2>Two Branches of Statistics</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="descriptive-statistics-2">1. Descriptive Statistics</h3>
-<p>Describe and summarize the collected data through numerical summaries, tables, and graphs.</p>
-</div><div class="column" style="width:50%;">
-<h3 id="inferential-statistics-4">2. Inferential Statistics</h3>
-<p>Statistical inference refers to the methods used to make estimations, decisions, or predictions about a population parameters based on the statistics computed from a sample that was selected from that population.</p>
-</div>
-</div>
-</section>
-<section id="in-class-demo" class="slide level2">
-<h2>In-class demo</h2>
-<p><strong>About the data</strong></p>
-<p>Data were collected and made available by Dr.&nbsp;Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network.</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 344 × 8
-   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g
-   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;
- 1 Adelie  Torgersen           39.1          18.7               181        3750
- 2 Adelie  Torgersen           39.5          17.4               186        3800
- 3 Adelie  Torgersen           40.3          18                 195        3250
- 4 Adelie  Torgersen           NA            NA                  NA          NA
- 5 Adelie  Torgersen           36.7          19.3               193        3450
- 6 Adelie  Torgersen           39.3          20.6               190        3650
- 7 Adelie  Torgersen           38.9          17.8               181        3625
- 8 Adelie  Torgersen           39.2          19.6               195        4675
- 9 Adelie  Torgersen           34.1          18.1               193        3475
-10 Adelie  Torgersen           42            20.2               190        4250
-# ℹ 334 more rows
-# ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;</code></pre>
-</div>
-</div>
-</section>
-<section id="section" class="title-slide slide level1 center">
-<h1></h1>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="culmen_depth.png"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Source: https://allisonhorst.github.io/palmerpenguins/</p>
-</div><div class="column" style="width:50%;">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="gorman-penguins.jpg"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>source: https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/</p>
-</div>
-</div>
-</section>
-
 <section>
-<section id="section-1" class="title-slide slide level1 center">
-<h1></h1>
-<blockquote>
-<h2 id="census">Census</h2>
-</blockquote>
-<p>A <span style="color:red;">census</span> involves collecting information from every individual or unit within the entire population of interest.</p>
-<blockquote>
-<h2 id="sample-survey">Sample Survey</h2>
-</blockquote>
-<p>A <span style="color:red;">survey</span> involves collecting information from a subset (sample) of the population to estimate characteristics of the entire population.</p>
-</section>
-<section id="notations" class="slide level2">
-<h2>Notations</h2>
-<p><span style="color:red;">Parameters</span> are usually denoted by Greek letters</p>
-<p>Example:</p>
-<p><span class="math inline">\(\mu - \text{population mean}\)</span></p>
-<p><span class="math inline">\(\sigma - \text{population variance}\)</span></p>
-<p><span style="color:blue;">Statistics</span> are denoted by English letters (Capital or Simple? You will learn more of this in your “Statistical Inference” course)</p>
-<p>Eample:</p>
-<p><span class="math inline">\(\bar{X} - \text{sample mean}\)</span></p>
-<p><span class="math inline">\(S^2 - \text{sample variance}\)</span></p>
-</section>
-<section id="inclass-demo" class="slide level2">
-<h2>Inclass demo</h2>
-<ul>
-<li><p>The value of the population parameter does not change.</p></li>
-<li><p>Sample statistics vary from sample to sample.</p></li>
-</ul>
-</section>
-<section class="slide level2">
+<section id="grouped-bar-chart-clustered-bar-chart" class="title-slide slide level1 center">
+<h1>Grouped Bar Chart/ Clustered Bar Chart</h1>
 
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="ip2.png" style="height:120.0%"></p>
-</figure>
-</div>
-</div>
-</div>
 </section>
-<section class="slide level2">
+<section id="section" class="slide level2">
+<h2></h2>
 
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="s1.png" style="height:120.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section class="slide level2">
+<img data-src="index_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">Figure 1: Composition of the Sample by Species and BMI Category</p></section>
+<section id="section-1" class="slide level2">
+<h2></h2>
 
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="s3.png" style="height:120.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section class="slide level2">
+<img data-src="index_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">Figure 1: Composition of the Sample by Species and BMI Category</p></section>
+<section id="section-2" class="slide level2">
+<h2></h2>
 
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="s2.png" style="height:120.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="your-turn-question-1" class="slide level2">
-<h2>Your turn: Question 1</h2>
-<p>A researcher is studying the biodiversity of Beira Lake. To estimate the proportion of species counts, he took a bucket of water (1L) from the lake and counted how many species of bacteria, bugs, and other creepy crawlies he found in the bucket.</p>
-<p>Identify the following terms related to this study:</p>
-<ol type="i">
-<li><p>Population</p></li>
-<li><p>Sample</p></li>
-<li><p>Parameter</p></li>
-<li><p>Statistics</p></li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_32a7b4e6" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
-<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">06</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
-</section>
-<section id="your-turn-question-2" class="slide level2">
-<h2>Your turn: Question 2</h2>
-<p>A researcher wants to estimate the failure rate of hard disk drives (HDDs) produced by a computer manufacturing company. The researcher randomly selects 100 HDDs from a recent production batch and examines them for signs of malfunction or failure.</p>
-<p>Identify the following terms related to this study:</p>
-<ol type="i">
-<li><p>Population</p></li>
-<li><p>Sample</p></li>
-<li><p>Parameter</p></li>
-<li><p>Statistics</p></li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_5be4600a" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
-<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
-</section>
-<section id="your-turn-question-3" class="slide level2">
-<h2>Your turn: Question 3</h2>
-<p>The lecturer-in-charge is interested in estimating the proportion of students who actively listened to the lecture during today’s online Zoom sessions. She randomly selects 50 students and asks questions related to the content covered during the lecture.</p>
-<p>Identify the following terms related to this study:</p>
-<ol type="i">
-<li><p>Population</p></li>
-<li><p>Sample</p></li>
-<li><p>Parameter</p></li>
-<li><p>Statistics</p></li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_18624d41" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
-<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
-</section>
-<section id="your-turn-question-4" class="slide level2">
-<h2>Your turn: Question 4</h2>
-<p>A researcher is interested in estimating the mean monthly expenditure of government university students on educational expenses. The researcher randomly selects 100 government university students and asks them to report their total educational expenditure for the last month. Based on the observed values, the researcher computed the sample mean.</p>
-<p>Identify the following terms related to this study:</p>
-<ol type="i">
-<li><p>Population</p></li>
-<li><p>Sample</p></li>
-<li><p>Parameter</p></li>
-<li><p>Statistics</p></li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_5a45205a" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
-<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
-</section>
-<section id="your-turn-question-5" class="slide level2">
-<h2>Your turn: Question 5</h2>
-<p>The government wants to assess the willingness of all government officers earning a salary of Rs 100,000 to purchase electric vehicles. The government has posted a questionnaire to every government officers earning this salary. Identify whether this process is a census or a survey. Provide a justification for your answer.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_d093e5f9" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
-<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">04</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
-</section>
-<section id="your-turn-question-6" class="slide level2">
-<h2>Your turn: Question 6</h2>
-<p>The government wants to assess the willingness of government officers earning a salary greater than Rs 100,000 to purchase electric vehicles. They have posted a questionnaire to a sample of government offices where officers earn salaries above this threshold. Identify whether this process is a census or a survey. Provide a justification for your answer.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_e1c86c9f" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
-<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">04</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
-</section>
-<section id="copyright" class="slide level2">
-<h2>Copyright</h2>
-<p>Up until slide 13 and slides 23-26, every image has been authored by Dr Thiyanga S. Talagala. Hence, all images up to slide 14 and 23-26 are copyrighted by Thiyanga S. Talagala.</p>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">Figure 1: Composition of the Sample by Species and BMI Category</p></section>
+<section id="percentage-grouped-bar-chart" class="slide level2">
+<h2>Percentage Grouped Bar Chart</h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<p>https://afit-r.github.io/barcharts</p>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

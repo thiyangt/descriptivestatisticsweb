@@ -21,25 +21,18 @@
     "text": "Frequency tables/ Contingency Tables\n\n\n\n\n\nSpecies\nCount\nPercentage (%)\n\n\n\n\nAdelie\n146\n43.84\n\n\nChinstrap\n68\n20.42\n\n\nGentoo\n119\n35.74\n\n\nTotal\n333\n100.00"
   },
   {
-    "objectID": "week5/index.html#bar-chart",
-    "href": "week5/index.html#bar-chart",
+    "objectID": "week5/index.html#vertical-bar-chart",
+    "href": "week5/index.html#vertical-bar-chart",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Bar Chart",
-    "text": "Bar Chart\n\n\nCounts Bar Chart\n\n\n\n\n\n\n\n\n\n\nPercentage Bar Chart"
+    "section": "Vertical Bar Chart",
+    "text": "Vertical Bar Chart\n\n\nCounts Bar Chart\n\n\n\n\n\n\n\n\n\n\nPercentage Bar Chart"
   },
   {
-    "objectID": "week5/index.html#bar-chart-1",
-    "href": "week5/index.html#bar-chart-1",
+    "objectID": "week5/index.html#horizontal-bar-chart",
+    "href": "week5/index.html#horizontal-bar-chart",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Bar Chart",
-    "text": "Bar Chart\n\n\nCounts Bar Chart\n\n\n\n\n\n\n\n\n\n\nPercentage Bar Chart"
-  },
-  {
-    "objectID": "week5/index.html#bar-chart-2",
-    "href": "week5/index.html#bar-chart-2",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Bar Chart",
-    "text": "Bar Chart\n\n\nCounts Bar Chart\n\n\n\n\n\n\n\n\n\n\nPercentage Bar Chart"
+    "section": "Horizontal Bar Chart",
+    "text": "Horizontal Bar Chart\n\n\nCounts Bar Chart\n\n\n\n\n\n\n\n\n\n\nPercentage Bar Chart"
   },
   {
     "objectID": "week5/index.html#pie-chart",
@@ -347,7 +340,7 @@
     "href": "index.html#weekly-schedule",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Weekly schedule",
-    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics\nTask: Fill out the survey questionnaire available on the LMS.\n\n\nWeek 3: May 22, 2024\nSlides 3: Data Collection\n\n\nWeek 4: May 29, 2024\nSlides 4: Types and scales of measurement\nAdditional reading\nGroup assignment: 10%\n\n\nWeek 5: June 5, 2024\nSlides 5: Types and scales of measurement\nGroup assignment help desk: 3.15PM - 4.00PM"
+    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics\nTask: Fill out the survey questionnaire available on the LMS.\n\n\nWeek 3: May 22, 2024\nSlides 3: Data Collection\n\n\nWeek 4: May 29, 2024\nSlides 4: Types and scales of measurement\nAdditional reading\nGroup assignment: 10%\n\n\nWeek 5: June 5, 2024\nSlides 5: Analysing Categorical Data\nGroup assignment help desk: 3.15PM - 4.00PM\n\n\nWeek 6: June 10, 2024\nSlides 6:"
   },
   {
     "objectID": "ga.html",
@@ -382,7 +375,7 @@
     "href": "week1/index.html#summary-measures",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.300\nMin. :1.200\nMin. :1670\n\n\n\nMale :50\n1st Qu.: 99.38\n1st Qu.:2.800\n1st Qu.:2.700\n1st Qu.:3465\n\n\n\nNA\nMedian :100.10\nMedian :3.350\nMedian :3.400\nMedian :4408\n\n\n\nNA\nMean : 99.36\nMean :3.364\nMean :3.399\nMean :4277\n\n\n\nNA\n3rd Qu.:100.83\n3rd Qu.:4.000\n3rd Qu.:4.025\n3rd Qu.:5061\n\n\n\nNA\nMax. :110.00\nMax. :5.300\nMax. :6.300\nMax. :7616"
+    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.200\nMin. :0.800\nMin. :1293\n\n\n\nMale :50\n1st Qu.: 99.40\n1st Qu.:2.575\n1st Qu.:2.800\n1st Qu.:3184\n\n\n\nNA\nMedian :100.00\nMedian :3.400\nMedian :3.600\nMedian :4044\n\n\n\nNA\nMean : 99.31\nMean :3.318\nMean :3.664\nMean :4217\n\n\n\nNA\n3rd Qu.:100.72\n3rd Qu.:4.100\n3rd Qu.:4.400\n3rd Qu.:5099\n\n\n\nNA\nMax. :110.00\nMax. :5.500\nMax. :6.300\nMax. :8090"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",
@@ -670,5 +663,61 @@
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Your turn:",
     "text": "Your turn:\nIdentify scales of measurement for each variable.\n\n\n\n\n\n\n\n\n\nVariable name\nVariable description\n\n\n\n\nspecies\npenguin species (Adélie, Chinstrap and Gentoo)\n\n\nisland\nisland in Palmer Archipelago, Antarctica (Biscoe, Dream or Torgersen)\n\n\nbill_length_mm\nbill length (millimeters)\n\n\nbill_depth_mm\nbill depth (millimeters)\n\n\nflipper_length_mm\nflipper length (millimeters)\n\n\nbody_mass_g\nbody mass (grams)\n\n\ngender\npenguin gender (female, male)\n\n\nyear\nthe study year (2007, 2008, or 2009)"
+  },
+  {
+    "objectID": "week6/index.html#data-set",
+    "href": "week6/index.html#data-set",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Data Set",
+    "text": "Data Set\n\n\n\n\n\nspecies\nUnderweight\nNormal\nOverweight\nObese\nTotal\n\n\n\n\nAdelie\n30\n84\n32\n0\n146\n\n\nChinstrap\n8\n49\n11\n0\n68\n\n\nGentoo\n0\n1\n51\n67\n119\n\n\nTotal\n38\n134\n94\n67\n333"
+  },
+  {
+    "objectID": "week6/index.html#section",
+    "href": "week6/index.html#section",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "",
+    "text": "Figure 1: Composition of the Sample by Species and BMI Category"
+  },
+  {
+    "objectID": "week6/index.html#section-1",
+    "href": "week6/index.html#section-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "",
+    "text": "Figure 1: Composition of the Sample by Species and BMI Category"
+  },
+  {
+    "objectID": "week6/index.html#section-2",
+    "href": "week6/index.html#section-2",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "",
+    "text": "Figure 1: Composition of the Sample by Species and BMI Category"
+  },
+  {
+    "objectID": "week6/index.html#section-3",
+    "href": "week6/index.html#section-3",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "",
+    "text": "https://afit-r.github.io/barcharts"
+  },
+  {
+    "objectID": "week6/index.html#section-4",
+    "href": "week6/index.html#section-4",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "",
+    "text": "https://afit-r.github.io/barcharts"
+  },
+  {
+    "objectID": "week6/index.html#row-percentage",
+    "href": "week6/index.html#row-percentage",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Row Percentage",
+    "text": "Row Percentage"
+  },
+  {
+    "objectID": "week6/index.html#percentage-grouped-bar-chart",
+    "href": "week6/index.html#percentage-grouped-bar-chart",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Percentage Grouped Bar Chart",
+    "text": "Percentage Grouped Bar Chart"
   }
 ]

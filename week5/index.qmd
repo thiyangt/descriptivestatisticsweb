@@ -81,7 +81,7 @@ frequency_table |>
 
 ------------------------------------------------------------------------
 
-## Bar Chart
+## Vertical Bar Chart
 
 ::: columns
 ::: {.column width="50%"}
@@ -120,7 +120,7 @@ percentage_bar_chart
 
 ------------------------------------------------------------------------
 
-## Bar Chart
+## Horizontal Bar Chart
 
 ::: columns
 ::: {.column width="50%"}
@@ -156,47 +156,6 @@ percentage_bar_chart
 ```
 :::
 :::
-
-------------------------------------------------------------------------
-
-## Bar Chart
-
-::: columns
-::: {.column width="50%"}
-### Counts Bar Chart
-
-```{r}
-library(scales) # For percentage formatting
-library(RColorBrewer) # For Dark2 color palette
-count_bar_chart <- ggplot(pf, aes(x = species,  fill = species)) +
-  geom_bar() +
-  labs(title = "Composition of the Sample by Species",
-       x = "Species",
-       y = "Count") +
-scale_fill_brewer(palette = "Dark2") + coord_flip()
-
-count_bar_chart
-```
-:::
-
-::: {.column width="50%"}
-### Percentage Bar Chart
-
-```{r}
-percentage_bar_chart <- ggplot(pf, aes(x = species,  fill = species,
-y=after_stat(count/sum(count)*100))) +
-  geom_bar() +
-  labs(title = "Composition of the Sample by Species",
-       x = "Species",
-       y = "Percentage") +
-scale_fill_brewer(palette = "Dark2") + coord_flip()
-
-percentage_bar_chart
-```
-:::
-:::
-
-------------------------------------------------------------------------
 
 # Sort bars for easy comparison
 
@@ -397,7 +356,7 @@ knitr::kable(frequency_table2, format = "markdown", col.names = c("BMI Category"
 
 # Your turn: Take a suitable graphical representation.
 
----
+------------------------------------------------------------------------
 
 ```{r}
 pf2 |> ggplot(aes(x=BMI_category)) + geom_bar() + labs(x="BMI Category", title="Composition of the Sample by BMI Category")
@@ -426,6 +385,7 @@ two_way_table <- pf2 |>
 
 two_way_table |> knitr::kable()
 ```
+
 
 # Next week
 
