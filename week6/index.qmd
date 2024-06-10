@@ -53,7 +53,7 @@ two_way_table |> knitr::kable()
 
 # Grouped Bar Chart/ Clustered Bar Chart
 
-##
+## 
 
 ```{r, fig.cap="Figure 1: Composition of the Sample by Species and BMI Category"}
 pf2 |>
@@ -65,8 +65,7 @@ pf2 |>
 
 ```
 
-##
-
+## 
 
 ```{r, fig.cap="Figure 1: Composition of the Sample by Species and BMI Category"}
 pf2 |>
@@ -74,29 +73,29 @@ pf2 |>
   complete(species = unique(species), BMI_category = unique(BMI_category), 
            fill = list(n = 0)) |>
   ggplot(aes(factor(species), n, fill = factor(BMI_category))) + 
-  geom_bar(stat = 'identity', position = 'dodge') + labs(fill = "BMI Category", x="Species", y="Counts") + scale_fill_manual(values = c("#91003f",  "#e7298a", "#d4b9da", "#bfd3e6"))
+  geom_bar(stat = 'identity', position = 'dodge') + labs(fill = "BMI Category", x="Species", y="Counts") + scale_fill_manual(values = c("#042333ff",  "#593d9cff", "#b8627dff", "#f9a242ff"))
 
 ```
 
-##
-
+## 
 
 ```{r, fig.cap="Figure 1: Composition of the Sample by Species and BMI Category"}
-pf2 |>
+p1 <- pf2 |>
   count(species, BMI_category) |>
   complete(species = unique(species), BMI_category = unique(BMI_category), 
            fill = list(n = 0)) |>
   ggplot(aes(factor(species), n, fill = factor(BMI_category))) + 
   geom_bar(stat = 'identity', position = 'dodge') + 
   geom_text(aes(label=n),  position = position_dodge(0.9),
-                  vjust = 0, color = "black") + labs(fill = "BMI Category", x="Species", y="Counts") + scale_fill_manual(values = c("#91003f",  "#e7298a", "#d4b9da", "#bfd3e6"))
+                  vjust = 0, color = "black") + labs(fill = "BMI Category", x="Species", y="Counts") + scale_fill_manual(values = c("#042333ff",  "#593d9cff", "#b8627dff", "#f9a242ff"))
+p1
 
 ```
 
 ## Percentage Grouped Bar Chart
 
 ```{r}
-pf2 <- pf2 %>%
+pf3 <- pf2 %>%
   count(species, BMI_category) %>%
   complete(species = unique(pf2$species), BMI_category = unique(pf2$BMI_category), fill = list(n = 0)) %>%
   group_by(species) %>%
@@ -104,18 +103,176 @@ pf2 <- pf2 %>%
   ungroup()
 
 # Plotting code for row percentages
-ggplot(pf2, aes(x = factor(species), y = row_percentage, fill = factor(BMI_category))) +
+p2 <- ggplot(pf3, aes(x = factor(species), y = row_percentage, fill = factor(BMI_category))) +
   geom_bar(stat = 'identity', position = 'dodge') +
   geom_text(aes(label = sprintf("%.1f%%", row_percentage)), 
             position = position_dodge(width = 0.9), vjust = -0.5, color = "black") +
   labs(fill = "BMI Category", x = "Species", y = "Percentage") +
-  scale_fill_manual(values = c("#91003f", "#e7298a", "#d4b9da", "#bfd3e6")) +
+  scale_fill_manual(values = c("#042333ff",  "#593d9cff", "#b8627dff", "#f9a242ff")) +
   ylim(0, 100) +  # Ensure y-axis starts from 0 and ends at 100
   theme_minimal() 
+p2
+```
+
+## Row percentages
+
+```{r}
+knitr::include_graphics("tab1.png")
+```
+
+#
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+## Counts
+
+```{r}
+p1
+```
+
+```{r}
+knitr::include_graphics("tab1.png")
 ```
 
 
+:::
+
+
+::: {.column width="50%"}
+
+## Percentages
+
+```{r}
+p2
+```
+
+:::
+
+::::
+
+# Column Percentages
+
+```{r}
+knitr::include_graphics("tab2.png")
+```
 
 ##
 
-https://afit-r.github.io/barcharts
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Counts
+
+```{r}
+pf2 |>
+  count(BMI_category, species) |>
+  complete(species = unique(species), BMI_category = unique(BMI_category), 
+           fill = list(n = 0)) |>
+  ggplot(aes(fill=factor(species), y= n, x = factor(BMI_category))) + 
+  geom_bar(stat = 'identity', position = 'dodge') + 
+ geom_text(aes(label =  n), 
+            position = position_dodge(width = 0.9), vjust = -0.5, color = "black") +
+labs(x = "BMI Category", fill ="Species", y="Counts")
+
+```
+
+```{r}
+knitr::include_graphics("tab2.png")
+```
+:::
+
+
+
+::: {.column width="50%"}
+
+### Percentages
+
+```{r}
+pf4 <- pf2 %>%
+  count(species, BMI_category) %>%
+  complete(species = unique(pf2$species), BMI_category = unique(pf2$BMI_category), fill = list(n = 0)) %>%
+  group_by(BMI_category) %>%
+  mutate(col_percentage = n / sum(n) * 100) %>%
+  ungroup()
+
+# Plotting code for row percentages
+p3 <- ggplot(pf4, aes(x = factor(BMI_category), y = col_percentage, fill = factor(species))) +
+  geom_bar(stat = 'identity', position = 'dodge') +
+  geom_text(aes(label = sprintf("%.1f%%", col_percentage)), 
+            position = position_dodge(width = 0.9), vjust = -0.5, color = "black") +
+  labs(x = "BMI Category", fill = "Species", y = "Percentage") +
+  ylim(0, 100) +  # Ensure y-axis starts from 0 and ends at 100
+  theme_minimal() 
+p3
+```
+
+:::
+
+::::
+
+# Staked Bar Chart
+
+##
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Counts
+
+```{r}
+pf2 |>
+  count(BMI_category, species) |>
+  ggplot(aes(fill=factor(species), y= n, x = factor(BMI_category))) + 
+  geom_bar(stat = 'identity', position = 'stack') + 
+ geom_text(aes(label =n),
+            position = position_stack(vjust = 0.5), 
+            size = 3, 
+            color = "white") +
+labs(x = "BMI Category", fill ="Species", y="Counts")
+
+```
+
+```{r}
+knitr::include_graphics("tab2.png")
+```
+:::
+
+
+
+::: {.column width="50%"}
+
+### Percentages
+
+```{r}
+# Calculate percentages
+pf5 <- pf2 %>%
+  count(species, BMI_category) %>%
+  group_by(BMI_category) %>%
+  mutate(col_percentage = n / sum(n) * 100) %>%
+  ungroup()
+
+# Plotting code for stacked bar chart and text annotations
+p4 <- ggplot(pf5, aes(x = factor(BMI_category), y = col_percentage, fill = factor(species))) +
+  geom_bar(stat = 'identity', position = 'stack') +
+  labs(x = "BMI Category", fill = "Species", y = "Percentage") +
+  ylim(0, 100) +  # Ensure y-axis starts from 0 and ends at 100
+  theme_minimal() +
+  geom_text(aes(label = paste0(round(col_percentage, 1), "%")),
+            position = position_stack(vjust = 0.5), 
+            size = 3, 
+            color = "white")  # Adjust text position and appearance as needed
+
+print(p4)
+```
+
+:::
+
+::::
+
+ 
+
+<!--https://afit-r.github.io/barcharts-->
