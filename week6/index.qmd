@@ -269,4 +269,152 @@ pf2 |>
 
 ::::
 
+##
 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Counts
+
+```{r}
+pf2 |>
+  count(BMI_category, species) |>
+  ggplot(aes(fill=factor(species), y= n, x = factor(BMI_category))) + 
+  geom_bar(stat = 'identity', position = 'stack') + 
+ geom_text(aes(label =n),
+            position = position_stack(vjust = 0.5), 
+            size = 3, 
+            color = "white") +
+labs(x = "BMI Category", fill ="Species", y="Counts") +
+scale_fill_brewer(palette = "Dark2") + coord_flip()
+
+```
+
+```{r}
+knitr::include_graphics("tab2.png")
+```
+:::
+
+
+
+::: {.column width="50%"}
+
+### Percentages
+
+```{r}
+pf2 |>
+  count(BMI_category, species) |>      
+  group_by(BMI_category) |>
+  mutate(pct= prop.table(n) * 100) %>%
+  ggplot() + aes(BMI_category, pct, fill=species) +
+  geom_bar(stat="identity") +
+  ylab("Percentage") +
+  xlab("BMI Category")+
+  geom_text(aes(label=paste0(sprintf("%1.1f", pct),"%")),
+            position=position_stack(vjust=0.5)) + scale_fill_brewer(palette = "Dark2") + coord_flip()
+```
+
+
+
+:::
+
+
+::::
+
+## Percentage chart
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+**Advantages**
+
+- Shows the proportion of each category relative to the whole, making it easier to understand the distribution.
+
+- Allows for fair comparisons between different groups or categories, regardless of their size.
+
+- Highlights the relative importance of different categories within each group.
+
+:::
+
+::: {.column width="50%"}
+
+**Disadvantages**
+
+- Doesn’t provide the raw counts, which might be necessary for understanding the actual volume or size of each category.
+
+
+:::
+::::
+
+## Counts chart
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+**Advantages**
+
+- Clearly shows the  frequency of each category, providing a direct understanding of the volume or size.
+
+- Useful when the actual count is crucial for decision-making.
+
+:::
+
+::: {.column width="50%"}
+
+**Disadvantages**
+
+- Difficulties arise when comparing groups, especially when their sizes differ.
+
+:::
+::::
+
+
+
+## Grouped Bar Chart (Percentage)
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Advantages**
+
+- Comparison within groups: It allows for easy comparison of values within each category group.
+
+- Comparison between groups: It also facilitates comparison between different category groups.
+:::
+
+::: {.column width="50%"}
+**Disadvantages**
+
+- If there are too many groups or variables, the bars can become narrow, making it difficult to read.
+
+- Complexity with many groups: With a large number of groups or variables, the chart can become crowded and hard to read.
+
+- Difficulty in showing totals: It's not straightforward to show the total magnitude of each category since bars are grouped.
+:::
+::::
+
+## Stacked Bar Chart: Advantages
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Stacked Count Chart**
+
+- Allows viewers to see how totals accumulate as each category is stacked on top of one another.
+
+:::
+
+::: {.column width="50%"}
+**Stacked Percentage Chart**
+:::
+
+::::
+
+## Stacked Bar Chart: Disadvantages
+
+-  It can be challenging to compare individual segments between different groups because they are not aligned horizontally.
+
+-  Small segments can be hard to interpret accurately when they are stacked on top of each other.

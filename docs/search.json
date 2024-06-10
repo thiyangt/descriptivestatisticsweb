@@ -768,5 +768,54 @@
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Percentages",
     "text": "Percentages"
+  },
+  {
+    "objectID": "week6/index.html#section-6",
+    "href": "week6/index.html#section-6",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "",
+    "text": "Counts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPercentages"
+  },
+  {
+    "objectID": "week6/index.html#grouped-bar-chart",
+    "href": "week6/index.html#grouped-bar-chart",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Grouped Bar Chart",
+    "text": "Grouped Bar Chart\n\n\nAdvantages\n\nComparison within groups: It allows for easy comparison of values within each category group because each group is represented side by side.\nComparison between groups: It also facilitates comparison between different category groups by visually aligning bars next to each other.\n\n\nDisadvantages\n\nLimited space for labels: If there are too many groups or variables, the bars can become narrow, making it difficult to label each bar without cluttering the chart.\nComplexity with many groups: With a large number of groups or variables, the chart can become crowded and hard to read, diminishing its effectiveness.\nDifficulty in showing totals: It’s not straightforward to show the total magnitude of each category since bars are grouped."
+  },
+  {
+    "objectID": "week6/index.html#grouped-bar-chart-percentage",
+    "href": "week6/index.html#grouped-bar-chart-percentage",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Grouped Bar Chart (Percentage)",
+    "text": "Grouped Bar Chart (Percentage)\n\n\nAdvantages\n\nComparison within groups: It allows for easy comparison of values within each category group.\nComparison between groups: It also facilitates comparison between different category groups.\n\n\nDisadvantages\n\nIf there are too many groups or variables, the bars can become narrow, making it difficult to read.\nComplexity with many groups: With a large number of groups or variables, the chart can become crowded and hard to read.\nDifficulty in showing totals: It’s not straightforward to show the total magnitude of each category since bars are grouped."
+  },
+  {
+    "objectID": "week6/index.html#percentage-chart",
+    "href": "week6/index.html#percentage-chart",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Percentage chart",
+    "text": "Percentage chart\n\n\nAdvantages\n\nShows the proportion of each category relative to the whole, making it easier to understand the distribution.\nAllows for fair comparisons between different groups or categories, regardless of their size.\nHighlights the relative importance of different categories within each group.\n\n\nDisadvantages\n\nDoesn’t provide the raw counts, which might be necessary for understanding the actual volume or size of each category."
+  },
+  {
+    "objectID": "week6/index.html#counts-chart",
+    "href": "week6/index.html#counts-chart",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Counts chart",
+    "text": "Counts chart\n\n\nAdvantages\n\nClearly shows the frequency of each category, providing a direct understanding of the volume or size.\nUseful when the actual count is crucial for decision-making.\n\n\nDisadvantages\n\nDifficulties arise when comparing groups, especially when their sizes differ."
+  },
+  {
+    "objectID": "week6/index.html#stacked-bar-chart-advantages",
+    "href": "week6/index.html#stacked-bar-chart-advantages",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Stacked Bar Chart: Advantages",
+    "text": "Stacked Bar Chart: Advantages\n\n\nStacked Count Chart\n\nAllows viewers to see how totals accumulate as each category is stacked on top of one another.\n\n\nStacked Percentage Chart"
+  },
+  {
+    "objectID": "week6/index.html#stacked-bar-chart-disadvantages",
+    "href": "week6/index.html#stacked-bar-chart-disadvantages",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Stacked Bar Chart: Disadvantages",
+    "text": "Stacked Bar Chart: Disadvantages\n\nIt can be challenging to compare individual segments between different groups because they are not aligned horizontally.\nSmall segments can be hard to interpret accurately when they are stacked on top of each other."
   }
 ]
