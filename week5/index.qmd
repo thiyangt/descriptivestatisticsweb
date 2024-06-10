@@ -79,7 +79,13 @@ frequency_table |>
   knitr::kable(format = "markdown", col.names = c("Species", "Count", "Percentage (%)"))
 ```
 
-------------------------------------------------------------------------
+
+
+# Uni-variate Graphical Representations 
+
+- Simple Bar Charts
+
+- Pie Charts
 
 ## Vertical Bar Chart
 
