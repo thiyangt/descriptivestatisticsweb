@@ -386,7 +386,6 @@ two_way_table <- pf2 |>
 two_way_table |> knitr::kable()
 ```
 
-
 # Next week
 
 -   Bar charts to show two-way relationships
