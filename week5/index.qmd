@@ -79,13 +79,11 @@ frequency_table |>
   knitr::kable(format = "markdown", col.names = c("Species", "Count", "Percentage (%)"))
 ```
 
+# Uni-variate Graphical Representations
 
+-   Simple Bar Charts
 
-# Uni-variate Graphical Representations 
-
-- Simple Bar Charts
-
-- Pie Charts
+-   Pie Charts
 
 ## Vertical Bar Chart
 
@@ -370,6 +368,9 @@ pf2 |> ggplot(aes(x=BMI_category)) + geom_bar() + labs(x="BMI Category", title="
 
 **Question:** In this case, is it necessary to sort the bars in our data visualization for better clarity and interpretation?
 
+
+
+
 # Bi-variate Analysis
 
 # Two-way tables
@@ -378,7 +379,7 @@ pf2 |> ggplot(aes(x=BMI_category)) + geom_bar() + labs(x="BMI Category", title="
 
 -   Row percentage: percent that each cell represents of the row total
 -   Column percentage: percent that each cell represents of the column total
--   Overall percentage (toal percentage): percent that each cell represents of the grand total
+-   Overall percentage (total percentage): percent that each cell represents of the grand total
 
 ```{r}
 library(janitor)
@@ -391,6 +392,14 @@ two_way_table <- pf2 |>
 
 two_way_table |> knitr::kable()
 ```
+
+# Why is it important to represent both counts and percentages?
+
+##
+
+- Percentages can sometimes be misleading when the sample size is small. By presenting both counts and percentages,  the reader can see the actual numbers behind the percentages. 
+
+- When comparing different groups or datasets, percentages help standardize the comparison by accounting for differences in group sizes.
 
 # Next week
 

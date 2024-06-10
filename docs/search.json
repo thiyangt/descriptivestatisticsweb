@@ -417,7 +417,7 @@
     "href": "week1/index.html#summary-measures",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.900\nMin. :1.500\nMin. :1026\n\n\n\nMale :50\n1st Qu.: 99.28\n1st Qu.:2.675\n1st Qu.:3.000\n1st Qu.:3368\n\n\n\nNA\nMedian :100.10\nMedian :3.350\nMedian :3.700\nMedian :4360\n\n\n\nNA\nMean : 99.27\nMean :3.399\nMean :3.655\nMean :4322\n\n\n\nNA\n3rd Qu.:100.70\n3rd Qu.:4.200\n3rd Qu.:4.200\n3rd Qu.:5101\n\n\n\nNA\nMax. :110.00\nMax. :6.000\nMax. :6.500\nMax. :7550"
+    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.0\nMin. :0.600\nMin. :1.000\nMin. :1000\n\n\n\nMale :50\n1st Qu.: 98.9\n1st Qu.:2.500\n1st Qu.:2.900\n1st Qu.:3092\n\n\n\nNA\nMedian : 99.6\nMedian :3.200\nMedian :3.500\nMedian :4060\n\n\n\nNA\nMean : 99.0\nMean :3.249\nMean :3.454\nMean :4113\n\n\n\nNA\n3rd Qu.:100.4\n3rd Qu.:3.900\n3rd Qu.:4.025\n3rd Qu.:5036\n\n\n\nNA\nMax. :110.0\nMax. :6.100\nMax. :6.300\nMax. :7591"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",
@@ -480,7 +480,7 @@
     "href": "index.html#weekly-schedule",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Weekly schedule",
-    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics\nTask: Fill out the survey questionnaire available on the LMS.\n\n\nWeek 3: May 22, 2024\nSlides 3: Data Collection\n\n\nWeek 4: May 29, 2024\nSlides 4: Types and scales of measurement\nAdditional reading\nGroup assignment: 10%\n\n\nWeek 5: June 5, 2024\nSlides 5: Analysing Categorical Data\nGroup assignment help desk: 3.15PM - 4.00PM\n\n\nWeek 6: June 10, 2024\nSlides 6: Analysing Categorical Data - Two-way graphs\nAdditional materials"
+    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics\nTask: Fill out the survey questionnaire available on the LMS.\n\n\nWeek 3: May 22, 2024\nSlides 3: Data Collection\n\n\nWeek 4: May 29, 2024\nSlides 4: Types and scales of measurement\nAdditional reading\nGroup assignment: 10%\n\n\nWeek 5: June 5, 2024\nSlides 5: Analysing Categorical Data\nGroup assignment help desk: 3.15PM - 4.00PM\n\n\nWeek 6: June 10, 2024\nSlides 6: Analysing Categorical Data - Two-way graphs\nAdditional materials\n\n\nWeek 7: June 12, 2024\nPlease visit Google Classroom to view the tasks for the tutorials on Wednesday, June 12, 2024 from 3.15PM to 4PM."
   },
   {
     "objectID": "week0/index.html#how-to-calculate-gpa",
@@ -789,5 +789,12 @@
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Frequency table",
     "text": "Frequency table\n\n\n\n\n\n\n\n\n\n\n\n\nBMI Category\nCount\nCumulative Count\nPercentage\nCumulative Percentage\n\n\n\n\nUnderweight\n38\n38\n11.41\n11.41\n\n\nNormal\n134\n172\n40.24\n51.65\n\n\nOverweight\n94\n266\n28.23\n79.88\n\n\nObese\n67\n333\n20.12\n100.00"
+  },
+  {
+    "objectID": "week5/index.html#section-1",
+    "href": "week5/index.html#section-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "",
+    "text": "Percentages can sometimes be misleading when the sample size is small. By presenting both counts and percentages, the reader can see the actual numbers behind the percentages.\nWhen comparing different groups or datasets, percentages help standardize the comparison by accounting for differences in group sizes."
   }
 ]
