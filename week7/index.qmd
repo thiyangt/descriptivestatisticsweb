@@ -248,3 +248,42 @@ data |> kable()
 
 The total frequency of all values less than the upper class boundary.
 
+
+```{r}
+data2 <- data.frame(
+  Marks = c(5.5, 18.5, 31.5, 44.5, 57.5, 70.5, 83.5, 96.5),
+  Cumulative_Frequency = c(0,6, 12, 24, 30, 34, 42, 50)
+)
+data2|>kable()
+```
+
+## Cumulative - Frequency Polygon or Orgive
+
+```{r}
+ggplot(data2, aes(x=Marks, y=Cumulative_Frequency)) +
+  geom_point() + geom_line() +
+  scale_x_continuous(breaks = data2$Marks, labels = data2$Marks) + ylab("Cumulative Frequency")
+```
+
+## Your turn
+
+```{r}
+set.seed(8)
+dd <- round(rnorm(80, mean=10, sd=10), 0)
+ddmat <- matrix(dd, ncol=10)
+ kable(ddmat) |>   kable_styling()
+```
+
+##
+
+Construct
+
+1. Frequency distribution
+
+2. Histogram
+
+3. Polygon
+
+4. Cumulative frequency distribution
+
+5. Orgive
