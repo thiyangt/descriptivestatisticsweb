@@ -796,5 +796,180 @@
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "",
     "text": "Percentages can sometimes be misleading when the sample size is small. By presenting both counts and percentages, the reader can see the actual numbers behind the percentages.\nWhen comparing different groups or datasets, percentages help standardize the comparison by accounting for differences in group sizes."
+  },
+  {
+    "objectID": "week7/index.html#marks",
+    "href": "week7/index.html#marks",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Marks",
+    "text": "Marks\nHere are the marks for 50 students:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n27\n37\n57\n91\n20\n90\n94\n66\n63\n6\n\n\n21\n18\n69\n38\n77\n50\n72\n99\n38\n78\n\n\n93\n21\n65\n13\n27\n39\n1\n38\n87\n34\n\n\n48\n60\n49\n19\n83\n67\n79\n11\n72\n41\n\n\n82\n65\n78\n55\n53\n79\n2\n48\n73\n69"
+  },
+  {
+    "objectID": "week7/index.html#marks-1",
+    "href": "week7/index.html#marks-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Marks",
+    "text": "Marks\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n27\n37\n57\n91\n20\n90\n94\n\n\n66\n63\n6\n21\n18\n69\n38\n\n\n77\n50\n72\n99\n38\n78\n93\n\n\n21\n65\n13\n27\n39\n1\n38\n\n\n87\n34\n48\n60\n49\n19\n83\n\n\n67\n79\n11\n72\n41\n82\n65\n\n\n78\n55\n53\n79\n2\n48\n73\n\n\n69\n27\n37\n57\n91\n20\n90"
+  },
+  {
+    "objectID": "week7/index.html#ordered-array",
+    "href": "week7/index.html#ordered-array",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Ordered array",
+    "text": "Ordered array\nOrdered sequence of raw data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n6\n7\n8\n10\n12\n14\n20\n24\n24\n25\n\n\n26\n29\n32\n33\n33\n33\n34\n35\n39\n40\n\n\n41\n41\n43\n44\n46\n46\n48\n48\n48\n52\n\n\n60\n64\n65\n66\n71\n71\n76\n77\n78\n78\n\n\n80\n81\n84\n86\n86\n88\n88\n89\n91\n96\n\n\n\n\n\n\n\n\nAn ordered list makes it easier to find the highest and lowest values and see the range."
+  },
+  {
+    "objectID": "week7/index.html#frequency-distribution",
+    "href": "week7/index.html#frequency-distribution",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Frequency Distribution",
+    "text": "Frequency Distribution\nA summary table in which data are arranged into ordered classes or categories to determine the number of observations belonging to each class."
+  },
+  {
+    "objectID": "week7/index.html#step-1",
+    "href": "week7/index.html#step-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Step 1",
+    "text": "Step 1\nArrange data into an ordered array.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n6\n7\n8\n10\n12\n14\n20\n24\n24\n25\n\n\n26\n29\n32\n33\n33\n33\n34\n35\n39\n40\n\n\n41\n41\n43\n44\n46\n46\n48\n48\n48\n52\n\n\n60\n64\n65\n66\n71\n71\n76\n77\n78\n78\n\n\n80\n81\n84\n86\n86\n88\n88\n89\n91\n96"
+  },
+  {
+    "objectID": "week7/index.html#step-2",
+    "href": "week7/index.html#step-2",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Step 2",
+    "text": "Step 2\nDecide on the number of classes (k)\nSturgess’ Rule\n\\[\\text{Number of classes} = 1+3.3log_{10}(N)\\]\nHere \\(N\\) is total number of obervations.\n\nExample:\n\n\\[ 1+3.3log_{10}(50) = 6.606\\]\n\\[\\text{Number of classes} = 7\\]"
+  },
+  {
+    "objectID": "week7/index.html#step-1-arrange-data-into-an-ordered-array.",
+    "href": "week7/index.html#step-1-arrange-data-into-an-ordered-array.",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Step 1: Arrange data into an ordered array.",
+    "text": "Step 1: Arrange data into an ordered array.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n6\n7\n8\n10\n12\n14\n20\n24\n24\n25\n\n\n26\n29\n32\n33\n33\n33\n34\n35\n39\n40\n\n\n41\n41\n43\n44\n46\n46\n48\n48\n48\n52\n\n\n60\n64\n65\n66\n71\n71\n76\n77\n78\n78\n\n\n80\n81\n84\n86\n86\n88\n88\n89\n91\n96"
+  },
+  {
+    "objectID": "week7/index.html#step-2-decide-on-the-number-of-classes-k",
+    "href": "week7/index.html#step-2-decide-on-the-number-of-classes-k",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Step 2: Decide on the number of classes (k)",
+    "text": "Step 2: Decide on the number of classes (k)\nSturgess’ Rule\n\\[\\text{Number of classes} = 1+3.3log_{10}(N)\\]\nHere \\(N\\) is total number of obervations.\n\nExample:\n\n\\[ 1+3.3log_{10}(50) = 6.606\\]\n\\[\\text{Number of classes} = 7\\]"
+  },
+  {
+    "objectID": "week7/index.html#step-3-calculate-the-class-interval",
+    "href": "week7/index.html#step-3-calculate-the-class-interval",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Step 3: Calculate the class interval",
+    "text": "Step 3: Calculate the class interval\n\\[\\text{width of interval} = \\frac{\\text{range}}{k}\\]\n\\[\\text{range = maximum - minimum}\\]"
+  },
+  {
+    "objectID": "week7/index.html#step-3-calculate-the-class-interval-ci",
+    "href": "week7/index.html#step-3-calculate-the-class-interval-ci",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Step 3: Calculate the class interval (CI)",
+    "text": "Step 3: Calculate the class interval (CI)\n\\[\\text{width of interval} = \\frac{\\text{range}}{k}\\]\n\\[\\text{range = maximum - minimum}\\]\n\nExample\n\n\\[\\frac{96-6}{7}=12.86\\]\n\\[\\text{CI} \\approx 13\\]"
+  },
+  {
+    "objectID": "week7/index.html#step-4-prepare-a-tally-sheet",
+    "href": "week7/index.html#step-4-prepare-a-tally-sheet",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Step 4: Prepare a tally sheet",
+    "text": "Step 4: Prepare a tally sheet\n\n\nObtain lower class limits/ class interval\n\\[6\\]\n\\[6+13 = 19\\]\n\\[19+6=25\\]\n\\[25+6=31\\]\n\\[31+6=37\\]\n\\[37+6=43\\]\n\\[43+6=49\\]"
+  },
+  {
+    "objectID": "week7/index.html#step-4-claculate-class-limits-class-interval",
+    "href": "week7/index.html#step-4-claculate-class-limits-class-interval",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Step 4: Claculate class limits/ class interval",
+    "text": "Step 4: Claculate class limits/ class interval\n\n\nLower class limits/ class interval\n\\[6\\]\n\\[6+13 = 19\\]\n\\[19+13=32\\]\n\\[25+13=38\\]\n\\[31+13=44\\]\n\\[37+13=50\\]\n\\[43+13=62\\]\n\n\n\n\n\n\nCL\n\n\n\n\n6-18\n\n\n19-31\n\n\n32-37\n\n\n38-43\n\n\n44-49\n\n\n50-61\n\n\n62-74"
+  },
+  {
+    "objectID": "week7/index.html#step-4-claculate-lower-class-limits-class-interval",
+    "href": "week7/index.html#step-4-claculate-lower-class-limits-class-interval",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Step 4: Claculate lower class limits/ class interval",
+    "text": "Step 4: Claculate lower class limits/ class interval\n\\[6\\]\n\\[6+13 = 19\\]\n\\[19+13=32\\]\n\\[25+13=38\\]\n\\[31+13=44\\]\n\\[37+13=50\\]\n\\[43+13=62\\]"
+  },
+  {
+    "objectID": "week7/index.html#step-5-calculate-class-limits-class-intervals",
+    "href": "week7/index.html#step-5-calculate-class-limits-class-intervals",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Step 5: Calculate class limits/ class intervals",
+    "text": "Step 5: Calculate class limits/ class intervals\n\n\n\n\n\nCL\n\n\n\n\n6-18\n\n\n19-31\n\n\n32-44\n\n\n45-57\n\n\n58-70\n\n\n71-83\n\n\n84-96"
+  },
+  {
+    "objectID": "week7/index.html#step-6-prepare-a-tally-sheet",
+    "href": "week7/index.html#step-6-prepare-a-tally-sheet",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Step 6: Prepare a tally sheet",
+    "text": "Step 6: Prepare a tally sheet\n\n\n\n\n\nCL\nTally\nFrequency\n\n\n\n\n6-18\n\n6\n\n\n19-31\n\n6\n\n\n32-44\n\n12\n\n\n45-57\n\n6\n\n\n58-70\n\n4\n\n\n71-83\n\n8\n\n\n84-96\n\n8"
+  },
+  {
+    "objectID": "week7/index.html#class-boundaries",
+    "href": "week7/index.html#class-boundaries",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Class Boundaries",
+    "text": "Class Boundaries\n\n\n\n\n\nCL\nBoundaries\nFrequency\n\n\n\n\n6-18\n5.5-18.5\n6\n\n\n19-31\n18.5-31.5\n6\n\n\n32-44\n31.5-44.5\n12\n\n\n45-57\n44.5-57.5\n6\n\n\n58-70\n57.5-70.5\n4\n\n\n71-83\n70.5-83.5\n8\n\n\n84-96\n83.5-96.5\n8"
+  },
+  {
+    "objectID": "week7/index.html#to-find-class-boundaries",
+    "href": "week7/index.html#to-find-class-boundaries",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "To find class boundaries",
+    "text": "To find class boundaries\n\nSubtract the first upper class limit from the second lower class limit and divide the difference by 2.\nSubtract the value calculated in step 1\n\nfrom all of the lower class limits\nadd to all of the upper class limits."
+  },
+  {
+    "objectID": "week7/index.html#idea-behind-class-boundaries",
+    "href": "week7/index.html#idea-behind-class-boundaries",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Idea Behind Class Boundaries",
+    "text": "Idea Behind Class Boundaries\n\n\n\n\n\nCL\nBoundaries\nFrequency\n\n\n\n\n6-18\n(5.5, 18.5]\n6\n\n\n19-31\n(18.5, 31.5]\n6\n\n\n32-44\n(31.5, 44.5]\n12\n\n\n45-57\n(44.5, 57.5]\n6\n\n\n58-70\n(57.5, 70.5]\n4\n\n\n71-83\n(70.5, 83.5]\n8\n\n\n84-96\n(83.5, 96.5]\n8"
+  },
+  {
+    "objectID": "week7/index.html#size-or-width-of-a-class-interval-c",
+    "href": "week7/index.html#size-or-width-of-a-class-interval-c",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Size or width of a class interval (c)",
+    "text": "Size or width of a class interval (c)\n\\[c= \\text{difference between successive lower class limits}\\]\nor\n\\[c= \\text{difference between successive upper class limits}\\]\n\nExample\n\n\\[c=18.5-5.5=31.5-18.5=13\\]"
+  },
+  {
+    "objectID": "week7/index.html#class-mark-class-midpoint",
+    "href": "week7/index.html#class-mark-class-midpoint",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Class mark/ class midpoint",
+    "text": "Class mark/ class midpoint\n\\[\\text{class mark}=\\frac{\\text{upper limit} +\\text{lower limit}}{2}\\]\n\nExample\n\n\\[\\text{class mark}=\\frac{6+18}{2} = 12\\]"
+  },
+  {
+    "objectID": "week7/index.html#class-mark-class-midpoint-1",
+    "href": "week7/index.html#class-mark-class-midpoint-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Class mark/ class midpoint",
+    "text": "Class mark/ class midpoint\n\n\n\n\n\nCL\nBoundaries\nMid_point\nFrequency\n\n\n\n\n6-18\n5.5-18.5\n12\n6\n\n\n19-31\n18.5-31.5\n25\n6\n\n\n32-44\n31.5-44.5\n38\n12\n\n\n45-57\n44.5-57.5\n51\n6\n\n\n58-70\n57.5-70.5\n64\n4\n\n\n71-83\n70.5-83.5\n77\n8\n\n\n84-96\n83.5-96.5\n90\n8"
+  },
+  {
+    "objectID": "week7/index.html#your-turn",
+    "href": "week7/index.html#your-turn",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Your turn",
+    "text": "Your turn\nCompute\n\nCumulative-frequency distribution\nPercentage cumulative distributions\nRelative frequency distribution\nRelative cumulative frequency distribution"
+  },
+  {
+    "objectID": "week7/index.html#histogram",
+    "href": "week7/index.html#histogram",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Histogram",
+    "text": "Histogram"
+  },
+  {
+    "objectID": "week7/index.html#frequency-polygons",
+    "href": "week7/index.html#frequency-polygons",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Frequency Polygons",
+    "text": "Frequency Polygons"
+  },
+  {
+    "objectID": "week7/index.html#section",
+    "href": "week7/index.html#section",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "",
+    "text": "CL\nLower_Boundary\nUpper_Boundary\nMid_point\nFrequency\n\n\n\n\n\n-7.5\n5.5\n-1\n0\n\n\n6-18\n5.5\n18.5\n12\n6\n\n\n19-31\n18.5\n31.5\n25\n6\n\n\n32-44\n31.5\n44.5\n38\n12\n\n\n45-57\n44.5\n57.5\n51\n6\n\n\n58-70\n57.5\n70.5\n64\n4\n\n\n71-83\n70.5\n83.5\n77\n8\n\n\n84-96\n83.5\n96.5\n90\n8\n\n\n\n96.5\n109.5\n103\n0"
   }
 ]

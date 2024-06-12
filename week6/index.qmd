@@ -354,24 +354,21 @@ pf2 |>
 ::: {.column width="50%"}
 **Stacked Count Chart**
 
--  Allows viewers to see how totals accumulate as each category is stacked on top of one another.
+-   Allows viewers to see how totals accumulate as each category is stacked on top of one another.
 
-- Useful for comparing the total magnitude of each category across different groups or segments.
+-   Useful for comparing the total magnitude of each category across different groups or segments.
 
-- Ideal when the emphasis is on the total quantity of items in each category rather than their relative proportions.
-
-
-
+-   Ideal when the emphasis is on the total quantity of items in each category rather than their relative proportions.
 :::
 
 ::: {.column width="50%"}
 **Stacked Percentage Chart**
 
-- Use when you want to show the relative proportion or contribution of each category to the total.
+-   Use when you want to show the relative proportion or contribution of each category to the total.
 
-- Helpful for illustrating the distribution of percentages within categories across different groups or segments.
+-   Helpful for illustrating the distribution of percentages within categories across different groups or segments.
 
-- Suitable when you want to emphasize the composition or share of each category relative to the whole.
+-   Suitable when you want to emphasize the composition or share of each category relative to the whole.
 :::
 :::
 
@@ -385,7 +382,6 @@ pf2 |>
 
 ::: columns
 ::: {.column width="50%"}
-
 ```{r, fig.height=10}
 pf2 |>
   count(BMI_category, gender) |>      
@@ -398,12 +394,9 @@ pf2 |>
   geom_text(aes(label = sprintf("%.1f%%", pct)), 
             position = position_dodge(width = 0.9), vjust = -0.5, color = "black") + scale_fill_manual(values=c("#f768a1", "#1d91c0")) + labs(fill="Gender")
 ```
-
-
 :::
 
 ::: {.column width="50%"}
-
 ```{r, fig.height=10}
 pf2 |>
   count(BMI_category, gender) |>      
@@ -416,16 +409,14 @@ pf2 |>
   geom_text(aes(label=paste0(sprintf("%1.1f", pct),"%")),
             position=position_stack(vjust=0.5)) + scale_fill_manual(values=c("#f768a1", "#1d91c0")) + labs(fill="Gender")
 ```
-
 :::
 :::
 
 # Facet Bar Chart
 
-#
+# 
 
 **Facet by Gender**
-
 
 ```{r, fig.height=10}
 pf2 |>
@@ -440,10 +431,9 @@ pf2 |>
             position = position_dodge(width = 0.9), vjust = -0.5, color = "black") + scale_fill_manual(values=c("#f768a1", "#1d91c0"))  + facet_wrap(vars(gender))
 ```
 
-#
+# 
 
 **Facet by BMI Category**
-
 
 ```{r, fig.height=10, fig.width=12}
 pf2 |>
@@ -458,30 +448,29 @@ pf2 |>
             position = position_dodge(width = 0.9), vjust = -0.5, color = "black") +  facet_wrap(vars(BMI_category), ncol=4)
 ```
 
-
 # Some rules
 
-##
+## 
 
-1. Don't make them 3D: 3D charts can distort data and make it difficult to accurately interpret values.
+1.  Don't make them 3D: 3D charts can distort data and make it difficult to accurately interpret values.
 
-2. Don't use overly complex charts: Keep it simple. Overly complex charts can confuse the viewer and obscure the data.
+2.  Don't use overly complex charts: Keep it simple. Overly complex charts can confuse the viewer and obscure the data.
 
-3. Don't use excessive colors: Too many colors can be distracting and make the chart hard to read. Stick to a simple color palette.
+3.  Don't use excessive colors: Too many colors can be distracting and make the chart hard to read. Stick to a simple color palette.
 
-4. Don't use misleading scales: Ensure the scales start at zero (when appropriate) and are consistent to avoid misrepresenting the data.
+4.  Don't use misleading scales: Ensure the scales start at zero (when appropriate) and are consistent to avoid misrepresenting the data.
 
-5. Don't use pie charts for too many categories: Pie charts are hard to interpret with more than a few slices. Use a bar chart instead.
+5.  Don't use pie charts for too many categories: Pie charts are hard to interpret with more than a few slices. Use a bar chart instead.
 
-6. Don't use inappropriate chart types: Match the chart type to the data you are presenting. For example, use line charts for trends over time and bar charts for comparing categories.
+6.  Don't use inappropriate chart types: Match the chart type to the data you are presenting. For example, use line charts for trends over time and bar charts for comparing categories.
 
----
+------------------------------------------------------------------------
 
-7. Don't omit axis labels and titles: Always label your axes and give your chart a clear, descriptive title.
+7.  Don't omit axis labels and titles: Always label your axes and give your chart a clear, descriptive title.
 
-8. Don't clutter with too much information: Avoid adding unnecessary elements like excessive gridlines, text, or data points.
+8.  Don't clutter with too much information: Avoid adding unnecessary elements like excessive gridlines, text, or data points.
 
-9. Don't ignore accessibility: Ensure your charts are readable for people with color blindness by using colorblind-friendly palettes and providing text alternatives.
+9.  Don't ignore accessibility: Ensure your charts are readable for people with color blindness by using colorblind-friendly palettes and providing text alternatives.
 
 10. Don't make legends and labels too small: Ensure that legends and labels are large enough to be easily read.
 
