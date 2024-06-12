@@ -140,15 +140,29 @@
     "text": "Cumulative Frequency Distribution\nThe total frequency of all values less than the upper class boundary.\n\n\n\n\n\nMarks\nCumulative_Frequency\n\n\n\n\n5.5\n0\n\n\n18.5\n6\n\n\n31.5\n12\n\n\n44.5\n24\n\n\n57.5\n30\n\n\n70.5\n34\n\n\n83.5\n42\n\n\n96.5\n50"
   },
   {
-    "objectID": "week7/index.html#cumulative---frequency-polygon-or-orgive",
-    "href": "week7/index.html#cumulative---frequency-polygon-or-orgive",
+    "objectID": "week7/index.html#cumulative---frequency-polygon",
+    "href": "week7/index.html#cumulative---frequency-polygon",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Cumulative - Frequency Polygon or Orgive",
-    "text": "Cumulative - Frequency Polygon or Orgive"
+    "section": "Cumulative - Frequency Polygon",
+    "text": "Cumulative - Frequency Polygon"
+  },
+  {
+    "objectID": "week7/index.html#less-than-ogive",
+    "href": "week7/index.html#less-than-ogive",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Less than Ogive",
+    "text": "Less than Ogive"
   },
   {
     "objectID": "week7/index.html#your-turn-1",
     "href": "week7/index.html#your-turn-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Your turn",
+    "text": "Your turn\nPlot greater than ogive.\nHelp: https://www.geeksforgeeks.org/ogive-cumulative-frequency-curve-and-its-types/"
+  },
+  {
+    "objectID": "week7/index.html#your-turn-2",
+    "href": "week7/index.html#your-turn-2",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Your turn",
     "text": "Your turn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n9\n-20\n25\n27\n-6\n14\n13\n2\n7\n18\n\n\n18\n4\n7\n-1\n2\n4\n4\n4\n-1\n5\n\n\n5\n2\n26\n-1\n23\n12\n21\n-5\n5\n11\n\n\n4\n13\n8\n30\n14\n7\n6\n18\n26\n16\n\n\n17\n14\n23\n16\n18\n16\n16\n16\n14\n-19\n\n\n9\n-3\n10\n-10\n3\n-10\n9\n11\n-6\n16\n\n\n8\n11\n6\n25\n9\n3\n20\n-8\n-5\n34\n\n\n-1\n2\n10\n20\n15\n13\n16\n-1\n20\n4"
@@ -543,7 +557,7 @@
     "href": "week1/index.html#summary-measures",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.000\nMin. :0.800\nMin. :1340\n\n\n\nMale :50\n1st Qu.: 99.10\n1st Qu.:2.600\n1st Qu.:2.500\n1st Qu.:3248\n\n\n\nNA\nMedian :100.00\nMedian :3.200\nMedian :3.450\nMedian :3920\n\n\n\nNA\nMean : 99.28\nMean :3.216\nMean :3.388\nMean :4116\n\n\n\nNA\n3rd Qu.:100.80\n3rd Qu.:3.800\n3rd Qu.:4.000\n3rd Qu.:4942\n\n\n\nNA\nMax. :110.00\nMax. :5.600\nMax. :6.300\nMax. :7646"
+    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.700\nMin. :0.30\nMin. : 754\n\n\n\nMale :50\n1st Qu.: 99.10\n1st Qu.:2.500\n1st Qu.:2.70\n1st Qu.:3122\n\n\n\nNA\nMedian : 99.70\nMedian :3.000\nMedian :3.40\nMedian :3982\n\n\n\nNA\nMean : 99.06\nMean :3.129\nMean :3.41\nMean :3992\n\n\n\nNA\n3rd Qu.:100.60\n3rd Qu.:3.825\n3rd Qu.:3.90\n3rd Qu.:4703\n\n\n\nNA\nMax. :110.00\nMax. :5.400\nMax. :6.30\nMax. :7550"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",

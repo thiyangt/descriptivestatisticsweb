@@ -256,13 +256,20 @@ data2 <- data.frame(
 data2|>kable()
 ```
 
-## Cumulative - Frequency Polygon or Orgive
+## Cumulative - Frequency Polygon 
+## Less than Ogive
 
 ```{r}
 ggplot(data2, aes(x=Marks, y=Cumulative_Frequency)) +
   geom_point() + geom_line() +
   scale_x_continuous(breaks = data2$Marks, labels = data2$Marks) + ylab("Cumulative Frequency")
 ```
+
+## Your turn
+
+Plot greater than ogive.
+
+Help: https://www.geeksforgeeks.org/ogive-cumulative-frequency-curve-and-its-types/
 
 ## Your turn
 
