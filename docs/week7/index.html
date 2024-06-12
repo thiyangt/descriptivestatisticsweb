@@ -623,7 +623,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 </section>
 <section id="step-2-decide-on-the-number-of-classes-k" class="slide level2">
 <h2>Step 2: Decide on the number of classes (k)</h2>
-<p><strong>Sturgess’ Rule</strong></p>
+<p><strong>Sturges’s Rule</strong></p>
 <p><span class="math display">\[\text{Number of classes} = 1+3.3log_{10}(N)\]</span></p>
 <p>Here <span class="math inline">\(N\)</span> is total number of obervations.</p>
 <blockquote>
@@ -632,18 +632,18 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <p><span class="math display">\[ 1+3.3log_{10}(50) = 6.606\]</span></p>
 <p><span class="math display">\[\text{Number of classes} = 7\]</span></p>
 </section>
-<section id="step-3-calculate-the-class-interval-ci" class="slide level2">
-<h2>Step 3: Calculate the class interval (CI)</h2>
+<section id="step-3-calculate-the-class-width-class-size-class-length-c" class="slide level2">
+<h2>Step 3: Calculate the class width/ class size/ class length (c)</h2>
 <p><span class="math display">\[\text{width of interval} = \frac{\text{range}}{k}\]</span></p>
 <p><span class="math display">\[\text{range = maximum - minimum}\]</span></p>
 <blockquote>
 <p>Example</p>
 </blockquote>
 <p><span class="math display">\[\frac{96-6}{7}=12.86\]</span></p>
-<p><span class="math display">\[\text{CI} \approx 13\]</span></p>
+<p><span class="math display">\[\text{c} \approx 13\]</span></p>
 </section>
-<section id="step-4-claculate-lower-class-limits-class-interval" class="slide level2">
-<h2>Step 4: Claculate lower class limits/ class interval</h2>
+<section id="step-4-claculate-lower-class-limits" class="slide level2">
+<h2>Step 4: Claculate lower class limits</h2>
 <p><span class="math display">\[6\]</span></p>
 <p><span class="math display">\[6+13 = 19\]</span></p>
 <p><span class="math display">\[19+13=32\]</span></p>
@@ -659,7 +659,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: left;">CL</th>
+<th style="text-align: left;">CI</th>
 </tr>
 </thead>
 <tbody>
@@ -696,7 +696,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: left;">CL</th>
+<th style="text-align: left;">CI</th>
 <th style="text-align: left;">Tally</th>
 <th style="text-align: right;">Frequency</th>
 </tr>
@@ -742,14 +742,14 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 </div>
 </div>
 </section>
-<section id="class-boundaries" class="slide level2">
-<h2>Class Boundaries</h2>
+<section id="step-7-class-boundaries" class="slide level2">
+<h2>Step 7: Class Boundaries</h2>
 <div class="cell">
 <div class="cell-output-display">
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: left;">CL</th>
+<th style="text-align: left;">CI</th>
 <th style="text-align: left;">Boundaries</th>
 <th style="text-align: right;">Frequency</th>
 </tr>
@@ -814,7 +814,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: left;">CL</th>
+<th style="text-align: left;">CI</th>
 <th style="text-align: left;">Boundaries</th>
 <th style="text-align: right;">Frequency</th>
 </tr>
@@ -862,30 +862,29 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 </section>
 <section id="size-or-width-of-a-class-interval-c" class="slide level2">
 <h2>Size or width of a class interval (c)</h2>
-<p><span class="math display">\[c= \text{difference between successive lower class limits}\]</span></p>
+<p><span class="math display">\[c= \text{difference between successive lower class limits\class boundaries}\]</span></p>
 <p>or</p>
-<p><span class="math display">\[c= \text{difference between successive upper class limits}\]</span></p>
-<blockquote>
-<p>Example</p>
-</blockquote>
+<p><span class="math display">\[c= \text{difference between successive upper class limits\class boundaries}\]</span></p>
+<p>or</p>
+<p><span class="math display">\[c= \text{difference between successive upper class  boundary and its lower class boundary}\]</span> &gt; Example</p>
 <p><span class="math display">\[c=18.5-5.5=31.5-18.5=13\]</span></p>
 </section>
-<section id="class-mark-class-midpoint" class="slide level2">
-<h2>Class mark/ class midpoint</h2>
+<section id="step-8-class-mark-class-midpoint" class="slide level2">
+<h2>Step 8: Class mark/ class midpoint</h2>
 <p><span class="math display">\[\text{class mark}=\frac{\text{upper limit} +\text{lower limit}}{2}\]</span></p>
 <blockquote>
 <p>Example</p>
 </blockquote>
 <p><span class="math display">\[\text{class mark}=\frac{6+18}{2} = 12\]</span></p>
 </section>
-<section id="class-mark-class-midpoint-1" class="slide level2">
+<section id="class-mark-class-midpoint" class="slide level2">
 <h2>Class mark/ class midpoint</h2>
 <div class="cell">
 <div class="cell-output-display">
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: left;">CL</th>
+<th style="text-align: left;">CI</th>
 <th style="text-align: left;">Boundaries</th>
 <th style="text-align: right;">Mid_point</th>
 <th style="text-align: right;">Frequency</th>

@@ -70,6 +70,6 @@ Group assignment help desk: 3.15PM - 4.00PM
 
 **Slides 7:** [Frequency Distributions](./week7/index.html)
 
-[Additional Reading](https://statisticstechs.weebly.com/desciptive-statistics/frequency-distribution-and-data-presentation)
+<!--[Additional Reading](https://statisticstechs.weebly.com/desciptive-statistics/frequency-distribution-and-data-presentation)-->
 
 Please visit Google Classroom to view the tasks for the tutorials on Wednesday, June 12, 2024 from 3.15PM to 4PM.

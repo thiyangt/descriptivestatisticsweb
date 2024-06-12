@@ -32,42 +32,42 @@
     "href": "week7/index.html#step-2-decide-on-the-number-of-classes-k",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Step 2: Decide on the number of classes (k)",
-    "text": "Step 2: Decide on the number of classes (k)\nSturgess’ Rule\n\\[\\text{Number of classes} = 1+3.3log_{10}(N)\\]\nHere \\(N\\) is total number of obervations.\n\nExample:\n\n\\[ 1+3.3log_{10}(50) = 6.606\\]\n\\[\\text{Number of classes} = 7\\]"
+    "text": "Step 2: Decide on the number of classes (k)\nSturges’s Rule\n\\[\\text{Number of classes} = 1+3.3log_{10}(N)\\]\nHere \\(N\\) is total number of obervations.\n\nExample:\n\n\\[ 1+3.3log_{10}(50) = 6.606\\]\n\\[\\text{Number of classes} = 7\\]"
   },
   {
-    "objectID": "week7/index.html#step-3-calculate-the-class-interval-ci",
-    "href": "week7/index.html#step-3-calculate-the-class-interval-ci",
+    "objectID": "week7/index.html#step-3-calculate-the-class-width-class-size-class-length-c",
+    "href": "week7/index.html#step-3-calculate-the-class-width-class-size-class-length-c",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Step 3: Calculate the class interval (CI)",
-    "text": "Step 3: Calculate the class interval (CI)\n\\[\\text{width of interval} = \\frac{\\text{range}}{k}\\]\n\\[\\text{range = maximum - minimum}\\]\n\nExample\n\n\\[\\frac{96-6}{7}=12.86\\]\n\\[\\text{CI} \\approx 13\\]"
+    "section": "Step 3: Calculate the class width/ class size/ class length (c)",
+    "text": "Step 3: Calculate the class width/ class size/ class length (c)\n\\[\\text{width of interval} = \\frac{\\text{range}}{k}\\]\n\\[\\text{range = maximum - minimum}\\]\n\nExample\n\n\\[\\frac{96-6}{7}=12.86\\]\n\\[\\text{c} \\approx 13\\]"
   },
   {
-    "objectID": "week7/index.html#step-4-claculate-lower-class-limits-class-interval",
-    "href": "week7/index.html#step-4-claculate-lower-class-limits-class-interval",
+    "objectID": "week7/index.html#step-4-claculate-lower-class-limits",
+    "href": "week7/index.html#step-4-claculate-lower-class-limits",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Step 4: Claculate lower class limits/ class interval",
-    "text": "Step 4: Claculate lower class limits/ class interval\n\\[6\\]\n\\[6+13 = 19\\]\n\\[19+13=32\\]\n\\[25+13=38\\]\n\\[31+13=44\\]\n\\[37+13=50\\]\n\\[43+13=62\\]"
+    "section": "Step 4: Claculate lower class limits",
+    "text": "Step 4: Claculate lower class limits\n\\[6\\]\n\\[6+13 = 19\\]\n\\[19+13=32\\]\n\\[25+13=38\\]\n\\[31+13=44\\]\n\\[37+13=50\\]\n\\[43+13=62\\]"
   },
   {
     "objectID": "week7/index.html#step-5-calculate-class-limits-class-intervals",
     "href": "week7/index.html#step-5-calculate-class-limits-class-intervals",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Step 5: Calculate class limits/ class intervals",
-    "text": "Step 5: Calculate class limits/ class intervals\n\n\n\n\n\nCL\n\n\n\n\n6-18\n\n\n19-31\n\n\n32-44\n\n\n45-57\n\n\n58-70\n\n\n71-83\n\n\n84-96"
+    "text": "Step 5: Calculate class limits/ class intervals\n\n\n\n\n\nCI\n\n\n\n\n6-18\n\n\n19-31\n\n\n32-44\n\n\n45-57\n\n\n58-70\n\n\n71-83\n\n\n84-96"
   },
   {
     "objectID": "week7/index.html#step-6-prepare-a-tally-sheet",
     "href": "week7/index.html#step-6-prepare-a-tally-sheet",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Step 6: Prepare a tally sheet",
-    "text": "Step 6: Prepare a tally sheet\n\n\n\n\n\nCL\nTally\nFrequency\n\n\n\n\n6-18\n\n6\n\n\n19-31\n\n6\n\n\n32-44\n\n12\n\n\n45-57\n\n6\n\n\n58-70\n\n4\n\n\n71-83\n\n8\n\n\n84-96\n\n8"
+    "text": "Step 6: Prepare a tally sheet\n\n\n\n\n\nCI\nTally\nFrequency\n\n\n\n\n6-18\n\n6\n\n\n19-31\n\n6\n\n\n32-44\n\n12\n\n\n45-57\n\n6\n\n\n58-70\n\n4\n\n\n71-83\n\n8\n\n\n84-96\n\n8"
   },
   {
-    "objectID": "week7/index.html#class-boundaries",
-    "href": "week7/index.html#class-boundaries",
+    "objectID": "week7/index.html#step-7-class-boundaries",
+    "href": "week7/index.html#step-7-class-boundaries",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Class Boundaries",
-    "text": "Class Boundaries\n\n\n\n\n\nCL\nBoundaries\nFrequency\n\n\n\n\n6-18\n5.5-18.5\n6\n\n\n19-31\n18.5-31.5\n6\n\n\n32-44\n31.5-44.5\n12\n\n\n45-57\n44.5-57.5\n6\n\n\n58-70\n57.5-70.5\n4\n\n\n71-83\n70.5-83.5\n8\n\n\n84-96\n83.5-96.5\n8"
+    "section": "Step 7: Class Boundaries",
+    "text": "Step 7: Class Boundaries\n\n\n\n\n\nCI\nBoundaries\nFrequency\n\n\n\n\n6-18\n5.5-18.5\n6\n\n\n19-31\n18.5-31.5\n6\n\n\n32-44\n31.5-44.5\n12\n\n\n45-57\n44.5-57.5\n6\n\n\n58-70\n57.5-70.5\n4\n\n\n71-83\n70.5-83.5\n8\n\n\n84-96\n83.5-96.5\n8"
   },
   {
     "objectID": "week7/index.html#to-find-class-boundaries",
@@ -81,28 +81,28 @@
     "href": "week7/index.html#idea-behind-class-boundaries",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Idea Behind Class Boundaries",
-    "text": "Idea Behind Class Boundaries\n\n\n\n\n\nCL\nBoundaries\nFrequency\n\n\n\n\n6-18\n(5.5, 18.5]\n6\n\n\n19-31\n(18.5, 31.5]\n6\n\n\n32-44\n(31.5, 44.5]\n12\n\n\n45-57\n(44.5, 57.5]\n6\n\n\n58-70\n(57.5, 70.5]\n4\n\n\n71-83\n(70.5, 83.5]\n8\n\n\n84-96\n(83.5, 96.5]\n8"
+    "text": "Idea Behind Class Boundaries\n\n\n\n\n\nCI\nBoundaries\nFrequency\n\n\n\n\n6-18\n(5.5, 18.5]\n6\n\n\n19-31\n(18.5, 31.5]\n6\n\n\n32-44\n(31.5, 44.5]\n12\n\n\n45-57\n(44.5, 57.5]\n6\n\n\n58-70\n(57.5, 70.5]\n4\n\n\n71-83\n(70.5, 83.5]\n8\n\n\n84-96\n(83.5, 96.5]\n8"
   },
   {
     "objectID": "week7/index.html#size-or-width-of-a-class-interval-c",
     "href": "week7/index.html#size-or-width-of-a-class-interval-c",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Size or width of a class interval (c)",
-    "text": "Size or width of a class interval (c)\n\\[c= \\text{difference between successive lower class limits}\\]\nor\n\\[c= \\text{difference between successive upper class limits}\\]\n\nExample\n\n\\[c=18.5-5.5=31.5-18.5=13\\]"
+    "text": "Size or width of a class interval (c)\n\\[c= \\text{difference between successive lower class limits\\class boundaries}\\]\nor\n\\[c= \\text{difference between successive upper class limits\\class boundaries}\\]\nor\n\\[c= \\text{difference between successive upper class  boundary and its lower class boundary}\\] &gt; Example\n\\[c=18.5-5.5=31.5-18.5=13\\]"
+  },
+  {
+    "objectID": "week7/index.html#step-8-class-mark-class-midpoint",
+    "href": "week7/index.html#step-8-class-mark-class-midpoint",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Step 8: Class mark/ class midpoint",
+    "text": "Step 8: Class mark/ class midpoint\n\\[\\text{class mark}=\\frac{\\text{upper limit} +\\text{lower limit}}{2}\\]\n\nExample\n\n\\[\\text{class mark}=\\frac{6+18}{2} = 12\\]"
   },
   {
     "objectID": "week7/index.html#class-mark-class-midpoint",
     "href": "week7/index.html#class-mark-class-midpoint",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Class mark/ class midpoint",
-    "text": "Class mark/ class midpoint\n\\[\\text{class mark}=\\frac{\\text{upper limit} +\\text{lower limit}}{2}\\]\n\nExample\n\n\\[\\text{class mark}=\\frac{6+18}{2} = 12\\]"
-  },
-  {
-    "objectID": "week7/index.html#class-mark-class-midpoint-1",
-    "href": "week7/index.html#class-mark-class-midpoint-1",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Class mark/ class midpoint",
-    "text": "Class mark/ class midpoint\n\n\n\n\n\nCL\nBoundaries\nMid_point\nFrequency\n\n\n\n\n6-18\n5.5-18.5\n12\n6\n\n\n19-31\n18.5-31.5\n25\n6\n\n\n32-44\n31.5-44.5\n38\n12\n\n\n45-57\n44.5-57.5\n51\n6\n\n\n58-70\n57.5-70.5\n64\n4\n\n\n71-83\n70.5-83.5\n77\n8\n\n\n84-96\n83.5-96.5\n90\n8"
+    "text": "Class mark/ class midpoint\n\n\n\n\n\nCI\nBoundaries\nMid_point\nFrequency\n\n\n\n\n6-18\n5.5-18.5\n12\n6\n\n\n19-31\n18.5-31.5\n25\n6\n\n\n32-44\n31.5-44.5\n38\n12\n\n\n45-57\n44.5-57.5\n51\n6\n\n\n58-70\n57.5-70.5\n64\n4\n\n\n71-83\n70.5-83.5\n77\n8\n\n\n84-96\n83.5-96.5\n90\n8"
   },
   {
     "objectID": "week7/index.html#your-turn",
@@ -508,7 +508,7 @@
     "href": "index.html#weekly-schedule",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Weekly schedule",
-    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics\nTask: Fill out the survey questionnaire available on the LMS.\n\n\nWeek 3: May 22, 2024\nSlides 3: Data Collection\n\n\nWeek 4: May 29, 2024\nSlides 4: Types and scales of measurement\nAdditional reading\nGroup assignment: 10%\n\n\nWeek 5: June 5, 2024\nSlides 5: Analysing Categorical Data\nGroup assignment help desk: 3.15PM - 4.00PM\n\n\nWeek 6: June 10, 2024\nSlides 6: Analysing Categorical Data - Two-way graphs\nAdditional materials\n\n\nWeek 7: June 12, 2024\nSlides 7: Frequency Distributions\nAdditional Reading\nPlease visit Google Classroom to view the tasks for the tutorials on Wednesday, June 12, 2024 from 3.15PM to 4PM."
+    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics\nTask: Fill out the survey questionnaire available on the LMS.\n\n\nWeek 3: May 22, 2024\nSlides 3: Data Collection\n\n\nWeek 4: May 29, 2024\nSlides 4: Types and scales of measurement\nAdditional reading\nGroup assignment: 10%\n\n\nWeek 5: June 5, 2024\nSlides 5: Analysing Categorical Data\nGroup assignment help desk: 3.15PM - 4.00PM\n\n\nWeek 6: June 10, 2024\nSlides 6: Analysing Categorical Data - Two-way graphs\nAdditional materials\n\n\nWeek 7: June 12, 2024\nSlides 7: Frequency Distributions\n\nPlease visit Google Classroom to view the tasks for the tutorials on Wednesday, June 12, 2024 from 3.15PM to 4PM."
   },
   {
     "objectID": "ga.html",
@@ -543,7 +543,7 @@
     "href": "week1/index.html#summary-measures",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.70\nMin. :1.800\nMin. :1204\n\n\n\nMale :50\n1st Qu.: 99.08\n1st Qu.:2.80\n1st Qu.:2.975\n1st Qu.:3333\n\n\n\nNA\nMedian : 99.80\nMedian :3.20\nMedian :3.700\nMedian :4177\n\n\n\nNA\nMean : 99.17\nMean :3.35\nMean :3.732\nMean :4253\n\n\n\nNA\n3rd Qu.:100.60\n3rd Qu.:4.00\n3rd Qu.:4.400\n3rd Qu.:4884\n\n\n\nNA\nMax. :110.00\nMax. :6.10\nMax. :6.300\nMax. :8091"
+    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.000\nMin. :0.800\nMin. :1340\n\n\n\nMale :50\n1st Qu.: 99.10\n1st Qu.:2.600\n1st Qu.:2.500\n1st Qu.:3248\n\n\n\nNA\nMedian :100.00\nMedian :3.200\nMedian :3.450\nMedian :3920\n\n\n\nNA\nMean : 99.28\nMean :3.216\nMean :3.388\nMean :4116\n\n\n\nNA\n3rd Qu.:100.80\n3rd Qu.:3.800\n3rd Qu.:4.000\n3rd Qu.:4942\n\n\n\nNA\nMax. :110.00\nMax. :5.600\nMax. :6.300\nMax. :7646"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",
