@@ -154,10 +154,9 @@ or
 
 $$c= \text{difference between successive upper class limits\class boundaries}$$
 
-or 
+or
 
-$$c= \text{difference between successive upper class  boundary and its lower class boundary}$$
-> Example
+$$c= \text{difference between successive upper class  boundary and its lower class boundary}$$ \> Example
 
 $$c=18.5-5.5=31.5-18.5=13$$
 
@@ -256,7 +255,8 @@ data2 <- data.frame(
 data2|>kable()
 ```
 
-## Cumulative - Frequency Polygon 
+## Cumulative - Frequency Polygon
+
 ## Less than Ogive
 
 ```{r}

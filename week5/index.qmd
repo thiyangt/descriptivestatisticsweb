@@ -368,9 +368,6 @@ pf2 |> ggplot(aes(x=BMI_category)) + geom_bar() + labs(x="BMI Category", title="
 
 **Question:** In this case, is it necessary to sort the bars in our data visualization for better clarity and interpretation?
 
-
-
-
 # Bi-variate Analysis
 
 # Two-way tables
@@ -395,11 +392,11 @@ two_way_table |> knitr::kable()
 
 # Why is it important to represent both counts and percentages?
 
-##
+## 
 
-- Percentages can sometimes be misleading when the sample size is small. By presenting both counts and percentages,  the reader can see the actual numbers behind the percentages. 
+-   Percentages can sometimes be misleading when the sample size is small. By presenting both counts and percentages, the reader can see the actual numbers behind the percentages.
 
-- When comparing different groups or datasets, percentages help standardize the comparison by accounting for differences in group sizes.
+-   When comparing different groups or datasets, percentages help standardize the comparison by accounting for differences in group sizes.
 
 # Next week
 
