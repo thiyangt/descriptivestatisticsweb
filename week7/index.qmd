@@ -140,7 +140,7 @@ df |> kable()
 
 ```{r}
 df = data.frame(CI = c("6-18", "19-31", "32-44", "45-57", "58-70", "71-83", "84-96"),
-                Boundaries = c("(5.5, 18.5]", "(18.5, 31.5]", "(31.5, 44.5]", "(44.5, 57.5]", "(57.5, 70.5]", "(70.5, 83.5]", "(83.5, 96.5]"),
+                Boundaries = c("[5.5, 18.5)", "[18.5, 31.5)", "[31.5, 44.5)", "[44.5, 57.5)", "[57.5, 70.5)", "[70.5, 83.5)", "[83.5, 96.5)"),
                 
             Frequency= c(6, 6, 12, 6, 4, 8, 8))
 df |> kable()
@@ -257,17 +257,16 @@ data2|>kable()
 
 # The ogive (or Cumulative - Frequency Polygon)
 
-- Less than Ogive
+-   Less than Ogive
 
-- Greater than Ogive
+-   Greater than Ogive
 
 ## Less than Ogive
 
-First of all, we have to convert the frequency distribution into a less than cumulative frequency distribution. 
+First of all, we have to convert the frequency distribution into a less than cumulative frequency distribution.
 
 ::: columns
 ::: {.column width="40%"}
-
 ```{r}
 df2 = data.frame(
                 Boundaries = c("5.5-18.5", "18.5-31.5", "31.5-44.5", "44.5-57.5", "57.5-70.5", "70.5-83.5", "83.5-96.5"),
@@ -275,19 +274,16 @@ df2 = data.frame(
             Frequency= c(6, 6, 12, 6, 4, 8, 8))
 df2 |> kable()
 ```
-
 :::
-  
-::: {.column width="60%"}
 
+::: {.column width="60%"}
 ```{r}
 df3 = data.frame(
-                Boundaries = c("less than or 18.5", "less than or 31.5", "less than or 44.5", "less than or 57.5",  "less than or 70.5", "less than or 83.5", "less than or 96.5"),
+                Boundaries = c("less than  18.5", "less than  31.5", "less than  44.5", "less than  57.5",  "less than  70.5", "less than  83.5", "less than  96.5"),
                 
             Frequency= c( 6, 12, 24, 30, 34, 42, 50))
 df3 |> kable() 
 ```
-
 :::
 :::
 
@@ -309,15 +305,12 @@ Plot greater than ogive.
 
 <!--Help: https://www.geeksforgeeks.org/ogive-cumulative-frequency-curve-and-its-types/-->
 
-##
+## 
 
-First of all, we have to convert the frequency distribution into a greater than cumulative frequency distribution. 
-
-
+First of all, we have to convert the frequency distribution into a greater than cumulative frequency distribution.
 
 ::: columns
 ::: {.column width="40%"}
-
 ```{r}
 df2 = data.frame(
                 Boundaries = c("5.5-18.5", "18.5-31.5", "31.5-44.5", "44.5-57.5", "57.5-70.5", "70.5-83.5", "83.5-96.5"),
@@ -325,19 +318,16 @@ df2 = data.frame(
             Frequency= c(6, 6, 12, 6, 4, 8, 8))
 df2 |> kable()
 ```
-
 :::
-  
-::: {.column width="60%"}
 
+::: {.column width="60%"}
 ```{r}
 df4 = data.frame(
-                Boundaries = c( "greater than 5.5", "greater than 18.5", "greater than 31.5", "greater than 44.5", "greater than 57.5",  "greater than 70.5", "greater than 83.5"),
+                Boundaries = c( "greater than or equal 5.5", "greater than or equal 18.5", "greater than or equal 31.5", "greater than or equal 44.5", "greater than or equal 57.5",  "greater than or equal 70.5", "greater than or equal 83.5"),
                 
             Frequency= c( 50, 44, 38, 26, 20, 16, 8))
 df4 |> kable()
 ```
-
 :::
 :::
 
