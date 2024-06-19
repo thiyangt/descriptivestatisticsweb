@@ -255,21 +255,91 @@ data2 <- data.frame(
 data2|>kable()
 ```
 
-## Cumulative - Frequency Polygon
+# The ogive (or Cumulative - Frequency Polygon)
+
+- Less than Ogive
+
+- Greater than Ogive
+
+## Less than Ogive
+
+First of all, we have to convert the frequency distribution into a less than cumulative frequency distribution. 
+
+::: columns
+::: {.column width="40%"}
+
+```{r}
+df2 = data.frame(
+                Boundaries = c("5.5-18.5", "18.5-31.5", "31.5-44.5", "44.5-57.5", "57.5-70.5", "70.5-83.5", "83.5-96.5"),
+                
+            Frequency= c(6, 6, 12, 6, 4, 8, 8))
+df2 |> kable()
+```
+
+:::
+  
+::: {.column width="60%"}
+
+```{r}
+df3 = data.frame(
+                Boundaries = c("less than or 18.5", "less than or 31.5", "less than or 44.5", "less than or 57.5",  "less than or 70.5", "less than or 83.5", "less than or 96.5"),
+                
+            Frequency= c( 6, 12, 24, 30, 34, 42, 50))
+df3 |> kable() 
+```
+
+:::
+:::
 
 ## Less than Ogive
 
 ```{r}
-ggplot(data2, aes(x=Marks, y=Cumulative_Frequency)) +
+df3 = data.frame(
+                Boundaries = c(18.5, 31.5, 44.5, 57.5, 70.5, 83.5, 96.5),
+                
+            Frequency= c( 6, 12, 24, 30, 34, 42, 50))
+ggplot(df3, aes(x=Boundaries, y=Frequency)) +
   geom_point() + geom_line() +
-  scale_x_continuous(breaks = data2$Marks, labels = data2$Marks) + ylab("Cumulative Frequency")
+  scale_x_continuous(breaks = df3$Boundaries, labels = df3$Boundaries) + ylab("Cumulative Frequency") + xlab("Upper Class Boundary")
 ```
 
 ## Your turn
 
 Plot greater than ogive.
 
-Help: https://www.geeksforgeeks.org/ogive-cumulative-frequency-curve-and-its-types/
+<!--Help: https://www.geeksforgeeks.org/ogive-cumulative-frequency-curve-and-its-types/-->
+
+##
+
+First of all, we have to convert the frequency distribution into a greater than cumulative frequency distribution. 
+
+
+
+::: columns
+::: {.column width="40%"}
+
+```{r}
+df2 = data.frame(
+                Boundaries = c("5.5-18.5", "18.5-31.5", "31.5-44.5", "44.5-57.5", "57.5-70.5", "70.5-83.5", "83.5-96.5"),
+                
+            Frequency= c(6, 6, 12, 6, 4, 8, 8))
+df2 |> kable()
+```
+
+:::
+  
+::: {.column width="60%"}
+
+```{r}
+df4 = data.frame(
+                Boundaries = c( "greater than 5.5", "greater than 18.5", "greater than 31.5", "greater than 44.5", "greater than 57.5",  "greater than 70.5", "greater than 83.5"),
+                
+            Frequency= c( 50, 44, 38, 26, 20, 16, 8))
+df4 |> kable()
+```
+
+:::
+:::
 
 ## Your turn
 
