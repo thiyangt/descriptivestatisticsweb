@@ -58,7 +58,7 @@ Group assignment: 10%
 
 **Slides 5:** [Analysing Categorical Data](./week5/index.html)
 
-Group assignment help desk: 3.15PM - 4.00PM
+Tutorial 1: Group assignment help desk: 3.15PM - 4.00PM
 
 ### Week 6: June 10, 2024
 
@@ -72,4 +72,12 @@ Group assignment help desk: 3.15PM - 4.00PM
 
 <!--[Additional Reading](https://statisticstechs.weebly.com/desciptive-statistics/frequency-distribution-and-data-presentation)-->
 
-Please visit Google Classroom to view the tasks for the tutorials on Wednesday, June 12, 2024 from 3.15PM to 4PM.
+Tutorial 2: Please visit Google Classroom to view the tasks for the tutorials on Wednesday, June 12, 2024 from 3.15PM to 4PM.
+
+### Week 8: June 19, 2024
+
+**Slides 8:** [Measures of Central Tendency](./week8/index.html)
+
+Note: Group assignment deadline is today.
+
+Tutorial 3: Please visit Google Classroom to view the tasks for the tutorials on Wednesday, June 19, 2024 from 3.15PM to 4PM.

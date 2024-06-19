@@ -221,3 +221,119 @@ countdown(minutes = 5, seconds = 00)
 - For an array with an even number of observations, median is the mean of the two middle numbers.
 
 ## Steps in calculating median
+
+1. Arrange the data in an ordered array of numbers.
+
+2. Count the number of observations. Suppose there are $n$ number of observations. 
+
+3. Locate the middle value of the ordered array as follws
+
+    
+
+::: columns
+::: {.column width="50%"}
+**Median formula when n is [odd]{style="color:red;"}**
+    
+  $Median = (\frac{n+1}{2})^{th} \text{observation}$
+
+:::
+  
+::: {.column width="50%"}
+**Median formula when n is [even]{style="color:blue;"}**
+    
+  $Median = \frac{(\frac{n}{2})^{observation} + (\frac{n}{2} + 1)^{observation}}{2}$
+:::
+::: 
+    
+Important:  To compute the median, at least the required scale of measurement is ordinal.
+
+## Your turn
+
+Determine the median for the following numbers.
+
+Q1:
+
+214, 215, 216, 105, 109, 8, 50, 1000, 150
+
+Q2: 
+
+2, 3, 10, 11, 50, 5, 8, 9, 10, 5
+    
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(countdown)
+countdown(minutes = 6, seconds = 00)
+```
+
+## Mean (Arithmetic mean)
+
+::: columns
+::: {.column width="50%"}
+
+$$\mu = \frac{\sum_{i=1}^Nx_i}{N}$$
+Population mean: $\mu$
+
+Population size: $N$
+:::
+
+::: {.column width="50%"}
+
+$$\bar{x} = \frac{\sum_{i=1}^nx_i}{n}$$
+
+Sample mean: $\bar{x}$
+
+Sample size: $n$
+:::
+::::
+
+## Your turn
+
+Determine the mean for the following numbers.
+
+Q1:
+
+214, 215, 216, 105, 109, 8, 50, 1000, 150
+
+Q2: 
+
+2, 3, 10, 11, 50, 5, 8, 9, 10, 5
+    
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(countdown)
+countdown(minutes = 6, seconds = 00)
+```
+
+## Your turn
+
+The following table shows the number of insects observed on a farm over the course of a week. Calculate the mean, median, and mode of data.
+
+```{r}
+library(tibble)
+day = c("Monday", "Tuesday",
+"Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+insects = c(45, 50, 42, 55, 48, 53, 47)
+df1 <- tibble(Day=day, `Number of Insects`=insects)
+df1 |> knitr::kable() |>  kable_styling(font_size = 32)
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(countdown)
+countdown(minutes = 6, seconds = 00)
+```
+
+## Your turn
+
+The following table shows the number of insects observed on a farm over the course of the month of April. Calculate the mean, median, and mode of the number of insects observed during this period.
+
+```{r}
+library(tibble)
+value = c(45, 50, 42, 55, 48, 53, 47, 40)
+days = c(5, 6, 3, 3, 2, 1, 2, 8)
+df2 <- tibble(`Number of Insects`= value, `Number of days`=days)
+df2 |> knitr::kable() |>  kable_styling(font_size = 32)
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(countdown)
+countdown(minutes = 10, seconds = 00)
+```
+
