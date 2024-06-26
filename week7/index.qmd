@@ -84,7 +84,7 @@ $$\frac{96-6}{7}=12.86$$
 
 $$\text{c} \approx 13$$
 
-## Step 4: Claculate lower class limits
+## Step 4: Calculate lower class limits
 
 $$6$$
 

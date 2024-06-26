@@ -17,8 +17,6 @@ format:
       data-background-image: none
 ---
 
-
-
 ## Data
 
 ```{r}
@@ -48,7 +46,7 @@ library(kableExtra)
 df[1:33, ] |> knitr::kable() |> kable_styling(font_size = 18)
 ```
 :::
-  
+
 ::: {.column width="33%"}
 ```{r}
 df[34:67, ] |> knitr::kable() |> kable_styling(font_size = 18)
@@ -64,7 +62,6 @@ df[68:100, ] |> knitr::kable() |> kable_styling(font_size = 18)
 
 ## Histogram
 
-
 ```{r, comment=NA, message=FALSE, echo=FALSE}
 library(ggplot2)
 ggplot(four, aes(x = vals)) + 
@@ -74,7 +71,6 @@ facet_wrap(~ dist)
 ```
 
 ## Histogram (binwidth = .1)
-
 
 ```{r, comment=NA, message=FALSE, echo=FALSE}
 library(ggplot2)
@@ -86,7 +82,6 @@ facet_wrap(~ dist)
 
 ## Histogram (binwidth = 2)
 
-
 ```{r, comment=NA, message=FALSE, echo=FALSE}
 library(ggplot2)
 ggplot(four, aes(x = vals)) + 
@@ -95,26 +90,18 @@ coord_cartesian(xlim = c(-3, 6)) +
 facet_wrap(~ dist) 
 ```
 
-
 ## What is Descriptive Statistics?
 
+-   Describe the data
 
-- Describe the data
+-   Descriptive statistics involves summarizing and organizing the data so they can be easily understood
 
-- Descriptive statistics involves summarizing and organizing the data so they can be easily understood
-
-
-- Does **not** attempt to make inferences from the sample to the whole population
-
-
+-   Does **not** attempt to make inferences from the sample to the whole population
 
 ## Measures
 
-
 ::: columns
 ::: {.column width="50%"}
-
-
 ```{r, comment=NA, message=FALSE, echo=FALSE, fig.height=10}
 library(ggplot2)
 ggplot(four, aes(x = vals)) + 
@@ -122,61 +109,53 @@ geom_histogram(aes(fill = dist), colour = "black") +
 coord_cartesian(xlim = c(-3, 6)) + 
 facet_wrap(~ dist) 
 ```
-
-
 :::
-  
+
 ::: {.column width="50%"}
+-   Measures of central tendency
 
-- Measures of central tendency
+-   Measures of variability (Measures of dispersion/ Measures of spread)
 
-- Measures of variability (Measures of dispersion/ Measures of spread)
-
-- Measures of Shape: Kurtosis, Skewness
-
-
+-   Measures of Shape: Kurtosis, Skewness
 
 <!--https://vitalflux.com/descriptive-statistics-key-concepts-examples/-->
 :::
 :::
 
-
 ## Measures of Central Tendency
 
-- Used to identify the center of data distribution.
+-   Used to identify the center of data distribution.
 
-- It  describes a whole set of data with a single value that represents the center of its distribution.
+-   It describes a whole set of data with a single value that represents the center of its distribution.
 
-- One number that best summarizes the entire set of measurement. 
+-   One number that best summarizes the entire set of measurement.
 
-- Measures of central tendency: mode, median, mean, weighted mean, harmonic mean, geometric mean, quadratic mean
+-   Measures of central tendency: mode, median, mean, weighted mean, harmonic mean, geometric mean, quadratic mean
 
-#
+# 
 
 Let's look at how to compute measures of central tendancy for ungrouped and grouped data.
 
 ## In-calss demo
 
-
 # Ungrouped Data
-
 
 ## Mode
 
-- The most frequently occurring value in a set of data.
+-   The most frequently occurring value in a set of data.
 
-- Can be used to determine which category occurs most frequently
+-   Can be used to determine which category occurs most frequently
 
-    - Example 1: Determine the mode for the following numbers.
+    -   Example 1: Determine the mode for the following numbers.
 
-    2, 4, 8, 4, 6, 2, 7, 8, 4, 3, 8, 9, 4,  3, 10, 21, 4
-    
-- The mode can be determined for qualitative data as well as quantitative data.
+    2, 4, 8, 4, 6, 2, 7, 8, 4, 3, 8, 9, 4, 3, 10, 21, 4
 
-    - Example 2: A group of 20 people were asked about their favorite shoe color.  
-    
+-   The mode can be determined for qualitative data as well as quantitative data.
+
+    -   Example 2: A group of 20 people were asked about their favorite shoe color.
+
     Black, Blue, Brown, White, Black, Black, Black, Brown, Brown, Black
-    
+
 ## Your turn
 
 Determine the mode for the following numbers
@@ -196,56 +175,53 @@ countdown(minutes = 5, seconds = 00)
 
 ## Important facts
 
-1. Unimodal - only 1 mode
+1.  Unimodal - only 1 mode
 
-2. Bimodal - 2 modes
+2.  Bimodal - 2 modes
 
-3. Multimodal - more than 2 modes
+3.  Multimodal - more than 2 modes
 
-4. No mode: There is no mode when all observed values appear the same number of times in a data set.
+4.  No mode: There is no mode when all observed values appear the same number of times in a data set.
 
 ## Applications: qualitative data example
 
-- A shoe manufacturing company conducted a market survey to understand consumer preferences for shoe colors. The mode is the color that appears the most frequently in the dataset. The company can use this information to decide which color of shoes to produce more. 
+-   A shoe manufacturing company conducted a market survey to understand consumer preferences for shoe colors. The mode is the color that appears the most frequently in the dataset. The company can use this information to decide which color of shoes to produce more.
 
 ## Applications: quantitative data example
 
-- A shoe manufacturing company conducted a survey to find out the most popular shoe size among its customers. The mode of the shoe sizes is Size 9. The company can use this information to decide which shoe size to produce more. Since Size 9 is the most popular size, the company should prioritize producing more shoes in Size 9 to meet consumer demand.
+-   A shoe manufacturing company conducted a survey to find out the most popular shoe size among its customers. The mode of the shoe sizes is Size 9. The company can use this information to decide which shoe size to produce more. Since Size 9 is the most popular size, the company should prioritize producing more shoes in Size 9 to meet consumer demand.
 
 ## Median
 
-- The middle value in an ordered array of numbers.
+-   The middle value in an ordered array of numbers.
 
-- For an array with an odd number of observations, the median is the middle number.
+-   For an array with an odd number of observations, the median is the middle number.
 
-- For an array with an even number of observations, median is the mean of the two middle numbers.
+-   For an array with an even number of observations, median is the mean of the two middle numbers.
 
 ## Steps in calculating median
 
-1. Arrange the data in an ordered array of numbers.
+1.  Arrange the data in an ordered array of numbers.
 
-2. Count the number of observations. Suppose there are $n$ number of observations. 
+2.  Count the number of observations. Suppose there are $n$ number of observations.
 
-3. Locate the middle value of the ordered array as follws
-
-    
+3.  Locate the middle value of the ordered array as follws
 
 ::: columns
 ::: {.column width="50%"}
 **Median formula when n is [odd]{style="color:red;"}**
-    
-  $Median = (\frac{n+1}{2})^{th} \text{observation}$
 
+$Median = (\frac{n+1}{2})^{th} \text{observation}$
 :::
-  
+
 ::: {.column width="50%"}
 **Median formula when n is [even]{style="color:blue;"}**
-    
-  $Median = \frac{(\frac{n}{2})^{observation} + (\frac{n}{2} + 1)^{observation}}{2}$
+
+$Median = \frac{(\frac{n}{2})^{observation} + (\frac{n}{2} + 1)^{observation}}{2}$
 :::
-::: 
-    
-Important:  To compute the median, at least the required scale of measurement is ordinal.
+:::
+
+Important: To compute the median, at least the required scale of measurement is ordinal.
 
 ## Your turn
 
@@ -255,10 +231,10 @@ Q1:
 
 214, 215, 216, 105, 109, 8, 50, 1000, 150
 
-Q2: 
+Q2:
 
 2, 3, 10, 11, 50, 5, 8, 9, 10, 5
-    
+
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(countdown)
 countdown(minutes = 6, seconds = 00)
@@ -268,22 +244,19 @@ countdown(minutes = 6, seconds = 00)
 
 ::: columns
 ::: {.column width="50%"}
-
-$$\mu = \frac{\sum_{i=1}^Nx_i}{N}$$
-Population mean: $\mu$
+$$\mu = \frac{\sum_{i=1}^Nx_i}{N}$$ Population mean: $\mu$
 
 Population size: $N$
 :::
 
 ::: {.column width="50%"}
-
 $$\bar{x} = \frac{\sum_{i=1}^nx_i}{n}$$
 
 Sample mean: $\bar{x}$
 
 Sample size: $n$
 :::
-::::
+:::
 
 ## Your turn
 
@@ -293,10 +266,10 @@ Q1:
 
 214, 215, 216, 105, 109, 8, 50, 1000, 150
 
-Q2: 
+Q2:
 
 2, 3, 10, 11, 50, 5, 8, 9, 10, 5
-    
+
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(countdown)
 countdown(minutes = 6, seconds = 00)
@@ -336,4 +309,3 @@ df2 |> knitr::kable() |>  kable_styling(font_size = 32)
 library(countdown)
 countdown(minutes = 10, seconds = 00)
 ```
-

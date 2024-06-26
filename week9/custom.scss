@@ -16,6 +16,6 @@ $presentation-font-size-root: 50px;
     font-size: 60px;
   }
 
-.output-container {
-    overflow: visible; /* or overflow: auto; */
+.reveal .slides {
+  margin-top: 5px; /* Adjust this value as needed */
 }

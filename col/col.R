@@ -17,3 +17,10 @@
 library(countdown)
 countdown(minutes = 10, seconds = 00)
 ```
+
+### Maximum R code
+```{css, echo=FALSE}
+.reveal code {
+  max-height: 100% !important;
+}
+```
