@@ -7,11 +7,11 @@
     "text": "Stem and Leaf Plot\n\n\nCricketer 1\n\n\n\n\n\n75\n79\n80\n80\n80\n\n\n85\n86\n87\n88\n100\n\n\n\n\n\n\n  The decimal point is 1 digit(s) to the right of the |\n\n   7 | 59\n   8 | 0005678\n   9 | \n  10 | 0\n\n\n\nCricketer 2\n\n\n\n\n\n0\n0\n0\n1\n2\n\n\n10\n129\n150\n250\n298\n\n\n\n\n\n\n  The decimal point is 1 digit(s) to the right of the |\n\n   0 | 00012\n   1 | 0\n   2 | \n   3 | \n   4 | \n   5 | \n   6 | \n   7 | \n   8 | \n   9 | \n  10 | \n  11 | \n  12 | 9\n  13 | \n  14 | \n  15 | 0\n  16 | \n  17 | \n  18 | \n  19 | \n  20 | \n  21 | \n  22 | \n  23 | \n  24 | \n  25 | 0\n  26 | \n  27 | \n  28 | \n  29 | 8"
   },
   {
-    "objectID": "week9/index.html#bins-0-5-6-10-..",
-    "href": "week9/index.html#bins-0-5-6-10-..",
+    "objectID": "week9/index.html#bins-0-5-5-10-..",
+    "href": "week9/index.html#bins-0-5-5-10-..",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Bins: 0-5, 6-10, …..",
-    "text": "Bins: 0-5, 6-10, …..\n\n\nCricketer 1\n\n\n\n\n\n75\n79\n80\n80\n80\n\n\n85\n86\n87\n88\n100\n\n\n\n\n\n\nCricketer 2\n\n\n\n\n\n0\n0\n0\n1\n2\n\n\n10\n129\n150\n250\n298"
+    "section": "Bins: 0-5, 5-10, …..",
+    "text": "Bins: 0-5, 5-10, …..\n\n\nCricketer 1\n\n\n\n\n\n75\n79\n80\n80\n80\n\n\n85\n86\n87\n88\n100\n\n\n\n\n\n\nCricketer 2\n\n\n\n\n\n0\n0\n0\n1\n2\n\n\n10\n129\n150\n250\n298"
   },
   {
     "objectID": "week9/index.html#individual-value-plot",
@@ -648,7 +648,7 @@
     "href": "week1/index.html#summary-measures",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.700\nMin. :0.900\nMin. :1168\n\n\n\nMale :50\n1st Qu.: 99.20\n1st Qu.:2.600\n1st Qu.:2.875\n1st Qu.:3110\n\n\n\nNA\nMedian :100.00\nMedian :3.100\nMedian :3.700\nMedian :4132\n\n\n\nNA\nMean : 99.27\nMean :3.302\nMean :3.565\nMean :4197\n\n\n\nNA\n3rd Qu.:100.70\n3rd Qu.:4.000\n3rd Qu.:4.200\n3rd Qu.:4982\n\n\n\nNA\nMax. :110.00\nMax. :7.300\nMax. :6.500\nMax. :8425"
+    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.900\nMin. :0.900\nMin. : 994\n\n\n\nMale :50\n1st Qu.: 99.40\n1st Qu.:2.700\n1st Qu.:2.800\n1st Qu.:3155\n\n\n\nNA\nMedian : 99.80\nMedian :3.300\nMedian :3.700\nMedian :4140\n\n\n\nNA\nMean : 99.23\nMean :3.255\nMean :3.536\nMean :4171\n\n\n\nNA\n3rd Qu.:100.62\n3rd Qu.:3.900\n3rd Qu.:4.100\n3rd Qu.:4963\n\n\n\nNA\nMax. :110.00\nMax. :5.800\nMax. :6.300\nMax. :8861"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",
