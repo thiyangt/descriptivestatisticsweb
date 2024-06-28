@@ -1,6 +1,6 @@
 ---
-title: "STA 113 2.0 Descriptive Statistics of Data"
-subtitle: "Descriptive Statistics"
+title: "STA 113 2.0 Descriptive Statistics"
+subtitle: "Measures of Spread"
 author: "Dr. Thiyanga S. Talagala <br/>  Department of Statistics, Faculty of Applied Sciences <br/> University of Sri Jayewardenepura, Sri Lanka"
 format:
   revealjs:
@@ -29,7 +29,6 @@ The marks for the last 10 matches are listed below:
 
 ::: columns
 ::: {.column width="50%"}
-
 **Cricketer 1**
 
 ```{r}
@@ -37,11 +36,9 @@ c1 <- c(100, 80, 85, 80, 86, 88, 79, 75, 80, 87)
 c1mat <- matrix(c1, nrow=2)
 c1mat |> knitr::kable()
 ```
-
 :::
-  
-::: {.column width="50%"}
 
+::: {.column width="50%"}
 **Cricketer 2**
 
 ```{r}
@@ -49,17 +46,13 @@ c2 <- c(150, 10, 0, 0, 1, 250, 298, 0, 2, 129)
 c2mat <- matrix(c2, nrow=2)
 c2mat |> knitr::kable()
 ```
-
-
 :::
 :::
-
 
 ## Stem and Leaf Plot
 
 ::: columns
 ::: {.column width="50%"}
-
 **Cricketer 1**
 
 ```{r}
@@ -68,11 +61,9 @@ c1mat <- matrix(c1, nrow=2, byrow=TRUE)
 c1mat |> knitr::kable()
 stem(c1) 
 ```
-
 :::
-  
-::: {.column width="50%"}
 
+::: {.column width="50%"}
 **Cricketer 2**
 
 ```{r}
@@ -81,13 +72,8 @@ c2mat <- matrix(c2, nrow=2, byrow=TRUE)
 c2mat |> knitr::kable()
 stem(c2, scale=10)
 ```
-
-
 :::
 :::
-
-
-
 
 # dot plot
 
@@ -95,7 +81,6 @@ stem(c2, scale=10)
 
 ::: columns
 ::: {.column width="50%"}
-
 **Cricketer 1**
 
 ```{r}
@@ -103,11 +88,9 @@ c1 <- sort(c(100, 80, 85, 80, 86, 88, 79, 75, 80, 87))
 c1mat <- matrix(c1, nrow=2, byrow=TRUE)
 c1mat |> knitr::kable()
 ```
-
 :::
-  
-::: {.column width="50%"}
 
+::: {.column width="50%"}
 **Cricketer 2**
 
 ```{r}
@@ -115,12 +98,8 @@ c2 <- sort(c(150, 10, 0, 0, 1, 250, 298, 0, 2, 129))
 c2mat <- matrix(c2, nrow=2, byrow=TRUE)
 c2mat |> knitr::kable()
 ```
-
-
 :::
 :::
-
-
 
 ```{r}
 library(tidyverse)
@@ -133,13 +112,12 @@ ggplot(dfboth, aes(x=marks, fill=cricketer)) + geom_dotplot(binwidth=1) +  facet
   )
 ```
 
----
+------------------------------------------------------------------------
 
 ## Bins: 0-5, 6-10, .....
 
 ::: columns
 ::: {.column width="50%"}
-
 **Cricketer 1**
 
 ```{r}
@@ -147,11 +125,9 @@ c1 <- sort(c(100, 80, 85, 80, 86, 88, 79, 75, 80, 87))
 c1mat <- matrix(c1, nrow=2, byrow=TRUE)
 c1mat |> knitr::kable()
 ```
-
 :::
-  
-::: {.column width="50%"}
 
+::: {.column width="50%"}
 **Cricketer 2**
 
 ```{r}
@@ -159,12 +135,8 @@ c2 <- sort(c(150, 10, 0, 0, 1, 250, 298, 0, 2, 129))
 c2mat <- matrix(c2, nrow=2, byrow=TRUE)
 c2mat |> knitr::kable()
 ```
-
-
 :::
 :::
-
-
 
 ```{r}
 library(tidyverse)
@@ -177,16 +149,13 @@ ggplot(dfboth, aes(x=marks, y=after_stat(count), fill=cricketer)) + geom_dotplot
   )
 ```
 
-
 ## Individual value plot
-
 
 ```{r}
 ggplot(dfboth, aes(y=marks, x=cricketer)) +geom_dotplot(binaxis = "y", stackdir = "center", binpositions="all")
 ```
 
 ## Individual value plot
-
 
 ```{r}
 ggplot(dfboth, aes(y=marks, x=cricketer, fill=cricketer)) +geom_dotplot(binaxis = "y", stackdir = "center", binpositions="all")
@@ -196,10 +165,8 @@ ggplot(dfboth, aes(y=marks, x=cricketer, fill=cricketer)) +geom_dotplot(binaxis 
 
 ## Range: Maximum - Minimum
 
-
 ::: columns
 ::: {.column width="50%"}
-
 **Cricketer 1**
 
 ```{r}
@@ -209,11 +176,9 @@ c1mat |> knitr::kable()
 ```
 
 $$\text{Range} = 100-75 = 25$$
-
 :::
-  
-::: {.column width="50%"}
 
+::: {.column width="50%"}
 **Cricketer 2**
 
 ```{r}
@@ -223,31 +188,28 @@ c2mat |> knitr::kable()
 ```
 
 $$\text{Range} = 298-0 = 298$$
-
 :::
 :::
 
 Advantages
 
-- Easy measure
+-   Easy measure
 
-- Easy to understand
-
+-   Easy to understand
 
 Disadvatages
 
-- It only takes into account the maximum and the minimum value.
+-   It only takes into account the maximum and the minimum value.
 
-- Highly sensitive to outliers.
+-   Highly sensitive to outliers.
 
-- Does not provide information about the spread of data between the minimum and maximum values, nor does it indicate whether the data points are clustered or evenly distributed.
+-   Does not provide information about the spread of data between the minimum and maximum values, nor does it indicate whether the data points are clustered or evenly distributed.
 
+## Variance
 
-## Variance 
+-   Variance is the mean squared deviations from the mean.
 
-- Variance is the mean squared deviations from the mean.
-
-- Measure of the spread of the data around the mean.
+-   Measure of the spread of the data around the mean.
 
 ### Population Variance
 
@@ -257,9 +219,7 @@ $N$ - population size
 
 $\mu$ - population mean
 
-
-
-###  Sample Variance
+### Sample Variance
 
 $$\text{Sample variance} = \sum_{i=1}^n \frac{(x_i-\bar{x})^2}{n-1}$$
 
@@ -267,14 +227,10 @@ $n$ - sample size
 
 $\bar{x}$ - sample mean
 
-
-
 ## Compute sample variance.
-
 
 ::: columns
 ::: {.column width="50%"}
-
 **Cricketer 1**
 
 ```{r}
@@ -282,11 +238,9 @@ c1 <- sort(c(100, 80, 85, 80, 86, 88, 79, 75, 80, 87))
 c1mat <- matrix(c1, nrow=2, byrow=TRUE)
 c1mat |> knitr::kable()
 ```
-
 :::
-  
-::: {.column width="50%"}
 
+::: {.column width="50%"}
 **Cricketer 2**
 
 ```{r}
@@ -294,9 +248,7 @@ c2 <- sort(c(150, 10, 0, 0, 1, 250, 298, 0, 2, 129))
 c2mat <- matrix(c2, nrow=2, byrow=TRUE)
 c2mat |> knitr::kable()
 ```
-
 :::
-
 :::
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
@@ -308,34 +260,28 @@ countdown(minutes = 10, seconds = 00)
 
 Advantages:
 
-- Variance considers all data points in the dataset.
-
+-   Variance considers all data points in the dataset.
 
 Disadvantages:
 
-- Sensitive to outliers/ extreme values.
+-   Sensitive to outliers/ extreme values.
 
-- The units of variance are the square of the units of the original data, which can make interpretation difficult. For example, if the data are in meters, the variance will be in square meters.
+-   The units of variance are the square of the units of the original data, which can make interpretation difficult. For example, if the data are in meters, the variance will be in square meters.
 
-- Variance is less intuitive to understand than other measures of dispersion like the range or interquartile range. People often find the concept of squared deviations harder to grasp.
-
-
+-   Variance is less intuitive to understand than other measures of dispersion like the range or interquartile range. People often find the concept of squared deviations harder to grasp.
 
 ## Standard deviation
 
-
 $$\text{Standard deviation} = \sqrt{Variance}$$
 
-- The variance and the standard deviation are measures of the spread of the data around the mean. They summarise how close each observed data value is to the mean value. 
+-   The variance and the standard deviation are measures of the spread of the data around the mean. They summarise how close each observed data value is to the mean value.
 
-- Standard deviation is expressed in the same units as the original values (e.g., minutes or meters)
+-   Standard deviation is expressed in the same units as the original values (e.g., minutes or meters)
 
 ## Compute standard deviation.
 
-
 ::: columns
 ::: {.column width="50%"}
-
 **Cricketer 1**
 
 ```{r}
@@ -343,11 +289,9 @@ c1 <- sort(c(100, 80, 85, 80, 86, 88, 79, 75, 80, 87))
 c1mat <- matrix(c1, nrow=2, byrow=TRUE)
 c1mat |> knitr::kable()
 ```
-
 :::
-  
-::: {.column width="50%"}
 
+::: {.column width="50%"}
 **Cricketer 2**
 
 ```{r}
@@ -355,16 +299,13 @@ c2 <- sort(c(150, 10, 0, 0, 1, 250, 298, 0, 2, 129))
 c2mat <- matrix(c2, nrow=2, byrow=TRUE)
 c2mat |> knitr::kable()
 ```
-
 :::
-
 :::
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(countdown)
 countdown(minutes = 2, seconds = 00)
 ```
-
 
 # In datasets with a small spread all values are very close to the mean, resulting in a small variance and standard deviation.
 
@@ -372,17 +313,15 @@ countdown(minutes = 2, seconds = 00)
 
 If the variance of a dataset is 0, what can you conclude about the values within the dataset?
 
-
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(countdown)
 countdown(minutes = 2, seconds = 00)
 ```
 
-
 ## Next week
 
-- Other measures of central tendency and measures of dispersion
+-   Other measures of central tendency and measures of dispersion
 
-- Interpretation of measurements
+-   Interpretation of measurements
 
-- Other methods of visualizing numerical data
+-   Other methods of visualizing numerical data

@@ -82,8 +82,7 @@ Note: Group assignment deadline is today.
 
 Tutorial 3: Please visit Google Classroom to view the tasks for the tutorials on Wednesday, June 19, 2024 from 3.15PM to 4PM.
 
-
-### Week 9: June 26, 2024
+### Week 9/10: June 26, 2024/ June 28, 2024
 
 **Slides 9:** [Stem and Leaf Plot, Dot plot, Individual value plot, Measures of Dispersion (Range, Variance, Standard deviation)](./week9/index.html)
 

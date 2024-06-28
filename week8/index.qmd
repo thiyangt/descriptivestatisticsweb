@@ -1,6 +1,6 @@
 ---
-title: "STA 113 2.0 Descriptive Statistics of Data"
-subtitle: "Descriptive Statistics"
+title: "STA 113 2.0 Descriptive Statistics"
+subtitle: "Measures of Central Tendency"
 author: "Dr. Thiyanga S. Talagala <br/>  Department of Statistics, Faculty of Applied Sciences <br/> University of Sri Jayewardenepura, Sri Lanka"
 format:
   revealjs:
@@ -152,7 +152,7 @@ Let's look at how to compute measures of central tendancy for ungrouped and grou
 
 -   The mode can be determined for qualitative data as well as quantitative data.
 
-    -   Example 2: A group of 20 people were asked about their favorite shoe color.
+    -   Example 2: A group of 10 people were asked about their favorite shoe color.
 
     Black, Blue, Brown, White, Black, Black, Black, Brown, Brown, Black
 
