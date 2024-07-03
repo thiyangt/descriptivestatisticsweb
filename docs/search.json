@@ -494,7 +494,7 @@
     "href": "week1/index.html#summary-measures",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.900\nMin. :1.800\nMin. :1217\n\n\n\nMale :50\n1st Qu.: 99.28\n1st Qu.:2.700\n1st Qu.:3.000\n1st Qu.:3326\n\n\n\nNA\nMedian : 99.90\nMedian :3.500\nMedian :3.600\nMedian :4210\n\n\n\nNA\nMean : 99.16\nMean :3.336\nMean :3.639\nMean :4250\n\n\n\nNA\n3rd Qu.:100.53\n3rd Qu.:4.100\n3rd Qu.:4.200\n3rd Qu.:5120\n\n\n\nNA\nMax. :110.00\nMax. :5.700\nMax. :6.300\nMax. :7678"
+    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.200\nMin. :-0.700\nMin. :1872\n\n\n\nMale :50\n1st Qu.: 99.30\n1st Qu.:2.575\n1st Qu.: 2.975\n1st Qu.:3342\n\n\n\nNA\nMedian :100.00\nMedian :3.300\nMedian : 3.650\nMedian :4040\n\n\n\nNA\nMean : 99.27\nMean :3.307\nMean : 3.640\nMean :4196\n\n\n\nNA\n3rd Qu.:100.62\n3rd Qu.:3.900\n3rd Qu.: 4.325\n3rd Qu.:4948\n\n\n\nNA\nMax. :110.00\nMax. :6.100\nMax. : 6.300\nMax. :8002"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",
@@ -669,14 +669,7 @@
     "href": "week10/index.html#variance-of-a-sample",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Variance of a sample",
-    "text": "Variance of a sample\nThe variance of a sample of n observations \\(x_1, x_2, x_3,..,x_n\\) having mean \\(\\bar{x}\\) is defined as\n\\[s^2 = \\frac{\\sum_{i=1}^n(x_i - \\bar{x})^2}{n-1}\\]\nAlternatively, the sample variance can be written in the following forms:\n\\[s^2 = \\frac{1}{n-1}[\\sum_{i=1}^n x_i^2 - \\frac{(\\sum_{i=1}^nx_i)^2}{n}]\\]\nor"
-  },
-  {
-    "objectID": "week10/index.html#s2-frac1n-1sum_i1nx_i2-nbarx",
-    "href": "week10/index.html#s2-frac1n-1sum_i1nx_i2-nbarx",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "\\[s^2 = \\frac{1}{n-1}[\\sum_{i=1}^nx_i^2-n\\bar{x}]\\]",
-    "text": "\\[s^2 = \\frac{1}{n-1}[\\sum_{i=1}^nx_i^2-n\\bar{x}]\\]"
+    "text": "Variance of a sample\nThe variance of a sample of n observations \\(x_1, x_2, x_3,..,x_n\\) having mean \\(\\bar{x}\\) is defined as\n\\[s^2 = \\frac{\\sum_{i=1}^n(x_i - \\bar{x})^2}{n-1}\\]\nAlternatively, the sample variance can be written in the following forms:\n\\[s^2 = \\frac{1}{n-1}[\\sum_{i=1}^n x_i^2 - \\frac{(\\sum_{i=1}^nx_i)^2}{n}]\\]\nor\n\\[s^2 = \\frac{1}{n-1}[\\sum_{i=1}^nx_i^2-n\\bar{x}]\\]"
   },
   {
     "objectID": "week10/index.html#measures-of-relative-standing-measures-of-noncentral-location",
@@ -697,7 +690,7 @@
     "href": "week10/index.html#rules",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Rules",
-    "text": "Rules\n\nIf the resulting positioning point is an integer, take the particular value corresponding to that positioning point.\nFor a non-integer position \\(p\\), let \\(k\\) be the integer part and \\(d\\) be the fractional part (e.g., for \\(p=2.75\\), \\(k=2\\) and \\(d=0.75\\))\n\n\\[Q_q = (1-d) \\text{ value at position }k + d.\\text{ value at position }k+1\\]\n\nYour turn\n\nFind quantiles for\n1,3,4,6,7,8,10,12,14,15"
+    "text": "Rules\n\nIf the resulting positioning point is an integer, take the particular value corresponding to that positioning point.\nFor a non-integer position \\(p\\), let \\(k\\) be the integer part and \\(d\\) be the fractional part (e.g., for \\(p=2.75\\), \\(k=2\\) and \\(d=0.75\\))\n\n\\[Q_q = ((1-d) \\times \\text{ value at position }k )+ (d \\times \\text{ value at position } (k+1))\\]\n\nYour turn\n\nFind quantiles for\n1,3,4,6,7,8,10,12,14,15\n\n\n\n−+\n05:00"
   },
   {
     "objectID": "week10/index.html#percentiles",
@@ -711,7 +704,7 @@
     "href": "week10/index.html#your-turn",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Your turn",
-    "text": "Your turn\n5, 5, 10, 12, 13, 14, 17, 19, 27, 28\nFind \\(L_{25}\\), \\(L_{50}\\) and \\(L_{75}\\)."
+    "text": "Your turn\n5, 5, 10, 12, 13, 14, 17, 19, 27, 38\nFind \\(L_{25}\\), \\(L_{50}\\) and \\(L_{75}\\).\n\n\n\n−+\n05:00"
   },
   {
     "objectID": "week10/index.html#interquartile-range-iqr",

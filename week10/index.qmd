@@ -29,7 +29,7 @@ $$s^2 = \frac{1}{n-1}[\sum_{i=1}^n x_i^2 - \frac{(\sum_{i=1}^nx_i)^2}{n}]$$
 
 or
 
-## $$s^2 = \frac{1}{n-1}[\sum_{i=1}^nx_i^2-n\bar{x}]$$
+ $$s^2 = \frac{1}{n-1}[\sum_{i=1}^nx_i^2-n\bar{x}]$$
 
 ## Measures of relative standing/ Measures of noncentral location
 
@@ -71,13 +71,18 @@ $$Q_3 = \frac{3(n+1)}{4} \text{ ordered observation}$$
 
 2.  For a non-integer position $p$, let $k$ be the integer part and $d$ be the fractional part (e.g., for $p=2.75$, $k=2$ and $d=0.75$)
 
-$$Q_q = (1-d) \text{ value at position }k + d.\text{ value at position }k+1$$
+$$Q_q = ((1-d) \times \text{ value at position }k )+ (d \times \text{ value at position } (k+1))$$
 
 > Your turn
 
 Find quantiles for
 
 1,3,4,6,7,8,10,12,14,15
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(countdown)
+countdown(minutes = 5, seconds = 00)
+```
 
 ## Percentiles
 
@@ -105,9 +110,14 @@ where $L_p$ is the location of the $p^{th}$ percentile.
 
 ## Your turn
 
-5, 5, 10, 12, 13, 14, 17, 19, 27, 28
+5, 5, 10, 12, 13, 14, 17, 19, 27, 38
 
 Find $L_{25}$, $L_{50}$ and $L_{75}$.
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(countdown)
+countdown(minutes = 5, seconds = 00)
+```
 
 ## Interquartile Range (IQR)
 
@@ -243,23 +253,21 @@ $$CV = \frac{s}{\bar{x}}\times 100\%$$
 
 In-class diagram:
 
-
-
----
+------------------------------------------------------------------------
 
 ## Skewness
 
-- Skewness is the degree of asymmetry of a distribution. 
+-   Skewness is the degree of asymmetry of a distribution.
 
-- If the frequency distribution has a longer “tail” to the right of the central maximum than to the left, the distribution is said to be skewed to the right (or to have a positive skewness). 
+-   If the frequency distribution has a longer “tail” to the right of the central maximum than to the left, the distribution is said to be skewed to the right (or to have a positive skewness).
 
-- If the reverse is true, it is said to be skewed to the left (or to have a negative skewness)
+-   If the reverse is true, it is said to be skewed to the left (or to have a negative skewness)
 
 > Pearson's first coefficient of skewness
 
 $$\text{Skewness} = \frac{\text{mean}-\text{mode}}{\text{standard deviation}}$$
 
-or 
+or
 
 > Pearson's second coefficient of skewness
 
@@ -267,51 +275,49 @@ To avoid using the mode
 
 $$\text{Skewness} = \frac{3(\text{mean}-\text{median})}{\text{standard deviation}}$$
 
----
+------------------------------------------------------------------------
 
 ## Conditions
 
-1. $Mean = Mode = Median$, then the coefficient of skewness is zero for symmetrical distribution.
+1.  $Mean = Mode = Median$, then the coefficient of skewness is zero for symmetrical distribution.
 
+2.  $Mean > Mode$, then the coefficient of skewness will be positive.
 
-2. $Mean > Mode$, then the coefficient of skewness will be positive.
+3.  $Mean < Mode$, then the coefficient of skewness will be negative.
 
+Karl person\`s coefficient of skewness has a positive sign for the positively skewed and a negative sign for the negatively skewed.
 
-3. $Mean < Mode$, then the coefficient of skewness will be negative.
-
-Karl person`s coefficient of skewness has a positive sign for the positively skewed and a negative sign for the negatively skewed.
-
----
+------------------------------------------------------------------------
 
 ## Empirical relationship between mean, median and mode
- 
+
 Using Karl Pearson’s formula we can show
 
 $3 (median) = mode + 2 mean$
 
----
+------------------------------------------------------------------------
 
-##
+## 
 
-1. **Symmetric**
+1.  **Symmetric**
 
 $Mean = Median = Mode$
 
-2. **Positively Skewed**
+2.  **Positively Skewed**
 
 $Mean > Median > Mode$
 
-3. **Negatively Skewed**
+3.  **Negatively Skewed**
 
 $Mean < Median < Mode$
 
----
+------------------------------------------------------------------------
 
 ## Kurtosis
 
-- Degree of peakness of a distribution
+-   Degree of peakness of a distribution
 
-- Usually taken relative to a normal distribution
+-   Usually taken relative to a normal distribution
 
 ```{r}
 Type <- c("Mesokurtic", "Leptokurtic", "Platykurtic")

@@ -320,6 +320,10 @@
       margin-right: 0; 
     }
   </style>
+  <link href="../site_libs/countdown-0.4.0/countdown.css" rel="stylesheet">
+
+  <script src="../site_libs/countdown-0.4.0/countdown.js"></script>
+
   <script src="../site_libs/kePrint-0.0.1/kePrint.js"></script>
 
   <link href="../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
@@ -349,9 +353,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <p>Alternatively, the sample variance can be written in the following forms:</p>
 <p><span class="math display">\[s^2 = \frac{1}{n-1}[\sum_{i=1}^n x_i^2 - \frac{(\sum_{i=1}^nx_i)^2}{n}]\]</span></p>
 <p>or</p>
-</section>
-<section id="s2-frac1n-1sum_i1nx_i2-nbarx" class="slide level2">
-<h2><span class="math display">\[s^2 = \frac{1}{n-1}[\sum_{i=1}^nx_i^2-n\bar{x}]\]</span></h2>
+<p><span class="math display">\[s^2 = \frac{1}{n-1}[\sum_{i=1}^nx_i^2-n\bar{x}]\]</span></p>
 </section>
 <section id="measures-of-relative-standing-measures-of-noncentral-location" class="slide level2">
 <h2>Measures of relative standing/ Measures of noncentral location</h2>
@@ -387,12 +389,20 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <li><p>If the resulting positioning point is an integer, take the particular value corresponding to that positioning point.</p></li>
 <li><p>For a non-integer position <span class="math inline">\(p\)</span>, let <span class="math inline">\(k\)</span> be the integer part and <span class="math inline">\(d\)</span> be the fractional part (e.g., for <span class="math inline">\(p=2.75\)</span>, <span class="math inline">\(k=2\)</span> and <span class="math inline">\(d=0.75\)</span>)</p></li>
 </ol>
-<p><span class="math display">\[Q_q = (1-d) \text{ value at position }k + d.\text{ value at position }k+1\]</span></p>
+<p><span class="math display">\[Q_q = ((1-d) \times \text{ value at position }k )+ (d \times \text{ value at position } (k+1))\]</span></p>
 <blockquote>
 <p>Your turn</p>
 </blockquote>
 <p>Find quantiles for</p>
 <p>1,3,4,6,7,8,10,12,14,15</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="timer_d5e9961d" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
+</div>
 </section>
 <section id="percentiles" class="slide level2">
 <h2>Percentiles</h2>
@@ -411,8 +421,16 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 </section>
 <section id="your-turn" class="slide level2">
 <h2>Your turn</h2>
-<p>5, 5, 10, 12, 13, 14, 17, 19, 27, 28</p>
+<p>5, 5, 10, 12, 13, 14, 17, 19, 27, 38</p>
 <p>Find <span class="math inline">\(L_{25}\)</span>, <span class="math inline">\(L_{50}\)</span> and <span class="math inline">\(L_{75}\)</span>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="timer_211191b5" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
+</div>
 </section>
 <section id="interquartile-range-iqr" class="slide level2">
 <h2>Interquartile Range (IQR)</h2>
@@ -1220,7 +1238,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <div class="cell-output-display">
 <div>
 <figure>
-<p><img data-src="index_files/figure-revealjs/unnamed-chunk-7-1.png" width="960"></p>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-9-1.png" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1231,7 +1249,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <div class="cell-output-display">
 <div>
 <figure>
-<p><img data-src="index_files/figure-revealjs/unnamed-chunk-8-1.png" width="960"></p>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-10-1.png" width="960"></p>
 </figure>
 </div>
 </div>
