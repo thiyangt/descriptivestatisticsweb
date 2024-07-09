@@ -494,7 +494,7 @@
     "href": "week1/index.html#summary-measures",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.700\nMin. :1.200\nMin. :2106\n\n\n\nMale :50\n1st Qu.: 99.47\n1st Qu.:2.500\n1st Qu.:3.000\n1st Qu.:3299\n\n\n\nNA\nMedian :100.10\nMedian :3.300\nMedian :3.650\nMedian :4106\n\n\n\nNA\nMean : 99.41\nMean :3.364\nMean :3.644\nMean :4282\n\n\n\nNA\n3rd Qu.:100.83\n3rd Qu.:4.100\n3rd Qu.:4.200\n3rd Qu.:5268\n\n\n\nNA\nMax. :110.00\nMax. :5.900\nMax. :6.300\nMax. :7812"
+    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :-0.700\nMin. :0.600\nMin. :-928\n\n\n\nMale :50\n1st Qu.: 99.28\n1st Qu.: 2.775\n1st Qu.:2.900\n1st Qu.:3422\n\n\n\nNA\nMedian : 99.95\nMedian : 3.400\nMedian :3.450\nMedian :4372\n\n\n\nNA\nMean : 99.23\nMean : 3.397\nMean :3.482\nMean :4334\n\n\n\nNA\n3rd Qu.:100.53\n3rd Qu.: 4.100\n3rd Qu.:4.200\n3rd Qu.:5232\n\n\n\nNA\nMax. :110.00\nMax. : 5.400\nMax. :6.300\nMax. :7929"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",
@@ -509,6 +509,20 @@
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Applications of statistics in different fields",
     "text": "Applications of statistics in different fields\n\n\n\n\n\n\n\n\n\nTerminology\nField\n\n\n\n\nEpidemiology\nThe study and analysis of the patterns, causes and effects of health and disease conditions\n\n\nAstrostatistics\nApplies statistical analysis to the understanding of astronomical data\n\n\nBiostatistics\nStudies biological phenomena\n\n\nDemography\nStatistical study of all populations\n\n\nSocial statistics\nStudy human behavior in a social environment\n\n\nChemometrics\nScience of extracting information from chemical systems by data-driven means"
+  },
+  {
+    "objectID": "ia.html",
+    "href": "ia.html",
+    "title": "Individual Assignment",
+    "section": "",
+    "text": "Date released: July 9, 2024\nAs part of your coursework, you will be working on an individual assignment. This assignment will contribute 20% towards your final grade.\nBelow are the details:\nObjective:\nThe aim of this assignment is to develop your data analysis and presentation skills by selecting and analyzing a publicly available data set. You will prepare a research poster in A1 size, including charts, tables, and interpretations, all hand-drawn. The final poster should be scanned and uploaded to Google Classroom and the Learning Management System (LMS).\nSteps to Complete the Assignment:\n1. Select a Publicly Available Data Set:\n2. Analyze Your Data Set:\nAll charts, tables, and interpretations must be hand-drawn. Ensure they are clear, well-labeled, and accurately represent your findings.\n3. Prepare a research poster\nIntroduction:\nProvide an overview of the topic and the importance of the data set.\nObjectives of the Study:\nClearly state the goals and objectives of your analysis.\nData:\nDescribe the data set, including its source, type of data, and any preprocessing steps taken. (for example if you select a subset, you can mention it here)\nData Analysis:\nPresent your findings using hand-drawn charts and tables. Each visual and table should be accompanied by a brief interpretation.\nConclusions:\nSummarize the key insights and implications of your analysis.\nName and Index number\nClearly mention your index number and name.\n4. Submission\n5. Submission deadline\nJuly 21, 2024\nYou have been given a 11 days timeframe to complete the assignment. Please begin work promptly to accommodate any unforeseen circumstances.\nIf you have any questions or require further clarification, please feel free to reach out to me (email: ttalagala@sjp.ac.lk)."
+  },
+  {
+    "objectID": "ia.html#help-desk",
+    "href": "ia.html#help-desk",
+    "title": "Individual Assignment",
+    "section": "Help desk",
+    "text": "Help desk\nFirst help desk session will be held on July 10, 2024 from 3.15pm to 4.00pm.\nIf you need any additional support, please send an email to statdemos@sci.sjp.ac.lk and reserve a time for a meeting (weekdays only between 8 a.m. and 4 p.m.)."
   },
   {
     "objectID": "ga.html",

@@ -11,6 +11,7 @@ website:
         text: Home
       - about.qmd
       - ga.qmd
+      - ia.qmd
 
 
 format:

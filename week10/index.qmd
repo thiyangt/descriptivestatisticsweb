@@ -29,7 +29,7 @@ $$s^2 = \frac{1}{n-1}[\sum_{i=1}^n x_i^2 - \frac{(\sum_{i=1}^nx_i)^2}{n}]$$
 
 or
 
- $$s^2 = \frac{1}{n-1}[\sum_{i=1}^nx_i^2-n\bar{x}]$$
+$$s^2 = \frac{1}{n-1}[\sum_{i=1}^nx_i^2-n\bar{x}]$$
 
 ## Measures of relative standing/ Measures of noncentral location
 
