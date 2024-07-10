@@ -41,7 +41,6 @@ ts.earnings |> knitr::kable()
 
 ## Earnings from tourism (USD Mn)
 
-
 ```{r}
 #| echo: false
 ts.earnings |>
@@ -55,7 +54,6 @@ ts.earnings |>
 
 ## Earnings from tourism (USD Mn)
 
-
 ```{r}
 #| echo: false
 ts.earnings |>
@@ -67,7 +65,6 @@ ts.earnings |>
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
   labs(y = "Earnings from tourism (USD Mn)", x="Time")
 ```
-
 
 ## Area chart
 
@@ -93,7 +90,7 @@ ts.earnings |>
   
 ```
 
-##
+## 
 
 ```{r}
 y.tsibble <- tsibble(
@@ -109,9 +106,9 @@ y.tsibble |>
 
 Not suitable
 
----
+------------------------------------------------------------------------
 
-##
+## 
 
 ```{r}
 y.tsibble |> knitr::kable()
@@ -123,6 +120,6 @@ ggplot(y.tsibble, aes(x = Year, y = Earnings)) +
   theme_minimal()
 ```
 
-##
+## 
 
-More about time series visualizations - Data Visualisation unit 
+More about time series visualizations - Data Visualisation unit

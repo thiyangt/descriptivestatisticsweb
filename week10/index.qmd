@@ -419,7 +419,7 @@ kable(descriptive_stats_penguins, format = "html") %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = F)
 ```
 
----
+------------------------------------------------------------------------
 
 ```{r}
 ggplot(penguins, aes(x = species, y = flipper_length_mm, fill = species)) +
@@ -430,14 +430,13 @@ ggplot(penguins, aes(x = species, y = flipper_length_mm, fill = species)) +
   theme_minimal()
 ```
 
+-   The distributions of flipper lengths for each species appear to be roughly symmetric.
 
-- The distributions of flipper lengths for each species appear to be roughly symmetric. 
+-   Gentoo penguins have longer flippers than both Adélie and Chinstrap penguins, which have similar flipper lengths.
 
-- Gentoo penguins have longer flippers than both Adélie and Chinstrap penguins, which have similar flipper lengths.
+-   There are two notable outliers in the flipper lengths for Adélie penguins, which are visible in the boxplot.
 
-- There are two notable outliers in the flipper lengths for Adélie penguins, which are visible in the boxplot.
-
----
+------------------------------------------------------------------------
 
 ```{r}
 p1 <- ggplot(penguins, aes(x = flipper_length_mm, fill = species)) +

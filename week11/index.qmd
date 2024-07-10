@@ -19,7 +19,7 @@ format:
 
 ## Scatter plot
 
-- Allows us to visually see how two variables related to each other.
+-   Allows us to visually see how two variables related to each other.
 
 ```{r, fig.cap="Figure 1: Scatter pllot of body mass vs flipper length", fig.pos="center"}
 library(palmerpenguins)
@@ -30,8 +30,7 @@ penguins |>
   geom_point() + theme(aspect.ratio = 1.2)+xlab("flipper length (mm)") + ylab("body mass (g)")
 ```
 
-
-## Covariance
+## Measures of Association: Covariance
 
 We can quantify how two variables move together by a summary measure called the **covariance**.
 
@@ -39,27 +38,27 @@ The sample covariance of two variables, $X$ and $Y$, is given by the formula:
 
 $$Cov(X, Y) = \frac{1}{n-1}\sum_{i=1}^n (X_i - \bar{X})(Y_i - \bar{Y})$$
 
-**What is the covariance of $X$ with $X$?**
+**What is the covariance of** $X$ with $X$?
 
----
+------------------------------------------------------------------------
 
 ## Covariance
 
 The problem with using the covariance to measure the relationship between two quantitative variables is that we can only interpret the **direction of the relationships**, not the strength of it.
 
----
+------------------------------------------------------------------------
 
-## Pearson's Product Moment Correlation Coefficient ($r$)
+## Measures of association: Pearson's Product Moment Correlation Coefficient ($r$)
 
-$$Corr(X, Y)=\frac{\sum_{i=1}^n(X_i-\bar{X})(Y_i-\bar{Y})}{\sqrt\sum_{i=1}^n(X_i-\bar{X})\sum_{i=1}^n(Y_i-\bar{Y})}$$ 
+$$Corr(X, Y)=\frac{\sum_{i=1}^n(X_i-\bar{X})(Y_i-\bar{Y})}{\sqrt\sum_{i=1}^n(X_i-\bar{X})\sum_{i=1}^n(Y_i-\bar{Y})}$$
 
 We can show that
 
 $$Corr(X, Y) = \frac{Cov(X, Y)}{S_xS_y}$$
 
----
+------------------------------------------------------------------------
 
-##
+## 
 
 ```{r, fig.height=10, fig.width=10}
 # Load required libraries
@@ -121,7 +120,7 @@ correlation_data <- data.frame(
 correlation_data |> knitr::kable()
 ```
 
----
+------------------------------------------------------------------------
 
 ## Scatter plot matrix
 
@@ -160,8 +159,7 @@ ggplot(df, aes(x=x, y=y)) + geom_point()
 
 ```
 
-
----
+------------------------------------------------------------------------
 
 ## Which plot has the highest correlation coefficient?
 
@@ -169,6 +167,6 @@ ggplot(df, aes(x=x, y=y)) + geom_point()
 knitr::include_graphics("images.png")
 ```
 
----
+------------------------------------------------------------------------
 
 ![](DataSaurus.gif)
