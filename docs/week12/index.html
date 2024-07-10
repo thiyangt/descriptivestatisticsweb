@@ -29,6 +29,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -338,108 +403,823 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 </div>
 
 </section>
-<section id="scatter-plot" class="slide level2">
-<h2>Scatter plot</h2>
-<ul>
-<li>Allows us to visually see how two variables related to each other.</li>
-</ul>
+<section class="slide level2">
 
-<img data-src="index_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">Figure 1: Scatter pllot of body mass vs flipper length</p></section>
-<section id="covariance" class="slide level2">
-<h2>Covariance</h2>
-<p>We can quantify how two variables move together by a summary measure called the <strong>covariance</strong>.</p>
-<p>The sample covariance of two variables, <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>, is given by the formula:</p>
-<p><span class="math display">\[Cov(X, Y) = \frac{1}{n-1}\sum_{i=1}^n (X_i - \bar{X})(Y_i - \bar{Y})\]</span></p>
-<p><strong>What is the covariance of</strong> <span class="math inline">\(X\)</span> with <span class="math inline">\(X\)</span>?</p>
-</section>
-<section id="covariance-1" class="slide level2">
-<h2>Covariance</h2>
-<p>The problem with using the covariance to measure the relationship between two quantitative variables is that we can only interpret the <strong>direction of the relationships</strong>, not the strength of it.</p>
-</section>
-<section id="pearsons-product-moment-correlation-coefficient-r" class="slide level2">
-<h2>Pearson’s Product Moment Correlation Coefficient (<span class="math inline">\(r\)</span>)</h2>
-<p><span class="math display">\[Corr(X, Y)=\frac{\sum_{i=1}^n(X_i-\bar{X})(Y_i-\bar{Y})}{\sqrt\sum_{i=1}^n(X_i-\bar{X})\sum_{i=1}^n(Y_i-\bar{Y})}\]</span></p>
-<p>We can show that</p>
-<p><span class="math display">\[Corr(X, Y) = \frac{Cov(X, Y)}{S_xS_y}\]</span></p>
-</section>
-<section id="section" class="slide level2">
-<h2></h2>
-
-<img data-src="index_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>
-<section id="interpretations" class="slide level2">
-<h2>Interpretations</h2>
 <div class="cell">
 <div class="cell-output-display">
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: left;">r_value</th>
-<th style="text-align: left;">interpretation</th>
+<th style="text-align: right;">Earnings</th>
+<th style="text-align: left;">Time</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">r = 1</td>
-<td style="text-align: left;">Perfect positive linear correlation</td>
+<td style="text-align: right;">30.0</td>
+<td style="text-align: left;">2009 Jan</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">1 &gt; r ≥ 0.8</td>
-<td style="text-align: left;">Strong positive linear correlation</td>
+<td style="text-align: right;">26.7</td>
+<td style="text-align: left;">2009 Feb</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">0.8 &gt; r ≥ 0.4</td>
-<td style="text-align: left;">Moderate positive linear correlation</td>
+<td style="text-align: right;">26.6</td>
+<td style="text-align: left;">2009 Mar</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">0.4 &gt; r &gt; 0</td>
-<td style="text-align: left;">Weak positive linear correlation</td>
+<td style="text-align: right;">20.3</td>
+<td style="text-align: left;">2009 Apr</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">r = 0</td>
-<td style="text-align: left;">No correlation</td>
+<td style="text-align: right;">19.3</td>
+<td style="text-align: left;">2009 May</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">0 &gt; r ≥ -0.4</td>
-<td style="text-align: left;">Weak negative linear correlation</td>
+<td style="text-align: right;">23.6</td>
+<td style="text-align: left;">2009 Jun</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">-0.4 &gt; r ≥ -0.8</td>
-<td style="text-align: left;">Moderate negative linear correlation</td>
+<td style="text-align: right;">33.0</td>
+<td style="text-align: left;">2009 Jul</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">-0.8 &gt; r &gt; -1</td>
-<td style="text-align: left;">Strong negative linear correlation</td>
+<td style="text-align: right;">32.2</td>
+<td style="text-align: left;">2009 Aug</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">r = -1</td>
-<td style="text-align: left;">Perfect negative linear correlation</td>
+<td style="text-align: right;">29.6</td>
+<td style="text-align: left;">2009 Sep</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">29.3</td>
+<td style="text-align: left;">2009 Oct</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">34.6</td>
+<td style="text-align: left;">2009 Nov</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">44.4</td>
+<td style="text-align: left;">2009 Dec</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">44.7</td>
+<td style="text-align: left;">2010 Jan</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">50.4</td>
+<td style="text-align: left;">2010 Feb</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">46.1</td>
+<td style="text-align: left;">2010 Mar</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">33.7</td>
+<td style="text-align: left;">2010 Apr</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">31.0</td>
+<td style="text-align: left;">2010 May</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">39.4</td>
+<td style="text-align: left;">2010 Jun</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">55.7</td>
+<td style="text-align: left;">2010 Jul</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">49.2</td>
+<td style="text-align: left;">2010 Aug</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">41.7</td>
+<td style="text-align: left;">2010 Sep</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">46.1</td>
+<td style="text-align: left;">2010 Oct</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">63.6</td>
+<td style="text-align: left;">2010 Nov</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">74.5</td>
+<td style="text-align: left;">2010 Dec</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">72.0</td>
+<td style="text-align: left;">2011 Jan</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">63.8</td>
+<td style="text-align: left;">2011 Feb</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">72.9</td>
+<td style="text-align: left;">2011 Mar</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">61.9</td>
+<td style="text-align: left;">2011 Apr</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">47.5</td>
+<td style="text-align: left;">2011 May</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">52.0</td>
+<td style="text-align: left;">2011 Jun</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">81.3</td>
+<td style="text-align: left;">2011 Jul</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">70.3</td>
+<td style="text-align: left;">2011 Aug</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">58.4</td>
+<td style="text-align: left;">2011 Sep</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">67.5</td>
+<td style="text-align: left;">2011 Oct</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">88.2</td>
+<td style="text-align: left;">2011 Nov</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">94.6</td>
+<td style="text-align: left;">2011 Dec</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">88.9</td>
+<td style="text-align: left;">2012 Jan</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">84.9</td>
+<td style="text-align: left;">2012 Feb</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">92.9</td>
+<td style="text-align: left;">2012 Mar</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">73.1</td>
+<td style="text-align: left;">2012 Apr</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">57.3</td>
+<td style="text-align: left;">2012 May</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">62.8</td>
+<td style="text-align: left;">2012 Jun</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">100.5</td>
+<td style="text-align: left;">2012 Jul</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">81.8</td>
+<td style="text-align: left;">2012 Aug</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">68.8</td>
+<td style="text-align: left;">2012 Sep</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">79.5</td>
+<td style="text-align: left;">2012 Oct</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">114.7</td>
+<td style="text-align: left;">2012 Nov</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">133.5</td>
+<td style="text-align: left;">2012 Dec</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">148.8</td>
+<td style="text-align: left;">2013 Jan</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">153.4</td>
+<td style="text-align: left;">2013 Feb</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">152.4</td>
+<td style="text-align: left;">2013 Mar</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">108.7</td>
+<td style="text-align: left;">2013 Apr</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">100.7</td>
+<td style="text-align: left;">2013 May</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">121.5</td>
+<td style="text-align: left;">2013 Jun</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">144.0</td>
+<td style="text-align: left;">2013 Jul</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">165.9</td>
+<td style="text-align: left;">2013 Aug</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">121.6</td>
+<td style="text-align: left;">2013 Sep</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">144.1</td>
+<td style="text-align: left;">2013 Oct</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">147.3</td>
+<td style="text-align: left;">2013 Nov</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">207.2</td>
+<td style="text-align: left;">2013 Dec</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">233.3</td>
+<td style="text-align: left;">2014 Jan</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">225.9</td>
+<td style="text-align: left;">2014 Feb</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">211.8</td>
+<td style="text-align: left;">2014 Mar</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">179.3</td>
+<td style="text-align: left;">2014 Apr</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">143.3</td>
+<td style="text-align: left;">2014 May</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">164.2</td>
+<td style="text-align: left;">2014 Jun</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">213.3</td>
+<td style="text-align: left;">2014 Jul</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">223.4</td>
+<td style="text-align: left;">2014 Aug</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">168.0</td>
+<td style="text-align: left;">2014 Sep</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">193.5</td>
+<td style="text-align: left;">2014 Oct</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">190.6</td>
+<td style="text-align: left;">2014 Nov</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">284.4</td>
+<td style="text-align: left;">2014 Dec</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">259.0</td>
+<td style="text-align: left;">2015 Jan</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">274.4</td>
+<td style="text-align: left;">2015 Feb</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">260.3</td>
+<td style="text-align: left;">2015 Mar</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">202.6</td>
+<td style="text-align: left;">2015 Apr</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">188.2</td>
+<td style="text-align: left;">2015 May</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">191.4</td>
+<td style="text-align: left;">2015 Jun</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">291.4</td>
+<td style="text-align: left;">2015 Jul</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">276.1</td>
+<td style="text-align: left;">2015 Aug</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">237.6</td>
+<td style="text-align: left;">2015 Sep</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">219.2</td>
+<td style="text-align: left;">2015 Oct</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">238.9</td>
+<td style="text-align: left;">2015 Nov</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">341.6</td>
+<td style="text-align: left;">2015 Dec</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">333.3</td>
+<td style="text-align: left;">2016 Jan</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">339.2</td>
+<td style="text-align: left;">2016 Feb</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">330.8</td>
+<td style="text-align: left;">2016 Mar</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">234.0</td>
+<td style="text-align: left;">2016 Apr</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">214.5</td>
+<td style="text-align: left;">2016 May</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">202.5</td>
+<td style="text-align: left;">2016 Jun</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">359.2</td>
+<td style="text-align: left;">2016 Jul</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">319.6</td>
+<td style="text-align: left;">2016 Aug</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">254.8</td>
+<td style="text-align: left;">2016 Sep</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">258.1</td>
+<td style="text-align: left;">2016 Oct</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">286.9</td>
+<td style="text-align: left;">2016 Nov</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">385.7</td>
+<td style="text-align: left;">2016 Dec</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">406.8</td>
+<td style="text-align: left;">2017 Jan</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">366.3</td>
+<td style="text-align: left;">2017 Feb</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">348.8</td>
+<td style="text-align: left;">2017 Mar</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">297.2</td>
+<td style="text-align: left;">2017 Apr</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">226.1</td>
+<td style="text-align: left;">2017 May</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">228.8</td>
+<td style="text-align: left;">2017 Jun</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">381.1</td>
+<td style="text-align: left;">2017 Jul</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">354.1</td>
+<td style="text-align: left;">2017 Aug</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">269.0</td>
+<td style="text-align: left;">2017 Sep</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">282.7</td>
+<td style="text-align: left;">2017 Oct</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">310.7</td>
+<td style="text-align: left;">2017 Nov</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">453.5</td>
+<td style="text-align: left;">2017 Dec</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">448.5</td>
+<td style="text-align: left;">2018 Jan</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">442.3</td>
+<td style="text-align: left;">2018 Feb</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">438.1</td>
+<td style="text-align: left;">2018 Mar</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">338.7</td>
+<td style="text-align: left;">2018 Apr</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">243.0</td>
+<td style="text-align: left;">2018 May</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">275.6</td>
+<td style="text-align: left;">2018 Jun</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">408.9</td>
+<td style="text-align: left;">2018 Jul</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">376.1</td>
+<td style="text-align: left;">2018 Aug</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">279.8</td>
+<td style="text-align: left;">2018 Sep</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">287.4</td>
+<td style="text-align: left;">2018 Oct</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">367.1</td>
+<td style="text-align: left;">2018 Nov</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">475.2</td>
+<td style="text-align: left;">2018 Dec</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">460.3</td>
+<td style="text-align: left;">2019 Jan</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">475.0</td>
+<td style="text-align: left;">2019 Feb</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">460.5</td>
+<td style="text-align: left;">2019 Mar</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">314.7</td>
+<td style="text-align: left;">2019 Apr</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">71.2</td>
+<td style="text-align: left;">2019 May</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">118.9</td>
+<td style="text-align: left;">2019 Jun</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">218.1</td>
+<td style="text-align: left;">2019 Jul</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">270.6</td>
+<td style="text-align: left;">2019 Aug</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">204.6</td>
+<td style="text-align: left;">2019 Sep</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">223.8</td>
+<td style="text-align: left;">2019 Oct</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">333.6</td>
+<td style="text-align: left;">2019 Nov</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">455.5</td>
+<td style="text-align: left;">2019 Dec</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">307.0</td>
+<td style="text-align: left;">2020 Jan</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">278.9</td>
+<td style="text-align: left;">2020 Feb</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">95.9</td>
+<td style="text-align: left;">2020 Mar</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">NA</td>
+<td style="text-align: left;">2020 Apr</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">NA</td>
+<td style="text-align: left;">2020 May</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">NA</td>
+<td style="text-align: left;">2020 Jun</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">NA</td>
+<td style="text-align: left;">2020 Jul</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">NA</td>
+<td style="text-align: left;">2020 Aug</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">NA</td>
+<td style="text-align: left;">2020 Sep</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">NA</td>
+<td style="text-align: left;">2020 Oct</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">NA</td>
+<td style="text-align: left;">2020 Nov</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">0.5</td>
+<td style="text-align: left;">2020 Dec</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">4.4</td>
+<td style="text-align: left;">2021 Jan</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8.8</td>
+<td style="text-align: left;">2021 Feb</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">11.9</td>
+<td style="text-align: left;">2021 Mar</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10.9</td>
+<td style="text-align: left;">2021 Apr</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3.9</td>
+<td style="text-align: left;">2021 May</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4.2</td>
+<td style="text-align: left;">2021 Jun</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">6.3</td>
+<td style="text-align: left;">2021 Jul</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">13.1</td>
+<td style="text-align: left;">2021 Aug</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">35.3</td>
+<td style="text-align: left;">2021 Sep</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">59.3</td>
+<td style="text-align: left;">2021 Oct</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">115.4</td>
+<td style="text-align: left;">2021 Nov</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">233.3</td>
+<td style="text-align: left;">2021 Dec</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">151.7</td>
+<td style="text-align: left;">2022 Jan</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">169.4</td>
+<td style="text-align: left;">2022 Feb</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">161.2</td>
+<td style="text-align: left;">2022 Mar</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">108.7</td>
+<td style="text-align: left;">2022 Apr</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">43.5</td>
+<td style="text-align: left;">2022 May</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">45.0</td>
+<td style="text-align: left;">2022 Jun</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">85.0</td>
+<td style="text-align: left;">2022 Jul</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">67.9</td>
+<td style="text-align: left;">2022 Aug</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">40.5</td>
+<td style="text-align: left;">2022 Sep</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">54.9</td>
+<td style="text-align: left;">2022 Oct</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">81.0</td>
+<td style="text-align: left;">2022 Nov</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">127.4</td>
+<td style="text-align: left;">2022 Dec</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">153.5</td>
+<td style="text-align: left;">2023 Jan</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">161.6</td>
+<td style="text-align: left;">2023 Feb</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">188.8</td>
+<td style="text-align: left;">2023 Mar</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">148.2</td>
+<td style="text-align: left;">2023 Apr</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">100.0</td>
+<td style="text-align: left;">2023 May</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">122.9</td>
+<td style="text-align: left;">2023 Jun</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">219.0</td>
+<td style="text-align: left;">2023 Jul</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">210.5</td>
+<td style="text-align: left;">2023 Aug</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">152.2</td>
+<td style="text-align: left;">2023 Sep</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">136.7</td>
+<td style="text-align: left;">2023 Oct</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">205.3</td>
+<td style="text-align: left;">2023 Nov</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">269.3</td>
+<td style="text-align: left;">2023 Dec</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 </section>
-<section id="scatter-plot-matrix" class="slide level2">
-<h2>Scatter plot matrix</h2>
+<section id="earnings-from-tourism-usd-mn" class="slide level2">
+<h2>Earnings from tourism (USD Mn)</h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
+<section id="earnings-from-tourism-usd-mn-1" class="slide level2">
+<h2>Earnings from tourism (USD Mn)</h2>
 
 <img data-src="index_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
+<section id="area-chart" class="slide level2">
+<h2>Area chart</h2>
+<div class="cell" style="font-size: 20px;">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>ts.earnings <span class="sc">|&gt;</span></span>
+<span id="cb1-2"><a></a>    <span class="fu">mutate</span>(<span class="at">Time =</span> <span class="fu">as_date</span>(<span class="fu">yearmonth</span>(Time))) <span class="sc">|&gt;</span></span>
+<span id="cb1-3"><a></a>  <span class="fu">autoplot</span>(Earnings) <span class="sc">+</span> </span>
+<span id="cb1-4"><a></a>  <span class="fu">geom_area</span>() <span class="sc">+</span> </span>
+<span id="cb1-5"><a></a>  <span class="fu">scale_x_date</span>(<span class="at">date_breaks =</span> <span class="st">"1 year"</span>,  <span class="at">date_labels =</span> <span class="st">"%b-%y"</span>) <span class="sc">+</span> </span>
+<span id="cb1-6"><a></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">90</span>, <span class="at">vjust =</span> <span class="fl">0.5</span>, <span class="at">hjust=</span><span class="dv">1</span>)) <span class="sc">+</span></span>
+<span id="cb1-7"><a></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Earnings from tourism (USD Mn)"</span>, <span class="at">x=</span><span class="st">"Time"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+</div>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
+<section id="seasonal-plot" class="slide level2">
+<h2>Seasonal plot</h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"></section>
+<section id="section" class="slide level2">
+<h2></h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tsibble: 4 x 2 [1Y]
+   Year Earnings
+  &lt;int&gt;    &lt;dbl&gt;
+1  2020     682.
+2  2021     507.
+3  2022    1136.
+4  2023    2068 </code></pre>
+</div>
+
+</div>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-7-1.png" width="960" class="r-stretch"><p>Not suitable</p>
+</section>
 <section id="section-1" class="slide level2">
 <h2></h2>
+<div class="cell">
+<div class="cell-output-display">
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Year</th>
+<th style="text-align: right;">Earnings</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">682.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">506.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">1136.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">2068.0</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-<img data-src="index_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
-<section id="pearsons-correlation-coefficient-0" class="slide level2">
-<h2>Pearson’s correlation coefficient = 0</h2>
+</div>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<p>More about time series visualizations - Data Visualisation unit</p>
 
-<img data-src="index_files/figure-revealjs/unnamed-chunk-6-1.png" width="384" class="r-stretch"></section>
-<section id="which-plot-has-the-highest-correlation-coefficient" class="slide level2">
-<h2>Which plot has the highest correlation coefficient?</h2>
-
-<img data-src="images.png" width="2400" class="r-stretch"></section>
-<section class="slide level2">
-
-
-
-<img data-src="DataSaurus.gif" class="r-stretch"><div class="quarto-auto-generated-content">
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
 </div>
