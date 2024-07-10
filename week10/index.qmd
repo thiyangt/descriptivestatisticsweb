@@ -245,15 +245,47 @@ Which group of chocolate prices exhibits the highest variation?
 
 $$CV = \frac{s}{\bar{x}}\times 100\%$$
 
+---
+
+The coefficient of variation of the height of 30 people selected at random from a given village is found to be
+15%. The mean weight of the selected group is 72 kg and a standard deviation 8 kg.
+
+The obtained results show that 
+
+A) the weight is more variable than height.
+
+B) the weight is less variable than height.
+
+C) height and weight have the same degree of variation.
+
+D) height and weight values are identical.
+
+---
+
 # Measures of shape
 
 ------------------------------------------------------------------------
 
 ## Skewness and the relationship of the mean, median and mode
 
-In-class diagram:
 
-------------------------------------------------------------------------
+::: columns
+::: {.column width="50%"}
+In-class diagram:
+:::
+  
+::: {.column width="50%"}
+Skewness describes the degree and direction of asymmetry in the data.
+
+
+Formula used to calculate skewness in Excel:
+
+$$\text{Skewness} = \frac{n}{(n-1)(n-2)}\sum_{i=1}^{n}(\frac{X_i - \bar{X}}{8})^3$$
+
+:::
+:::
+
+---
 
 ## Skewness
 
@@ -332,3 +364,24 @@ Excess Kurtosis = Kurtosis - 3
 ## Your turn
 
 Find kurtosis and excess kurtosis formula
+
+## Interpret the following
+
+```{r, fig.cap="Figure 1: Boxplot of Flipper Length by Species"}
+# Load necessary libraries
+library(ggplot2)
+library(palmerpenguins)
+library(dplyr)
+# Load the dataset
+# Remove rows with missing values
+penguins <- na.omit(penguins)
+
+# Create a boxplot for flipper length by species
+ggplot(penguins, aes(x = species, y = flipper_length_mm, fill = species)) +
+  geom_boxplot() +
+  labs(
+       x = "Species",
+       y = "Flipper Length (mm)") +
+  theme_minimal()
+```
+
