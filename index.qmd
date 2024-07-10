@@ -99,3 +99,11 @@ Task: Week 7 slides 28-29 questions.
 Tutorial 4: July 3, 2024 from 3.15PM to 4PM.
 
 Please go to the Google Classroom to view the tasks.
+
+### Week 12: July 7, 2024
+
+**Slides 11:** [Covariance and Correlation](./week11/index.html)
+
+Help Desk (Assignment 2): July 7, 2024 from 3.15PM to 4PM.
+
+Please go to the Google Classroom/LMS to view the assignment.

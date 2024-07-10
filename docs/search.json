@@ -476,6 +476,62 @@
     "text": "Population: All students attending online Zoom lecture today.\nSample: A random selection of 50 students\nParameter: The proportion of all university students who actively listen to lectures during online Zoom sessions.\nStatistics: The observed proportion of active listeners among the selected sample of 50 students."
   },
   {
+    "objectID": "week11/index.html#scatter-plot",
+    "href": "week11/index.html#scatter-plot",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Scatter plot",
+    "text": "Scatter plot\n\nAllows us to visually see how two variables related to each other.\n\n\nFigure 1: Scatter pllot of body mass vs flipper length"
+  },
+  {
+    "objectID": "week11/index.html#covariance",
+    "href": "week11/index.html#covariance",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Covariance",
+    "text": "Covariance\nWe can quantify how two variables move together by a summary measure called the covariance.\nThe sample covariance of two variables, \\(X\\) and \\(Y\\), is given by the formula:\n\\[Cov(X, Y) = \\frac{1}{n-1}\\sum_{i=1}^n (X_i - \\bar{X})(Y_i - \\bar{Y})\\]\nWhat is the covariance of \\(X\\) with \\(X\\)?"
+  },
+  {
+    "objectID": "week11/index.html#covariance-1",
+    "href": "week11/index.html#covariance-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Covariance",
+    "text": "Covariance\nThe problem with using the covariance to measure the relationship between two quantitative variables is that we can only interpret the direction of the relationships, not the strength of it."
+  },
+  {
+    "objectID": "week11/index.html#pearsons-product-moment-correlation-coefficient-r",
+    "href": "week11/index.html#pearsons-product-moment-correlation-coefficient-r",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Pearson’s Product Moment Correlation Coefficient (\\(r\\))",
+    "text": "Pearson’s Product Moment Correlation Coefficient (\\(r\\))\n\\[Corr(X, Y)=\\frac{\\sum_{i=1}^n(X_i-\\bar{X})(Y_i-\\bar{Y})}{\\sqrt\\sum_{i=1}^n(X_i-\\bar{X})\\sum_{i=1}^n(Y_i-\\bar{Y})}\\]\nWe can show that\n\\[Corr(X, Y) = \\frac{Cov(X, Y)}{S_xS_y}\\]"
+  },
+  {
+    "objectID": "week11/index.html#interpretations",
+    "href": "week11/index.html#interpretations",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Interpretations",
+    "text": "Interpretations\n\n\n\n\n\nr_value\ninterpretation\n\n\n\n\nr = 1\nPerfect positive linear correlation\n\n\n1 &gt; r ≥ 0.8\nStrong positive linear correlation\n\n\n0.8 &gt; r ≥ 0.4\nModerate positive linear correlation\n\n\n0.4 &gt; r &gt; 0\nWeak positive linear correlation\n\n\nr = 0\nNo correlation\n\n\n0 &gt; r ≥ -0.4\nWeak negative linear correlation\n\n\n-0.4 &gt; r ≥ -0.8\nModerate negative linear correlation\n\n\n-0.8 &gt; r &gt; -1\nStrong negative linear correlation\n\n\nr = -1\nPerfect negative linear correlation"
+  },
+  {
+    "objectID": "week11/index.html#scatter-plot-matrix",
+    "href": "week11/index.html#scatter-plot-matrix",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Scatter plot matrix",
+    "text": "Scatter plot matrix"
+  },
+  {
+    "objectID": "week11/index.html#pearsons-correlation-coefficient-0",
+    "href": "week11/index.html#pearsons-correlation-coefficient-0",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Pearson’s correlation coefficient = 0",
+    "text": "Pearson’s correlation coefficient = 0"
+  },
+  {
+    "objectID": "week11/index.html#which-plot-has-the-highest-correlation-coefficient",
+    "href": "week11/index.html#which-plot-has-the-highest-correlation-coefficient",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Which plot has the highest correlation coefficient?",
+    "text": "Which plot has the highest correlation coefficient?"
+  },
+  {
     "objectID": "week1/index.html#learning-objective",
     "href": "week1/index.html#learning-objective",
     "title": "STA 113 2.0 Descriptive Statistics",
@@ -494,7 +550,7 @@
     "href": "week1/index.html#summary-measures",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.000\nMin. :1.000\nMin. :1672\n\n\n\nMale :50\n1st Qu.: 99.17\n1st Qu.:2.675\n1st Qu.:2.800\n1st Qu.:3403\n\n\n\nNA\nMedian :100.10\nMedian :3.600\nMedian :3.400\nMedian :4175\n\n\n\nNA\nMean : 99.34\nMean :3.407\nMean :3.526\nMean :4315\n\n\n\nNA\n3rd Qu.:100.90\n3rd Qu.:4.100\n3rd Qu.:4.200\n3rd Qu.:5353\n\n\n\nNA\nMax. :110.00\nMax. :6.200\nMax. :6.500\nMax. :9263"
+    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.600\nMin. :0.900\nMin. : 954\n\n\n\nMale :50\n1st Qu.: 99.30\n1st Qu.:2.600\n1st Qu.:2.800\n1st Qu.:3262\n\n\n\nNA\nMedian : 99.85\nMedian :3.300\nMedian :3.650\nMedian :4074\n\n\n\nNA\nMean : 99.20\nMean :3.282\nMean :3.611\nMean :4197\n\n\n\nNA\n3rd Qu.:100.60\n3rd Qu.:3.900\n3rd Qu.:4.400\n3rd Qu.:5148\n\n\n\nNA\nMax. :110.00\nMax. :5.200\nMax. :6.400\nMax. :7550"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",
@@ -578,7 +634,7 @@
     "href": "index.html#weekly-schedule",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Weekly schedule",
-    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics\nTask: Fill out the survey questionnaire available on the LMS.\n\n\nWeek 3: May 22, 2024\nSlides 3: Data Collection\n\n\nWeek 4: May 29, 2024\nSlides 4: Types and scales of measurement\nAdditional reading\nGroup assignment: 10%\n\n\nWeek 5: June 5, 2024\nSlides 5: Analysing Categorical Data\nTutorial 1: Group assignment help desk: 3.15PM - 4.00PM\n\n\nWeek 6: June 10, 2024\nSlides 6: Analysing Categorical Data - Two-way graphs\nAdditional materials\n\n\nWeek 7: June 12, 2024\nSlides 7: Frequency Distributions\n\nTutorial 2: Please visit Google Classroom to view the tasks for the tutorials on Wednesday, June 12, 2024 from 3.15PM to 4PM.\n\n\nWeek 8: June 19, 2024\nSlides 8: Measures of Central Tendency\nNote: Group assignment deadline is today.\nTutorial 3: Please visit Google Classroom to view the tasks for the tutorials on Wednesday, June 19, 2024 from 3.15PM to 4PM.\n\n\nWeek 9/10: June 26, 2024/ June 28, 2024\nSlides 9: Stem and Leaf Plot, Dot plot, Individual value plot, Measures of Dispersion (Range, Variance, Standard deviation)\nTutorial 4: June 26, 2024 from 3.15PM to 4PM.\nTask: Week 7 slides 28-29 questions.\n\n\nWeek 11: July 3, 2024\nSlides 10: More work on summary measures\nOnline calculator\nTutorial 4: July 3, 2024 from 3.15PM to 4PM.\nPlease go to the Google Classroom to view the tasks."
+    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics\nTask: Fill out the survey questionnaire available on the LMS.\n\n\nWeek 3: May 22, 2024\nSlides 3: Data Collection\n\n\nWeek 4: May 29, 2024\nSlides 4: Types and scales of measurement\nAdditional reading\nGroup assignment: 10%\n\n\nWeek 5: June 5, 2024\nSlides 5: Analysing Categorical Data\nTutorial 1: Group assignment help desk: 3.15PM - 4.00PM\n\n\nWeek 6: June 10, 2024\nSlides 6: Analysing Categorical Data - Two-way graphs\nAdditional materials\n\n\nWeek 7: June 12, 2024\nSlides 7: Frequency Distributions\n\nTutorial 2: Please visit Google Classroom to view the tasks for the tutorials on Wednesday, June 12, 2024 from 3.15PM to 4PM.\n\n\nWeek 8: June 19, 2024\nSlides 8: Measures of Central Tendency\nNote: Group assignment deadline is today.\nTutorial 3: Please visit Google Classroom to view the tasks for the tutorials on Wednesday, June 19, 2024 from 3.15PM to 4PM.\n\n\nWeek 9/10: June 26, 2024/ June 28, 2024\nSlides 9: Stem and Leaf Plot, Dot plot, Individual value plot, Measures of Dispersion (Range, Variance, Standard deviation)\nTutorial 4: June 26, 2024 from 3.15PM to 4PM.\nTask: Week 7 slides 28-29 questions.\n\n\nWeek 11: July 3, 2024\nSlides 10: More work on summary measures\nOnline calculator\nTutorial 4: July 3, 2024 from 3.15PM to 4PM.\nPlease go to the Google Classroom to view the tasks.\n\n\nWeek 12: July 7, 2024\nSlides 11: Covariance and Correlation\nHelp Desk (Assignment 2): July 7, 2024 from 3.15PM to 4PM.\nPlease go to the Google Classroom/LMS to view the assignment."
   },
   {
     "objectID": "week0/index.html#how-to-calculate-gpa",
@@ -810,6 +866,69 @@
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Your turn",
     "text": "Your turn\nFind kurtosis and excess kurtosis formula"
+  },
+  {
+    "objectID": "week10/index.html#interpret-the-following",
+    "href": "week10/index.html#interpret-the-following",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Interpret the following",
+    "text": "Interpret the following\n\n\nFigure 1: Boxplot of Flipper Length by Species"
+  },
+  {
+    "objectID": "week12/index.html#scatter-plot",
+    "href": "week12/index.html#scatter-plot",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Scatter plot",
+    "text": "Scatter plot\n\nAllows us to visually see how two variables related to each other.\n\n\nFigure 1: Scatter pllot of body mass vs flipper length"
+  },
+  {
+    "objectID": "week12/index.html#covariance",
+    "href": "week12/index.html#covariance",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Covariance",
+    "text": "Covariance\nWe can quantify how two variables move together by a summary measure called the covariance.\nThe sample covariance of two variables, \\(X\\) and \\(Y\\), is given by the formula:\n\\[Cov(X, Y) = \\frac{1}{n-1}\\sum_{i=1}^n (X_i - \\bar{X})(Y_i - \\bar{Y})\\]\nWhat is the covariance of \\(X\\) with \\(X\\)?"
+  },
+  {
+    "objectID": "week12/index.html#covariance-1",
+    "href": "week12/index.html#covariance-1",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Covariance",
+    "text": "Covariance\nThe problem with using the covariance to measure the relationship between two quantitative variables is that we can only interpret the direction of the relationships, not the strength of it."
+  },
+  {
+    "objectID": "week12/index.html#pearsons-product-moment-correlation-coefficient-r",
+    "href": "week12/index.html#pearsons-product-moment-correlation-coefficient-r",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Pearson’s Product Moment Correlation Coefficient (\\(r\\))",
+    "text": "Pearson’s Product Moment Correlation Coefficient (\\(r\\))\n\\[Corr(X, Y)=\\frac{\\sum_{i=1}^n(X_i-\\bar{X})(Y_i-\\bar{Y})}{\\sqrt\\sum_{i=1}^n(X_i-\\bar{X})\\sum_{i=1}^n(Y_i-\\bar{Y})}\\]\nWe can show that\n\\[Corr(X, Y) = \\frac{Cov(X, Y)}{S_xS_y}\\]"
+  },
+  {
+    "objectID": "week12/index.html#interpretations",
+    "href": "week12/index.html#interpretations",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Interpretations",
+    "text": "Interpretations\n\n\n\n\n\nr_value\ninterpretation\n\n\n\n\nr = 1\nPerfect positive linear correlation\n\n\n1 &gt; r ≥ 0.8\nStrong positive linear correlation\n\n\n0.8 &gt; r ≥ 0.4\nModerate positive linear correlation\n\n\n0.4 &gt; r &gt; 0\nWeak positive linear correlation\n\n\nr = 0\nNo correlation\n\n\n0 &gt; r ≥ -0.4\nWeak negative linear correlation\n\n\n-0.4 &gt; r ≥ -0.8\nModerate negative linear correlation\n\n\n-0.8 &gt; r &gt; -1\nStrong negative linear correlation\n\n\nr = -1\nPerfect negative linear correlation"
+  },
+  {
+    "objectID": "week12/index.html#scatter-plot-matrix",
+    "href": "week12/index.html#scatter-plot-matrix",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Scatter plot matrix",
+    "text": "Scatter plot matrix"
+  },
+  {
+    "objectID": "week12/index.html#pearsons-correlation-coefficient-0",
+    "href": "week12/index.html#pearsons-correlation-coefficient-0",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Pearson’s correlation coefficient = 0",
+    "text": "Pearson’s correlation coefficient = 0"
+  },
+  {
+    "objectID": "week12/index.html#which-plot-has-the-highest-correlation-coefficient",
+    "href": "week12/index.html#which-plot-has-the-highest-correlation-coefficient",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Which plot has the highest correlation coefficient?",
+    "text": "Which plot has the highest correlation coefficient?"
   },
   {
     "objectID": "week2/index.html#example",
@@ -1349,12 +1468,5 @@
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "Your turn",
     "text": "Your turn\nThe following table shows the number of insects observed on a farm over the course of the month of April. Calculate the mean, median, and mode of the number of insects observed during this period.\n\n\n\n\n\n\nNumber of Insects\nNumber of days\n\n\n\n\n45\n5\n\n\n50\n6\n\n\n42\n3\n\n\n55\n3\n\n\n48\n2\n\n\n53\n1\n\n\n47\n2\n\n\n40\n8\n\n\n\n\n\n\n\n\n\n\n\n−+\n10:00"
-  },
-  {
-    "objectID": "week10/index.html#interpret-the-following",
-    "href": "week10/index.html#interpret-the-following",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Interpret the following",
-    "text": "Interpret the following\n\n\nFigure 1: Boxplot of Flipper Length by Species"
   }
 ]
