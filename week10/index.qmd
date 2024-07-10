@@ -245,22 +245,21 @@ Which group of chocolate prices exhibits the highest variation?
 
 $$CV = \frac{s}{\bar{x}}\times 100\%$$
 
----
+------------------------------------------------------------------------
 
-The coefficient of variation of the height of 30 people selected at random from a given village is found to be
-15%. The mean weight of the selected group is 72 kg and a standard deviation 8 kg.
+The coefficient of variation of the height of 30 people selected at random from a given village is found to be 15%. The mean weight of the selected group is 72 kg and a standard deviation 8 kg.
 
-The obtained results show that 
+The obtained results show that
 
-A) the weight is more variable than height.
+A)  the weight is more variable than height.
 
-B) the weight is less variable than height.
+B)  the weight is less variable than height.
 
-C) height and weight have the same degree of variation.
+C)  height and weight have the same degree of variation.
 
-D) height and weight values are identical.
+D)  height and weight values are identical.
 
----
+------------------------------------------------------------------------
 
 # Measures of shape
 
@@ -268,24 +267,21 @@ D) height and weight values are identical.
 
 ## Skewness and the relationship of the mean, median and mode
 
-
 ::: columns
 ::: {.column width="50%"}
 In-class diagram:
 :::
-  
+
 ::: {.column width="50%"}
 Skewness describes the degree and direction of asymmetry in the data.
-
 
 Formula used to calculate skewness in Excel:
 
 $$\text{Skewness} = \frac{n}{(n-1)(n-2)}\sum_{i=1}^{n}(\frac{X_i - \bar{X}}{8})^3$$
-
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ## Skewness
 
@@ -385,3 +381,83 @@ ggplot(penguins, aes(x = species, y = flipper_length_mm, fill = species)) +
   theme_minimal()
 ```
 
+```{r}
+# Load necessary libraries
+library(moments) # For skewness and kurtosis functions
+
+descriptive_stats <- function(x) {
+  stats <- list(
+    mean = mean(x),
+    median = median(x),
+    mode = as.numeric(names(sort(table(x), decreasing = TRUE)[1])),
+    sd = sd(x),
+    Q1 = quantile(x, 0.25),
+    Q2 = quantile(x, 0.50),
+    Q3 = quantile(x, 0.75),
+    kurtosis = kurtosis(x),
+    skewness = skewness(x)
+  )
+  return(stats)
+}
+
+# Calculate descriptive statistics for flipper length by species
+descriptive_stats_penguins <- penguins |>
+  group_by(species) |>
+  summarise(
+    Mean = mean(flipper_length_mm),
+    Median = median(flipper_length_mm),
+    Mode = as.numeric(names(sort(table(flipper_length_mm), decreasing = TRUE)[1])),
+    SD = sd(flipper_length_mm),
+    Q1 = quantile(flipper_length_mm, 0.25),
+    Q2 = quantile(flipper_length_mm, 0.50),
+    Q3 = quantile(flipper_length_mm, 0.75),
+    Kurtosis = kurtosis(flipper_length_mm),
+    Skewness = skewness(flipper_length_mm)
+  )
+library(kableExtra)
+kable(descriptive_stats_penguins, format = "html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = F)
+```
+
+---
+
+```{r}
+ggplot(penguins, aes(x = species, y = flipper_length_mm, fill = species)) +
+  geom_boxplot() +
+  labs(
+       x = "Species",
+       y = "Flipper Length (mm)") +
+  theme_minimal()
+```
+
+
+- The distributions of flipper lengths for each species appear to be roughly symmetric. 
+
+- Gentoo penguins have longer flippers than both Adélie and Chinstrap penguins, which have similar flipper lengths.
+
+- There are two notable outliers in the flipper lengths for Adélie penguins, which are visible in the boxplot.
+
+---
+
+```{r}
+p1 <- ggplot(penguins, aes(x = flipper_length_mm, fill = species)) +
+  geom_histogram(aes(y = ..density..), position = "identity", alpha = 0.5, binwidth = 5, col="black") +
+  facet_wrap(~ species, scales="free") +
+  labs(title = "Density and Histogram of Flipper Lengths by Species",
+       x = "Flipper Length (mm)",
+       y = "Density") +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+```{r, fig.height=15}
+p2 <- ggplot(penguins, aes(x = flipper_length_mm, color = species, fill = species)) +
+  geom_density(alpha = 0.5) +
+  labs(title = "Density Plot of Flipper Lengths by Species",
+       x = "Flipper Length (mm)",
+       y = "Density") +
+  theme_minimal() +
+  theme(legend.title = element_blank())
+library(patchwork)
+p1/p2
+```
