@@ -476,270 +476,53 @@
     "text": "Population: All students attending online Zoom lecture today.\nSample: A random selection of 50 students\nParameter: The proportion of all university students who actively listen to lectures during online Zoom sessions.\nStatistics: The observed proportion of active listeners among the selected sample of 50 students."
   },
   {
-    "objectID": "week11/index.html#scatter-plot",
-    "href": "week11/index.html#scatter-plot",
+    "objectID": "week12/index.html#earnings-from-tourism-usd-mn",
+    "href": "week12/index.html#earnings-from-tourism-usd-mn",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Scatter plot",
-    "text": "Scatter plot\n\nAllows us to visually see how two variables related to each other.\n\n\nFigure 1: Scatter pllot of body mass vs flipper length"
+    "section": "Earnings from tourism (USD Mn)",
+    "text": "Earnings from tourism (USD Mn)"
   },
   {
-    "objectID": "week11/index.html#measures-of-association-covariance",
-    "href": "week11/index.html#measures-of-association-covariance",
+    "objectID": "week12/index.html#earnings-from-tourism-usd-mn-1",
+    "href": "week12/index.html#earnings-from-tourism-usd-mn-1",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Measures of Association: Covariance",
-    "text": "Measures of Association: Covariance\nWe can quantify how two variables move together by a summary measure called the covariance.\nThe sample covariance of two variables, \\(X\\) and \\(Y\\), is given by the formula:\n\\[Cov(X, Y) = \\frac{1}{n-1}\\sum_{i=1}^n (X_i - \\bar{X})(Y_i - \\bar{Y})\\]\nWhat is the covariance of \\(X\\) with \\(X\\)?"
+    "section": "Earnings from tourism (USD Mn)",
+    "text": "Earnings from tourism (USD Mn)"
   },
   {
-    "objectID": "week11/index.html#covariance",
-    "href": "week11/index.html#covariance",
+    "objectID": "week12/index.html#area-chart",
+    "href": "week12/index.html#area-chart",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Covariance",
-    "text": "Covariance\nThe problem with using the covariance to measure the relationship between two quantitative variables is that we can only interpret the direction of the relationships, not the strength of it."
+    "section": "Area chart",
+    "text": "Area chart\n\nts.earnings |&gt;\n    mutate(Time = as_date(yearmonth(Time))) |&gt;\n  autoplot(Earnings) + \n  geom_area() + \n  scale_x_date(date_breaks = \"1 year\",  date_labels = \"%b-%y\") + \n  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +\n  labs(y = \"Earnings from tourism (USD Mn)\", x=\"Time\")"
   },
   {
-    "objectID": "week11/index.html#measures-of-association-pearsons-product-moment-correlation-coefficient-r",
-    "href": "week11/index.html#measures-of-association-pearsons-product-moment-correlation-coefficient-r",
+    "objectID": "week12/index.html#seasonal-plot",
+    "href": "week12/index.html#seasonal-plot",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Measures of association: Pearson’s Product Moment Correlation Coefficient (\\(r\\))",
-    "text": "Measures of association: Pearson’s Product Moment Correlation Coefficient (\\(r\\))\n\\[Corr(X, Y)=\\frac{\\sum_{i=1}^n(X_i-\\bar{X})(Y_i-\\bar{Y})}{\\sqrt\\sum_{i=1}^n(X_i-\\bar{X})\\sum_{i=1}^n(Y_i-\\bar{Y})}\\]\nWe can show that\n\\[Corr(X, Y) = \\frac{Cov(X, Y)}{S_xS_y}\\]"
+    "section": "Seasonal plot",
+    "text": "Seasonal plot"
   },
   {
-    "objectID": "week11/index.html#interpretations",
-    "href": "week11/index.html#interpretations",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Interpretations",
-    "text": "Interpretations\n\n\n\n\n\nr_value\ninterpretation\n\n\n\n\nr = 1\nPerfect positive linear correlation\n\n\n1 &gt; r ≥ 0.8\nStrong positive linear correlation\n\n\n0.8 &gt; r ≥ 0.4\nModerate positive linear correlation\n\n\n0.4 &gt; r &gt; 0\nWeak positive linear correlation\n\n\nr = 0\nNo correlation\n\n\n0 &gt; r ≥ -0.4\nWeak negative linear correlation\n\n\n-0.4 &gt; r ≥ -0.8\nModerate negative linear correlation\n\n\n-0.8 &gt; r &gt; -1\nStrong negative linear correlation\n\n\nr = -1\nPerfect negative linear correlation"
-  },
-  {
-    "objectID": "week11/index.html#scatter-plot-matrix",
-    "href": "week11/index.html#scatter-plot-matrix",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Scatter plot matrix",
-    "text": "Scatter plot matrix"
-  },
-  {
-    "objectID": "week11/index.html#pearsons-correlation-coefficient-0",
-    "href": "week11/index.html#pearsons-correlation-coefficient-0",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Pearson’s correlation coefficient = 0",
-    "text": "Pearson’s correlation coefficient = 0"
-  },
-  {
-    "objectID": "week11/index.html#which-plot-has-the-highest-correlation-coefficient",
-    "href": "week11/index.html#which-plot-has-the-highest-correlation-coefficient",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Which plot has the highest correlation coefficient?",
-    "text": "Which plot has the highest correlation coefficient?"
-  },
-  {
-    "objectID": "week1/index.html#learning-objective",
-    "href": "week1/index.html#learning-objective",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Learning Objective:",
-    "text": "Learning Objective:\nBy the end of this lecture, students will be able to:\n\nDefine statistics and explain its fundamental concepts.\nIdentify the various fields and contexts where statistics is used.\nExplain the importance and significance of statistics in decision-making and problem-solving processes."
-  },
-  {
-    "objectID": "week1/index.html#what-is-statistics",
-    "href": "week1/index.html#what-is-statistics",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "What is Statistics?",
-    "text": "What is Statistics?\n\nThe science of collecting, organizing, analyzing, presenting, and interpreting data."
-  },
-  {
-    "objectID": "week1/index.html#summary-measures",
-    "href": "week1/index.html#summary-measures",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.300\nMin. :0.600\nMin. :1433\n\n\n\nMale :50\n1st Qu.: 99.17\n1st Qu.:2.700\n1st Qu.:2.900\n1st Qu.:3189\n\n\n\nNA\nMedian :100.10\nMedian :3.300\nMedian :3.500\nMedian :4152\n\n\n\nNA\nMean : 99.33\nMean :3.405\nMean :3.519\nMean :4308\n\n\n\nNA\n3rd Qu.:100.80\n3rd Qu.:4.025\n3rd Qu.:4.100\n3rd Qu.:5369\n\n\n\nNA\nMax. :110.00\nMax. :6.300\nMax. :6.300\nMax. :9116"
-  },
-  {
-    "objectID": "week1/index.html#presenting-data-example",
-    "href": "week1/index.html#presenting-data-example",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Presenting Data: Example",
-    "text": "Presenting Data: Example\nhttps://thiyangt.github.io/dsjobtraker_dashboard_mc/#top-software-and-skills"
-  },
-  {
-    "objectID": "week1/index.html#applications-of-statistics-in-different-fields",
-    "href": "week1/index.html#applications-of-statistics-in-different-fields",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Applications of statistics in different fields",
-    "text": "Applications of statistics in different fields\n\n\n\n\n\n\n\n\n\nTerminology\nField\n\n\n\n\nEpidemiology\nThe study and analysis of the patterns, causes and effects of health and disease conditions\n\n\nAstrostatistics\nApplies statistical analysis to the understanding of astronomical data\n\n\nBiostatistics\nStudies biological phenomena\n\n\nDemography\nStatistical study of all populations\n\n\nSocial statistics\nStudy human behavior in a social environment\n\n\nChemometrics\nScience of extracting information from chemical systems by data-driven means"
-  },
-  {
-    "objectID": "ia.html",
-    "href": "ia.html",
-    "title": "Individual Assignment",
-    "section": "",
-    "text": "Date released: July 9, 2024\nAs part of your coursework, you will be working on an individual assignment. This assignment will contribute 20% towards your final grade.\nBelow are the details:\nObjective:\nThe aim of this assignment is to develop your data analysis and presentation skills by selecting and analyzing a publicly available data set. You will prepare a research poster in A1 size, including charts, tables, and interpretations, all hand-drawn. The final poster should be scanned and uploaded to Google Classroom and the Learning Management System (LMS).\nSteps to Complete the Assignment:\n1. Select a Publicly Available Data Set:\n2. Analyze Your Data Set:\nAll charts, tables, and interpretations must be hand-drawn. Ensure they are clear, well-labeled, and accurately represent your findings.\n3. Prepare a research poster\nIntroduction:\nProvide an overview of the topic and the importance of the data set.\nObjectives of the Study:\nClearly state the goals and objectives of your analysis.\nData:\nDescribe the data set, including its source, type of data, and any preprocessing steps taken. (for example if you select a subset, you can mention it here)\nData Analysis:\nPresent your findings using hand-drawn charts and tables. Each visual and table should be accompanied by a brief interpretation.\nConclusions:\nSummarize the key insights and implications of your analysis.\nName and Index number\nClearly mention your index number and name.\n4. Submission\n5. Submission deadline\nJuly 21, 2024\nIt is the student’s responsibility to manage their time effectively to ensure that they have enough time to complete the assignment within the given timeframe. This includes allocating enough time to research, plan, and write the assignment, as well as allowing for unexpected circumstances or delays. It is important for students to plan their workload and prioritize their assignments to ensure that they are able to complete them on time and to the best of their ability.\nLate submission: Submitting late work will be penalized by 1 mark per day. I will not accept any submissions after July 25, 2024.\nExtensions will be made in exceptional circumstances only."
-  },
-  {
-    "objectID": "ia.html#requesting-a-deadline-extension",
-    "href": "ia.html#requesting-a-deadline-extension",
-    "title": "Individual Assignment",
-    "section": "Requesting a deadline extension",
-    "text": "Requesting a deadline extension\n\nYou are allowed to apply for a deadline extension for the assignment under the following conditions only.\n\nCategory A\nAn illness that requires the student to miss all of his or her classes for 2 days or more.\nCategory B\nA period of grief for the loss of a family member or friend.\nCategory C\nA family emergency.\nValid documentation of proof is required prior to the assignment deadline.\nThe philosophy driving our late policy has three goals\n\nKeep things fair.\nEncourage good time management.\nEncouragement and appreciation of on-time submission students.\n\nYou have been given a 11 days timeframe to complete the assignment. Please begin work promptly to accommodate any unforeseen circumstances.\nIf you have any questions or require further clarification, please feel free to reach out to me (email: ttalagala@sjp.ac.lk)."
-  },
-  {
-    "objectID": "ia.html#help-desk",
-    "href": "ia.html#help-desk",
-    "title": "Individual Assignment",
-    "section": "Help desk",
-    "text": "Help desk\nFirst help desk session will be held on July 10, 2024 from 3.15pm to 4.00pm.\nIf you need any additional support, please send an email to statdemos@sci.sjp.ac.lk and reserve a time for a meeting (weekdays only between 8 a.m. and 4 p.m.)."
-  },
-  {
-    "objectID": "ga.html",
-    "href": "ga.html",
-    "title": "Group Assignment",
-    "section": "",
-    "text": "Date released: May 29, 2024\nAs part of your coursework, you will be working on a group assignment. This assignment will contribute 10% towards your final grade. Below are the details:\n1. Group Formation:\n2. Assignment Task\n3. Submission Format:\nSubmit the completed report as a single document following the specified format guidelines.\n4. Submission deadline\nJune 19, 2024\nYou have been given a three-week timeframe to complete the assignment. Please begin work promptly to accommodate any unforeseen circumstances.\nThis assignment provides an opportunity to deepen your understanding of statistical concepts and their practical applications while fostering teamwork and collaboration.\nEvery member should be familiar with the entire content of the report to ensure a comprehensive understanding\nIf you have any questions or require further clarification, please feel free to reach out to me (email: ttalagala@sjp.ac.lk)."
-  },
-  {
-    "objectID": "ga.html#help-desk",
-    "href": "ga.html#help-desk",
-    "title": "Group Assignment",
-    "section": "Help desk",
-    "text": "Help desk\nFirst help desk session will be held on June 5, 2024 from 3.15pm to 4.00pm.\nIf you need any additional support, please send an email to statdemos@sci.sjp.ac.lk and reserve a time for a meeting (weekdays only between 8 a.m. and 4 p.m.)."
-  },
-  {
-    "objectID": "index.html#email",
-    "href": "index.html#email",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Email",
-    "text": "Email\nttalagala@sjp.ac.lk"
-  },
-  {
-    "objectID": "index.html#policies-and-regulations",
-    "href": "index.html#policies-and-regulations",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Policies and regulations",
-    "text": "Policies and regulations\nTo access important information regarding the unit STA 113 2.0 Descriptive Statistics, please go to the course Learning Management System (LMS) page. Click here to go directly to the LMS. You must carefully read the “Course Information and Logistic” slide set for essential details. It is your responsibility to be aware of important details by thoroughly reviewing the “Course Information and Logistic” slides."
-  },
-  {
-    "objectID": "index.html#google-classroom",
-    "href": "index.html#google-classroom",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Google Classroom",
-    "text": "Google Classroom\nI also opened a Google Classroom as a backup strategy in case the LMS failed. Kindly ensure that you join it. The password is available on LMS under announcements."
-  },
-  {
-    "objectID": "index.html#course-outline",
-    "href": "index.html#course-outline",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Course outline",
-    "text": "Course outline\nAvailable on LMS"
-  },
-  {
-    "objectID": "index.html#weekly-schedule",
-    "href": "index.html#weekly-schedule",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Weekly schedule",
-    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics\nTask: Fill out the survey questionnaire available on the LMS.\n\n\nWeek 3: May 22, 2024\nSlides 3: Data Collection\n\n\nWeek 4: May 29, 2024\nSlides 4: Types and scales of measurement\nAdditional reading\nGroup assignment: 10%\n\n\nWeek 5: June 5, 2024\nSlides 5: Analysing Categorical Data\nTutorial 1: Group assignment help desk: 3.15PM - 4.00PM\n\n\nWeek 6: June 10, 2024\nSlides 6: Analysing Categorical Data - Two-way graphs\nAdditional materials\n\n\nWeek 7: June 12, 2024\nSlides 7: Frequency Distributions\n\nTutorial 2: Please visit Google Classroom to view the tasks for the tutorials on Wednesday, June 12, 2024 from 3.15PM to 4PM.\n\n\nWeek 8: June 19, 2024\nSlides 8: Measures of Central Tendency\nNote: Group assignment deadline is today.\nTutorial 3: Please visit Google Classroom to view the tasks for the tutorials on Wednesday, June 19, 2024 from 3.15PM to 4PM.\n\n\nWeek 9/10: June 26, 2024/ June 28, 2024\nSlides 9: Stem and Leaf Plot, Dot plot, Individual value plot, Measures of Dispersion (Range, Variance, Standard deviation)\nTutorial 4: June 26, 2024 from 3.15PM to 4PM.\nTask: Week 7 slides 28-29 questions.\n\n\nWeek 11: July 3, 2024\nSlides 10: More work on summary measures\nOnline calculator\nTutorial 4: July 3, 2024 from 3.15PM to 4PM.\nPlease go to the Google Classroom to view the tasks.\n\n\nWeek 12: July 7, 2024\nSlides 11: Covariance and Correlation\nSlides 12: Time Series Visualisations\nHelp Desk (Assignment 2): July 7, 2024 from 3.15PM to 4PM.\nPlease go to the Google Classroom/LMS to view the assignment."
-  },
-  {
-    "objectID": "week0/index.html#how-to-calculate-gpa",
-    "href": "week0/index.html#how-to-calculate-gpa",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "How to calculate GPA?",
-    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\n\n\n\n\nSTA 100 2.0\nA\n\n\nSTA 101 1.0\nB\n\n\nSTA 102 2.0\nA\n\n\nCSC 100 3.0\nA\n\n\nCSC 101 2.0\nB\n\n\nMAT 100 1.0\nB+\n\n\nMAT 101 2.0\nA+\n\n\nMAT 103 2.0\nA+"
-  },
-  {
-    "objectID": "week0/index.html#how-to-calculate-gpa-1",
-    "href": "week0/index.html#how-to-calculate-gpa-1",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "How to calculate GPA?",
-    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\n\n\n\n\nSTA 100 2.0\nA\n\n\nSTA 101 1.0\nB\n\n\nSTA 102 2.0\nA\n\n\nCSC 100 3.0\nA\n\n\nCSC 101 2.0\nB\n\n\nMAT 100 1.0\nB+\n\n\nMAT 101 2.0\nA+\n\n\nMAT 103 2.0\nA+\n\n\n\n\n\n\n\n\n\n\n\nLetter grade\ngpa\n\n\n\n\nA+\n4.0\n\n\nA\n4.0\n\n\nA-\n3.7\n\n\nB+\n3.3\n\n\nB\n3.0\n\n\nB-\n2.7\n\n\nC+\n2.3\n\n\nC\n2.0\n\n\nC-\n1.7\n\n\nD+\n1.3\n\n\nD\n1.0\n\n\nE\n0.0"
-  },
-  {
-    "objectID": "week0/index.html#section",
-    "href": "week0/index.html#section",
+    "objectID": "week12/index.html#section",
+    "href": "week12/index.html#section",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "",
-    "text": "source: Degree Programmes and Examination Regulation Booklet 2019/2020"
+    "text": "# A tsibble: 4 x 2 [1Y]\n   Year Earnings\n  &lt;int&gt;    &lt;dbl&gt;\n1  2020     682.\n2  2021     507.\n3  2022    1136.\n4  2023    2068 \n\n\n\nNot suitable"
   },
   {
-    "objectID": "week0/index.html#how-to-calculate-gpa-2",
-    "href": "week0/index.html#how-to-calculate-gpa-2",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "How to calculate GPA?",
-    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\n\n\n\n\nSTA 100 2.0\nA\n4.0\n\n\nSTA 101 1.0\nB\n3.0\n\n\nSTA 102 2.0\nA\n4.0\n\n\nCSC 100 3.0\nA\n4.0\n\n\nCSC 101 2.0\nB\n3.0\n\n\nMAT 100 1.0\nB+\n3.3\n\n\nMAT 101 2.0\nA+\n4.0\n\n\nMAT 103 2.0\nA+\n4.0\n\n\n\n\n\n\n\n\n\n\n\nLetter grade\ngpa\n\n\n\n\nA+\n4.0\n\n\nA\n4.0\n\n\nA-\n3.7\n\n\nB+\n3.3\n\n\nB\n3.0\n\n\nB-\n2.7\n\n\nC+\n2.3\n\n\nC\n2.0\n\n\nC-\n1.7\n\n\nD+\n1.3\n\n\nD\n1.0\n\n\nE\n0.0"
-  },
-  {
-    "objectID": "week0/index.html#how-to-calculate-gpa-3",
-    "href": "week0/index.html#how-to-calculate-gpa-3",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "How to calculate GPA?",
-    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\n\n\n\n\nSTA 100 2.0\nA\n4.0\n\n\nSTA 101 1.0\nB\n3.0\n\n\nSTA 102 2.0\nA\n4.0\n\n\nCSC 100 3.0\nA\n4.0\n\n\nCSC 101 2.0\nB\n3.0\n\n\nMAT 100 1.0\nB+\n3.3\n\n\nMAT 101 2.0\nA+\n4.0\n\n\nMAT 103 2.0\nA+\n4.0"
-  },
-  {
-    "objectID": "week0/index.html#how-to-calculate-gpa-4",
-    "href": "week0/index.html#how-to-calculate-gpa-4",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "How to calculate GPA?",
-    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\nCredit value\n\n\n\n\nSTA 100 2.0\nA\n4.0\n2\n\n\nSTA 101 1.0\nB\n3.0\n1\n\n\nSTA 102 2.0\nA\n4.0\n2\n\n\nCSC 100 3.0\nA\n4.0\n3\n\n\nCSC 101 2.0\nB\n3.0\n2\n\n\nMAT 100 1.0\nB+\n3.3\n1\n\n\nMAT 101 2.0\nA+\n4.0\n2\n\n\nMAT 103 2.0\nA+\n4.0\n2"
-  },
-  {
-    "objectID": "week0/index.html#how-to-calculate-gpa-5",
-    "href": "week0/index.html#how-to-calculate-gpa-5",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "How to calculate GPA?",
-    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\nCredit value\n\n\n\n\nSTA 100 2.0\nA\n4.0\n2\n\n\nSTA 101 1.0\nB\n3.0\n1\n\n\nSTA 102 2.0\nA\n4.0\n2\n\n\nCSC 100 3.0\nA\n4.0\n3\n\n\nCSC 101 2.0\nB\n3.0\n2\n\n\nMAT 100 1.0\nB+\n3.3\n1\n\n\nMAT 101 2.0\nA+\n4.0\n2\n\n\nMAT 103 2.0\nA+\n4.0\n2\n\n\n\n\n\n\\[\\text{overall GPA} = \\frac{(4 \\times 2) + (3 \\times 1)+(4 \\times 2)+(4 \\times 3)+(3 \\times 2)+(3.3 \\times 1) + (4 \\times 2) + (4 \\times 2)}{(2+1+2+3+2+1+2+2)} = 3.75\\]"
-  },
-  {
-    "objectID": "week0/index.html#your-turn",
-    "href": "week0/index.html#your-turn",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Your Turn",
-    "text": "Your Turn\n\nExample: Compute the GPAs for students 2, 3, and 4.\n\n\n\n\n\n\n\n\nCourse code\nStudent 1\nStudent 2\nStudent 3\nStudent 4\n\n\n\n\nSTA 100 2.0\nA\nA\nA\nA\n\n\nSTA 101 1.0\nB\nB\nB\nB\n\n\nSTA 102 2.0\nA\nA\nC+\nA\n\n\nCSC 100 3.0\nA\nC+\nA\nA\n\n\nCSC 101 2.0\nB\nB\nB\nB\n\n\nMAT 100 1.0\nB+\nB+\nB+\nB+\n\n\nMAT 101 2.0\nA+\nA+\nA+\nA\n\n\nMAT 103 2.0\nA+\nA+\nA+\nA\n\n\noverall GPA\n3.75"
-  },
-  {
-    "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-type-and-method-of-assessment",
-    "href": "week0/index.html#sta-113-2.0-descriptive-statistics-type-and-method-of-assessment",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "STA 113 2.0 Descriptive Statistics: Type and Method of Assessment",
-    "text": "STA 113 2.0 Descriptive Statistics: Type and Method of Assessment\nType:\nType: Core\nType:\nMethod of Assessment:\nType:\nFormative Assessment (FA):\nFA1: Group assignment: 10% of the total marks\nFA2: Mid-semester examination: 20% of the total marks\nType:\nSummative Assessment (SA):\nSA1: End of Semester Examination: 70% of the total marks"
-  },
-  {
-    "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-logistics",
-    "href": "week0/index.html#sta-113-2.0-descriptive-statistics-logistics",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "STA 113 2.0 Descriptive Statistics: Logistics",
-    "text": "STA 113 2.0 Descriptive Statistics: Logistics\nType:\nCourse website: open-access\nhttps://thiyangt.github.io/descriptivestatisticsweb/\nType:\nCourse LMS page: closed access (open only to students enrolled in the unit STA 113 2.0 at FAS, USJ)\n\nCourse outline\nAnnouncements\nExercises\nWeekly schedule\n\n\n\n\nYou must enroll yourself in the LMS course unit page."
-  },
-  {
-    "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-workload",
-    "href": "week0/index.html#sta-113-2.0-descriptive-statistics-workload",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "STA 113 2.0 Descriptive Statistics: Workload",
-    "text": "STA 113 2.0 Descriptive Statistics: Workload\n\n\n\n\n\n\nType\nHours\n\n\n\n\nTotal\n100\n\n\nLectures and tutorials\n30\n\n\nIndependent learning\n70"
-  },
-  {
-    "objectID": "week0/index.html#physical-space",
-    "href": "week0/index.html#physical-space",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Physical Space",
-    "text": "Physical Space"
-  },
-  {
-    "objectID": "week0/index.html#calendar-space",
-    "href": "week0/index.html#calendar-space",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Calendar Space",
-    "text": "Calendar Space"
-  },
-  {
-    "objectID": "week0/index.html#mental-space",
-    "href": "week0/index.html#mental-space",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Mental Space",
-    "text": "Mental Space"
-  },
-  {
-    "objectID": "week0/index.html#section-1",
-    "href": "week0/index.html#section-1",
+    "objectID": "week12/index.html#section-1",
+    "href": "week12/index.html#section-1",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "",
-    "text": "Image sources: https://pixabay.com/"
+    "text": "Year\nEarnings\n\n\n\n\n2020\n682.4\n\n\n2021\n506.9\n\n\n2022\n1136.3\n\n\n2023\n2068.0"
+  },
+  {
+    "objectID": "week12/index.html#section-2",
+    "href": "week12/index.html#section-2",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "",
+    "text": "More about time series visualizations - Data Visualisation unit"
   },
   {
     "objectID": "week10/index.html#variance-of-a-sample",
@@ -875,53 +658,305 @@
     "text": "Interpret the following\n\nFigure 1: Boxplot of Flipper Length by Species\n\n\n\n\n\n\nspecies\nMean\nMedian\nMode\nSD\nQ1\nQ2\nQ3\nKurtosis\nSkewness\n\n\n\n\nAdelie\n190.1027\n190\n190\n6.521825\n186\n190\n195.0\n3.327738\n0.0795785\n\n\nChinstrap\n195.8235\n196\n187\n7.131894\n191\n196\n201.0\n2.956063\n-0.0092622\n\n\nGentoo\n217.2353\n216\n215\n6.585431\n212\n216\n221.5\n2.322009\n0.3640858"
   },
   {
-    "objectID": "week12/index.html#earnings-from-tourism-usd-mn",
-    "href": "week12/index.html#earnings-from-tourism-usd-mn",
+    "objectID": "week0/index.html#how-to-calculate-gpa",
+    "href": "week0/index.html#how-to-calculate-gpa",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Earnings from tourism (USD Mn)",
-    "text": "Earnings from tourism (USD Mn)"
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\n\n\n\n\nSTA 100 2.0\nA\n\n\nSTA 101 1.0\nB\n\n\nSTA 102 2.0\nA\n\n\nCSC 100 3.0\nA\n\n\nCSC 101 2.0\nB\n\n\nMAT 100 1.0\nB+\n\n\nMAT 101 2.0\nA+\n\n\nMAT 103 2.0\nA+"
   },
   {
-    "objectID": "week12/index.html#earnings-from-tourism-usd-mn-1",
-    "href": "week12/index.html#earnings-from-tourism-usd-mn-1",
+    "objectID": "week0/index.html#how-to-calculate-gpa-1",
+    "href": "week0/index.html#how-to-calculate-gpa-1",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Earnings from tourism (USD Mn)",
-    "text": "Earnings from tourism (USD Mn)"
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\n\n\n\n\nSTA 100 2.0\nA\n\n\nSTA 101 1.0\nB\n\n\nSTA 102 2.0\nA\n\n\nCSC 100 3.0\nA\n\n\nCSC 101 2.0\nB\n\n\nMAT 100 1.0\nB+\n\n\nMAT 101 2.0\nA+\n\n\nMAT 103 2.0\nA+\n\n\n\n\n\n\n\n\n\n\n\nLetter grade\ngpa\n\n\n\n\nA+\n4.0\n\n\nA\n4.0\n\n\nA-\n3.7\n\n\nB+\n3.3\n\n\nB\n3.0\n\n\nB-\n2.7\n\n\nC+\n2.3\n\n\nC\n2.0\n\n\nC-\n1.7\n\n\nD+\n1.3\n\n\nD\n1.0\n\n\nE\n0.0"
   },
   {
-    "objectID": "week12/index.html#area-chart",
-    "href": "week12/index.html#area-chart",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Area chart",
-    "text": "Area chart\n\nts.earnings |&gt;\n    mutate(Time = as_date(yearmonth(Time))) |&gt;\n  autoplot(Earnings) + \n  geom_area() + \n  scale_x_date(date_breaks = \"1 year\",  date_labels = \"%b-%y\") + \n  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +\n  labs(y = \"Earnings from tourism (USD Mn)\", x=\"Time\")"
-  },
-  {
-    "objectID": "week12/index.html#seasonal-plot",
-    "href": "week12/index.html#seasonal-plot",
-    "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "Seasonal plot",
-    "text": "Seasonal plot"
-  },
-  {
-    "objectID": "week12/index.html#section",
-    "href": "week12/index.html#section",
+    "objectID": "week0/index.html#section",
+    "href": "week0/index.html#section",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "",
-    "text": "# A tsibble: 4 x 2 [1Y]\n   Year Earnings\n  &lt;int&gt;    &lt;dbl&gt;\n1  2020     682.\n2  2021     507.\n3  2022    1136.\n4  2023    2068 \n\n\n\nNot suitable"
+    "text": "source: Degree Programmes and Examination Regulation Booklet 2019/2020"
   },
   {
-    "objectID": "week12/index.html#section-1",
-    "href": "week12/index.html#section-1",
+    "objectID": "week0/index.html#how-to-calculate-gpa-2",
+    "href": "week0/index.html#how-to-calculate-gpa-2",
     "title": "STA 113 2.0 Descriptive Statistics",
-    "section": "",
-    "text": "Year\nEarnings\n\n\n\n\n2020\n682.4\n\n\n2021\n506.9\n\n\n2022\n1136.3\n\n\n2023\n2068.0"
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\n\n\n\n\nSTA 100 2.0\nA\n4.0\n\n\nSTA 101 1.0\nB\n3.0\n\n\nSTA 102 2.0\nA\n4.0\n\n\nCSC 100 3.0\nA\n4.0\n\n\nCSC 101 2.0\nB\n3.0\n\n\nMAT 100 1.0\nB+\n3.3\n\n\nMAT 101 2.0\nA+\n4.0\n\n\nMAT 103 2.0\nA+\n4.0\n\n\n\n\n\n\n\n\n\n\n\nLetter grade\ngpa\n\n\n\n\nA+\n4.0\n\n\nA\n4.0\n\n\nA-\n3.7\n\n\nB+\n3.3\n\n\nB\n3.0\n\n\nB-\n2.7\n\n\nC+\n2.3\n\n\nC\n2.0\n\n\nC-\n1.7\n\n\nD+\n1.3\n\n\nD\n1.0\n\n\nE\n0.0"
   },
   {
-    "objectID": "week12/index.html#section-2",
-    "href": "week12/index.html#section-2",
+    "objectID": "week0/index.html#how-to-calculate-gpa-3",
+    "href": "week0/index.html#how-to-calculate-gpa-3",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\n\n\n\n\nSTA 100 2.0\nA\n4.0\n\n\nSTA 101 1.0\nB\n3.0\n\n\nSTA 102 2.0\nA\n4.0\n\n\nCSC 100 3.0\nA\n4.0\n\n\nCSC 101 2.0\nB\n3.0\n\n\nMAT 100 1.0\nB+\n3.3\n\n\nMAT 101 2.0\nA+\n4.0\n\n\nMAT 103 2.0\nA+\n4.0"
+  },
+  {
+    "objectID": "week0/index.html#how-to-calculate-gpa-4",
+    "href": "week0/index.html#how-to-calculate-gpa-4",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\nCredit value\n\n\n\n\nSTA 100 2.0\nA\n4.0\n2\n\n\nSTA 101 1.0\nB\n3.0\n1\n\n\nSTA 102 2.0\nA\n4.0\n2\n\n\nCSC 100 3.0\nA\n4.0\n3\n\n\nCSC 101 2.0\nB\n3.0\n2\n\n\nMAT 100 1.0\nB+\n3.3\n1\n\n\nMAT 101 2.0\nA+\n4.0\n2\n\n\nMAT 103 2.0\nA+\n4.0\n2"
+  },
+  {
+    "objectID": "week0/index.html#how-to-calculate-gpa-5",
+    "href": "week0/index.html#how-to-calculate-gpa-5",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "How to calculate GPA?",
+    "text": "How to calculate GPA?\n\nExample\n\n\n\n\n\n\n\n\nCourse code\nStudent 1 - grade\nUnit GPA\nCredit value\n\n\n\n\nSTA 100 2.0\nA\n4.0\n2\n\n\nSTA 101 1.0\nB\n3.0\n1\n\n\nSTA 102 2.0\nA\n4.0\n2\n\n\nCSC 100 3.0\nA\n4.0\n3\n\n\nCSC 101 2.0\nB\n3.0\n2\n\n\nMAT 100 1.0\nB+\n3.3\n1\n\n\nMAT 101 2.0\nA+\n4.0\n2\n\n\nMAT 103 2.0\nA+\n4.0\n2\n\n\n\n\n\n\\[\\text{overall GPA} = \\frac{(4 \\times 2) + (3 \\times 1)+(4 \\times 2)+(4 \\times 3)+(3 \\times 2)+(3.3 \\times 1) + (4 \\times 2) + (4 \\times 2)}{(2+1+2+3+2+1+2+2)} = 3.75\\]"
+  },
+  {
+    "objectID": "week0/index.html#your-turn",
+    "href": "week0/index.html#your-turn",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Your Turn",
+    "text": "Your Turn\n\nExample: Compute the GPAs for students 2, 3, and 4.\n\n\n\n\n\n\n\n\nCourse code\nStudent 1\nStudent 2\nStudent 3\nStudent 4\n\n\n\n\nSTA 100 2.0\nA\nA\nA\nA\n\n\nSTA 101 1.0\nB\nB\nB\nB\n\n\nSTA 102 2.0\nA\nA\nC+\nA\n\n\nCSC 100 3.0\nA\nC+\nA\nA\n\n\nCSC 101 2.0\nB\nB\nB\nB\n\n\nMAT 100 1.0\nB+\nB+\nB+\nB+\n\n\nMAT 101 2.0\nA+\nA+\nA+\nA\n\n\nMAT 103 2.0\nA+\nA+\nA+\nA\n\n\noverall GPA\n3.75"
+  },
+  {
+    "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-type-and-method-of-assessment",
+    "href": "week0/index.html#sta-113-2.0-descriptive-statistics-type-and-method-of-assessment",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "STA 113 2.0 Descriptive Statistics: Type and Method of Assessment",
+    "text": "STA 113 2.0 Descriptive Statistics: Type and Method of Assessment\nType:\nType: Core\nType:\nMethod of Assessment:\nType:\nFormative Assessment (FA):\nFA1: Group assignment: 10% of the total marks\nFA2: Mid-semester examination: 20% of the total marks\nType:\nSummative Assessment (SA):\nSA1: End of Semester Examination: 70% of the total marks"
+  },
+  {
+    "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-logistics",
+    "href": "week0/index.html#sta-113-2.0-descriptive-statistics-logistics",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "STA 113 2.0 Descriptive Statistics: Logistics",
+    "text": "STA 113 2.0 Descriptive Statistics: Logistics\nType:\nCourse website: open-access\nhttps://thiyangt.github.io/descriptivestatisticsweb/\nType:\nCourse LMS page: closed access (open only to students enrolled in the unit STA 113 2.0 at FAS, USJ)\n\nCourse outline\nAnnouncements\nExercises\nWeekly schedule\n\n\n\n\nYou must enroll yourself in the LMS course unit page."
+  },
+  {
+    "objectID": "week0/index.html#sta-113-2.0-descriptive-statistics-workload",
+    "href": "week0/index.html#sta-113-2.0-descriptive-statistics-workload",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "STA 113 2.0 Descriptive Statistics: Workload",
+    "text": "STA 113 2.0 Descriptive Statistics: Workload\n\n\n\n\n\n\nType\nHours\n\n\n\n\nTotal\n100\n\n\nLectures and tutorials\n30\n\n\nIndependent learning\n70"
+  },
+  {
+    "objectID": "week0/index.html#physical-space",
+    "href": "week0/index.html#physical-space",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Physical Space",
+    "text": "Physical Space"
+  },
+  {
+    "objectID": "week0/index.html#calendar-space",
+    "href": "week0/index.html#calendar-space",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Calendar Space",
+    "text": "Calendar Space"
+  },
+  {
+    "objectID": "week0/index.html#mental-space",
+    "href": "week0/index.html#mental-space",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Mental Space",
+    "text": "Mental Space"
+  },
+  {
+    "objectID": "week0/index.html#section-1",
+    "href": "week0/index.html#section-1",
     "title": "STA 113 2.0 Descriptive Statistics",
     "section": "",
-    "text": "More about time series visualizations - Data Visualisation unit"
+    "text": "Image sources: https://pixabay.com/"
+  },
+  {
+    "objectID": "index.html#email",
+    "href": "index.html#email",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Email",
+    "text": "Email\nttalagala@sjp.ac.lk"
+  },
+  {
+    "objectID": "index.html#policies-and-regulations",
+    "href": "index.html#policies-and-regulations",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Policies and regulations",
+    "text": "Policies and regulations\nTo access important information regarding the unit STA 113 2.0 Descriptive Statistics, please go to the course Learning Management System (LMS) page. Click here to go directly to the LMS. You must carefully read the “Course Information and Logistic” slide set for essential details. It is your responsibility to be aware of important details by thoroughly reviewing the “Course Information and Logistic” slides."
+  },
+  {
+    "objectID": "index.html#google-classroom",
+    "href": "index.html#google-classroom",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Google Classroom",
+    "text": "Google Classroom\nI also opened a Google Classroom as a backup strategy in case the LMS failed. Kindly ensure that you join it. The password is available on LMS under announcements."
+  },
+  {
+    "objectID": "index.html#course-outline",
+    "href": "index.html#course-outline",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Course outline",
+    "text": "Course outline\nAvailable on LMS"
+  },
+  {
+    "objectID": "index.html#weekly-schedule",
+    "href": "index.html#weekly-schedule",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Weekly schedule",
+    "text": "Weekly schedule\nHere’s your roadmap for the semester!\n\nWeek 1: April 24, 2024\nSlides 1.1: Course Information and Logistics\nSlides 1.2: Definition of Statistics and Role of Statistics\nReading 1.1: American Statistical Association (ASA) Statement on The Role of Statistics in Data Science …\nExercise: Find history of statistics.\n\n\nWeek 2: May 15, 2024\nSlides 2: Basic Terminologies and Concepts in Statistics\nTask: Fill out the survey questionnaire available on the LMS.\n\n\nWeek 3: May 22, 2024\nSlides 3: Data Collection\n\n\nWeek 4: May 29, 2024\nSlides 4: Types and scales of measurement\nAdditional reading\nGroup assignment: 10%\n\n\nWeek 5: June 5, 2024\nSlides 5: Analysing Categorical Data\nTutorial 1: Group assignment help desk: 3.15PM - 4.00PM\n\n\nWeek 6: June 10, 2024\nSlides 6: Analysing Categorical Data - Two-way graphs\nAdditional materials\n\n\nWeek 7: June 12, 2024\nSlides 7: Frequency Distributions\n\nTutorial 2: Please visit Google Classroom to view the tasks for the tutorials on Wednesday, June 12, 2024 from 3.15PM to 4PM.\n\n\nWeek 8: June 19, 2024\nSlides 8: Measures of Central Tendency\nNote: Group assignment deadline is today.\nTutorial 3: Please visit Google Classroom to view the tasks for the tutorials on Wednesday, June 19, 2024 from 3.15PM to 4PM.\n\n\nWeek 9/10: June 26, 2024/ June 28, 2024\nSlides 9: Stem and Leaf Plot, Dot plot, Individual value plot, Measures of Dispersion (Range, Variance, Standard deviation)\nTutorial 4: June 26, 2024 from 3.15PM to 4PM.\nTask: Week 7 slides 28-29 questions.\n\n\nWeek 11: July 3, 2024\nSlides 10: More work on summary measures\nOnline calculator\nTutorial 4: July 3, 2024 from 3.15PM to 4PM.\nPlease go to the Google Classroom to view the tasks.\n\n\nWeek 12: July 10, 2024\nSlides 11: Covariance and Correlation\nSlides 12: Time Series Visualisations\nHelp Desk (Assignment 2): July 10, 2024 from 3.15PM to 4PM.\nPlease go to the Google Classroom/LMS to view the assignment.\n\n\nWeek 13: July 17, 2024\nSlides 13: Spearman’s rank correlation\nHelp Desk (Assignment 2): July 17, 2024 from 3.15PM to 4PM."
+  },
+  {
+    "objectID": "ga.html",
+    "href": "ga.html",
+    "title": "Group Assignment",
+    "section": "",
+    "text": "Date released: May 29, 2024\nAs part of your coursework, you will be working on a group assignment. This assignment will contribute 10% towards your final grade. Below are the details:\n1. Group Formation:\n2. Assignment Task\n3. Submission Format:\nSubmit the completed report as a single document following the specified format guidelines.\n4. Submission deadline\nJune 19, 2024\nYou have been given a three-week timeframe to complete the assignment. Please begin work promptly to accommodate any unforeseen circumstances.\nThis assignment provides an opportunity to deepen your understanding of statistical concepts and their practical applications while fostering teamwork and collaboration.\nEvery member should be familiar with the entire content of the report to ensure a comprehensive understanding\nIf you have any questions or require further clarification, please feel free to reach out to me (email: ttalagala@sjp.ac.lk)."
+  },
+  {
+    "objectID": "ga.html#help-desk",
+    "href": "ga.html#help-desk",
+    "title": "Group Assignment",
+    "section": "Help desk",
+    "text": "Help desk\nFirst help desk session will be held on June 5, 2024 from 3.15pm to 4.00pm.\nIf you need any additional support, please send an email to statdemos@sci.sjp.ac.lk and reserve a time for a meeting (weekdays only between 8 a.m. and 4 p.m.)."
+  },
+  {
+    "objectID": "ia.html",
+    "href": "ia.html",
+    "title": "Individual Assignment",
+    "section": "",
+    "text": "Date released: July 9, 2024\nAs part of your coursework, you will be working on an individual assignment. This assignment will contribute 20% towards your final grade.\nBelow are the details:\nObjective:\nThe aim of this assignment is to develop your data analysis and presentation skills by selecting and analyzing a publicly available data set. You will prepare a research poster in A1 size, including charts, tables, and interpretations, all hand-drawn. The final poster should be scanned and uploaded to Google Classroom and the Learning Management System (LMS).\nSteps to Complete the Assignment:\n1. Select a Publicly Available Data Set:\n2. Analyze Your Data Set:\nAll charts, tables, and interpretations must be hand-drawn. Ensure they are clear, well-labeled, and accurately represent your findings.\n3. Prepare a research poster\nIntroduction:\nProvide an overview of the topic and the importance of the data set.\nObjectives of the Study:\nClearly state the goals and objectives of your analysis.\nData:\nDescribe the data set, including its source, type of data, and any preprocessing steps taken. (for example if you select a subset, you can mention it here)\nData Analysis:\nPresent your findings using hand-drawn charts and tables. Each visual and table should be accompanied by a brief interpretation.\nConclusions:\nSummarize the key insights and implications of your analysis.\nName and Index number\nClearly mention your index number and name.\n4. Submission\n5. Submission deadline\nJuly 21, 2024\nIt is the student’s responsibility to manage their time effectively to ensure that they have enough time to complete the assignment within the given timeframe. This includes allocating enough time to research, plan, and write the assignment, as well as allowing for unexpected circumstances or delays. It is important for students to plan their workload and prioritize their assignments to ensure that they are able to complete them on time and to the best of their ability.\nLate submission: Submitting late work will be penalized by 1 mark per day. I will not accept any submissions after July 25, 2024.\nExtensions will be made in exceptional circumstances only."
+  },
+  {
+    "objectID": "ia.html#requesting-a-deadline-extension",
+    "href": "ia.html#requesting-a-deadline-extension",
+    "title": "Individual Assignment",
+    "section": "Requesting a deadline extension",
+    "text": "Requesting a deadline extension\n\nYou are allowed to apply for a deadline extension for the assignment under the following conditions only.\n\nCategory A\nAn illness that requires the student to miss all of his or her classes for 2 days or more.\nCategory B\nA period of grief for the loss of a family member or friend.\nCategory C\nA family emergency.\nValid documentation of proof is required prior to the assignment deadline.\nThe philosophy driving our late policy has three goals\n\nKeep things fair.\nEncourage good time management.\nEncouragement and appreciation of on-time submission students.\n\nYou have been given a 11 days timeframe to complete the assignment. Please begin work promptly to accommodate any unforeseen circumstances.\nIf you have any questions or require further clarification, please feel free to reach out to me (email: ttalagala@sjp.ac.lk)."
+  },
+  {
+    "objectID": "ia.html#help-desk",
+    "href": "ia.html#help-desk",
+    "title": "Individual Assignment",
+    "section": "Help desk",
+    "text": "Help desk\nFirst help desk session will be held on July 10, 2024 from 3.15pm to 4.00pm.\nIf you need any additional support, please send an email to statdemos@sci.sjp.ac.lk and reserve a time for a meeting (weekdays only between 8 a.m. and 4 p.m.)."
+  },
+  {
+    "objectID": "ia.html#help-desk-2",
+    "href": "ia.html#help-desk-2",
+    "title": "Individual Assignment",
+    "section": "Help desk 2",
+    "text": "Help desk 2\nFirst help desk session will be held on July 17, 2024 from 3.15pm to 4.00pm."
+  },
+  {
+    "objectID": "ia.html#submission",
+    "href": "ia.html#submission",
+    "title": "Individual Assignment",
+    "section": "Submission",
+    "text": "Submission\n\nThe scanned poster, calculation sheet, and dataset should be saved using your index number.\nStore all the documents inside a folder. Convert the folder to a zip file and upload it."
+  },
+  {
+    "objectID": "week1/index.html#learning-objective",
+    "href": "week1/index.html#learning-objective",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Learning Objective:",
+    "text": "Learning Objective:\nBy the end of this lecture, students will be able to:\n\nDefine statistics and explain its fundamental concepts.\nIdentify the various fields and contexts where statistics is used.\nExplain the importance and significance of statistics in decision-making and problem-solving processes."
+  },
+  {
+    "objectID": "week1/index.html#what-is-statistics",
+    "href": "week1/index.html#what-is-statistics",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "What is Statistics?",
+    "text": "What is Statistics?\n\nThe science of collecting, organizing, analyzing, presenting, and interpreting data."
+  },
+  {
+    "objectID": "week1/index.html#summary-measures",
+    "href": "week1/index.html#summary-measures",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Summary measures",
+    "text": "Summary measures\n\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :-0.100\nMin. :1.600\nMin. : 40\n\n\n\nMale :50\n1st Qu.: 99.38\n1st Qu.: 2.775\n1st Qu.:2.900\n1st Qu.:3369\n\n\n\nNA\nMedian :100.10\nMedian : 3.500\nMedian :3.450\nMedian :4123\n\n\n\nNA\nMean : 99.20\nMean : 3.440\nMean :3.563\nMean :4388\n\n\n\nNA\n3rd Qu.:100.60\n3rd Qu.: 4.100\n3rd Qu.:4.000\n3rd Qu.:5307\n\n\n\nNA\nMax. :110.00\nMax. : 6.300\nMax. :6.500\nMax. :9482"
+  },
+  {
+    "objectID": "week1/index.html#presenting-data-example",
+    "href": "week1/index.html#presenting-data-example",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Presenting Data: Example",
+    "text": "Presenting Data: Example\nhttps://thiyangt.github.io/dsjobtraker_dashboard_mc/#top-software-and-skills"
+  },
+  {
+    "objectID": "week1/index.html#applications-of-statistics-in-different-fields",
+    "href": "week1/index.html#applications-of-statistics-in-different-fields",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Applications of statistics in different fields",
+    "text": "Applications of statistics in different fields\n\n\n\n\n\n\n\n\n\nTerminology\nField\n\n\n\n\nEpidemiology\nThe study and analysis of the patterns, causes and effects of health and disease conditions\n\n\nAstrostatistics\nApplies statistical analysis to the understanding of astronomical data\n\n\nBiostatistics\nStudies biological phenomena\n\n\nDemography\nStatistical study of all populations\n\n\nSocial statistics\nStudy human behavior in a social environment\n\n\nChemometrics\nScience of extracting information from chemical systems by data-driven means"
+  },
+  {
+    "objectID": "week11/index.html#scatter-plot",
+    "href": "week11/index.html#scatter-plot",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Scatter plot",
+    "text": "Scatter plot\n\nAllows us to visually see how two variables related to each other.\n\n\nFigure 1: Scatter pllot of body mass vs flipper length"
+  },
+  {
+    "objectID": "week11/index.html#measures-of-association-covariance",
+    "href": "week11/index.html#measures-of-association-covariance",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Measures of Association: Covariance",
+    "text": "Measures of Association: Covariance\nWe can quantify how two variables move together by a summary measure called the covariance.\nThe sample covariance of two variables, \\(X\\) and \\(Y\\), is given by the formula:\n\\[Cov(X, Y) = \\frac{1}{n-1}\\sum_{i=1}^n (X_i - \\bar{X})(Y_i - \\bar{Y})\\]\nWhat is the covariance of \\(X\\) with \\(X\\)?"
+  },
+  {
+    "objectID": "week11/index.html#covariance",
+    "href": "week11/index.html#covariance",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Covariance",
+    "text": "Covariance\nThe problem with using the covariance to measure the relationship between two quantitative variables is that we can only interpret the direction of the relationships, not the strength of it."
+  },
+  {
+    "objectID": "week11/index.html#measures-of-association-pearsons-product-moment-correlation-coefficient-r",
+    "href": "week11/index.html#measures-of-association-pearsons-product-moment-correlation-coefficient-r",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Measures of association: Pearson’s Product Moment Correlation Coefficient (\\(r\\))",
+    "text": "Measures of association: Pearson’s Product Moment Correlation Coefficient (\\(r\\))\n\\[Corr(X, Y)=\\frac{\\sum_{i=1}^n(X_i-\\bar{X})(Y_i-\\bar{Y})}{\\sqrt\\sum_{i=1}^n(X_i-\\bar{X})\\sum_{i=1}^n(Y_i-\\bar{Y})}\\]\nWe can show that\n\\[Corr(X, Y) = \\frac{Cov(X, Y)}{S_xS_y}\\]"
+  },
+  {
+    "objectID": "week11/index.html#interpretations",
+    "href": "week11/index.html#interpretations",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Interpretations",
+    "text": "Interpretations\n\n\n\n\n\nr_value\ninterpretation\n\n\n\n\nr = 1\nPerfect positive linear correlation\n\n\n1 &gt; r ≥ 0.8\nStrong positive linear correlation\n\n\n0.8 &gt; r ≥ 0.4\nModerate positive linear correlation\n\n\n0.4 &gt; r &gt; 0\nWeak positive linear correlation\n\n\nr = 0\nNo correlation\n\n\n0 &gt; r ≥ -0.4\nWeak negative linear correlation\n\n\n-0.4 &gt; r ≥ -0.8\nModerate negative linear correlation\n\n\n-0.8 &gt; r &gt; -1\nStrong negative linear correlation\n\n\nr = -1\nPerfect negative linear correlation"
+  },
+  {
+    "objectID": "week11/index.html#scatter-plot-matrix",
+    "href": "week11/index.html#scatter-plot-matrix",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Scatter plot matrix",
+    "text": "Scatter plot matrix"
+  },
+  {
+    "objectID": "week11/index.html#pearsons-correlation-coefficient-0",
+    "href": "week11/index.html#pearsons-correlation-coefficient-0",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Pearson’s correlation coefficient = 0",
+    "text": "Pearson’s correlation coefficient = 0"
+  },
+  {
+    "objectID": "week11/index.html#which-plot-has-the-highest-correlation-coefficient",
+    "href": "week11/index.html#which-plot-has-the-highest-correlation-coefficient",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Which plot has the highest correlation coefficient?",
+    "text": "Which plot has the highest correlation coefficient?"
+  },
+  {
+    "objectID": "week13/index.html#spearmans-rank-correlation",
+    "href": "week13/index.html#spearmans-rank-correlation",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Spearman’s rank correlation",
+    "text": "Spearman’s rank correlation\n\nPearson’s correlation coefficient: at least interval level of measurement for the data\nSpearman’s rank correlation: at least ordinal-level or ranked data\n\n\\(r = 1 - \\frac{6\\sum_{i=1}^nd^2}{n(n^2-1)}\\)\nwhere\n\\(n = \\text{number of pairs being correlated.}\\)\n\\(d = \\text{the difference in the ranks of each pair}\\)"
+  },
+  {
+    "objectID": "week13/index.html#example",
+    "href": "week13/index.html#example",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "Example",
+    "text": "Example\nCompute Spearman’s rank correlation for the following variables to determine the degree of association between the two variables.\n\n\n\n\n\nx\ny\n\n\n\n\n10\n3.0\n\n\n10\n3.0\n\n\n4\n1.0\n\n\n20\n2.0\n\n\n30\n3.0\n\n\n40\n4.5\n\n\n40\n5.0\n\n\n30\n6.0\n\n\n20\n7.0\n\n\n10\n1.0"
+  },
+  {
+    "objectID": "week13/index.html#in-class-demonstration",
+    "href": "week13/index.html#in-class-demonstration",
+    "title": "STA 113 2.0 Descriptive Statistics",
+    "section": "In-class demonstration",
+    "text": "In-class demonstration\n\nMonotonic vs Non-monotonic\nMonotonic & Non-linear vs Monotonic & Linear"
   },
   {
     "objectID": "week2/index.html#example",

@@ -320,10 +320,6 @@
       margin-right: 0; 
     }
   </style>
-  <link href="../site_libs/countdown-0.4.0/countdown.css" rel="stylesheet">
-
-  <script src="../site_libs/countdown-0.4.0/countdown.js"></script>
-
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -331,7 +327,7 @@
 
 <section id="title-slide" data-background-color="#081d58" data-background-image="none" class="quarto-title-block center">
   <h1 class="title">STA 113 2.0 Descriptive Statistics</h1>
-  <p class="subtitle">Measures of Spread</p>
+  <p class="subtitle">Spearman’s rank correlation</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -342,542 +338,89 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 </div>
 
 </section>
-<section class="slide level2">
-
-<div class="cell">
-<style type="text/css">
-.reveal code {
-  max-height: 100% !important;
-}
-</style>
-</div>
-<h3 id="which-cricketer-would-you-recommend-for-the-upcoming-match">Which cricketer would you recommend for the upcoming match?</h3>
-<p>The marks for the last 10 matches are listed below:</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Cricketer 1</strong></p>
-<div class="cell">
-<div class="cell-output-display">
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">100</td>
-<td style="text-align: right;">85</td>
-<td style="text-align: right;">86</td>
-<td style="text-align: right;">79</td>
-<td style="text-align: right;">80</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">88</td>
-<td style="text-align: right;">75</td>
-<td style="text-align: right;">87</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<p><strong>Cricketer 2</strong></p>
-<div class="cell">
-<div class="cell-output-display">
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">150</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">298</td>
-<td style="text-align: right;">2</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">250</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">129</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
+<section id="spearmans-rank-correlation" class="slide level2">
+<h2>Spearman’s rank correlation</h2>
+<ul>
+<li><p>Pearson’s correlation coefficient: at least interval level of measurement for the data</p></li>
+<li><p>Spearman’s rank correlation: at least ordinal-level or ranked data</p></li>
+</ul>
+<p><span class="math inline">\(r = 1 - \frac{6\sum_{i=1}^nd^2}{n(n^2-1)}\)</span></p>
+<p>where</p>
+<p><span class="math inline">\(n = \text{number of pairs being correlated.}\)</span></p>
+<p><span class="math inline">\(d = \text{the difference in the ranks of each pair}\)</span></p>
 </section>
-<section id="stem-and-leaf-plot" class="slide level2">
-<h2>Stem and Leaf Plot</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Cricketer 1</strong></p>
+<section id="example" class="slide level2">
+<h2>Example</h2>
+<p>Compute Spearman’s rank correlation for the following variables to determine the degree of association between the two variables.</p>
 <div class="cell">
 <div class="cell-output-display">
 <table>
+<thead>
+<tr class="header">
+<th style="text-align: right;">x</th>
+<th style="text-align: right;">y</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">75</td>
-<td style="text-align: right;">79</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">80</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">85</td>
-<td style="text-align: right;">86</td>
-<td style="text-align: right;">87</td>
-<td style="text-align: right;">88</td>
-<td style="text-align: right;">100</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-  The decimal point is 1 digit(s) to the right of the |
-
-   7 | 59
-   8 | 0005678
-   9 | 
-  10 | 0</code></pre>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<p><strong>Cricketer 2</strong></p>
-<div class="cell">
-<div class="cell-output-display">
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">2</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">3.0</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">10</td>
-<td style="text-align: right;">129</td>
-<td style="text-align: right;">150</td>
-<td style="text-align: right;">250</td>
-<td style="text-align: right;">298</td>
+<td style="text-align: right;">3.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">1.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">2.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">3.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">4.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">5.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">6.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">7.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">1.0</td>
 </tr>
 </tbody>
 </table>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-  The decimal point is 1 digit(s) to the right of the |
-
-   0 | 00012
-   1 | 0
-   2 | 
-   3 | 
-   4 | 
-   5 | 
-   6 | 
-   7 | 
-   8 | 
-   9 | 
-  10 | 
-  11 | 
-  12 | 9
-  13 | 
-  14 | 
-  15 | 0
-  16 | 
-  17 | 
-  18 | 
-  19 | 
-  20 | 
-  21 | 
-  22 | 
-  23 | 
-  24 | 
-  25 | 0
-  26 | 
-  27 | 
-  28 | 
-  29 | 8</code></pre>
-</div>
-</div>
 </div>
 </div>
 </section>
 <section>
-<section id="dot-plot" class="title-slide slide level1 center">
-<h1>dot plot</h1>
-<p><strong>Bidwidth: 1 (Bins: 1, 2, 3,..)</strong></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Cricketer 1</strong></p>
-<div class="cell">
-<div class="cell-output-display">
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">75</td>
-<td style="text-align: right;">79</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">80</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">85</td>
-<td style="text-align: right;">86</td>
-<td style="text-align: right;">87</td>
-<td style="text-align: right;">88</td>
-<td style="text-align: right;">100</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<p><strong>Cricketer 2</strong></p>
-<div class="cell">
-<div class="cell-output-display">
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">2</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">129</td>
-<td style="text-align: right;">150</td>
-<td style="text-align: right;">250</td>
-<td style="text-align: right;">298</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-
-<img data-src="index_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section>
-<section id="bins-0-5-5-10-.." class="slide level2">
-<h2>Bins: 0-5, 5-10, …..</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Cricketer 1</strong></p>
-<div class="cell">
-<div class="cell-output-display">
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">75</td>
-<td style="text-align: right;">79</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">80</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">85</td>
-<td style="text-align: right;">86</td>
-<td style="text-align: right;">87</td>
-<td style="text-align: right;">88</td>
-<td style="text-align: right;">100</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<p><strong>Cricketer 2</strong></p>
-<div class="cell">
-<div class="cell-output-display">
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">2</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">129</td>
-<td style="text-align: right;">150</td>
-<td style="text-align: right;">250</td>
-<td style="text-align: right;">298</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-
-<img data-src="index_files/figure-revealjs/unnamed-chunk-11-1.png" width="960" class="r-stretch"></section>
-<section id="individual-value-plot" class="slide level2">
-<h2>Individual value plot</h2>
-
-<img data-src="index_files/figure-revealjs/unnamed-chunk-12-1.png" width="960" class="r-stretch"></section>
-<section id="individual-value-plot-1" class="slide level2">
-<h2>Individual value plot</h2>
-
-<img data-src="index_files/figure-revealjs/unnamed-chunk-13-1.png" width="960" class="r-stretch"></section></section>
-<section>
-<section id="measures-of-dispersion" class="title-slide slide level1 center">
-<h1>Measures of Dispersion</h1>
-
-</section>
-<section id="range-maximum---minimum" class="slide level2">
-<h2>Range: Maximum - Minimum</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Cricketer 1</strong></p>
-<div class="cell">
-<div class="cell-output-display">
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">75</td>
-<td style="text-align: right;">79</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">80</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">85</td>
-<td style="text-align: right;">86</td>
-<td style="text-align: right;">87</td>
-<td style="text-align: right;">88</td>
-<td style="text-align: right;">100</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<p><span class="math display">\[\text{Range} = 100-75 = 25\]</span></p>
-</div><div class="column" style="width:50%;">
-<p><strong>Cricketer 2</strong></p>
-<div class="cell">
-<div class="cell-output-display">
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">2</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">129</td>
-<td style="text-align: right;">150</td>
-<td style="text-align: right;">250</td>
-<td style="text-align: right;">298</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<p><span class="math display">\[\text{Range} = 298-0 = 298\]</span></p>
-</div>
-</div>
-<p>Advantages</p>
+<section id="important" class="title-slide slide level1 center">
+<h1>Important</h1>
 <ul>
-<li><p>Easy measure</p></li>
-<li><p>Easy to understand</p></li>
-</ul>
-<p>Disadvatages</p>
-<ul>
-<li><p>It only takes into account the maximum and the minimum value.</p></li>
-<li><p>Highly sensitive to outliers.</p></li>
-<li><p>Does not provide information about the spread of data between the minimum and maximum values, nor does it indicate whether the data points are clustered or evenly distributed.</p></li>
+<li><p>Pearson’s correlation determines the strength and direction of the linear relationship between two variables.</p></li>
+<li><p>Spearman’s correlation determines the strength and direction of the monotonic relationship.</p></li>
+<li><p>The Spearman’s rank correlation formula is derived from the Pearson product moment formula and utilises the ranks of the <span class="math inline">\(n\)</span> pairs instead of the raw data.</p></li>
 </ul>
 </section>
-<section id="variance" class="slide level2">
-<h2>Variance</h2>
+<section id="in-class-demonstration" class="slide level2">
+<h2>In-class demonstration</h2>
 <ul>
-<li><p>Variance is the mean squared deviations from the mean.</p></li>
-<li><p>Measure of the spread of the data around the mean.</p></li>
-</ul>
-<h3 id="population-variance">Population Variance</h3>
-<p><span class="math display">\[\text{Population variance} = \sum_{i=1}^N \frac{(x_i-\mu)^2}{N}\]</span></p>
-<p><span class="math inline">\(N\)</span> - population size</p>
-<p><span class="math inline">\(\mu\)</span> - population mean</p>
-<h3 id="sample-variance">Sample Variance</h3>
-<p><span class="math display">\[\text{Sample variance} = \sum_{i=1}^n \frac{(x_i-\bar{x})^2}{n-1}\]</span></p>
-<p><span class="math inline">\(n\)</span> - sample size</p>
-<p><span class="math inline">\(\bar{x}\)</span> - sample mean</p>
-</section>
-<section id="compute-sample-variance." class="slide level2">
-<h2>Compute sample variance.</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Cricketer 1</strong></p>
-<div class="cell">
-<div class="cell-output-display">
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">75</td>
-<td style="text-align: right;">79</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">80</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">85</td>
-<td style="text-align: right;">86</td>
-<td style="text-align: right;">87</td>
-<td style="text-align: right;">88</td>
-<td style="text-align: right;">100</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<p><strong>Cricketer 2</strong></p>
-<div class="cell">
-<div class="cell-output-display">
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">2</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">129</td>
-<td style="text-align: right;">150</td>
-<td style="text-align: right;">250</td>
-<td style="text-align: right;">298</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_fdb78718" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
-<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
-</section>
-<section id="variance-advatages-and-disadvatages" class="slide level2">
-<h2>Variance: Advatages and Disadvatages</h2>
-<p>Advantages:</p>
-<ul>
-<li>Variance considers all data points in the dataset.</li>
-</ul>
-<p>Disadvantages:</p>
-<ul>
-<li><p>Sensitive to outliers/ extreme values.</p></li>
-<li><p>The units of variance are the square of the units of the original data, which can make interpretation difficult. For example, if the data are in meters, the variance will be in square meters.</p></li>
-<li><p>Variance is less intuitive to understand than other measures of dispersion like the range or interquartile range. People often find the concept of squared deviations harder to grasp.</p></li>
-</ul>
-</section>
-<section id="standard-deviation" class="slide level2">
-<h2>Standard deviation</h2>
-<p><span class="math display">\[\text{Standard deviation} = \sqrt{Variance}\]</span></p>
-<ul>
-<li><p>The variance and the standard deviation are measures of the spread of the data around the mean. They summarise how close each observed data value is to the mean value.</p></li>
-<li><p>Standard deviation is expressed in the same units as the original values (e.g., minutes or meters)</p></li>
-</ul>
-</section>
-<section id="compute-standard-deviation." class="slide level2">
-<h2>Compute standard deviation.</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Cricketer 1</strong></p>
-<div class="cell">
-<div class="cell-output-display">
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">75</td>
-<td style="text-align: right;">79</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">80</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">85</td>
-<td style="text-align: right;">86</td>
-<td style="text-align: right;">87</td>
-<td style="text-align: right;">88</td>
-<td style="text-align: right;">100</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<p><strong>Cricketer 2</strong></p>
-<div class="cell">
-<div class="cell-output-display">
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">2</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">129</td>
-<td style="text-align: right;">150</td>
-<td style="text-align: right;">250</td>
-<td style="text-align: right;">298</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_25ce14d8" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
-<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">02</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
-</section></section>
-<section>
-<section id="in-datasets-with-a-small-spread-all-values-are-very-close-to-the-mean-resulting-in-a-small-variance-and-standard-deviation." class="title-slide slide level1 center">
-<h1>In datasets with a small spread all values are very close to the mean, resulting in a small variance and standard deviation.</h1>
-
-</section>
-<section id="your-turn" class="slide level2">
-<h2>Your turn</h2>
-<p>If the variance of a dataset is 0, what can you conclude about the values within the dataset?</p>
-<div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_2dc73cc7" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
-<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">02</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
-</section>
-<section id="next-week" class="slide level2">
-<h2>Next week</h2>
-<ul>
-<li><p>Other measures of central tendency and measures of dispersion</p></li>
-<li><p>Interpretation of measurements</p></li>
-<li><p>Other methods of visualizing numerical data</p></li>
+<li><p>Monotonic vs Non-monotonic</p></li>
+<li><p>Monotonic &amp; Non-linear vs Monotonic &amp; Linear</p></li>
 </ul>
 
 <div class="quarto-auto-generated-content">
