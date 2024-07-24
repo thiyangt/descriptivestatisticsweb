@@ -28,12 +28,11 @@ library(denguedatahub)
 library(TourSriLanka)
 ```
 
-
 ## Spearman's rank correlation
 
-- Pearson's correlation coefficient: at least interval level of measurement for the data
+-   Pearson's correlation coefficient: at least interval level of measurement for the data
 
-- Spearman's rank correlation: at least ordinal-level or ranked data
+-   Spearman's rank correlation: at least ordinal-level or ranked data
 
 $r = 1 - \frac{6\sum_{i=1}^nd^2}{n(n^2-1)}$
 
@@ -43,7 +42,7 @@ $n = \text{number of pairs being correlated.}$
 
 $d = \text{the difference in the ranks of each pair}$
 
----
+------------------------------------------------------------------------
 
 ## Example
 
@@ -57,20 +56,18 @@ df <- data.frame(x=x, y=y)
 df |> knitr::kable()
 ```
 
-
-
 # Important
 
-- Pearson's correlation determines the strength and direction of the linear relationship between two variables.
+-   Pearson's correlation determines the strength and direction of the linear relationship between two variables.
 
-- Spearman's correlation determines the strength and direction of the monotonic relationship.
+-   Spearman's correlation determines the strength and direction of the monotonic relationship.
 
-- The Spearman's rank correlation formula is derived from the Pearson product moment formula and utilises the ranks of the $n$ pairs instead of the raw data. 
+-   The Spearman's rank correlation formula is derived from the Pearson product moment formula and utilises the ranks of the $n$ pairs instead of the raw data.
 
----
+------------------------------------------------------------------------
 
 ## In-class demonstration
 
-- Monotonic vs Non-monotonic
+-   Monotonic vs Non-monotonic
 
-- Monotonic & Non-linear vs Monotonic & Linear  
+-   Monotonic & Non-linear vs Monotonic & Linear
