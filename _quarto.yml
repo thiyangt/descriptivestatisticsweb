@@ -12,6 +12,7 @@ website:
       - about.qmd
       - ga.qmd
       - ia.qmd
+      - ma.qmd
 
 
 format:

@@ -42,8 +42,8 @@ As part of your coursework, you will be working on a group assignment. This assi
     -   Field 6: Education
     -   Field 7: Government and Public Policy
     -   Field 8: Information Technology
-    
-- If your group has 8 members, you will work on History and Fields 1-7. If your group has 9 members, you will work on History and Fields 1-8. If your group has 6 members, you will work on History and Fields 1-5, and so on.
+
+-   If your group has 8 members, you will work on History and Fields 1-7. If your group has 9 members, you will work on History and Fields 1-8. If your group has 6 members, you will work on History and Fields 1-5, and so on.
 
 -   For each section content should be limited to 2 A4 page (you can use both sides of the pages) only, with font size 12 and Times New Roman.
 
